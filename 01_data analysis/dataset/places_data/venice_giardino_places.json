@@ -1,0 +1,2042 @@
+[
+    {
+        "position":1,
+        "title":"Giardini della Biennale",
+        "rating":4.5,
+        "reviews":12260.0,
+        "type":"Giardino",
+        "address":"Calle Giazzo, 30122 Venezia VE, Italia",
+        "open_state":"Chiuso ⋅ Apre mar alle ore 10",
+        "place_id":"ChIJqzZkRzGufkcRiabs3CYIiBk",
+        "gps":{
+            "latitude":45.4287722,
+            "longitude":12.3580806
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyGJsW8i7TmtDQovSp7SyNf2q6wgkA5V75lCR8LwNf_pthnq6IX90Gs-KEH0SQooLtukgZXnmTDXwdA34wAVqPB_RKx3nR0ggaEyIhIl40893VTV8icJjvDidui1eA3ulFAmNTd=w80-h142-k-no",
+        "original":null
+    },
+    {
+        "position":2,
+        "title":"Giardini Papadopoli",
+        "rating":4.4,
+        "reviews":3387.0,
+        "type":"Giardino",
+        "address":"30135 Sestriere Santa Croce, Venezia VE, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 20:30",
+        "place_id":"ChIJRf6ilsexfkcR4Rj0vhtVtxI",
+        "gps":{
+            "latitude":45.4382983,
+            "longitude":12.3206545
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwbjT8QEU9y2OpgVH1rEQWvSau9XQYJO8NPolRoich-ocAngHJdwRF0Up24nb2HYRPIsmMEcM1nv7zKgyjX8XHor1WtEovAX4amSets6UxEc_1Hd5lgWJ-tvGC9q3taF-rprP7XkA=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":3,
+        "title":"Giardini Reali",
+        "rating":4.5,
+        "reviews":2380.0,
+        "type":"Giardino pubblico",
+        "address":"P.za San Marco, 30124 Venezia VE, Italia",
+        "open_state":"Chiuso ⋅ Apre mer alle ore 09",
+        "place_id":"ChIJMasuBtexfkcRJCxPSAYJlVY",
+        "gps":{
+            "latitude":45.4329839,
+            "longitude":12.3382915
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSx4tpPi8G6RcoFMY42HXXZKddMl0eAVj7OI0pnH3mrEqlULqGq3ypcrDVIrknnqIdwHlivqsI7T9wh_h8k214QJgES9xKhfGqVapCuFK62t0xAV7KjoHZakjlX9RoA6kihQczY5=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":4,
+        "title":"Giardini della Marinaressa",
+        "rating":4.6,
+        "reviews":1960.0,
+        "type":"Giardino",
+        "address":"Riva dei Sette Martiri, 30122 Venezia VE, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 20:30",
+        "place_id":"ChIJAy5F1S-ufkcReQqjg_LgAwo",
+        "gps":{
+            "latitude":45.4314603,
+            "longitude":12.3525968
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSynEhaWwipHAMTucmx1Y3qOzmKDLiZugl1B0RU7p_xR9nThsexmMO8JByabTOXcPVcCiIrjlOAAxUUyTMuGuq10XweJb060eglHrzISkoCD-FcNODrUY62FYEBX6JFnNrGk4_3C=w163-h92-k-no",
+        "original":null
+    },
+    {
+        "position":5,
+        "title":"Giardini Napoleonici",
+        "rating":4.4,
+        "reviews":51.0,
+        "type":"Giardino",
+        "address":"Viale Trento, 30122 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJcZdwNwyvfkcRp1Vr837WVNM",
+        "gps":{
+            "latitude":45.430083,
+            "longitude":12.3553239
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwGic0NUvvSXUGkojTEgFyXTJgUrOrD68UPhzeDr2kXPKsFPHNklurQzCxHRB_RJ_ebQLOH-9LZRPbFFlBrCXlgndy-VqzwOA1Wwh8mvJQRMShWLhEYm2nXLhih0L6bl_26huxV=w163-h92-k-no",
+        "original":null
+    },
+    {
+        "position":6,
+        "title":"Giardini di Ca' Rezzonico",
+        "rating":4.4,
+        "reviews":69.0,
+        "type":"Parco",
+        "address":"Fondamenta Rezzonico, 30123 Venezia VE, Italia",
+        "open_state":"Chiude tra poco ⋅ 16 ⋅ Apre mer alle ore 10",
+        "place_id":"ChIJC5Nv-c6xfkcRSN1wy2n769c",
+        "gps":{
+            "latitude":45.4335868,
+            "longitude":12.3257559
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzVnz90NTZI_qw-WDEOOyVnoA2x8Nutym7KsjPsF3EboyIkQr1x0HBBX71q79DNIt6QNiPxUlxg-emUKHaPTvpeLhFGTqj9tVbKIvQsbDT6OBnwZDOq3j4Nz7slCH_Tsf2d4Ko=w163-h92-k-no",
+        "original":null
+    },
+    {
+        "position":7,
+        "title":"Giardino di Ca’ Dolfin",
+        "rating":4.5,
+        "reviews":13.0,
+        "type":"Giardino",
+        "address":"Sestiere Dorsoduro, 3825, E, 30123 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJMwEKW3OxfkcRTFvB9oPuro0",
+        "gps":{
+            "latitude":45.4349344,
+            "longitude":12.3258743
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyWmST1hMAU_RxqkIGH7Jek0L2YC3b9uS-abh_DwnIMLdopSKF8ngeg6252OWLyCRPLymg-0eBV22Z3RdZYa_u7Bmh3W3yUznZDmBL7d-ZUgs0K371Da6NZrBmov7fF3g8LFu7p=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":8,
+        "title":"Parco di Villa Groggia",
+        "rating":4.5,
+        "reviews":106.0,
+        "type":"Giardino pubblico",
+        "address":"Cannaregio, 30100 Venezia VE, Italia",
+        "open_state":"Ora aperto",
+        "place_id":"ChIJPWCbZsGxfkcRo378GYpeAa8",
+        "gps":{
+            "latitude":45.4480358,
+            "longitude":12.3277307
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwuENqd1I7P2iTKFGizuyrLuMrEFTPvM7jdbgR8rFnMKgOdGtaWGar4ScUv0Ud2K9HaogHD_7RvnhqM-KowokKORqR-41XQ1ake-gSUK5tYbYxkAauicoLzzDHIa4IFVBpjqMwO=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":9,
+        "title":"Giardino d'Inverno",
+        "rating":4.2,
+        "reviews":117.0,
+        "type":"Ristorante",
+        "address":"Giardini Papadopoli, 245, 30135 Venezia VE, Italia",
+        "open_state":"Chiuso ⋅ Apre alle ore 19",
+        "place_id":"ChIJU8aVdcexfkcRkeVjLOB0ESs",
+        "gps":{
+            "latitude":45.4381152,
+            "longitude":12.32122
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwZRD0z-G1HOiVwZ_0Zvwj-HVjqfFeyIn1EZQKC28O_zmB6hUXOSyxrWppOdtc4wxSd1vFRZJAF9LYXAJOX56QFIP0yeMu5JVbQs563-6C6GyNKgLvnnpMVCLgb2ttnANSSv8k=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":10,
+        "title":"Osteria al Giardino",
+        "rating":4.7,
+        "reviews":335.0,
+        "type":"Ristorante",
+        "address":"Calle dei Boteri, 1659, 30125 Venezia VE, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 22:30",
+        "place_id":"ChIJZYJEBfixfkcRtId_UWMfjIg",
+        "gps":{
+            "latitude":45.4396485,
+            "longitude":12.332899
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/p\/AF1QipPJpvCcLTtkrqwMJONbvsezUPhkOk1NlhXVf4_R=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":11,
+        "title":"Giardino di Fondamenta de la Pescaria",
+        "rating":4.0,
+        "reviews":5.0,
+        "type":"Giardino pubblico",
+        "address":"Fondamenta de la Pescheria, 30123 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJjZhi6cmxfkcRQTF2RBjLL_4",
+        "gps":{
+            "latitude":45.4324259,
+            "longitude":12.3176801
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxX5a00Hd_zrOiZG-blvvk7cBZFO-5aBf_HecuLkmeNGOak_9usJ3F_2gOh8cSlhF_SVrCLgbElp_T31YyDjLYlk-5nY6lE-TnjaoV0W00r7hYzJjy5GJbppyL6-EBXYvH_JMCU=w80-h130-k-no",
+        "original":null
+    },
+    {
+        "position":12,
+        "title":"GIARDIN Food & Art Oasis",
+        "rating":4.9,
+        "reviews":161.0,
+        "type":"Ristorante",
+        "address":"Viale IV Novembre, 14, 30122 Venezia VE, Italia",
+        "open_state":"Chiuso ⋅ Apre mar alle ore 09",
+        "place_id":"ChIJISfHdwCvfkcR61EBLI5Hse0",
+        "gps":{
+            "latitude":45.4278982,
+            "longitude":12.3602397
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyYp9RdNZ9xE5utfF--TevJbFng4u9TRmrU-2kId79uN_uW8df4fwRgyeKmziNbykG15rcYdZ6_5aukcDmQpS2EdIDAnNzZzjKLgeCsJojV8wNxfOiqHIdaeyIbwGDt-bZkyjb7GK4ZDpBJ=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":13,
+        "title":"Giardino Margherita Ripamonti",
+        "rating":4.4,
+        "reviews":5.0,
+        "type":"Giardino pubblico",
+        "address":"Fondamenta Marco Giustinian, 11, 30141 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJYdBU9DKvfkcRnzq-EtqcOTY",
+        "gps":{
+            "latitude":45.4569151,
+            "longitude":12.3564017
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxB0oImWculgRtmGgCxFf8A0mpsb6E7gK6EauoLAStX8pR6FJ2AMon71_7usm4_zvix9tg8YwV4P-Bi1TpScsEORbhyuqtNkOJ302KRVjjGhSrj2Mb10IRC45GBUWQ8FSq2fSk6Rw=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":14,
+        "title":"Giardino di Palazzo Corner della Ca' Granda",
+        "rating":5.0,
+        "reviews":1.0,
+        "type":"Giardino",
+        "address":"C. del Dose da Ponte, 30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJ1YfeSQCxfkcRnboXGfGShUY",
+        "gps":{
+            "latitude":45.4317236,
+            "longitude":12.3315272
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxpZWPF3j9-AWOGFyd1TpOXqDrHzZbvUUd0sysnssUW3Xajp4br_znqVtm395dkku1VV8xhUBWkZ2cHN2gwBOm3Z5bU73iXcsiavXjKXI4pYEXVaXSNFR4ceiqg_nSE-JgazTQqeQ=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":15,
+        "title":"Giardino della Stazione",
+        "rating":4.9,
+        "reviews":9.0,
+        "type":"Giardino",
+        "address":"Santa Croce, 500, 30135 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJ6yHgwLixfkcRx9UiMxQnVs0",
+        "gps":{
+            "latitude":45.4407919,
+            "longitude":12.3186528
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwJiiW_iOb28y3YqOhDKDMlMN-tWaaCgY9BvE4nXLKVGaWaDAk0VytcKyNMQTPDEicDjn5N_x-1Mm5CtiuKDMenFiv_cDp0-XItFto8VYqnt6zG0T09jz7I-pPUc__Rut7SIYQ5lw=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":16,
+        "title":"Albero dell’ombra",
+        "rating":4.8,
+        "reviews":10.0,
+        "type":"Giardino",
+        "address":"Calle del Scaleter, 2171, 30125 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJi5xhTQCxfkcR-4D1rYMVGjY",
+        "gps":{
+            "latitude":45.43771,
+            "longitude":12.3302
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyBopFs9uWqEFceGnDcbEkra2Xyfn44Je7zDlyo9PbiSZirDscY3VzeL0wlGLvB-Db4g9f3NhBTufzclxVQXY0-grqKz5kbAOMLkHXFcUvr2h-gup5FdxOdX4h_cAmbLUeHmaHL=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":17,
+        "title":"Oltre Il Giardino",
+        "rating":4.9,
+        "reviews":60.0,
+        "type":"Hotel",
+        "address":"S. Polo, 2542, 30125 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJOaycpcWxfkcRkdwtp55yR68",
+        "gps":{
+            "latitude":45.4377487,
+            "longitude":12.3276163
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/p\/AF1QipPPpjATiuyQdHEIZ3abNvj0hNFDHgVHdKpUE8JW=w137-h92-k-no",
+        "original":null
+    },
+    {
+        "position":18,
+        "title":"Orto degli Scalzi (padri Carmelitani)",
+        "rating":4.6,
+        "reviews":7.0,
+        "type":"Giardino",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJ6-dWWb-xfkcRWmAkx--j85k",
+        "gps":{
+            "latitude":45.4420802,
+            "longitude":12.3208678
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/p\/AF1QipMXBWeCUD1qfC0jCmPdBMD68tqqxTtWGpGAUkmR=w138-h92-k-no",
+        "original":null
+    },
+    {
+        "position":19,
+        "title":"Labirinto Borges",
+        "rating":3.8,
+        "reviews":95.0,
+        "type":"Giardino",
+        "address":"30133 Venezia VE, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 18",
+        "place_id":"ChIJ4fF5wyuufkcRLLQRrmJ8yRQ",
+        "gps":{
+            "latitude":45.4286973,
+            "longitude":12.3441575
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSz7J4T54vxIiEXWFh1MCwTmMYfENM8c4ZS4X1OQ8m8kTOrtKEju_P8ieYwLRhcHZR2L5wxISckS_vc8qbE6yXKZmXvLAtfi-X4n1BoiGo7k0b5vknzF12WvZPgiA6JU8L2ZafU8=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":20,
+        "title":"Giardino Ordine di Malta",
+        "rating":5.0,
+        "reviews":2.0,
+        "type":"Giardino",
+        "address":"2, 30122 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJ-Z8q-iaufkcRSHPIACQrc5w",
+        "gps":{
+            "latitude":45.43658,
+            "longitude":12.3469901
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyyWCqE0eIxwMImkzlOQjh5Nd9Hlh-wp8Xjn_4y8N6iQOiFNgkgv4dZzNFUVh5QOkDaxIuKenjxs9WxRt5FJXO6rNjoNe0GdVuIWABm5q_kTQrG-TSBg_gjnkNJ2IKLeLer2F3zHQ=w138-h92-k-no",
+        "original":null
+    },
+    {
+        "position":1,
+        "title":"Campo San Pietro",
+        "rating":4.7,
+        "reviews":121.0,
+        "type":"Giardino",
+        "address":"30122 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJsaKihzmufkcRrk3bQDfBnpE",
+        "gps":{
+            "latitude":45.4347133,
+            "longitude":12.3590844
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxonjD1FfWGikmzWykftrS0Edm7WhXKGM0hlOifQvVWTp2cSgNPPcOgpGHrKXukBZSIs6MtZSH0Yx-o4GCrJU_3bBuNNxrqAVARuCEUQCti1ov-YcR_J-sQFbrYg-W75EdgAcs9=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":2,
+        "title":"Il Giardino Di Pippo",
+        "rating":5.0,
+        "reviews":2.0,
+        "type":"Negozio",
+        "address":"Ruga dei Oresi, 64, 30125 Venezia VE, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 19",
+        "place_id":"ChIJsars5c6xfkcRe2xS42PNTmc",
+        "gps":{
+            "latitude":45.4387104,
+            "longitude":12.3349966
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/p\/AF1QipNIiWl1lAjPi5D0K-ptWklvBLbgru-BwnMtK3Vd=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":3,
+        "title":"Albero di mimosa",
+        "rating":5.0,
+        "reviews":2.0,
+        "type":"Giardino",
+        "address":"Rio Terà de le Carampane, 1898, 30125 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJL6gHLQCxfkcRrssqQjrX9yw",
+        "gps":{
+            "latitude":45.4385488,
+            "longitude":12.3314526
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwpkREZXmTkedLux1aQsjC7GYEE9vckzWXlO5olYNwfnK2b1w3GtMKAGeN6HReMaLgBhnW0CQXjdlZlXkc7QdFrF3_iydHRQm3AZGi-ebVudQH7k50qixY4gSeXPijQqP5CK6esjQ=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":4,
+        "title":"Giardini \"A\"",
+        "rating":3.9,
+        "reviews":15.0,
+        "type":"Terminal traghetti",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJVXdRuzGufkcRfPI74ZBb9t4",
+        "gps":{
+            "latitude":45.42976,
+            "longitude":12.354997
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSx79lhQi0mOLUgLoaU5WbPkpHB5Ge4ODuAt3vyONeYfaqCfCiVzgH0CBC8yrBwkQoXay3MNV--uiKXyU-nGGoQNdNhASDsiJ9r0n9gofO1TMdWioVlyusQykQyW93n2FXBwbBBamg=w189-h92-k-no",
+        "original":null
+    },
+    {
+        "position":5,
+        "title":"Al Giardinetto da Severino",
+        "rating":4.4,
+        "reviews":1969.0,
+        "type":"Ristorante italiano",
+        "address":"Salizada Zorzi, 4928, 30122 Venezia VE, Italia",
+        "open_state":"Chiuso ⋅ Apre alle ore 19",
+        "place_id":"ChIJucDzX9ixfkcR5gIcJ20miTU",
+        "gps":{
+            "latitude":45.4360802,
+            "longitude":12.3426664
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/p\/AF1QipOoVeXmqsJYZD5xPAItSvToy4wpk6KaTJBi1_9s=w138-h92-k-no",
+        "original":null
+    },
+    {
+        "position":6,
+        "title":"𝐺𝘢𝘳𝘥𝘦𝘯 𝐨𝐟 𝘁𝗵𝘦 𝗴𝘰𝗱𝘴",
+        "rating":5.0,
+        "reviews":1.0,
+        "type":"Giardino",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJK1avFQCxfkcRmfMGxR9jSEA",
+        "gps":{
+            "latitude":45.4408474,
+            "longitude":12.3155151
+        },
+        "link":null,
+        "thumbnail":null,
+        "original":null
+    },
+    {
+        "position":7,
+        "title":"Campo Stringari",
+        "rating":4.7,
+        "reviews":11.0,
+        "type":"Giardino",
+        "address":"Castello, 30132, VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJu_Zp1jWufkcRwPSRrP6fvZE",
+        "gps":{
+            "latitude":45.4274394,
+            "longitude":12.3614514
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzCzsvuoem9TyONm3mmjyr_OYHBzTgQtqC_tzWh5T3UJgLQksEcqbRN4Clzp38YkWecxn8BG6zNoy8sseAzUpxIEA8NcbY5fM7-Z9WWHopMpyXWbMd9Wqkwg2KMeM9P_R5_0O_2=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":8,
+        "title":"Ex Orto Botanico",
+        "rating":5.0,
+        "reviews":1.0,
+        "type":"Giardino botanico",
+        "address":"Calle de la Cereria, 734, 30121 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJFbKnNxyxfkcR9alcea1aT9Q",
+        "gps":{
+            "latitude":45.4439132,
+            "longitude":12.3186196
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSx5CQx48GwyVPV-gnWNha-x5KkcMqsCL1ucQbLwR39clvy6o7lxpe2lktk_kLeIrX4F4e3Er6ShWHfZpSn2lMXWxiky9DG3rqX2Lsiy3t1TAe7UIsI9DOCwaBfxqjsPVl8vIcHg=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":9,
+        "title":"Caffè La Serra",
+        "rating":4.2,
+        "reviews":1808.0,
+        "type":"Caffè",
+        "address":"Via Giuseppe Garibaldi, 1254, 30122 Venezia VE, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 20",
+        "place_id":"ChIJCyqRDTCufkcRRl6tW0Q_Ogw",
+        "gps":{
+            "latitude":45.4307856,
+            "longitude":12.355386
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwItFRAcqGjpmWSM382hVD0lPUnOA9Y1cCo5vNqmd7ir7Ti0TMrTYhEuVlFbvE5sVcvM36Prx8bGJMR_Vf-S8C8EAnscDbkVEzfJTP8Phv0dD8cV2TWZNEUKpscPdtQs459c1qi=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":10,
+        "title":"Giardino comunale",
+        "rating":null,
+        "reviews":null,
+        "type":"Parco",
+        "address":"30133 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJAQDAhiuwfkcRb54mp_-fc4c",
+        "gps":{
+            "latitude":45.4232659,
+            "longitude":12.3315849
+        },
+        "link":null,
+        "thumbnail":"https:\/\/streetviewpixels-pa.googleapis.com\/v1\/thumbnail?panoid=BYHsaFBKZkBVktyznQkdUw&cb_client=search.gws-prod.gps&w=80&h=92&yaw=107.13877&pitch=0&thumbfov=100",
+        "original":null
+    },
+    {
+        "position":11,
+        "title":"B&B Il Giardino di Giulia",
+        "rating":4.9,
+        "reviews":36.0,
+        "type":"Bed & Breakfast",
+        "address":"Lista Vechia dei Bari, 965, 30135 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJQ6oxbsSxfkcRFoqkBWQ7ais",
+        "gps":{
+            "latitude":45.4407127,
+            "longitude":12.3249184
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-proxy\/ALd4DhEZ-aNoIGe7Ooz50UfND0BPmuJzM0FQPoSNEfGpNnTeHL6A3Weo7lGeQpmF4uJJmNtgpe7BCxzuBK4D9moix4tpe3tH6GD4YnuGXBKjbiQ2-hEq0yjFyk_638nRlAZU6IPts7yC2seM8kZkyw5j3c-PQQ6eQpjavffOZYyyOrOXpl8tDWA7LzId=w137-h92-k-no",
+        "original":null
+    },
+    {
+        "position":12,
+        "title":"Area verde Baia del Re",
+        "rating":4.9,
+        "reviews":9.0,
+        "type":"Giardino",
+        "address":"Fondamenta Sacca San Girolamo, 30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJkaj3lLKxfkcRGpMJY_KwY8M",
+        "gps":{
+            "latitude":45.4477093,
+            "longitude":12.3208009
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwcaVSyAFKlw975NpoGT3y8l54VrIvkOtxGZHqJ97vswtSNMq1evy3pQzbI8QtVbpI-6ohwXpe3oe36V1hNSNlm4WqogarwGzHhHXyPSpXLJe4ImhZZNonC8fEsQ_ULhTSg2H5-SA=w80-h142-k-no",
+        "original":null
+    },
+    {
+        "position":13,
+        "title":"Giardini Biennale \"B\"",
+        "rating":4.3,
+        "reviews":21.0,
+        "type":"Terminal traghetti",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJqaHjczGufkcRjaIqhjSbo6g",
+        "gps":{
+            "latitude":45.429047,
+            "longitude":12.355934
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxJs2Xtur_Y5zljp79o4OD9uO6vamDLdduTq7vcnPkPkgYRkoHBZ2bmHw3TVcFyv_8yWi0antRF9qCC5WuX1yCdWpvJSOKsapoOXNOOkRsTGWaRZNw4sEsg_TTuADRqHjQy6tTY=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":14,
+        "title":"Fortuny gardens",
+        "rating":null,
+        "reviews":null,
+        "type":"Giardino",
+        "address":"Fondamenta S. Biagio, 800o, 30133 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJBao8WACxfkcRjNf8rxaRYJE",
+        "gps":{
+            "latitude":45.4270083,
+            "longitude":12.3203878
+        },
+        "link":null,
+        "thumbnail":"https:\/\/streetviewpixels-pa.googleapis.com\/v1\/thumbnail?panoid=uoO-y49ddCI3k0a2f1REkw&cb_client=search.gws-prod.gps&w=80&h=92&yaw=336.57416&pitch=0&thumbfov=100",
+        "original":null
+    },
+    {
+        "position":15,
+        "title":"木に目👀がある場所",
+        "rating":null,
+        "reviews":null,
+        "type":"Giardino",
+        "address":"Italia, Città Metropolitana di Venezia, Venezia, Calle Zambelli, Sotoportego",
+        "open_state":null,
+        "place_id":"ChIJp_R1EQCxfkcROIbAH-6xmHw",
+        "gps":{
+            "latitude":45.4402071,
+            "longitude":12.3278278
+        },
+        "link":null,
+        "thumbnail":null,
+        "original":null
+    },
+    {
+        "position":16,
+        "title":"Serra dei Giardini",
+        "rating":4.1,
+        "reviews":279.0,
+        "type":"Centro di quartiere",
+        "address":"Via Giuseppe Garibaldi, 1254, 30122 loc. Castello VE, Italia",
+        "open_state":"Chiuso ⋅ Apre mar alle ore 10",
+        "place_id":"ChIJ7-9VGjCufkcRHajS4Pyelb8",
+        "gps":{
+            "latitude":45.430832,
+            "longitude":12.3552936
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzt7V0Igto0Jta1aiW4vHT2eS6PD_3DbtcSgo-SpN6UGmrYE4trfZMt0XNVgZhRy_bWvnImLUbXe7o6QFry42tzBSmAfZZmw_TCDubU7BYljPpeudSlwdh-jVLu3UnZrznwTwzC5g=w160-h92-k-no",
+        "original":null
+    },
+    {
+        "position":17,
+        "title":"Albero de la Cason",
+        "rating":null,
+        "reviews":null,
+        "type":"Giardino pubblico",
+        "address":"Campiello de la Cason, 4510, 30121 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJRbhAcwCxfkcRWBfXUJEfRAY",
+        "gps":{
+            "latitude":45.4405625,
+            "longitude":12.3377286
+        },
+        "link":null,
+        "thumbnail":"https:\/\/streetviewpixels-pa.googleapis.com\/v1\/thumbnail?panoid=xRUjOda42E-khBkJq9RpIg&cb_client=search.gws-prod.gps&w=80&h=92&yaw=131.20587&pitch=0&thumbfov=100",
+        "original":null
+    },
+    {
+        "position":18,
+        "title":"Il Giardino Bianco Art Space",
+        "rating":4.5,
+        "reviews":11.0,
+        "type":"Centro culturale",
+        "address":"Via Giuseppe Garibaldi, 1814, 30122 Venezia VE, Italia",
+        "open_state":"Chiuso ⋅ Apre mar alle ore 11",
+        "place_id":"ChIJNS7QDzCufkcRN9BwHsypBrY",
+        "gps":{
+            "latitude":45.432594,
+            "longitude":12.3548965
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyEpOQlSrf4Q6ORb_cfpODF0lJeA9a5WdIWXlZo3wi2NhgNNBZ1soyeqxHjRCnjI8tXBiNLZwc0b9My2609iOdMAmMqW66UHpLCkWQa6h53UW6c1lVqnvvKoUnfBP0L4NW4SuRf=w138-h92-k-no",
+        "original":null
+    },
+    {
+        "position":19,
+        "title":"Panchine per rilassarsi",
+        "rating":4.7,
+        "reviews":3.0,
+        "type":"Giardino",
+        "address":"Fondamenta Sacca San Girolamo, 2976, 30121 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJBw6KVgCxfkcRN-LEPmYVz6U",
+        "gps":{
+            "latitude":45.4477396,
+            "longitude":12.3201058
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwMazYKVL-zTLxHoKoELf05JhFhJRvTuPBuT7-CwgtR1g2S3KolIIGA63GxqTdVtphBhal5uaqf3o5Npe5URWi9F3h0KGsloR01wguVw378TuRkXHvWPiDxOX6eoBiPGIed2_xBgnCS4h3U=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":20,
+        "title":"Palazzo Soranzo Cappello",
+        "rating":4.4,
+        "reviews":135.0,
+        "type":"Sito storico",
+        "address":"Ramo Quinto Gallion O del Pezzetto, 770, 30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJmYOzRyuwfkcRp-F2Z4Hjqi8",
+        "gps":{
+            "latitude":45.4396885,
+            "longitude":12.3241888
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwlvcKmDwvftrMgt-7g3F1ZBA6vec0uzSouCP0tfztZfZNDQaHTd2YACdml_R4GpQwHVqaYFMo08EMOH1hJb67BwOGvyZ1a6iJBcC38FkevSES6Q5iPioXAykpo-DEZdvG_nkc=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":1,
+        "title":"Giardino D'Oriente",
+        "rating":4.2,
+        "reviews":6.0,
+        "type":"Negozio",
+        "address":"Marzaria del Capitello, 4918, 30122 Venezia VE, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 19:30",
+        "place_id":"ChIJGdKRYV6xfkcR_hLaTuPl5xk",
+        "gps":{
+            "latitude":45.4364617,
+            "longitude":12.3370066
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSz79h64uwkZbdPSAjTXYM-nvupD9otq_yrNUXPyHdmK_Wjisik-5A_oBjjafXmgKj5uWNh9mD2DJzXf1G_eWNmAN5MvwjD309IDHL6D0qh15Rdt-BKSJqv9J9TrKSja30FK3Iq5B1bkHQw=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":2,
+        "title":"Palazzo Soranzo Cappello",
+        "rating":4.4,
+        "reviews":135.0,
+        "type":"Sito storico",
+        "address":"Ramo Quinto Gallion O del Pezzetto, 770, 30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJmYOzRyuwfkcRp-F2Z4Hjqi8",
+        "gps":{
+            "latitude":45.4396885,
+            "longitude":12.3241888
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwlvcKmDwvftrMgt-7g3F1ZBA6vec0uzSouCP0tfztZfZNDQaHTd2YACdml_R4GpQwHVqaYFMo08EMOH1hJb67BwOGvyZ1a6iJBcC38FkevSES6Q5iPioXAykpo-DEZdvG_nkc=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":3,
+        "title":"Da Lorenzo – Al Giardino Segreto",
+        "rating":5.0,
+        "reviews":17.0,
+        "type":"Ristorante",
+        "address":"Fondamenta Madona de l'Orto, 3500, 30121 Venezia VE, Italia",
+        "open_state":"Chiuso ⋅ Apre mar alle ore 19",
+        "place_id":"ChIJI8g-DSyxfkcR8l-sl6rvL6k",
+        "gps":{
+            "latitude":45.4465565,
+            "longitude":12.3311806
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSy70IbOJFSQkUzyAXPYYXSaQ-FW01sVhJN0E-RKBrkiQWypEAvbUfIMDsTfeDWDIzuvb1ko9TXg4XZ0ZveMOxXxck3UD_qyNrbctteG6fBpvE-2NTAikO8XwMd4C3YgWGHPhXx9Jz3AP8fT=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":4,
+        "title":"Giardino Segreto della Sinagoga Spagnola",
+        "rating":4.1,
+        "reviews":7.0,
+        "type":"Destinazione religiosa",
+        "address":"Calle del Forno, 1107, 30121 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJ7wZvXKGxfkcROQJ9nKbOeow",
+        "gps":{
+            "latitude":45.4447861,
+            "longitude":12.3252821
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzxDSuyxIzWPJeY6qSxCBkEU2X-ziA90TATpIZrQ_brdYXSe9rkdb1a44GtHj03PRY_tTffaZiixTlLYmo9ho4whj1bdyJH9jMp64qhBqcrKVRow-9bPYulVkujJ1cBbNY0BqA=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":5,
+        "title":"Sala Giardino",
+        "rating":4.5,
+        "reviews":40.0,
+        "type":"Cinema",
+        "address":"Lungomare Guglielmo Marconi, 1861, 30126 Lido VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJeVsyLqOvfkcRm-5PPzojOOU",
+        "gps":{
+            "latitude":45.4067932,
+            "longitude":12.3688245
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzGitKi5iac3cmPydyxV_szgPJgyb25lPcitvh21bcFwuzvDJWSW5ONXf3O-EUWtZAfUJTrtK0QYQfWS8LwFca6yL1HaauZHCXOwq8UECuUzWbTGuYvVEfSy5a8REEpQQ41OZc=w92-h92-k-no",
+        "original":null
+    },
+    {
+        "position":6,
+        "title":"II Giardino dell'Eden",
+        "rating":null,
+        "reviews":null,
+        "type":"Appartamento vacanze",
+        "address":"Fondamenta del Ponte Piccolo, Giudecca 317\/A, 30133 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJs-xIzH2xfkcRWTOCZODQb9k",
+        "gps":{
+            "latitude":45.4260931,
+            "longitude":12.3276794
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/p\/AF1QipPz4PLdhcMdOFky77CyLpHyckeL8n9fyrGKXJ_T=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":7,
+        "title":"Ca Giardino - Venetian Family",
+        "rating":5.0,
+        "reviews":1.0,
+        "type":"Appartamento vacanze",
+        "address":"Calle Scuola, 30133 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJ7S3LS7WxfkcRQvJ4vnQWS6M",
+        "gps":{
+            "latitude":45.4282952,
+            "longitude":12.3135666
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-proxy\/ALd4DhFFu7gP0iv4JaHngQ1JAgzSSMYSM7aasEA4MgbX8ubHgMoC0mh7ohqSagXhndHR-buz0OZT2zWR6YGX0UxGWnGmu14Oo40vEdzMa2-5pkOJtvFL4Sm9NL-qoxGDX2uDyICrZ0aUSfPnZRWjryHSil8cOfDE_qw42LJIcAXIm6cHlDfFAzozEvSW=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":8,
+        "title":"Padiglione Centrale",
+        "rating":4.5,
+        "reviews":1285.0,
+        "type":"Museo d'arte",
+        "address":"Calle Dietro Il Paludo, 849, 30122 Venezia VE, Italia",
+        "open_state":"Chiuso ⋅ Apre mar alle ore 10",
+        "place_id":"ChIJXyc-LTGufkcRyp3JvWmQsrQ",
+        "gps":{
+            "latitude":45.429781,
+            "longitude":12.3586741
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyvyxnX4GlxkzswT9thOhoKs3zlJffOdig9YeeZ_UcHbrw4ir88DBhHEjqco0x423CISKi-tq7MWWupbRVJR_BfX4mvAzK5UnLNe1zZcNkbLwN-uQIXkZeZnGxF-0FbRNt8WTxTQw=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":9,
+        "title":"Panchina A.Nulli",
+        "rating":5.0,
+        "reviews":6.0,
+        "type":"Giardino",
+        "address":"Fondamenta S. Biagio, 783, 30133 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJC8-cKQCxfkcROXowD-sZ4rA",
+        "gps":{
+            "latitude":45.4273997,
+            "longitude":12.3227103
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwTew7psnQuril3l4qDEHXAaj5P2CfcRVSPiG733X88Pnblj40ks9njTRcc_Ec5WFLn0iDWQlkIemEyVGuG_avSvj_iTEbAfuuWCUgsqQcHcw3c2OIT55CN6t2Fec1awsXcLkDdNdaL7rtl=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":10,
+        "title":"IL GIARDINO DI ANNA- appartamenti con giardino privato",
+        "rating":null,
+        "reviews":null,
+        "type":"Casa per vacanze",
+        "address":"Calle de la Misericordia, 386, 30121 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJryXi8BqxfkcRJfTp7hW5SNQ",
+        "gps":{
+            "latitude":45.4429878,
+            "longitude":12.3220324
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/p\/AF1QipN-XJ2IVCt8AqZBzXtqYsxGLpoDQGDTLUB7JKfa=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":11,
+        "title":"Giardino Segreto Apartment",
+        "rating":5.0,
+        "reviews":2.0,
+        "type":"Appartamento vacanze",
+        "address":"Calle Dario, 639, 30135 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJy8ho6qyxfkcRjuiWkS4dh6E",
+        "gps":{
+            "latitude":45.4385295,
+            "longitude":12.3230301
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxwURdFTrFLzz-eM7xGdmHRsNCdPScFcnYfTqjLN0zLn5nACMOKfzuleAAAooKROb_lbi9Bk0REAz_y6TeDKSv25R-nq0z7ZFUpIlxq1cY5hbNnNvOQm57Mob2PbH6ec-D4D4T4JA=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":12,
+        "title":"Palazzo Contarini a San Beneto",
+        "rating":null,
+        "reviews":null,
+        "type":"Giardino",
+        "address":"Fondamenta Narisi, 3981A, 30124 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJt70qm9qxfkcRE9etSws0Jos",
+        "gps":{
+            "latitude":45.4358749,
+            "longitude":12.3329359
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyrx5qDz_5S8_dbGAwwyNxHq_obmxf06jKLkgsVj4z7wlf0MxitJOUL5uPBpmz4SlYgH5qeIp-50RhLnNmRP68wIb7HY2XlJ3eZUyS6S7jUFFTylI5QV5Y9W4Tpf2YH0geLgMzy=w138-h92-k-no",
+        "original":null
+    },
+    {
+        "position":13,
+        "title":"Corte Ca' Dario",
+        "rating":null,
+        "reviews":null,
+        "type":"Giardino",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJFWWIPgCxfkcRzmVcvD1hWsw",
+        "gps":{
+            "latitude":45.4387563,
+            "longitude":12.323298
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzECCOTRrGnWZjUgTaPr1eb2gKpPiLubQDCcrUcpidXLXyTa4_HR7Bkmg67x5Yo7oUwdfo0tKL7B0scegdtIHHEdJ5klGrmUwowJSWnJGlKNCu4JDfQEWgKNzvFhtcsKk5myX10=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":14,
+        "title":"Trattoria Dai Fioi (Venezia Biennale)",
+        "rating":4.7,
+        "reviews":1634.0,
+        "type":"Ristorante",
+        "address":"Calle Seco Marina, 985, 30122 Venezia VE, Italia",
+        "open_state":"Chiuso ⋅ Apre alle ore 18:30",
+        "place_id":"ChIJ_Qc7CUKvfkcRG_u6p4XTkxY",
+        "gps":{
+            "latitude":45.4312123,
+            "longitude":12.3566521
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwM_l1_JxJMt_hCpA7GLX26pWSFlvr3IUzj-4bSFDPkuBrd4h6S5UXijDrDUQqmPxBzj3rJlU2PzoN1vBQeNXi_R9EHt8W2MNQ4dCSAlBVByqDKMK6AeddPLqTVS9mxui0bWY8=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":15,
+        "title":"illy Caffè",
+        "rating":3.0,
+        "reviews":820.0,
+        "type":"Caffetteria",
+        "address":"Giardini Reali, 30124 Venezia VE, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 19",
+        "place_id":"ChIJv8u4VvyxfkcR7YWOdmK9RsQ",
+        "gps":{
+            "latitude":45.432622,
+            "longitude":12.337863
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxc6VfSFCQS-mPotKKRgWb74BhTXo8Ulb7MRWQ9i8DH9QvfQ_4_cQXmQrV92U48ZNUaiTte-4Yr49XY6pdHSZdurcZ4HiKlt78X8Fejj1LFzPDGdabFRHlF1_wrWnDcGRskkFIs=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":16,
+        "title":"Trattoria alla Palazzina",
+        "rating":4.0,
+        "reviews":762.0,
+        "type":"Ristorante",
+        "address":"Cannaregio, 1509, 30121 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJCQ_sdpWxfkcRD3frTf8z6cI",
+        "gps":{
+            "latitude":45.4435424,
+            "longitude":12.3258791
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyLzt-_G2XKmPDaBMqdlNX4YD5YnKv664sM0Lzyrabcpl768_0Z2NNYES1jT9Um88Q7SAGffqVsol6XAJkhiRKD-l07IEL-Kh56zQGqDwxNhQQDOupO4u_eiv8fr5DPvWw0QHe54w=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":17,
+        "title":"Orange",
+        "rating":4.0,
+        "reviews":712.0,
+        "type":"Bar",
+        "address":"Campo Santa Margherita, 3054a, 30123 Venezia VE, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 02",
+        "place_id":"ChIJOfRN1M6xfkcRLpFQkOW_5sU",
+        "gps":{
+            "latitude":45.4338249,
+            "longitude":12.3237834
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzw9Odlj9jRoEML2enpm3kAz1XsNZIWuZ-mnVKF5HiOnDSOg4aHzwXWzZdDAlIzS9PWDW8_Z4883XSOJWDd-UCNC8KjTr6qFnu2pY8rfAybyHNuhVPdqqiRBaoGb24Vp6MFqt39TQ=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":18,
+        "title":"Osteria Trattoria Al Nono Risorto",
+        "rating":4.3,
+        "reviews":3556.0,
+        "type":"Ristorante italiano",
+        "address":"Sotoportego de Siora Bettina, 2338, 30135 Venezia VE, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 22:30",
+        "place_id":"ChIJv9VITc-xfkcRNkZy5oCc8uI",
+        "gps":{
+            "latitude":45.4397051,
+            "longitude":12.3313417
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxVQH688AVuFOSmTfh-8MjaKzfNv05jJkq1fLZotW-UWJwirNrnADcv3fitPpqGS7XAjwf9_U2NNqF3luAQIdiHRH3_adVLDyE5v4EGDiI1RfLUVcQjshvdu56Fqxld_6FQgwKR=w163-h92-k-no",
+        "original":null
+    },
+    {
+        "position":19,
+        "title":"Giardino di Via Torre Belfredo",
+        "rating":4.2,
+        "reviews":48.0,
+        "type":"Giardino",
+        "address":"Via S. Rocco, 30174 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJibxyC0G0fkcRQZNS3XsiJh0",
+        "gps":{
+            "latitude":45.4965607,
+            "longitude":12.2422681
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSy82ru-JWkDYzgg-f_q4SLQVsc7nSZH62LvdakEZtZqL6-iDhbUYG858_Oyl-EtAWkupCEiaQQgT2QHpeiVgwaRuPTesnC92Gbmqp1zXX_J5v_IjFUmWMvqIV1V7de-fSDIPzwCP_juicfO=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":20,
+        "title":"Ristorante Ribò",
+        "rating":4.0,
+        "reviews":1076.0,
+        "type":"Ristorante",
+        "address":"Fondamenta Minotto, 159, 30135 Venezia VE, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 23",
+        "place_id":"ChIJfeeH1MexfkcRiDYTPpJUAGg",
+        "gps":{
+            "latitude":45.4369897,
+            "longitude":12.3216191
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSypEPEPCpwmHCWp18zWexPjjoYzgp_jqMxQ7F30DMu95gQrK9LTM_HvLqapAiIxBk4lRAB1ecNgTKpf__CgbLjOygDzrciJ00Ko0Z393vj5RQFVekSA8t5KKlyJzNph2D4_FaMX=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":1,
+        "title":"Trattoria-Pizzeria All'Anfora",
+        "rating":4.5,
+        "reviews":1930.0,
+        "type":"Pizzeria",
+        "address":"Calle Larga dei Bari, 1223, 30135 Venezia VE, Italia",
+        "open_state":"Chiuso ⋅ Apre alle ore 18:30",
+        "place_id":"ChIJE1SUTcGxfkcRV6uPsqrHtM4",
+        "gps":{
+            "latitude":45.4410019,
+            "longitude":12.3254051
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwvfw7Hwioq7ssAGKWuq85Hy4y1oHWfKrg6GSvYsltl8VHxuAADJoWO0Rn9XDWY-d4_UTHjshtOLshAidKPhXjgDUNUQt_o3GNZWw8hWxgNL5_2vmpWhsNxngAnvb048JF3cEG9=w163-h92-k-no",
+        "original":null
+    },
+    {
+        "position":2,
+        "title":"Casino degli Spiriti",
+        "rating":4.0,
+        "reviews":46.0,
+        "type":"Attrazione turistica",
+        "address":"Fondamenta Gasparo Contarini, 3541, 30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJXywb2eexfkcRzDU7daShDOk",
+        "gps":{
+            "latitude":45.446317,
+            "longitude":12.3354149
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwZkGvRAugF2Yj3Pqz0mQoH-tRZJ_57utOqsiogDDZ71SH6TbwrnkJKHvFMEL35NVnGAzTXS659RQcpfmcDAY1F5y3Uj-0FKv4092Tut6dYoSh1yOf9abZpfJ8Em9LyFr_5UtUBEg=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":3,
+        "title":"Giardino delle magnolie",
+        "rating":5.0,
+        "reviews":2.0,
+        "type":"Giardino pubblico",
+        "address":"Piazzale Generale Enrico Cialdini, 3, 30174 Venezia VE, Italia",
+        "open_state":"Ora aperto",
+        "place_id":"ChIJAXovY1C1fkcRuy-19JiIy-A",
+        "gps":{
+            "latitude":45.4939281,
+            "longitude":12.245715
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyMhDQBS64Jl0Vs0eoR8Dw-zYW69S2y4TP0AHG3M3ErgQZJc0J26YTHxQp-ON2cd4z7Rcnb6EWiIBblQps7V98ft46lFPosV9_EIQ2YMoR_ZC48pH-wI0ThInZAoawQGb8NduIb=w163-h92-k-no",
+        "original":null
+    },
+    {
+        "position":4,
+        "title":"Giardino Condiviso Del Quartiere Cita",
+        "rating":4.0,
+        "reviews":54.0,
+        "type":"Giardino",
+        "address":"Via Andrea Palladio, 34, 30175 Venezia VE, Italia",
+        "open_state":"Ora aperto",
+        "place_id":"ChIJY64T5S60fkcRdwgH0ny-BPc",
+        "gps":{
+            "latitude":45.4822567,
+            "longitude":12.2255946
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSx7_PZaEGeqahVjkcE7aFcsW6Q1y7TRiyhP1-gfM8_26fnjHuPCnZcIyxejtmRyLRm-u8vQ991ovUwkw8MJ5j2uEZPqt4pZhyA4g4aw5311DwhyJvDvigpb2PmkPqG6MMdARY1x=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":5,
+        "title":"Convento del Santissimo Redentore",
+        "rating":4.8,
+        "reviews":20.0,
+        "type":"Convento",
+        "address":"Sestiere Giudecca, 194, 30133 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJOfU0WiuwfkcRR5tWMC-xrT0",
+        "gps":{
+            "latitude":45.4244875,
+            "longitude":12.3325191
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSypcn6A74jytUR3mXdQop5FydtoxwDuPzeONac6cWBPtwlD0XMq6lvZzlhcPOaYa7bNKksHOCMVC_3wxN9Sum0euOnq_bPY6Bb1QwMOyJS9f-YJbBDBL7ysi7-KQI_SVeQt3cLikEMB-J0i=w138-h92-k-no",
+        "original":null
+    },
+    {
+        "position":6,
+        "title":"Palazzo Bernardo Nani",
+        "rating":4.5,
+        "reviews":49.0,
+        "type":"Location per matrimoni",
+        "address":"Sestiere Dorsoduro, 3197, 30123 Venezia VE, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 17",
+        "place_id":"ChIJZ4gJAs-xfkcRSOe_VEGh12I",
+        "gps":{
+            "latitude":45.43381,
+            "longitude":12.326802
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwO_FV_hSll1KYKyy1SNh1h16zDJLdI5QC6-yTrjvZct7XPsIWilhnTK-cbphAlmtQwSM0RP3lM4J-L0UVUdtFh_av73xv46vA6LimH0j9DOic73MtljK_56ToWrZcoddmaFwhZ=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":7,
+        "title":"Casa Cardinal Piazza",
+        "rating":4.1,
+        "reviews":110.0,
+        "type":"Alloggio turistico",
+        "address":"Sestiere Cannaregio, 3539\/A, 30121, VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJ4ZUFSuixfkcRayDWwqhkgyo",
+        "gps":{
+            "latitude":45.4454869,
+            "longitude":12.33405
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxoTZySa6fWJdBGOtowHz2ZEBjS4hMPP7UXpol5B34v4itLgjXufRG66MviGeaK61q4n13wuSKGGPq_qA3Ruw-vCjKqUZ3io85EWzP6gkrgf45HFe6MdFeW3loOEtKMY_Nh-o0=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":8,
+        "title":"Giardino Piazzale Giustiniani",
+        "rating":3.7,
+        "reviews":11.0,
+        "type":"Giardino pubblico",
+        "address":"Via S. Damiano, 11, 30174 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJv7igjkW0fkcRWM-wZT4LsEY",
+        "gps":{
+            "latitude":45.5003,
+            "longitude":12.2353238
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSz4JgcxgSPTIA3sFOefmixzpmWRsPr8jJmCouj3SUu_KS7NELQN8CXdxR_-Pm9TcQA9u3JUrSnCb-XIIpkaqmvz2Wrd0gKdwC4Oc6sqxfGsB02RvEfCEQ_VopUXM2l_Aa0H604=w163-h92-k-no",
+        "original":null
+    },
+    {
+        "position":9,
+        "title":"Il Giardino Segreto di Torcello",
+        "rating":5.0,
+        "reviews":1.0,
+        "type":"Giardino",
+        "address":"Str. della Rosina, 30142 Venezia VE, Italia",
+        "open_state":"Chiuso ⋅ Apre sab alle ore 10",
+        "place_id":"ChIJ4dkODNWtfkcR6V7pVywOzjY",
+        "gps":{
+            "latitude":45.4973342,
+            "longitude":12.4168554
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/p\/AF1QipOcyo9PGyDzi47gQ4_3mdsxHC3jgNFiZoVniHOU=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":10,
+        "title":"Hotel Palazzo Abadessa",
+        "rating":4.5,
+        "reviews":292.0,
+        "type":"Giardino",
+        "address":"Campiello Priuli, 4011, 30121 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJ0zBHlNyxfkcRzvze3L2L0RM",
+        "gps":{
+            "latitude":45.4415038,
+            "longitude":12.3354097
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/p\/AF1QipPqdQyAD1498swncjziDn2GZD8Mj7QL35St1vsg=w138-h92-k-no",
+        "original":null
+    },
+    {
+        "position":11,
+        "title":"San Leone Giardini di Busana Paolo",
+        "rating":5.0,
+        "reviews":4.0,
+        "type":"Giardino",
+        "address":"Via Bastiette, 11, 30034 Mira VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJvXJcQcC3fkcRjFtDGfbUtvs",
+        "gps":{
+            "latitude":45.426575,
+            "longitude":12.164096
+        },
+        "link":null,
+        "thumbnail":"https:\/\/streetviewpixels-pa.googleapis.com\/v1\/thumbnail?panoid=OtiC0p_MRox-RPbhAb7XhQ&cb_client=search.gws-prod.gps&w=80&h=92&yaw=315.5014&pitch=0&thumbfov=100",
+        "original":null
+    },
+    {
+        "position":12,
+        "title":"Rose garden",
+        "rating":4.8,
+        "reviews":6.0,
+        "type":"Giardino",
+        "address":"F7X6+GR, 30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJ_ZfSQ8C1fkcRmLpCK4m2yOk",
+        "gps":{
+            "latitude":45.4988017,
+            "longitude":12.2621196
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwczLbnbIgAL2XJSpTJ4rUgbkDjk-voNwir-UKwkiujjw9EY0OvwjQ35ZT9iUM7Ugf8_ok0e0LHtdvdYoRvvueJSmhmOmbDChBkYsj9ubQnwttd3xcbqI1oNR9-r62VuAwDTsJ-VQ=w163-h92-k-no",
+        "original":null
+    },
+    {
+        "position":13,
+        "title":"Giardino Villa Malcontente",
+        "rating":5.0,
+        "reviews":2.0,
+        "type":"Giardino",
+        "address":"Via dei Turisti, 9, 30034 Mira VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJ8f2ASAC3fkcRtOV3HS6UPSM",
+        "gps":{
+            "latitude":45.4370238,
+            "longitude":12.2018426
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSx6-MEVj5I8p7JH7JdGuOvyOSpZTsmz8B3PZMOPMSmTGKnjz_AZ3rKtMHcpt9ju9hMqWPhY-itzQlT1g4b4YU9vo4_fFjTDy31SIINU-nX_mbypJAH6Q9HG9kMQbiZycBjjRM3AMft8kfU=w163-h92-k-no",
+        "original":null
+    },
+    {
+        "position":14,
+        "title":"Benestare Sant'Erasmo",
+        "rating":null,
+        "reviews":null,
+        "type":"Giardino",
+        "address":"Via dei Forti, 55, 30141 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJsYFbbwCvfkcR190rA3ExbZ0",
+        "gps":{
+            "latitude":45.450857,
+            "longitude":12.4062226
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwVjztMVbFwwmdSZBs6BLLNrqVftpSWMPZnH1zr9R1kMYNadQqtZkgdMQIhkfnr1HpKbhHxjNpPMJQlHQe8lZkDjZKW6WVYx_JyMKFh60xipDNM73VghHmZCM9dDsY4WWixn62DHQ=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":15,
+        "title":"Giardini di Via Piave",
+        "rating":null,
+        "reviews":null,
+        "type":"Giardino",
+        "address":"Via Piave, 133, 30171 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJVVVVsiS0fkcRgJqXZsxwj-0",
+        "gps":{
+            "latitude":45.4843613,
+            "longitude":12.2332097
+        },
+        "link":null,
+        "thumbnail":null,
+        "original":null
+    },
+    {
+        "position":16,
+        "title":"Arte nel giardino di Davide Polesel",
+        "rating":5.0,
+        "reviews":4.0,
+        "type":"Giardino",
+        "address":"Via Pialoi, 102\/b, 30020 Marcon VE, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 17",
+        "place_id":"ChIJIxrUU_GzfkcRN-x9wZIE3lE",
+        "gps":{
+            "latitude":45.5373805,
+            "longitude":12.2883877
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/p\/AF1QipPeZS3Ua0lgxaG_4-zV1AKWbWQ156ZI0auChOhZ=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":17,
+        "title":"Giardino al mare (Appartamenti Fratter Ladimiro)",
+        "rating":4.3,
+        "reviews":20.0,
+        "type":"Alloggi al coperto",
+        "address":"Lungomare Dante Alighieri, 21, 30013 Cavallino-Treporti VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJ_5uKa72ufkcRuPlMrjnM85Y",
+        "gps":{
+            "latitude":45.442263,
+            "longitude":12.4215294
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/p\/AF1QipP1Yrl_OHtEOhToj6a3t2lXYnE65OtzMaMBjTnc=w133-h92-k-no",
+        "original":null
+    },
+    {
+        "position":18,
+        "title":"Giardino Mistico",
+        "rating":4.3,
+        "reviews":48.0,
+        "type":"Giardino",
+        "address":"Cannaregio, 54, 30120 Venezia VE, Italia",
+        "open_state":"Temporarily closed",
+        "place_id":"ChIJGU2YWb-xfkcRGwZmnD0kDI4",
+        "gps":{
+            "latitude":45.442256,
+            "longitude":12.32073
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/p\/AF1QipN4vqIrONQYv_8FXEbOM-JBRuVN8IAmwhHIO8uZ=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":19,
+        "title":"La piramide",
+        "rating":5.0,
+        "reviews":1.0,
+        "type":"Giardino",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJRfDbdwC1fkcRqS10QsT3zuU",
+        "gps":{
+            "latitude":45.5000763,
+            "longitude":12.2615911
+        },
+        "link":null,
+        "thumbnail":null,
+        "original":null
+    },
+    {
+        "position":20,
+        "title":"Il giardino dei grani",
+        "rating":5.0,
+        "reviews":4.0,
+        "type":"Giardino",
+        "address":"Borgo Giuseppe Mazzini, 19, 31100 Treviso TV, Italia",
+        "open_state":null,
+        "place_id":"ChIJhSOhNpVJeUcR20tl23c7Yts",
+        "gps":{
+            "latitude":45.6680775,
+            "longitude":12.250408
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzgOEWmTYgwuNeGHJDpLJeuPJ418wUoaZ8Qa1-EbtDGMj4sQDzFK3EjZNAFJP9VeByE396faq1UoEXAqjG9OapW1LUv4tlTW5PvDlBAmd9q45Os5LahXLc8dkmnihf2E9tXy0aM=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":1,
+        "title":"Trattoria-Pizzeria All'Anfora",
+        "rating":4.5,
+        "reviews":1930.0,
+        "type":"Pizzeria",
+        "address":"Calle Larga dei Bari, 1223, 30135 Venezia VE, Italia",
+        "open_state":"Chiuso ⋅ Apre alle ore 18:30",
+        "place_id":"ChIJE1SUTcGxfkcRV6uPsqrHtM4",
+        "gps":{
+            "latitude":45.4410019,
+            "longitude":12.3254051
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwvfw7Hwioq7ssAGKWuq85Hy4y1oHWfKrg6GSvYsltl8VHxuAADJoWO0Rn9XDWY-d4_UTHjshtOLshAidKPhXjgDUNUQt_o3GNZWw8hWxgNL5_2vmpWhsNxngAnvb048JF3cEG9=w163-h92-k-no",
+        "original":null
+    },
+    {
+        "position":2,
+        "title":"Convento del Santissimo Redentore",
+        "rating":4.8,
+        "reviews":20.0,
+        "type":"Convento",
+        "address":"Sestiere Giudecca, 194, 30133 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJOfU0WiuwfkcRR5tWMC-xrT0",
+        "gps":{
+            "latitude":45.4244875,
+            "longitude":12.3325191
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSypcn6A74jytUR3mXdQop5FydtoxwDuPzeONac6cWBPtwlD0XMq6lvZzlhcPOaYa7bNKksHOCMVC_3wxN9Sum0euOnq_bPY6Bb1QwMOyJS9f-YJbBDBL7ysi7-KQI_SVeQt3cLikEMB-J0i=w138-h92-k-no",
+        "original":null
+    },
+    {
+        "position":3,
+        "title":"Centro Culturale Don Orione Artigianelli",
+        "rating":4.3,
+        "reviews":206.0,
+        "type":"Attrazione turistica",
+        "address":"Rio Terà Foscarini, 909\/A, 30123 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJ2e-8ic2xfkcR9VsThX2n0P0",
+        "gps":{
+            "latitude":45.4297806,
+            "longitude":12.3277042
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyK_b1HnGq5qnh0XMJptgdfJak_d0so9C6ugqkgwrJ_cdbr47bs_IiUqIPQJwyjkyR9uqrz3Z7ROVkh2i6agEaq2Zwi4ZrknpUroVnQtRIbQ-QnzxttEFWc0XGTngjh9WI3_Zk=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":4,
+        "title":"Ristorante Gran Viale",
+        "rating":4.0,
+        "reviews":1212.0,
+        "type":"Ristorante",
+        "address":"Granviale Santa Maria Elisabetta, 10, 30126 Lido VE, Italia",
+        "open_state":"Chiuso ⋅ Apre alle ore 18",
+        "place_id":"ChIJjejW77GvfkcRitf0SOPCzX8",
+        "gps":{
+            "latitude":45.4164735,
+            "longitude":12.3698402
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/p\/AF1QipPnwZZFPxFw6N28hWCtcdvFjRwo9bgalmM0UIk=w137-h92-k-no",
+        "original":null
+    },
+    {
+        "position":5,
+        "title":"Osteria San Isepo",
+        "rating":4.7,
+        "reviews":412.0,
+        "type":"Ristorante italiano",
+        "address":"Rio Terà S. Isepo, 900, 30122 Venezia VE, Italia",
+        "open_state":"Chiuso ⋅ Apre mar alle ore 08",
+        "place_id":"ChIJGxzCGTGufkcRcELR2pIQpz0",
+        "gps":{
+            "latitude":45.4297888,
+            "longitude":12.3571287
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzUTD-nAbdcAm5llKM0KuxjukNa3rm6CQkZADm-kf3qXxRw4WM4Ar9YF3TNBnpdmXQJK37AppNsHArYbeSv0HIVXY4Qn8iMSH2IS4Bdgv1fPGtpL3c9Q2XtHHo9cQn2QVDXlcev=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":6,
+        "title":"Giardino delle magnolie",
+        "rating":5.0,
+        "reviews":2.0,
+        "type":"Giardino pubblico",
+        "address":"Piazzale Generale Enrico Cialdini, 3, 30174 Venezia VE, Italia",
+        "open_state":"Ora aperto",
+        "place_id":"ChIJAXovY1C1fkcRuy-19JiIy-A",
+        "gps":{
+            "latitude":45.4939281,
+            "longitude":12.245715
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyMhDQBS64Jl0Vs0eoR8Dw-zYW69S2y4TP0AHG3M3ErgQZJc0J26YTHxQp-ON2cd4z7Rcnb6EWiIBblQps7V98ft46lFPosV9_EIQ2YMoR_ZC48pH-wI0ThInZAoawQGb8NduIb=w163-h92-k-no",
+        "original":null
+    },
+    {
+        "position":7,
+        "title":"Giardino Condiviso Del Quartiere Cita",
+        "rating":4.0,
+        "reviews":54.0,
+        "type":"Giardino",
+        "address":"Via Andrea Palladio, 34, 30175 Venezia VE, Italia",
+        "open_state":"Ora aperto",
+        "place_id":"ChIJY64T5S60fkcRdwgH0ny-BPc",
+        "gps":{
+            "latitude":45.4822567,
+            "longitude":12.2255946
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSx7_PZaEGeqahVjkcE7aFcsW6Q1y7TRiyhP1-gfM8_26fnjHuPCnZcIyxejtmRyLRm-u8vQ991ovUwkw8MJ5j2uEZPqt4pZhyA4g4aw5311DwhyJvDvigpb2PmkPqG6MMdARY1x=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":8,
+        "title":"Pizzeria - Ristorante-Cicchetteria Alla Strega Venezia",
+        "rating":4.3,
+        "reviews":679.0,
+        "type":"Pizzeria",
+        "address":"Barbaria de le Tole, 6418, 30122 Venezia VE, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 22:30",
+        "place_id":"ChIJq1S1W0OxfkcRNQHpXGCNUwc",
+        "gps":{
+            "latitude":45.4386069,
+            "longitude":12.3433007
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxlx46UPh0h2YMlxwxMCoWhYxHtmDllRB5W2G59UKobXdfurEVp1HCtOP_CL8LvpiBpXxcSIJm-UGq1cdapWb8VcOKM_FWSEgrrP4WmP0n1gmUtoXKA5B17ezK_Pg_oSLaCpIqD7C0l2Wg=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":9,
+        "title":"Ristorante Adriatica - Il Palazzo Experimental",
+        "rating":4.3,
+        "reviews":164.0,
+        "type":"Ristorante",
+        "address":"Fondamenta Zattere Al Ponte Lungo, 1412, 30123 Venezia VE, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 22",
+        "place_id":"ChIJ3ahoa8WxfkcRcXXB7PJUbvQ",
+        "gps":{
+            "latitude":45.4304216,
+            "longitude":12.3230389
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/p\/AF1QipN3XpBSRF7arNWoKvhV8zH_EpPcnLwK9CFiGdek=w80-h119-k-no",
+        "original":null
+    },
+    {
+        "position":10,
+        "title":"Ristorante La Caravella",
+        "rating":4.6,
+        "reviews":1271.0,
+        "type":"Ristorante italiano",
+        "address":"Calle Larga XXII Marzo, 2399, 30124 Venezia VE, Italia",
+        "open_state":"Chiuso ⋅ Apre alle ore 18:30",
+        "place_id":"ChIJCzmoINGxfkcRsEahuZ5D2Fs",
+        "gps":{
+            "latitude":45.4329338,
+            "longitude":12.3341427
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxZpneLNDnQ9iOTt8E1E61ue3M8jQPlul86nGT1TSFH11CuoZYzQQjOdZtcc_eve2tGuNQiCfS8j31i0qr0ipqkm7doG2VAs-FD3Pocb2PZkozTlyO6g2y2kAxmSxQg7zLPNB9uDg=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":11,
+        "title":"Robe da Matti Restaurant",
+        "rating":4.5,
+        "reviews":184.0,
+        "type":"Ristorante italiano",
+        "address":"Isola di San Servolo, 1, 30124 Venezia VE, Italia",
+        "open_state":"Chiuso ⋅ Apre alle ore 19",
+        "place_id":"ChIJp1Z06w6vfkcRAvX6BVW7rkg",
+        "gps":{
+            "latitude":45.4174156,
+            "longitude":12.3573945
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/p\/AF1QipMG9HfjnqDcqfyRbK9iZJYcn9L2eth89QUKK_8K=w138-h92-k-no",
+        "original":null
+    },
+    {
+        "position":12,
+        "title":"Casinò di Venezia",
+        "rating":3.9,
+        "reviews":2551.0,
+        "type":"Attrazione turistica",
+        "address":"C. Seconda del Cristo, 2040, 30121 Venezia VE, Italia",
+        "open_state":"Chiuso ⋅ Apre ven alle ore 20:30",
+        "place_id":"ChIJwRQ9rsOxfkcRsPDoEbjDdfo",
+        "gps":{
+            "latitude":45.4426801,
+            "longitude":12.3297883
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/p\/AF1QipN3ZZx3xY-Gpvok15w_UB1cjcomJnVq5yrZWLc_=w175-h92-k-no",
+        "original":null
+    },
+    {
+        "position":13,
+        "title":"Cucina Locale Al Giardino Segreto",
+        "rating":4.2,
+        "reviews":170.0,
+        "type":"Ristorante",
+        "address":"Calle della Provvidenza, 230, 30142 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJyflUNQCtfkcRc3L04ZTgijU",
+        "gps":{
+            "latitude":45.4843296,
+            "longitude":12.4177159
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwg5IXF34dvlZFtqcPOvNc8NtfTQsVABxa2x5g7gCRIkqLF2MjEk4Oxnqk1o8QZ9jDa2wV0tDut-oNjKk1jU9F3PqPHAPx10wtqoFyKX4tAqGQOOBSRjiMBjhnER0eynBDPicFvYA=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":14,
+        "title":"Giardino Piazzale Giustiniani",
+        "rating":3.7,
+        "reviews":11.0,
+        "type":"Giardino pubblico",
+        "address":"Via S. Damiano, 11, 30174 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJv7igjkW0fkcRWM-wZT4LsEY",
+        "gps":{
+            "latitude":45.5003,
+            "longitude":12.2353238
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSz4JgcxgSPTIA3sFOefmixzpmWRsPr8jJmCouj3SUu_KS7NELQN8CXdxR_-Pm9TcQA9u3JUrSnCb-XIIpkaqmvz2Wrd0gKdwC4Oc6sqxfGsB02RvEfCEQ_VopUXM2l_Aa0H604=w163-h92-k-no",
+        "original":null
+    },
+    {
+        "position":15,
+        "title":"Ae Do Marie",
+        "rating":4.4,
+        "reviews":485.0,
+        "type":"Ristorante italiano",
+        "address":"Calle de l'Ogio, 3129, 30122 Castello San Francesco della Vigna VE, Italia",
+        "open_state":"Chiuso ⋅ Apre alle ore 18:30",
+        "place_id":"ChIJFXsk8SWufkcRBU8kXAMc5rc",
+        "gps":{
+            "latitude":45.4369004,
+            "longitude":12.347954
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyXhZ8KfQ6ZCUQmSD5uzySxqP9MoBhBfSyXKg7md84Vd4-3NlrmiTjH5FvhKyVf_JBVkAiEOty3EZP2J0XvFD2qoYMmE2OrbM0r58K-7BoQospuoyhxd7PAvQXhoEN4l3LAPFOC=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":16,
+        "title":"Oriental Bar & Bistrot",
+        "rating":4.4,
+        "reviews":77.0,
+        "type":"Bistrò",
+        "address":"Riva degli Schiavoni, 4149, 30122 Venezia VE, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 00",
+        "place_id":"ChIJ1T9TpBWvfkcRyIOhtQGimBI",
+        "gps":{
+            "latitude":45.4341179,
+            "longitude":12.3452773
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSx9gGRJP6IujWNEK7TYwYe9ZQ4tUGk8hYGOb7G19I37-UnMuae1LO7ZzBzJtM0ddQ7szS5iYceqEa-cQdPkaYsdnMeKhpxNN1WD-rN-sluabxOtulSgupviCEFu9XzyD785a7Eq=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":17,
+        "title":"Savor Restaurant & Bar",
+        "rating":4.3,
+        "reviews":39.0,
+        "type":"Ristorante",
+        "address":"Hotel Indigo, Calle Buccari, 10 c\/o, 30132 Venezia VE, Italia",
+        "open_state":"Chiuso ⋅ Apre alle ore 19",
+        "place_id":"ChIJ_1PlaESvfkcR3D6RNP89Vcc",
+        "gps":{
+            "latitude":45.4263581,
+            "longitude":12.362793
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/p\/AF1QipNnuCo-TpVmXe9KTHflXCFXiGU6N5b1dx4DmYLG=w139-h92-k-no",
+        "original":null
+    },
+    {
+        "position":18,
+        "title":"Il Giardino Segreto di Torcello",
+        "rating":5.0,
+        "reviews":1.0,
+        "type":"Giardino",
+        "address":"Str. della Rosina, 30142 Venezia VE, Italia",
+        "open_state":"Chiuso ⋅ Apre sab alle ore 10",
+        "place_id":"ChIJ4dkODNWtfkcR6V7pVywOzjY",
+        "gps":{
+            "latitude":45.4973342,
+            "longitude":12.4168554
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/p\/AF1QipOcyo9PGyDzi47gQ4_3mdsxHC3jgNFiZoVniHOU=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":19,
+        "title":"Poste Vecie",
+        "rating":4.4,
+        "reviews":1564.0,
+        "type":"Ristorante",
+        "address":"Mercato del pesce di Rialto, Fondamenta de le Prigioni, 544, 30124 Venezia VE, Italia",
+        "open_state":"Chiuso ⋅ Apre alle ore 19",
+        "place_id":"ChIJz5zERzqufkcRfL2aIhSYXoI",
+        "gps":{
+            "latitude":45.4396357,
+            "longitude":12.3335931
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSy3ZPloT9L6lMsuddLefHcgwmaqaLgHCEYc36wZD9SpdSuVgLT9D_le_9Wbt9tAJyEzXOCHtBK7iQIIqs0Pq83aiwAWJ_IgDzZjHKKmohBOxEjk2xfhvBuoDEjnM_GPrvb_2KocPI-eF5hQ=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":20,
+        "title":"Trattoria Andri",
+        "rating":4.6,
+        "reviews":919.0,
+        "type":"Ristorante veneziano",
+        "address":"Via Lepanto, 21, 30126 Venezia VE, Italia",
+        "open_state":"Chiuso ⋅ Apre mar alle ore 19",
+        "place_id":"ChIJE1CqJrCvfkcRzN5KP1ogAGo",
+        "gps":{
+            "latitude":45.4135303,
+            "longitude":12.3700706
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzpoqJVmiNhjqfBXvL1a_2ruz880hfNi7hhmC03EBN0dPz198GYIAuzA1xtpB-AKv17lq4D5qd38yIXbNYbg5JSMpTpBAvYniBsvOfZRzwrF4eCPbBvlCMoeW7DtXIZJS4Ggi8zzw=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":1,
+        "title":"Giardini Beggio",
+        "rating":null,
+        "reviews":null,
+        "type":"Giardino",
+        "address":"Spalti della Rocca, 30033 Noale VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJxYZ4WpXMfkcRUtO_TghP-V0",
+        "gps":{
+            "latitude":45.5493434,
+            "longitude":12.0713072
+        },
+        "link":null,
+        "thumbnail":null,
+        "original":null
+    },
+    {
+        "position":2,
+        "title":"Calle gnognoli",
+        "rating":5.0,
+        "reviews":2.0,
+        "type":"Giardino",
+        "address":"SC della Laguna, 262, 30126 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJEfWG5yalfkcRfnIWUA282Bw",
+        "gps":{
+            "latitude":45.3163507,
+            "longitude":12.3143327
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSx9TU2nOoz2TxtA4PvwIdSPABG-zOoXVYN8h1CDGNLs9SlZuFGBQ_8xzaWWsgIwa1ve-nn8mKCW4hOXZH3nJ85dNoduOsLLkT22GSxYu97ts_V7sW3wXQB0rojQaGyUFKQISTWFLUkHRQY=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":3,
+        "title":"Giardino Pubblico XXV Aprile",
+        "rating":4.1,
+        "reviews":7.0,
+        "type":"Giardino pubblico",
+        "address":"Via XXV Aprile, 11, 30037 Peseggia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJd5KA1FY1eUcRxDa5o574DpI",
+        "gps":{
+            "latitude":45.5626396,
+            "longitude":12.193701
+        },
+        "link":null,
+        "thumbnail":"https:\/\/streetviewpixels-pa.googleapis.com\/v1\/thumbnail?panoid=LHT1bAdzjx2aH5sRRiSnbQ&cb_client=search.gws-prod.gps&w=80&h=92&yaw=41.143555&pitch=0&thumbfov=100",
+        "original":null
+    },
+    {
+        "position":4,
+        "title":"Parco pubblico Diafakri “Nilde Iotti”",
+        "rating":4.5,
+        "reviews":12.0,
+        "type":"Giardino pubblico",
+        "address":"Viale della Resistenza, 22, 30031 Dolo VE, Italia",
+        "open_state":"Ora aperto",
+        "place_id":"ChIJP5IjBZPJfkcRX9ed7qyEYYA",
+        "gps":{
+            "latitude":45.4180214,
+            "longitude":12.0802386
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxfLKpUjusKvJWe1UQvWJwJhjkpfUFJMD9nZMQ9MEueZn2BkO0gIgKn_qTUWpc4QGu8nrkdmFk4f3HFqMlgylADStey4jJtvE50KLXRUM_zEz6xgRFLw2yuyI_2oa8HrH-Nrn3L=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":5,
+        "title":"Area Verde Pubblica Via Friuli",
+        "rating":null,
+        "reviews":null,
+        "type":"Giardino",
+        "address":"Via Friuli, 30174 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJb9ftTnC1fkcRxOrVlLA-2AE",
+        "gps":{
+            "latitude":45.4861808,
+            "longitude":12.2142344
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyTKZnty1paAREZ2oYufyFk16Y0ZnnyLxEDNZpeFh9ls6-yjFyU0a1Y7f3AJmgy-tDx4lri8TJVdQ-u8epCyHAWelreJHkh7-YtFmi6ySTFIywYOLav9tKzSU3Iv9OInhrqy2xZ=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":6,
+        "title":"Oracio Giardini",
+        "rating":5.0,
+        "reviews":7.0,
+        "type":"Giardiniere",
+        "address":"Via E. M. Hemingway, 10, 31030 Casier TV, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 18",
+        "place_id":"ChIJq74J4nJJeUcRDEO5HtQHOfk",
+        "gps":{
+            "latitude":45.6391838,
+            "longitude":12.2923313
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/p\/AF1QipNyu8wHqg8fjyyfUkB5R0fLyKGw6aNfou0dyMOW=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":7,
+        "title":"Giardino Luca Busato",
+        "rating":null,
+        "reviews":null,
+        "type":"Parco",
+        "address":"Via Ronzinella, 172, 31021 Mogliano Veneto TV, Italia",
+        "open_state":"Ora aperto",
+        "place_id":"ChIJwV_HzVFLeUcRCfZwWUCD8is",
+        "gps":{
+            "latitude":45.5536745,
+            "longitude":12.2513058
+        },
+        "link":null,
+        "thumbnail":null,
+        "original":null
+    },
+    {
+        "position":8,
+        "title":"giardini",
+        "rating":3.0,
+        "reviews":2.0,
+        "type":"Giardino pubblico",
+        "address":"Via Presicci, 11, 30031 Dolo VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJE-w95aDJfkcRN58hdq2ILq4",
+        "gps":{
+            "latitude":45.4161267,
+            "longitude":12.0790574
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyiBPhoPb06mwyO7N19v5n9qNIZycfqIkr3v7DV-R6S44Rg-9GL7zFU0UzlCRgxQGaybi-8Mh1pf-MsE670Ow7HU59mCcD59Ml5CEiRwSl3yXVpJRen0T-Cn3qHC5XpOFS_1Zkl=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":9,
+        "title":"Giardino Fabrizio De André",
+        "rating":4.0,
+        "reviews":1.0,
+        "type":"Giardino pubblico",
+        "address":"30030 Fossò VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJXQsXUQTHfkcRVcVr76kochE",
+        "gps":{
+            "latitude":45.386644,
+            "longitude":12.0478348
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzCvoU8AHA1T4OKkyUutn_l61kppVuc_qlgmEoBKfrtgSr-LVGaahHwTaDrxtvpncHbsTOt9MG-4bWj_Vy1oE468iZ3vLntiOrz0b_I-outtkrEA2eFhm9LfuWHgOn-MJRx0_8=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":10,
+        "title":"Giardini Pizzo - Dalmazio e Davide",
+        "rating":5.0,
+        "reviews":7.0,
+        "type":"Giardiniere",
+        "address":"Via Marinai D'Italia, 6, 30034 Mira VE, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 19",
+        "place_id":"ChIJDbYMZSTIfkcRn9PhLjUbhbM",
+        "gps":{
+            "latitude":45.4331413,
+            "longitude":12.135719
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/p\/AF1QipPYpCbAF413VEsUaxsjtRG-4-q1477jEaXPy6ww=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":11,
+        "title":"Giardino Zen",
+        "rating":5.0,
+        "reviews":1.0,
+        "type":"Giardino pubblico",
+        "address":"Galleria Leon Bianco, 12, 30027 San Donà di Piave VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJXfz4MP1WeUcRnFXBZrWGflg",
+        "gps":{
+            "latitude":45.6283016,
+            "longitude":12.5653064
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzEg9jmS7KzmPuB72ltlK1c17bgBwQ4T2B7btSctflxS-l_aN6JC32HWSImxSKGmdnOyqWOlnF-KP1Aok9-jt37_UNt7jkOwOZp3qLm8QqVGAOeQdLCCopHrqjQVfpTniAnbhE3=w80-h142-k-no",
+        "original":null
+    },
+    {
+        "position":12,
+        "title":"Giardino delle Sculture di Carlo Scarpa",
+        "rating":4.6,
+        "reviews":5.0,
+        "type":"Giardino",
+        "address":"30122 Venezia VE, Italia",
+        "open_state":"Temporarily closed",
+        "place_id":"ChIJk9A4KjGufkcRXmtsIJYOQ1I",
+        "gps":{
+            "latitude":45.4301444,
+            "longitude":12.3587343
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxmotrKNqbKCIF2Mgrdt78BGHUR-bY3BXWgzpAt2AsJ-uYc5XvYKacjfVNniWjdA7la0cieQPrhuRUdDMRJ_E2vmQ3cYhzy6nua9pHDzZwm4U9JVW6TN6nITusOi3j2tX5vwCy6=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":13,
+        "title":"Grande Quercia",
+        "rating":null,
+        "reviews":null,
+        "type":"Giardino",
+        "address":"Via G. Sozzi, 10, 31021 Mogliano Veneto TV, Italia",
+        "open_state":null,
+        "place_id":"ChIJWb1ruOlLeUcRjUU75Bs08lo",
+        "gps":{
+            "latitude":45.5651495,
+            "longitude":12.255527
+        },
+        "link":null,
+        "thumbnail":"https:\/\/streetviewpixels-pa.googleapis.com\/v1\/thumbnail?panoid=Vo-Hn5h1UPBHIyFopJC2fw&cb_client=search.gws-prod.gps&w=80&h=92&yaw=345.2443&pitch=0&thumbfov=100",
+        "original":null
+    },
+    {
+        "position":14,
+        "title":"Giardino Pubblico di Via Cav.di Vittorio Veneto",
+        "rating":3.0,
+        "reviews":2.0,
+        "type":"Giardino pubblico",
+        "address":"30030 Peseggia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJJ3ekTnI1eUcR6xdVT9dBxSs",
+        "gps":{
+            "latitude":45.560935,
+            "longitude":12.1857686
+        },
+        "link":null,
+        "thumbnail":"https:\/\/streetviewpixels-pa.googleapis.com\/v1\/thumbnail?panoid=fyOIZkLhT6T0anvhUxJNjg&cb_client=search.gws-prod.gps&w=80&h=92&yaw=166.45833&pitch=0&thumbfov=100",
+        "original":null
+    },
+    {
+        "position":15,
+        "title":"giardino Centro Nijs",
+        "rating":null,
+        "reviews":null,
+        "type":"Giardino",
+        "address":"Via Equilia, 30013 Cavallino-Treporti VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJIcaiCwCrfkcRt3jJ12Zamvc",
+        "gps":{
+            "latitude":45.4837329,
+            "longitude":12.5513045
+        },
+        "link":null,
+        "thumbnail":"https:\/\/streetviewpixels-pa.googleapis.com\/v1\/thumbnail?panoid=fv75uuQHyZ_Iyit08I8iEg&cb_client=search.gws-prod.gps&w=80&h=92&yaw=22.6918&pitch=0&thumbfov=100",
+        "original":null
+    },
+    {
+        "position":16,
+        "title":"Parchetto di Leo",
+        "rating":5.0,
+        "reviews":3.0,
+        "type":"Giardino",
+        "address":"30036 Veternigo VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJfQ6A3HzNfkcRbAJU0zfvajw",
+        "gps":{
+            "latitude":45.5198537,
+            "longitude":12.0557003
+        },
+        "link":null,
+        "thumbnail":"https:\/\/streetviewpixels-pa.googleapis.com\/v1\/thumbnail?panoid=absDI60ylO8NtygUBOb6bg&cb_client=search.gws-prod.gps&w=80&h=92&yaw=103.09184&pitch=0&thumbfov=100",
+        "original":null
+    },
+    {
+        "position":17,
+        "title":"Parco giochi",
+        "rating":5.0,
+        "reviews":1.0,
+        "type":"Giardino",
+        "address":"Via Altiero Spinelli, 22, 30030 Salzano VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJAR6HcgDLfkcRcgr7kGS8nuw",
+        "gps":{
+            "latitude":45.5266568,
+            "longitude":12.1077748
+        },
+        "link":null,
+        "thumbnail":"https:\/\/streetviewpixels-pa.googleapis.com\/v1\/thumbnail?panoid=6TlaaBNHajPIRlhFbmJLkg&cb_client=search.gws-prod.gps&w=80&h=92&yaw=353.12442&pitch=0&thumbfov=100",
+        "original":null
+    },
+    {
+        "position":18,
+        "title":"Giardino del Milite Ignoto",
+        "rating":null,
+        "reviews":null,
+        "type":"Giardino",
+        "address":"Via Terraglio, 3, 31021 Mogliano Veneto TV, Italia",
+        "open_state":null,
+        "place_id":"ChIJ0zOOWfJLeUcRhd7jCEP_aeI",
+        "gps":{
+            "latitude":45.5596637,
+            "longitude":12.2352294
+        },
+        "link":null,
+        "thumbnail":"https:\/\/streetviewpixels-pa.googleapis.com\/v1\/thumbnail?panoid=atFswifeZipvHqVV8d338A&cb_client=search.gws-prod.gps&w=80&h=92&yaw=109.9801&pitch=0&thumbfov=100",
+        "original":null
+    },
+    {
+        "position":19,
+        "title":"Ristorante L'Ombra Giusta",
+        "rating":4.0,
+        "reviews":739.0,
+        "type":"Giardino",
+        "address":"Via del Gazzato, 20, 30174 Venezia VE, Italia",
+        "open_state":"Chiuso ⋅ Apre mar alle ore 12",
+        "place_id":"ChIJE54YFJm1fkcR3437VTHVJfU",
+        "gps":{
+            "latitude":45.5039967,
+            "longitude":12.231245
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/p\/AF1QipOajeKI1tmWo8zeCgcVgx8s4o1u7A9ykgoMGw2W=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":20,
+        "title":"Orti Sociali",
+        "rating":5.0,
+        "reviews":1.0,
+        "type":"Giardino",
+        "address":"Via Risorgimento, 168, 30034 Mira VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJm24HPwC3fkcR2qcg6l6ppVE",
+        "gps":{
+            "latitude":45.4371222,
+            "longitude":12.1574681
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzKe0A-a6paumQ9jnolxzUm6d_2YrmJPphi8DleBcGCFitOPn7MB7pU9JHe7fH0Hyh-W7xFYeFqUtEtAaA-CG_HMGMDx03bNsiGiLnjnf_cHE1AQv-t_6lPfWSCeJdNfnuBJGa1vYrgncQU=w206-h92-k-no",
+        "original":null
+    }
+]

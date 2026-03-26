@@ -1,0 +1,3401 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0eb26827e7eafe0264e12acc6677c786 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0eb26827e7eafe0264e12acc6677c786" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0eb26827e7eafe0264e12acc6677c786 = L.map(
+                "map_0eb26827e7eafe0264e12acc6677c786",
+                {
+                    center: [45.44572321199998, 12.324254140000003],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ad34f66c00ed5fbc0cdbf0fa54b01251 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_ad34f66c00ed5fbc0cdbf0fa54b01251.addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+            var circle_marker_d4fe033308189beea3dc9d82ead7084e = L.circleMarker(
+                [45.4382983, 12.3206545],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_6e976cb535e5764b24acfbee96e407e4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_448e543ac5157c94ccf69f6fc9ac5e31 = $(`<div id="html_448e543ac5157c94ccf69f6fc9ac5e31" style="width: 100.0%; height: 100.0%;">Giardini Papadopoli</div>`)[0];
+                popup_6e976cb535e5764b24acfbee96e407e4.setContent(html_448e543ac5157c94ccf69f6fc9ac5e31);
+            
+        
+
+        circle_marker_d4fe033308189beea3dc9d82ead7084e.bindPopup(popup_6e976cb535e5764b24acfbee96e407e4)
+        ;
+
+        
+    
+    
+            circle_marker_d4fe033308189beea3dc9d82ead7084e.bindTooltip(
+                `<div>
+                     Giardini Papadopoli
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bdb85c56adbe87cc2b056c91d6bde655 = L.circleMarker(
+                [45.4335868, 12.325755899999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_2007dac5fd7f9bd0a4394223cc28edb2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d298b8874b77723aedd728f9191d8521 = $(`<div id="html_d298b8874b77723aedd728f9191d8521" style="width: 100.0%; height: 100.0%;">Giardini di Ca' Rezzonico</div>`)[0];
+                popup_2007dac5fd7f9bd0a4394223cc28edb2.setContent(html_d298b8874b77723aedd728f9191d8521);
+            
+        
+
+        circle_marker_bdb85c56adbe87cc2b056c91d6bde655.bindPopup(popup_2007dac5fd7f9bd0a4394223cc28edb2)
+        ;
+
+        
+    
+    
+            circle_marker_bdb85c56adbe87cc2b056c91d6bde655.bindTooltip(
+                `<div>
+                     Giardini di Ca' Rezzonico
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c289081afc3d57fd79c2da3b3cf5fb88 = L.circleMarker(
+                [45.4324259, 12.317680099999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_e3883dbff7a07dc1d1b0080e7a1658b8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f23bdb16121f9da54a6eaadafe8759b7 = $(`<div id="html_f23bdb16121f9da54a6eaadafe8759b7" style="width: 100.0%; height: 100.0%;">Park in Fondamenta de la Pescaria</div>`)[0];
+                popup_e3883dbff7a07dc1d1b0080e7a1658b8.setContent(html_f23bdb16121f9da54a6eaadafe8759b7);
+            
+        
+
+        circle_marker_c289081afc3d57fd79c2da3b3cf5fb88.bindPopup(popup_e3883dbff7a07dc1d1b0080e7a1658b8)
+        ;
+
+        
+    
+    
+            circle_marker_c289081afc3d57fd79c2da3b3cf5fb88.bindTooltip(
+                `<div>
+                     Park in Fondamenta de la Pescaria
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4ffe82aa6dc32e9a1b9019157e9e5426 = L.circleMarker(
+                [45.4329859, 12.3382939],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_5414bc867315b113860b1364b041d9ba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce14a8108d56ea4f5175d9590a62568f = $(`<div id="html_ce14a8108d56ea4f5175d9590a62568f" style="width: 100.0%; height: 100.0%;">Royal Garden</div>`)[0];
+                popup_5414bc867315b113860b1364b041d9ba.setContent(html_ce14a8108d56ea4f5175d9590a62568f);
+            
+        
+
+        circle_marker_4ffe82aa6dc32e9a1b9019157e9e5426.bindPopup(popup_5414bc867315b113860b1364b041d9ba)
+        ;
+
+        
+    
+    
+            circle_marker_4ffe82aa6dc32e9a1b9019157e9e5426.bindTooltip(
+                `<div>
+                     Royal Garden
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e311b0170114511b66905ab094d852a9 = L.circleMarker(
+                [45.430082999999996, 12.3553239],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_b4f97e11aaf56c05b4192d862584fe76 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1fb6c8d52e8ada36cfd6ee7325dbeb20 = $(`<div id="html_1fb6c8d52e8ada36cfd6ee7325dbeb20" style="width: 100.0%; height: 100.0%;">Giardini Napoleonici</div>`)[0];
+                popup_b4f97e11aaf56c05b4192d862584fe76.setContent(html_1fb6c8d52e8ada36cfd6ee7325dbeb20);
+            
+        
+
+        circle_marker_e311b0170114511b66905ab094d852a9.bindPopup(popup_b4f97e11aaf56c05b4192d862584fe76)
+        ;
+
+        
+    
+    
+            circle_marker_e311b0170114511b66905ab094d852a9.bindTooltip(
+                `<div>
+                     Giardini Napoleonici
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9826510a017f730a2c60ab96e4189c7c = L.circleMarker(
+                [45.4314603, 12.352596799999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_dea52f43e681c9e319345a59b07fbd4b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c48faeada846320313bac45262f389e5 = $(`<div id="html_c48faeada846320313bac45262f389e5" style="width: 100.0%; height: 100.0%;">Giardini della Marinaressa</div>`)[0];
+                popup_dea52f43e681c9e319345a59b07fbd4b.setContent(html_c48faeada846320313bac45262f389e5);
+            
+        
+
+        circle_marker_9826510a017f730a2c60ab96e4189c7c.bindPopup(popup_dea52f43e681c9e319345a59b07fbd4b)
+        ;
+
+        
+    
+    
+            circle_marker_9826510a017f730a2c60ab96e4189c7c.bindTooltip(
+                `<div>
+                     Giardini della Marinaressa
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3b482f36b21be2fb049115d4dde0de3f = L.circleMarker(
+                [45.4567653, 12.357757399999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_1b04a9e98f10df734794580842f7999d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69d7e53ea76e9b93d1539f520d489a6b = $(`<div id="html_69d7e53ea76e9b93d1539f520d489a6b" style="width: 100.0%; height: 100.0%;">Parco Navagero</div>`)[0];
+                popup_1b04a9e98f10df734794580842f7999d.setContent(html_69d7e53ea76e9b93d1539f520d489a6b);
+            
+        
+
+        circle_marker_3b482f36b21be2fb049115d4dde0de3f.bindPopup(popup_1b04a9e98f10df734794580842f7999d)
+        ;
+
+        
+    
+    
+            circle_marker_3b482f36b21be2fb049115d4dde0de3f.bindTooltip(
+                `<div>
+                     Parco Navagero
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bf5e56318628c1f7ce56b1df1a7fb879 = L.circleMarker(
+                [45.427442199999994, 12.3587504],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_7f17ff1fc16d78c0d33f51407ed195d6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fa73e306210b3496e77adf452ffc5a65 = $(`<div id="html_fa73e306210b3496e77adf452ffc5a65" style="width: 100.0%; height: 100.0%;">Viale Giardini Pubblici</div>`)[0];
+                popup_7f17ff1fc16d78c0d33f51407ed195d6.setContent(html_fa73e306210b3496e77adf452ffc5a65);
+            
+        
+
+        circle_marker_bf5e56318628c1f7ce56b1df1a7fb879.bindPopup(popup_7f17ff1fc16d78c0d33f51407ed195d6)
+        ;
+
+        
+    
+    
+            circle_marker_bf5e56318628c1f7ce56b1df1a7fb879.bindTooltip(
+                `<div>
+                     Viale Giardini Pubblici
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b06eaf97d76df6215294c1b5ea4d26cf = L.circleMarker(
+                [45.4287722, 12.3580806],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_c4f0436c4ac6305e22fdd3b75613d2da = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5d53816b5d8fa93337f6f0f7e82370bd = $(`<div id="html_5d53816b5d8fa93337f6f0f7e82370bd" style="width: 100.0%; height: 100.0%;">Giardini della Biennale</div>`)[0];
+                popup_c4f0436c4ac6305e22fdd3b75613d2da.setContent(html_5d53816b5d8fa93337f6f0f7e82370bd);
+            
+        
+
+        circle_marker_b06eaf97d76df6215294c1b5ea4d26cf.bindPopup(popup_c4f0436c4ac6305e22fdd3b75613d2da)
+        ;
+
+        
+    
+    
+            circle_marker_b06eaf97d76df6215294c1b5ea4d26cf.bindTooltip(
+                `<div>
+                     Giardini della Biennale
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d1b9b766151072d930344e1608574735 = L.circleMarker(
+                [45.4407919, 12.318652799999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_aa0c80f98ffbcbf2c78f276d324bb8f3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1266bba89b7e506a0b08de2409f120de = $(`<div id="html_1266bba89b7e506a0b08de2409f120de" style="width: 100.0%; height: 100.0%;">Station Garden</div>`)[0];
+                popup_aa0c80f98ffbcbf2c78f276d324bb8f3.setContent(html_1266bba89b7e506a0b08de2409f120de);
+            
+        
+
+        circle_marker_d1b9b766151072d930344e1608574735.bindPopup(popup_aa0c80f98ffbcbf2c78f276d324bb8f3)
+        ;
+
+        
+    
+    
+            circle_marker_d1b9b766151072d930344e1608574735.bindTooltip(
+                `<div>
+                     Station Garden
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ff23e7889abc0550b50cdfc15ce69dee = L.circleMarker(
+                [45.4309018, 12.3540526],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_30055d38c2c1e5b4e2c0ac98f5d18392 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_51118605b1311aa5886459c53073f3c7 = $(`<div id="html_51118605b1311aa5886459c53073f3c7" style="width: 100.0%; height: 100.0%;">Park Giardini Marinaressa</div>`)[0];
+                popup_30055d38c2c1e5b4e2c0ac98f5d18392.setContent(html_51118605b1311aa5886459c53073f3c7);
+            
+        
+
+        circle_marker_ff23e7889abc0550b50cdfc15ce69dee.bindPopup(popup_30055d38c2c1e5b4e2c0ac98f5d18392)
+        ;
+
+        
+    
+    
+            circle_marker_ff23e7889abc0550b50cdfc15ce69dee.bindTooltip(
+                `<div>
+                     Park Giardini Marinaressa
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0bb700f51518f3f2d932e2eada78f785 = L.circleMarker(
+                [45.43676, 12.330411],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_0cad1ae50bf2a887923a03d406a177c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_776e38da79ab2f8dec26598898ce822c = $(`<div id="html_776e38da79ab2f8dec26598898ce822c" style="width: 100.0%; height: 100.0%;">Campiello delle Erbe</div>`)[0];
+                popup_0cad1ae50bf2a887923a03d406a177c8.setContent(html_776e38da79ab2f8dec26598898ce822c);
+            
+        
+
+        circle_marker_0bb700f51518f3f2d932e2eada78f785.bindPopup(popup_0cad1ae50bf2a887923a03d406a177c8)
+        ;
+
+        
+    
+    
+            circle_marker_0bb700f51518f3f2d932e2eada78f785.bindTooltip(
+                `<div>
+                     Campiello delle Erbe
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c00d91606095774c2522b45a7cf200fe = L.circleMarker(
+                [45.432983899999996, 12.338291499999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_9bba7d1a12e9315d9c585ec29bdbd8db = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2f454051b9ce130478cd7eb7014d6508 = $(`<div id="html_2f454051b9ce130478cd7eb7014d6508" style="width: 100.0%; height: 100.0%;">Giardini Reali</div>`)[0];
+                popup_9bba7d1a12e9315d9c585ec29bdbd8db.setContent(html_2f454051b9ce130478cd7eb7014d6508);
+            
+        
+
+        circle_marker_c00d91606095774c2522b45a7cf200fe.bindPopup(popup_9bba7d1a12e9315d9c585ec29bdbd8db)
+        ;
+
+        
+    
+    
+            circle_marker_c00d91606095774c2522b45a7cf200fe.bindTooltip(
+                `<div>
+                     Giardini Reali
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_117ab957551069175fed8724dfa70b13 = L.circleMarker(
+                [45.460308, 12.349213599999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_2987102e5dfea06c547a1ac50540fbb8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_72b2583d80b6ce65299865a9e9752db8 = $(`<div id="html_72b2583d80b6ce65299865a9e9752db8" style="width: 100.0%; height: 100.0%;">Parco degli Angeli</div>`)[0];
+                popup_2987102e5dfea06c547a1ac50540fbb8.setContent(html_72b2583d80b6ce65299865a9e9752db8);
+            
+        
+
+        circle_marker_117ab957551069175fed8724dfa70b13.bindPopup(popup_2987102e5dfea06c547a1ac50540fbb8)
+        ;
+
+        
+    
+    
+            circle_marker_117ab957551069175fed8724dfa70b13.bindTooltip(
+                `<div>
+                     Parco degli Angeli
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c34a5f76b3b9336ac50b55dd292a0538 = L.circleMarker(
+                [45.438493699999995, 12.330351199999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_6be374ee619066ccc954a17027727bf1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_53c9b15e529eb8b8519d9801f436a490 = $(`<div id="html_53c9b15e529eb8b8519d9801f436a490" style="width: 100.0%; height: 100.0%;">RaniSa Tara Palace</div>`)[0];
+                popup_6be374ee619066ccc954a17027727bf1.setContent(html_53c9b15e529eb8b8519d9801f436a490);
+            
+        
+
+        circle_marker_c34a5f76b3b9336ac50b55dd292a0538.bindPopup(popup_6be374ee619066ccc954a17027727bf1)
+        ;
+
+        
+    
+    
+            circle_marker_c34a5f76b3b9336ac50b55dd292a0538.bindTooltip(
+                `<div>
+                     RaniSa Tara Palace
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_07173ac48ae4f3964aabe9b4f204e2ef = L.circleMarker(
+                [45.4269404, 12.3591103],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_f44fc87f1d329c9b163034a0550c69c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1710756eec9a2168184daa4327641dd3 = $(`<div id="html_1710756eec9a2168184daa4327641dd3" style="width: 100.0%; height: 100.0%;">Parco delle Rimembranze</div>`)[0];
+                popup_f44fc87f1d329c9b163034a0550c69c3.setContent(html_1710756eec9a2168184daa4327641dd3);
+            
+        
+
+        circle_marker_07173ac48ae4f3964aabe9b4f204e2ef.bindPopup(popup_f44fc87f1d329c9b163034a0550c69c3)
+        ;
+
+        
+    
+    
+            circle_marker_07173ac48ae4f3964aabe9b4f204e2ef.bindTooltip(
+                `<div>
+                     Parco delle Rimembranze
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c9bffe82c7d7d53147936ab6e2bf6017 = L.circleMarker(
+                [45.4342407, 12.341187],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_2832ee4026e05a29ef4d161f8e233b7e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_93a3d2d929c763deaadd35142bf69296 = $(`<div id="html_93a3d2d929c763deaadd35142bf69296" style="width: 100.0%; height: 100.0%;">Santa Scolastica</div>`)[0];
+                popup_2832ee4026e05a29ef4d161f8e233b7e.setContent(html_93a3d2d929c763deaadd35142bf69296);
+            
+        
+
+        circle_marker_c9bffe82c7d7d53147936ab6e2bf6017.bindPopup(popup_2832ee4026e05a29ef4d161f8e233b7e)
+        ;
+
+        
+    
+    
+            circle_marker_c9bffe82c7d7d53147936ab6e2bf6017.bindTooltip(
+                `<div>
+                     Santa Scolastica
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_40686ca49d747f1a3f9b786b5306c3a5 = L.circleMarker(
+                [45.416466299999996, 12.377246699999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_67e24707faca05cd8aeb981b05ae5c78 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8ee372a465df1592b2f87d9d33fb32f2 = $(`<div id="html_8ee372a465df1592b2f87d9d33fb32f2" style="width: 100.0%; height: 100.0%;">Public playground</div>`)[0];
+                popup_67e24707faca05cd8aeb981b05ae5c78.setContent(html_8ee372a465df1592b2f87d9d33fb32f2);
+            
+        
+
+        circle_marker_40686ca49d747f1a3f9b786b5306c3a5.bindPopup(popup_67e24707faca05cd8aeb981b05ae5c78)
+        ;
+
+        
+    
+    
+            circle_marker_40686ca49d747f1a3f9b786b5306c3a5.bindTooltip(
+                `<div>
+                     Public playground
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1bf236a6c1297b9e666afa58c153e339 = L.circleMarker(
+                [45.4573787, 12.353786699999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_e59beba82ee489194778d72018810208 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cedd701800d633e33ca6f422b19bfa5a = $(`<div id="html_cedd701800d633e33ca6f422b19bfa5a" style="width: 100.0%; height: 100.0%;">Piazza</div>`)[0];
+                popup_e59beba82ee489194778d72018810208.setContent(html_cedd701800d633e33ca6f422b19bfa5a);
+            
+        
+
+        circle_marker_1bf236a6c1297b9e666afa58c153e339.bindPopup(popup_e59beba82ee489194778d72018810208)
+        ;
+
+        
+    
+    
+            circle_marker_1bf236a6c1297b9e666afa58c153e339.bindTooltip(
+                `<div>
+                     Piazza
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_acff70f8145eb3fd28b87daed625cb66 = L.circleMarker(
+                [45.4318405, 12.3734641],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_c84481eccce1725c0bb4fe34e50f31ff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5252af0bc207994d9907c647efecd3b5 = $(`<div id="html_5252af0bc207994d9907c647efecd3b5" style="width: 100.0%; height: 100.0%;">View to Lido</div>`)[0];
+                popup_c84481eccce1725c0bb4fe34e50f31ff.setContent(html_5252af0bc207994d9907c647efecd3b5);
+            
+        
+
+        circle_marker_acff70f8145eb3fd28b87daed625cb66.bindPopup(popup_c84481eccce1725c0bb4fe34e50f31ff)
+        ;
+
+        
+    
+    
+            circle_marker_acff70f8145eb3fd28b87daed625cb66.bindTooltip(
+                `<div>
+                     View to Lido
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_16ec8c75d6a6cd3402ccb59d7bae27ee = L.circleMarker(
+                [45.4291863, 12.3566989],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_c2aca1993f0edba6ac57e0677bb40f46 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d6907cbe421c96e6fff404cf16e9b3ef = $(`<div id="html_d6907cbe421c96e6fff404cf16e9b3ef" style="width: 100.0%; height: 100.0%;">Öffentlich Brunnen kostenloses Trinkwasser</div>`)[0];
+                popup_c2aca1993f0edba6ac57e0677bb40f46.setContent(html_d6907cbe421c96e6fff404cf16e9b3ef);
+            
+        
+
+        circle_marker_16ec8c75d6a6cd3402ccb59d7bae27ee.bindPopup(popup_c2aca1993f0edba6ac57e0677bb40f46)
+        ;
+
+        
+    
+    
+            circle_marker_16ec8c75d6a6cd3402ccb59d7bae27ee.bindTooltip(
+                `<div>
+                     Öffentlich Brunnen kostenloses Trinkwasser
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ecdf9dbe9b9ed052273073c77dfc00ad = L.circleMarker(
+                [45.43658, 12.3469901],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_68b4e679c03c9f12d855cd282fa34ded = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fe3f5a66732b16e5d8945e84c1ad611f = $(`<div id="html_fe3f5a66732b16e5d8945e84c1ad611f" style="width: 100.0%; height: 100.0%;">Giardino Ordine di Malta</div>`)[0];
+                popup_68b4e679c03c9f12d855cd282fa34ded.setContent(html_fe3f5a66732b16e5d8945e84c1ad611f);
+            
+        
+
+        circle_marker_ecdf9dbe9b9ed052273073c77dfc00ad.bindPopup(popup_68b4e679c03c9f12d855cd282fa34ded)
+        ;
+
+        
+    
+    
+            circle_marker_ecdf9dbe9b9ed052273073c77dfc00ad.bindTooltip(
+                `<div>
+                     Giardino Ordine di Malta
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7c0de0bf5680d98838ae612172544d1c = L.circleMarker(
+                [45.4347133, 12.359084399999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_4ade6e877299c82113f50bce13647222 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6a7647b07827986e573b25fa7de18a57 = $(`<div id="html_6a7647b07827986e573b25fa7de18a57" style="width: 100.0%; height: 100.0%;">Campo San Piero de Casteo</div>`)[0];
+                popup_4ade6e877299c82113f50bce13647222.setContent(html_6a7647b07827986e573b25fa7de18a57);
+            
+        
+
+        circle_marker_7c0de0bf5680d98838ae612172544d1c.bindPopup(popup_4ade6e877299c82113f50bce13647222)
+        ;
+
+        
+    
+    
+            circle_marker_7c0de0bf5680d98838ae612172544d1c.bindTooltip(
+                `<div>
+                     Campo San Piero de Casteo
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d1655e18ab767f619b159dc36dc973c5 = L.circleMarker(
+                [45.440379, 12.315954699999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_09c38c9a0ef7168e7d1d3613436ed4f4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e3c8e390704a02a27c5aa8dd58a0de2f = $(`<div id="html_e3c8e390704a02a27c5aa8dd58a0de2f" style="width: 100.0%; height: 100.0%;">Parco Venezia</div>`)[0];
+                popup_09c38c9a0ef7168e7d1d3613436ed4f4.setContent(html_e3c8e390704a02a27c5aa8dd58a0de2f);
+            
+        
+
+        circle_marker_d1655e18ab767f619b159dc36dc973c5.bindPopup(popup_09c38c9a0ef7168e7d1d3613436ed4f4)
+        ;
+
+        
+    
+    
+            circle_marker_d1655e18ab767f619b159dc36dc973c5.bindTooltip(
+                `<div>
+                     Parco Venezia
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_abd168c1e6ce64059f85d2912e0149d9 = L.circleMarker(
+                [45.437709999999996, 12.3302],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_8c6ee273ec78884bc0a5c07e52839d06 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a4c8486a05566a05174af22fef213e56 = $(`<div id="html_a4c8486a05566a05174af22fef213e56" style="width: 100.0%; height: 100.0%;">Albero dell’ombra</div>`)[0];
+                popup_8c6ee273ec78884bc0a5c07e52839d06.setContent(html_a4c8486a05566a05174af22fef213e56);
+            
+        
+
+        circle_marker_abd168c1e6ce64059f85d2912e0149d9.bindPopup(popup_8c6ee273ec78884bc0a5c07e52839d06)
+        ;
+
+        
+    
+    
+            circle_marker_abd168c1e6ce64059f85d2912e0149d9.bindTooltip(
+                `<div>
+                     Albero dell’ombra
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4b8a7bfbd96f6794717cf76f05dded59 = L.circleMarker(
+                [45.4407388, 12.3146955],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_f21e648f1a4b8c35c92e7359886c6bbf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9016c91e7e8488361dc2a9c077edaa86 = $(`<div id="html_9016c91e7e8488361dc2a9c077edaa86" style="width: 100.0%; height: 100.0%;">Auto parking</div>`)[0];
+                popup_f21e648f1a4b8c35c92e7359886c6bbf.setContent(html_9016c91e7e8488361dc2a9c077edaa86);
+            
+        
+
+        circle_marker_4b8a7bfbd96f6794717cf76f05dded59.bindPopup(popup_f21e648f1a4b8c35c92e7359886c6bbf)
+        ;
+
+        
+    
+    
+            circle_marker_4b8a7bfbd96f6794717cf76f05dded59.bindTooltip(
+                `<div>
+                     Auto parking
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bc0fedb43d238007bac44dc24f9c8b0e = L.circleMarker(
+                [45.4274573, 12.3151257],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_da713c1861ae12e95c977d148702048b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b1dd89d3e87ca60779b3439ecb3f8570 = $(`<div id="html_b1dd89d3e87ca60779b3439ecb3f8570" style="width: 100.0%; height: 100.0%;">Parchetto di Sacca Fisola</div>`)[0];
+                popup_da713c1861ae12e95c977d148702048b.setContent(html_b1dd89d3e87ca60779b3439ecb3f8570);
+            
+        
+
+        circle_marker_bc0fedb43d238007bac44dc24f9c8b0e.bindPopup(popup_da713c1861ae12e95c977d148702048b)
+        ;
+
+        
+    
+    
+            circle_marker_bc0fedb43d238007bac44dc24f9c8b0e.bindTooltip(
+                `<div>
+                     Parchetto di Sacca Fisola
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6718604a286d0a337ad61cae26719974 = L.circleMarker(
+                [45.4232659, 12.3315849],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_0fc26b37d1b03cf27819d91edf01d97a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9ebe32e5a8a0b30a7ec8c2057249217e = $(`<div id="html_9ebe32e5a8a0b30a7ec8c2057249217e" style="width: 100.0%; height: 100.0%;">Giardino comunale</div>`)[0];
+                popup_0fc26b37d1b03cf27819d91edf01d97a.setContent(html_9ebe32e5a8a0b30a7ec8c2057249217e);
+            
+        
+
+        circle_marker_6718604a286d0a337ad61cae26719974.bindPopup(popup_0fc26b37d1b03cf27819d91edf01d97a)
+        ;
+
+        
+    
+    
+            circle_marker_6718604a286d0a337ad61cae26719974.bindTooltip(
+                `<div>
+                     Giardino comunale
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b67fb90dd4bafcc97f4665dcbdbdcc87 = L.circleMarker(
+                [45.443548199999995, 12.324322299999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_2a1da04ed4e1570fe2f9f53c977f605b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_08df7a06251a2ca7027cfd48834ccdd6 = $(`<div id="html_08df7a06251a2ca7027cfd48834ccdd6" style="width: 100.0%; height: 100.0%;">Parco di Palazzo Savorgnan</div>`)[0];
+                popup_2a1da04ed4e1570fe2f9f53c977f605b.setContent(html_08df7a06251a2ca7027cfd48834ccdd6);
+            
+        
+
+        circle_marker_b67fb90dd4bafcc97f4665dcbdbdcc87.bindPopup(popup_2a1da04ed4e1570fe2f9f53c977f605b)
+        ;
+
+        
+    
+    
+            circle_marker_b67fb90dd4bafcc97f4665dcbdbdcc87.bindTooltip(
+                `<div>
+                     Parco di Palazzo Savorgnan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a49625af55e25aa44fbe8483d98720d9 = L.circleMarker(
+                [45.446006999999994, 12.3195037],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_6b65c31217c3cd028a5f3d4705f8410c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_080dfb08bf16371fbb38d6fc00d5e540 = $(`<div id="html_080dfb08bf16371fbb38d6fc00d5e540" style="width: 100.0%; height: 100.0%;">Pregosia</div>`)[0];
+                popup_6b65c31217c3cd028a5f3d4705f8410c.setContent(html_080dfb08bf16371fbb38d6fc00d5e540);
+            
+        
+
+        circle_marker_a49625af55e25aa44fbe8483d98720d9.bindPopup(popup_6b65c31217c3cd028a5f3d4705f8410c)
+        ;
+
+        
+    
+    
+            circle_marker_a49625af55e25aa44fbe8483d98720d9.bindTooltip(
+                `<div>
+                     Pregosia
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_92b932297e695167bbe39cf5d44453d3 = L.circleMarker(
+                [45.4181944, 12.3821076],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_e1f736f8450516550a5b2c344865045a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_847f73d8be4405fa35714eae0e94d797 = $(`<div id="html_847f73d8be4405fa35714eae0e94d797" style="width: 100.0%; height: 100.0%;">Free public beach</div>`)[0];
+                popup_e1f736f8450516550a5b2c344865045a.setContent(html_847f73d8be4405fa35714eae0e94d797);
+            
+        
+
+        circle_marker_92b932297e695167bbe39cf5d44453d3.bindPopup(popup_e1f736f8450516550a5b2c344865045a)
+        ;
+
+        
+    
+    
+            circle_marker_92b932297e695167bbe39cf5d44453d3.bindTooltip(
+                `<div>
+                     Free public beach
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_870b840b3136c87262ef03f5517c9048 = L.circleMarker(
+                [45.4468178, 12.3483646],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_082b219453e65077ef451c15e16c50ac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4466533dc31ca8ca670ea66a9f6b215c = $(`<div id="html_4466533dc31ca8ca670ea66a9f6b215c" style="width: 100.0%; height: 100.0%;">Grave of Igor Stravinsky</div>`)[0];
+                popup_082b219453e65077ef451c15e16c50ac.setContent(html_4466533dc31ca8ca670ea66a9f6b215c);
+            
+        
+
+        circle_marker_870b840b3136c87262ef03f5517c9048.bindPopup(popup_082b219453e65077ef451c15e16c50ac)
+        ;
+
+        
+    
+    
+            circle_marker_870b840b3136c87262ef03f5517c9048.bindTooltip(
+                `<div>
+                     Grave of Igor Stravinsky
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3e5e2d6dece62cd07425a9d45c1d55b2 = L.circleMarker(
+                [45.4319828, 12.3325205],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_b3514e085c4ede08eb819dce9c00a2ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_45b48988df5f10e49aee5454955844d7 = $(`<div id="html_45b48988df5f10e49aee5454955844d7" style="width: 100.0%; height: 100.0%;">rio de Santa Maria Zobenigo</div>`)[0];
+                popup_b3514e085c4ede08eb819dce9c00a2ec.setContent(html_45b48988df5f10e49aee5454955844d7);
+            
+        
+
+        circle_marker_3e5e2d6dece62cd07425a9d45c1d55b2.bindPopup(popup_b3514e085c4ede08eb819dce9c00a2ec)
+        ;
+
+        
+    
+    
+            circle_marker_3e5e2d6dece62cd07425a9d45c1d55b2.bindTooltip(
+                `<div>
+                     rio de Santa Maria Zobenigo
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e20b24f2204a97c59eaa752570ef934e = L.circleMarker(
+                [45.4480358, 12.3277307],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_a54bf7d98e2805f047cde3ad122c3ec4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc84babdc1bf646f99a03983e230d51f = $(`<div id="html_cc84babdc1bf646f99a03983e230d51f" style="width: 100.0%; height: 100.0%;">Parco di Villa Groggia</div>`)[0];
+                popup_a54bf7d98e2805f047cde3ad122c3ec4.setContent(html_cc84babdc1bf646f99a03983e230d51f);
+            
+        
+
+        circle_marker_e20b24f2204a97c59eaa752570ef934e.bindPopup(popup_a54bf7d98e2805f047cde3ad122c3ec4)
+        ;
+
+        
+    
+    
+            circle_marker_e20b24f2204a97c59eaa752570ef934e.bindTooltip(
+                `<div>
+                     Parco di Villa Groggia
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4e9b19addbbcab324a4e345963103a93 = L.circleMarker(
+                [45.456915099999996, 12.3564017],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_7b2bbeafff20de02c4ff83e46b6a0547 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7e8dd80df3cf414b926d71b3756ba622 = $(`<div id="html_7e8dd80df3cf414b926d71b3756ba622" style="width: 100.0%; height: 100.0%;">Giardino Margherita Ripamonti</div>`)[0];
+                popup_7b2bbeafff20de02c4ff83e46b6a0547.setContent(html_7e8dd80df3cf414b926d71b3756ba622);
+            
+        
+
+        circle_marker_4e9b19addbbcab324a4e345963103a93.bindPopup(popup_7b2bbeafff20de02c4ff83e46b6a0547)
+        ;
+
+        
+    
+    
+            circle_marker_4e9b19addbbcab324a4e345963103a93.bindTooltip(
+                `<div>
+                     Giardino Margherita Ripamonti
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_26c95ba1ed536948c3763dfd6170cfb1 = L.circleMarker(
+                [45.432837199999994, 12.349883499999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_10cb57cc5af0dc76f7570ba06640ff30 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_18753408f62147cfe6c4674c1de861d8 = $(`<div id="html_18753408f62147cfe6c4674c1de861d8" style="width: 100.0%; height: 100.0%;">Campiello della malvasia</div>`)[0];
+                popup_10cb57cc5af0dc76f7570ba06640ff30.setContent(html_18753408f62147cfe6c4674c1de861d8);
+            
+        
+
+        circle_marker_26c95ba1ed536948c3763dfd6170cfb1.bindPopup(popup_10cb57cc5af0dc76f7570ba06640ff30)
+        ;
+
+        
+    
+    
+            circle_marker_26c95ba1ed536948c3763dfd6170cfb1.bindTooltip(
+                `<div>
+                     Campiello della malvasia
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c43dd1a3d8a70a6f2158b49e7f099c5e = L.circleMarker(
+                [45.4743271, 12.276037599999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_acac71e316b655734d265ecac2f327a8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a5aef11b83ee3fe2efa63c4d2b29edde = $(`<div id="html_a5aef11b83ee3fe2efa63c4d2b29edde" style="width: 100.0%; height: 100.0%;">Parco San Giuliano</div>`)[0];
+                popup_acac71e316b655734d265ecac2f327a8.setContent(html_a5aef11b83ee3fe2efa63c4d2b29edde);
+            
+        
+
+        circle_marker_c43dd1a3d8a70a6f2158b49e7f099c5e.bindPopup(popup_acac71e316b655734d265ecac2f327a8)
+        ;
+
+        
+    
+    
+            circle_marker_c43dd1a3d8a70a6f2158b49e7f099c5e.bindTooltip(
+                `<div>
+                     Parco San Giuliano
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_71e5b7b44986eee7ff9ec7c8e4fbeff9 = L.circleMarker(
+                [45.4270083, 12.320387799999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_2b1700f226002adef5f8630a807164c2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca23b69250feb2946ab7e22a4834f5f2 = $(`<div id="html_ca23b69250feb2946ab7e22a4834f5f2" style="width: 100.0%; height: 100.0%;">Fortuny gardens</div>`)[0];
+                popup_2b1700f226002adef5f8630a807164c2.setContent(html_ca23b69250feb2946ab7e22a4834f5f2);
+            
+        
+
+        circle_marker_71e5b7b44986eee7ff9ec7c8e4fbeff9.bindPopup(popup_2b1700f226002adef5f8630a807164c2)
+        ;
+
+        
+    
+    
+            circle_marker_71e5b7b44986eee7ff9ec7c8e4fbeff9.bindTooltip(
+                `<div>
+                     Fortuny gardens
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8b9a78240d48aaa3c07e668e37bc885a = L.circleMarker(
+                [45.4414662, 12.3152595],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_7a3bd1bc9d49e4e153d5f6b7ff776f96 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7bbb54eac0006f01bb51fb6ced1ad79b = $(`<div id="html_7bbb54eac0006f01bb51fb6ced1ad79b" style="width: 100.0%; height: 100.0%;">No gravity paemrk</div>`)[0];
+                popup_7a3bd1bc9d49e4e153d5f6b7ff776f96.setContent(html_7bbb54eac0006f01bb51fb6ced1ad79b);
+            
+        
+
+        circle_marker_8b9a78240d48aaa3c07e668e37bc885a.bindPopup(popup_7a3bd1bc9d49e4e153d5f6b7ff776f96)
+        ;
+
+        
+    
+    
+            circle_marker_8b9a78240d48aaa3c07e668e37bc885a.bindTooltip(
+                `<div>
+                     No gravity paemrk
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_09578df01e338fb88c1edd3840db708b = L.circleMarker(
+                [45.428697299999996, 12.3441575],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_1cf85d1396369bf75825423398e5e1d2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_202bcbe07735b300e263f098fb9a46b9 = $(`<div id="html_202bcbe07735b300e263f098fb9a46b9" style="width: 100.0%; height: 100.0%;">Labirinto Borges</div>`)[0];
+                popup_1cf85d1396369bf75825423398e5e1d2.setContent(html_202bcbe07735b300e263f098fb9a46b9);
+            
+        
+
+        circle_marker_09578df01e338fb88c1edd3840db708b.bindPopup(popup_1cf85d1396369bf75825423398e5e1d2)
+        ;
+
+        
+    
+    
+            circle_marker_09578df01e338fb88c1edd3840db708b.bindTooltip(
+                `<div>
+                     Labirinto Borges
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6a48b27bccf370ead398d90300587829 = L.circleMarker(
+                [45.4319828, 12.3325205],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_e17f03f99c91ec2a0066338498a2d6f9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e2325d8d1b7fb8b7ec375c3bab2776b1 = $(`<div id="html_e2325d8d1b7fb8b7ec375c3bab2776b1" style="width: 100.0%; height: 100.0%;">rio de Santa Maria Zobenigo</div>`)[0];
+                popup_e17f03f99c91ec2a0066338498a2d6f9.setContent(html_e2325d8d1b7fb8b7ec375c3bab2776b1);
+            
+        
+
+        circle_marker_6a48b27bccf370ead398d90300587829.bindPopup(popup_e17f03f99c91ec2a0066338498a2d6f9)
+        ;
+
+        
+    
+    
+            circle_marker_6a48b27bccf370ead398d90300587829.bindTooltip(
+                `<div>
+                     rio de Santa Maria Zobenigo
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4dd1cea86d78c6e4ee1d21f88000ccc9 = L.circleMarker(
+                [45.4480358, 12.3277307],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_5c5f1a8a089b8d6ace2bd4b70b7e8c3a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dcfd1e4028c249c8f83f6a5bd112ecf3 = $(`<div id="html_dcfd1e4028c249c8f83f6a5bd112ecf3" style="width: 100.0%; height: 100.0%;">Parco di Villa Groggia</div>`)[0];
+                popup_5c5f1a8a089b8d6ace2bd4b70b7e8c3a.setContent(html_dcfd1e4028c249c8f83f6a5bd112ecf3);
+            
+        
+
+        circle_marker_4dd1cea86d78c6e4ee1d21f88000ccc9.bindPopup(popup_5c5f1a8a089b8d6ace2bd4b70b7e8c3a)
+        ;
+
+        
+    
+    
+            circle_marker_4dd1cea86d78c6e4ee1d21f88000ccc9.bindTooltip(
+                `<div>
+                     Parco di Villa Groggia
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0a6a5c6167161073520a891d7e3159f5 = L.circleMarker(
+                [45.456915099999996, 12.3564017],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_f45e3801cc4b101f1e5893bb806a7fa1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cb5688b3e9f8260364345d2e65833687 = $(`<div id="html_cb5688b3e9f8260364345d2e65833687" style="width: 100.0%; height: 100.0%;">Giardino Margherita Ripamonti</div>`)[0];
+                popup_f45e3801cc4b101f1e5893bb806a7fa1.setContent(html_cb5688b3e9f8260364345d2e65833687);
+            
+        
+
+        circle_marker_0a6a5c6167161073520a891d7e3159f5.bindPopup(popup_f45e3801cc4b101f1e5893bb806a7fa1)
+        ;
+
+        
+    
+    
+            circle_marker_0a6a5c6167161073520a891d7e3159f5.bindTooltip(
+                `<div>
+                     Giardino Margherita Ripamonti
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_07a9f5d5ad5a96e2b87f7d43aa9adc82 = L.circleMarker(
+                [45.432837199999994, 12.349883499999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_ce3e40bbe14ec2e34f550b00ee6ddd08 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_84892130ff593dec44eade6c6ee3ab2f = $(`<div id="html_84892130ff593dec44eade6c6ee3ab2f" style="width: 100.0%; height: 100.0%;">Campiello della malvasia</div>`)[0];
+                popup_ce3e40bbe14ec2e34f550b00ee6ddd08.setContent(html_84892130ff593dec44eade6c6ee3ab2f);
+            
+        
+
+        circle_marker_07a9f5d5ad5a96e2b87f7d43aa9adc82.bindPopup(popup_ce3e40bbe14ec2e34f550b00ee6ddd08)
+        ;
+
+        
+    
+    
+            circle_marker_07a9f5d5ad5a96e2b87f7d43aa9adc82.bindTooltip(
+                `<div>
+                     Campiello della malvasia
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_613daa81826394c9377dde569be2da70 = L.circleMarker(
+                [45.4385488, 12.331452599999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_0b184acb670de41d8838d4588e27daeb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ae0a80545d78e0b1abcf98a61e070c2f = $(`<div id="html_ae0a80545d78e0b1abcf98a61e070c2f" style="width: 100.0%; height: 100.0%;">Albero di mimosa</div>`)[0];
+                popup_0b184acb670de41d8838d4588e27daeb.setContent(html_ae0a80545d78e0b1abcf98a61e070c2f);
+            
+        
+
+        circle_marker_613daa81826394c9377dde569be2da70.bindPopup(popup_0b184acb670de41d8838d4588e27daeb)
+        ;
+
+        
+    
+    
+            circle_marker_613daa81826394c9377dde569be2da70.bindTooltip(
+                `<div>
+                     Albero di mimosa
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_51ff83a2ea3b5a09fd49a82b0046c0d8 = L.circleMarker(
+                [45.4477093, 12.3208009],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_eeffc5d60f10b920fcd6668dba6e4d44 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8274e2dd3003c77a66c8dd42e0419a72 = $(`<div id="html_8274e2dd3003c77a66c8dd42e0419a72" style="width: 100.0%; height: 100.0%;">Area verde Baia del Re</div>`)[0];
+                popup_eeffc5d60f10b920fcd6668dba6e4d44.setContent(html_8274e2dd3003c77a66c8dd42e0419a72);
+            
+        
+
+        circle_marker_51ff83a2ea3b5a09fd49a82b0046c0d8.bindPopup(popup_eeffc5d60f10b920fcd6668dba6e4d44)
+        ;
+
+        
+    
+    
+            circle_marker_51ff83a2ea3b5a09fd49a82b0046c0d8.bindTooltip(
+                `<div>
+                     Area verde Baia del Re
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a5b1f63cbe2a1a39016bd0c65155d800 = L.circleMarker(
+                [45.4743271, 12.276037599999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_d32fdd40dfac769680e1f23ac5ad3619 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f7ee4d4dd2700cf3f10a13ded7764968 = $(`<div id="html_f7ee4d4dd2700cf3f10a13ded7764968" style="width: 100.0%; height: 100.0%;">Parco San Giuliano</div>`)[0];
+                popup_d32fdd40dfac769680e1f23ac5ad3619.setContent(html_f7ee4d4dd2700cf3f10a13ded7764968);
+            
+        
+
+        circle_marker_a5b1f63cbe2a1a39016bd0c65155d800.bindPopup(popup_d32fdd40dfac769680e1f23ac5ad3619)
+        ;
+
+        
+    
+    
+            circle_marker_a5b1f63cbe2a1a39016bd0c65155d800.bindTooltip(
+                `<div>
+                     Parco San Giuliano
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1874ab0562738c7147e53ed29a99c553 = L.circleMarker(
+                [45.4270083, 12.320387799999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_33ce96cc77c320b6efa79f84d1d12e7e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_61fc7da046b27f9d86330a1ff104f5ec = $(`<div id="html_61fc7da046b27f9d86330a1ff104f5ec" style="width: 100.0%; height: 100.0%;">Fortuny gardens</div>`)[0];
+                popup_33ce96cc77c320b6efa79f84d1d12e7e.setContent(html_61fc7da046b27f9d86330a1ff104f5ec);
+            
+        
+
+        circle_marker_1874ab0562738c7147e53ed29a99c553.bindPopup(popup_33ce96cc77c320b6efa79f84d1d12e7e)
+        ;
+
+        
+    
+    
+            circle_marker_1874ab0562738c7147e53ed29a99c553.bindTooltip(
+                `<div>
+                     Fortuny gardens
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_52cc4a22c0ebb28854c1c21bf5706621 = L.circleMarker(
+                [45.4439132, 12.3186196],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_1ca957f158f2590df34ea8e3fe6f9e82 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9f22ea665f24264bb61b2d26b872735a = $(`<div id="html_9f22ea665f24264bb61b2d26b872735a" style="width: 100.0%; height: 100.0%;">Ex Orto Botanico</div>`)[0];
+                popup_1ca957f158f2590df34ea8e3fe6f9e82.setContent(html_9f22ea665f24264bb61b2d26b872735a);
+            
+        
+
+        circle_marker_52cc4a22c0ebb28854c1c21bf5706621.bindPopup(popup_1ca957f158f2590df34ea8e3fe6f9e82)
+        ;
+
+        
+    
+    
+            circle_marker_52cc4a22c0ebb28854c1c21bf5706621.bindTooltip(
+                `<div>
+                     Ex Orto Botanico
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9c65c315cbda71997ef8685c338d641d = L.circleMarker(
+                [45.4414662, 12.3152595],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_46fc26692d850d52e5248ae78b26c609 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a02e6dd2182225b04b1bc09806118c79 = $(`<div id="html_a02e6dd2182225b04b1bc09806118c79" style="width: 100.0%; height: 100.0%;">No gravity paemrk</div>`)[0];
+                popup_46fc26692d850d52e5248ae78b26c609.setContent(html_a02e6dd2182225b04b1bc09806118c79);
+            
+        
+
+        circle_marker_9c65c315cbda71997ef8685c338d641d.bindPopup(popup_46fc26692d850d52e5248ae78b26c609)
+        ;
+
+        
+    
+    
+            circle_marker_9c65c315cbda71997ef8685c338d641d.bindTooltip(
+                `<div>
+                     No gravity paemrk
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f7ae75626fc57c929941d5605b2c32fe = L.circleMarker(
+                [45.4377054, 12.317262699999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_2d94ad9d5784dda0a76d477a2fba520f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1bc7a9d87473770e5ece3ca0b74cbba5 = $(`<div id="html_1bc7a9d87473770e5ece3ca0b74cbba5" style="width: 100.0%; height: 100.0%;">Parkoló velence</div>`)[0];
+                popup_2d94ad9d5784dda0a76d477a2fba520f.setContent(html_1bc7a9d87473770e5ece3ca0b74cbba5);
+            
+        
+
+        circle_marker_f7ae75626fc57c929941d5605b2c32fe.bindPopup(popup_2d94ad9d5784dda0a76d477a2fba520f)
+        ;
+
+        
+    
+    
+            circle_marker_f7ae75626fc57c929941d5605b2c32fe.bindTooltip(
+                `<div>
+                     Parkoló velence
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_39d187afa4371e03106d6a93170f4262 = L.circleMarker(
+                [45.4317236, 12.3315272],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_e4e3242f7845de8930ee19ebb1d98d9e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7cea16b63df1deae597487f444619236 = $(`<div id="html_7cea16b63df1deae597487f444619236" style="width: 100.0%; height: 100.0%;">Giardino di Palazzo Corner della Ca' Granda</div>`)[0];
+                popup_e4e3242f7845de8930ee19ebb1d98d9e.setContent(html_7cea16b63df1deae597487f444619236);
+            
+        
+
+        circle_marker_39d187afa4371e03106d6a93170f4262.bindPopup(popup_e4e3242f7845de8930ee19ebb1d98d9e)
+        ;
+
+        
+    
+    
+            circle_marker_39d187afa4371e03106d6a93170f4262.bindTooltip(
+                `<div>
+                     Giardino di Palazzo Corner della Ca' Granda
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c59f8698de3c350ed03aedce56019cda = L.circleMarker(
+                [45.4420802, 12.3208678],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_d67028b18045800ef34fd5002f8a93aa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_24d5f2106ae102ae5eec23c9c7448a95 = $(`<div id="html_24d5f2106ae102ae5eec23c9c7448a95" style="width: 100.0%; height: 100.0%;">Orto degli Scalzi (padri Carmelitani)</div>`)[0];
+                popup_d67028b18045800ef34fd5002f8a93aa.setContent(html_24d5f2106ae102ae5eec23c9c7448a95);
+            
+        
+
+        circle_marker_c59f8698de3c350ed03aedce56019cda.bindPopup(popup_d67028b18045800ef34fd5002f8a93aa)
+        ;
+
+        
+    
+    
+            circle_marker_c59f8698de3c350ed03aedce56019cda.bindTooltip(
+                `<div>
+                     Orto degli Scalzi (padri Carmelitani)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8b9fe782261851badf2c23c2e5dafa48 = L.circleMarker(
+                [45.428697299999996, 12.3441575],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_f68ec5693a11bac53e5e43eedd69d406 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a122467dfc0e8df7782431a65fe9d58 = $(`<div id="html_7a122467dfc0e8df7782431a65fe9d58" style="width: 100.0%; height: 100.0%;">Labirinto Borges</div>`)[0];
+                popup_f68ec5693a11bac53e5e43eedd69d406.setContent(html_7a122467dfc0e8df7782431a65fe9d58);
+            
+        
+
+        circle_marker_8b9fe782261851badf2c23c2e5dafa48.bindPopup(popup_f68ec5693a11bac53e5e43eedd69d406)
+        ;
+
+        
+    
+    
+            circle_marker_8b9fe782261851badf2c23c2e5dafa48.bindTooltip(
+                `<div>
+                     Labirinto Borges
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ab479d570426b11c353d1610cddbbf4b = L.circleMarker(
+                [45.434934399999996, 12.325874299999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_bee4ddb98b070370bb23eb33d722c524 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_32fbc6f63aeb3cab881e5508ce37acf7 = $(`<div id="html_32fbc6f63aeb3cab881e5508ce37acf7" style="width: 100.0%; height: 100.0%;">Giardino di Ca’ Dolfin</div>`)[0];
+                popup_bee4ddb98b070370bb23eb33d722c524.setContent(html_32fbc6f63aeb3cab881e5508ce37acf7);
+            
+        
+
+        circle_marker_ab479d570426b11c353d1610cddbbf4b.bindPopup(popup_bee4ddb98b070370bb23eb33d722c524)
+        ;
+
+        
+    
+    
+            circle_marker_ab479d570426b11c353d1610cddbbf4b.bindTooltip(
+                `<div>
+                     Giardino di Ca’ Dolfin
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dd118593234f5732786cd2799dca2e8d = L.circleMarker(
+                [45.4405625, 12.3377286],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_9882c2cbfb0f7aab9a2995819d78ddb7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0ffaeb87f379944a364799ceb8cea74f = $(`<div id="html_0ffaeb87f379944a364799ceb8cea74f" style="width: 100.0%; height: 100.0%;">Albero de la Cason</div>`)[0];
+                popup_9882c2cbfb0f7aab9a2995819d78ddb7.setContent(html_0ffaeb87f379944a364799ceb8cea74f);
+            
+        
+
+        circle_marker_dd118593234f5732786cd2799dca2e8d.bindPopup(popup_9882c2cbfb0f7aab9a2995819d78ddb7)
+        ;
+
+        
+    
+    
+            circle_marker_dd118593234f5732786cd2799dca2e8d.bindTooltip(
+                `<div>
+                     Albero de la Cason
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9cbadb75c8c6c9db08e8ab779416f543 = L.circleMarker(
+                [45.427399699999995, 12.322710299999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_eff49685a1ca8c0b49145e09e7a4bd4a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c52e081682ef134c14d7d57821f28df9 = $(`<div id="html_c52e081682ef134c14d7d57821f28df9" style="width: 100.0%; height: 100.0%;">Panchina A.Nulli</div>`)[0];
+                popup_eff49685a1ca8c0b49145e09e7a4bd4a.setContent(html_c52e081682ef134c14d7d57821f28df9);
+            
+        
+
+        circle_marker_9cbadb75c8c6c9db08e8ab779416f543.bindPopup(popup_eff49685a1ca8c0b49145e09e7a4bd4a)
+        ;
+
+        
+    
+    
+            circle_marker_9cbadb75c8c6c9db08e8ab779416f543.bindTooltip(
+                `<div>
+                     Panchina A.Nulli
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_68176ae34e924af24d2b7913e985e7f3 = L.circleMarker(
+                [45.433711599999995, 12.3467086],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_17266c198e6cd2db9b0287f9364448fe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c25d0a23a0529093ffb9c309467dff8 = $(`<div id="html_5c25d0a23a0529093ffb9c309467dff8" style="width: 100.0%; height: 100.0%;">casa del lugo</div>`)[0];
+                popup_17266c198e6cd2db9b0287f9364448fe.setContent(html_5c25d0a23a0529093ffb9c309467dff8);
+            
+        
+
+        circle_marker_68176ae34e924af24d2b7913e985e7f3.bindPopup(popup_17266c198e6cd2db9b0287f9364448fe)
+        ;
+
+        
+    
+    
+            circle_marker_68176ae34e924af24d2b7913e985e7f3.bindTooltip(
+                `<div>
+                     casa del lugo
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1e96013d9d6714eef9c6bbb8d8b61f7b = L.circleMarker(
+                [45.4230198, 12.3767236],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_d1cd746e7b83b7719e503b7a83b06af6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fe4209d669a13bffb3295c8ad2c86e02 = $(`<div id="html_fe4209d669a13bffb3295c8ad2c86e02" style="width: 100.0%; height: 100.0%;">Lungomare Lido San Nicolò</div>`)[0];
+                popup_d1cd746e7b83b7719e503b7a83b06af6.setContent(html_fe4209d669a13bffb3295c8ad2c86e02);
+            
+        
+
+        circle_marker_1e96013d9d6714eef9c6bbb8d8b61f7b.bindPopup(popup_d1cd746e7b83b7719e503b7a83b06af6)
+        ;
+
+        
+    
+    
+            circle_marker_1e96013d9d6714eef9c6bbb8d8b61f7b.bindTooltip(
+                `<div>
+                     Lungomare Lido San Nicolò
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e02be35a6856ede564620178815d6400 = L.circleMarker(
+                [45.4375028, 12.3401681],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_8c135d69de38e4d1a69a0d72f6961a0e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7c98b5653c24767c78960b5958f7e1d3 = $(`<div id="html_7c98b5653c24767c78960b5958f7e1d3" style="width: 100.0%; height: 100.0%;">Fondamenta dei Preti</div>`)[0];
+                popup_8c135d69de38e4d1a69a0d72f6961a0e.setContent(html_7c98b5653c24767c78960b5958f7e1d3);
+            
+        
+
+        circle_marker_e02be35a6856ede564620178815d6400.bindPopup(popup_8c135d69de38e4d1a69a0d72f6961a0e)
+        ;
+
+        
+    
+    
+            circle_marker_e02be35a6856ede564620178815d6400.bindTooltip(
+                `<div>
+                     Fondamenta dei Preti
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a539255b93b3efe9558a5c04d0745e7d = L.circleMarker(
+                [45.434602, 12.381146],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_fe91f9eb624b39a3a17d7de40bf33187 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c4c14bacba2065e3ab12517803ab15b = $(`<div id="html_5c4c14bacba2065e3ab12517803ab15b" style="width: 100.0%; height: 100.0%;">Isola di Sant'Andrea</div>`)[0];
+                popup_fe91f9eb624b39a3a17d7de40bf33187.setContent(html_5c4c14bacba2065e3ab12517803ab15b);
+            
+        
+
+        circle_marker_a539255b93b3efe9558a5c04d0745e7d.bindPopup(popup_fe91f9eb624b39a3a17d7de40bf33187)
+        ;
+
+        
+    
+    
+            circle_marker_a539255b93b3efe9558a5c04d0745e7d.bindTooltip(
+                `<div>
+                     Isola di Sant'Andrea
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_944a49520a015b45b026841dc826392f = L.circleMarker(
+                [45.4377879, 12.341950899999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_9c8c3be0bb1f97be1ad7d67f03271b69 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b3078886e23867a4db019d478f86d3b7 = $(`<div id="html_b3078886e23867a4db019d478f86d3b7" style="width: 100.0%; height: 100.0%;">Campo santa maria formosa</div>`)[0];
+                popup_9c8c3be0bb1f97be1ad7d67f03271b69.setContent(html_b3078886e23867a4db019d478f86d3b7);
+            
+        
+
+        circle_marker_944a49520a015b45b026841dc826392f.bindPopup(popup_9c8c3be0bb1f97be1ad7d67f03271b69)
+        ;
+
+        
+    
+    
+            circle_marker_944a49520a015b45b026841dc826392f.bindTooltip(
+                `<div>
+                     Campo santa maria formosa
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_68cc8c619703c269d51d00e7831d496e = L.circleMarker(
+                [45.4347541, 12.3304574],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_8d09a5f10a5f3e1088a5b5e01199b260 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_be4b666fa74258693d9ecf2ca2962a88 = $(`<div id="html_be4b666fa74258693d9ecf2ca2962a88" style="width: 100.0%; height: 100.0%;">10 Ponte del Pestrin</div>`)[0];
+                popup_8d09a5f10a5f3e1088a5b5e01199b260.setContent(html_be4b666fa74258693d9ecf2ca2962a88);
+            
+        
+
+        circle_marker_68cc8c619703c269d51d00e7831d496e.bindPopup(popup_8d09a5f10a5f3e1088a5b5e01199b260)
+        ;
+
+        
+    
+    
+            circle_marker_68cc8c619703c269d51d00e7831d496e.bindTooltip(
+                `<div>
+                     10 Ponte del Pestrin
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e8eb1516f8a905e8582fe8ed35dfcb49 = L.circleMarker(
+                [45.444908399999996, 12.3178161],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_00ef271ddf3731438e969b0dfc0e589b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_785992e146a60142ec73504a72d59be0 = $(`<div id="html_785992e146a60142ec73504a72d59be0" style="width: 100.0%; height: 100.0%;">Giardini della biblioteca area economica</div>`)[0];
+                popup_00ef271ddf3731438e969b0dfc0e589b.setContent(html_785992e146a60142ec73504a72d59be0);
+            
+        
+
+        circle_marker_e8eb1516f8a905e8582fe8ed35dfcb49.bindPopup(popup_00ef271ddf3731438e969b0dfc0e589b)
+        ;
+
+        
+    
+    
+            circle_marker_e8eb1516f8a905e8582fe8ed35dfcb49.bindTooltip(
+                `<div>
+                     Giardini della biblioteca area economica
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ce65656232a0e6d2669f89cee37e0e0c = L.circleMarker(
+                [45.432866399999995, 12.3387765],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_b579a20b5e6a9618beae31605cb46ba6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7d234f73986f215c024873104c23bcca = $(`<div id="html_7d234f73986f215c024873104c23bcca" style="width: 100.0%; height: 100.0%;">Excelsior Boat Taxi Pick up</div>`)[0];
+                popup_b579a20b5e6a9618beae31605cb46ba6.setContent(html_7d234f73986f215c024873104c23bcca);
+            
+        
+
+        circle_marker_ce65656232a0e6d2669f89cee37e0e0c.bindPopup(popup_b579a20b5e6a9618beae31605cb46ba6)
+        ;
+
+        
+    
+    
+            circle_marker_ce65656232a0e6d2669f89cee37e0e0c.bindTooltip(
+                `<div>
+                     Excelsior Boat Taxi Pick up
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0f8c3f924b3ce3292c30040833a972df = L.circleMarker(
+                [45.466232399999996, 12.280560399999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_ea0d35efabbfb885c8e99f6a3fa9d61e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_75907e75aba667a546af0fff7ad96bb8 = $(`<div id="html_75907e75aba667a546af0fff7ad96bb8" style="width: 100.0%; height: 100.0%;">Port San Giuliano</div>`)[0];
+                popup_ea0d35efabbfb885c8e99f6a3fa9d61e.setContent(html_75907e75aba667a546af0fff7ad96bb8);
+            
+        
+
+        circle_marker_0f8c3f924b3ce3292c30040833a972df.bindPopup(popup_ea0d35efabbfb885c8e99f6a3fa9d61e)
+        ;
+
+        
+    
+    
+            circle_marker_0f8c3f924b3ce3292c30040833a972df.bindTooltip(
+                `<div>
+                     Port San Giuliano
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_598ade47d9a2104dc6327ac4a2942edd = L.circleMarker(
+                [45.444283899999995, 12.317830899999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_574b0b1c441c6f86fa22d11ccb1cae26 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_443867d43c10ad993fc454a26fde233c = $(`<div id="html_443867d43c10ad993fc454a26fde233c" style="width: 100.0%; height: 100.0%;">[SPNG] wasdmania</div>`)[0];
+                popup_574b0b1c441c6f86fa22d11ccb1cae26.setContent(html_443867d43c10ad993fc454a26fde233c);
+            
+        
+
+        circle_marker_598ade47d9a2104dc6327ac4a2942edd.bindPopup(popup_574b0b1c441c6f86fa22d11ccb1cae26)
+        ;
+
+        
+    
+    
+            circle_marker_598ade47d9a2104dc6327ac4a2942edd.bindTooltip(
+                `<div>
+                     [SPNG] wasdmania
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7962cd278a4538d1d976ce3084b880ba = L.circleMarker(
+                [45.456128, 12.3537263],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_3c32fcdb3ee05a608d3428a63de7cdf8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9c828e06f5b74a3a539fdced3976b07c = $(`<div id="html_9c828e06f5b74a3a539fdced3976b07c" style="width: 100.0%; height: 100.0%;">Riva Longa</div>`)[0];
+                popup_3c32fcdb3ee05a608d3428a63de7cdf8.setContent(html_9c828e06f5b74a3a539fdced3976b07c);
+            
+        
+
+        circle_marker_7962cd278a4538d1d976ce3084b880ba.bindPopup(popup_3c32fcdb3ee05a608d3428a63de7cdf8)
+        ;
+
+        
+    
+    
+            circle_marker_7962cd278a4538d1d976ce3084b880ba.bindTooltip(
+                `<div>
+                     Riva Longa
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8f1bcf63cb3dcae6a106f708eff251f4 = L.circleMarker(
+                [45.4582465, 12.3528687],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_468fbe62ce4fd337972a1110a3164469 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0db844000ef8fd1adf941b64704b8ec8 = $(`<div id="html_0db844000ef8fd1adf941b64704b8ec8" style="width: 100.0%; height: 100.0%;">Piccola e incantevole</div>`)[0];
+                popup_468fbe62ce4fd337972a1110a3164469.setContent(html_0db844000ef8fd1adf941b64704b8ec8);
+            
+        
+
+        circle_marker_8f1bcf63cb3dcae6a106f708eff251f4.bindPopup(popup_468fbe62ce4fd337972a1110a3164469)
+        ;
+
+        
+    
+    
+            circle_marker_8f1bcf63cb3dcae6a106f708eff251f4.bindTooltip(
+                `<div>
+                     Piccola e incantevole
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a7aa7c90a5620f21e0ad6f99baeef3c6 = L.circleMarker(
+                [45.441351, 12.341222799999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_163299cc8db7767a3df2e1c795efafc8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f05f78d3df20b8d4f439e6cd859b67f1 = $(`<div id="html_f05f78d3df20b8d4f439e6cd859b67f1" style="width: 100.0%; height: 100.0%;">campoTappaRomantico</div>`)[0];
+                popup_163299cc8db7767a3df2e1c795efafc8.setContent(html_f05f78d3df20b8d4f439e6cd859b67f1);
+            
+        
+
+        circle_marker_a7aa7c90a5620f21e0ad6f99baeef3c6.bindPopup(popup_163299cc8db7767a3df2e1c795efafc8)
+        ;
+
+        
+    
+    
+            circle_marker_a7aa7c90a5620f21e0ad6f99baeef3c6.bindTooltip(
+                `<div>
+                     campoTappaRomantico
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_86e4fd78146f6b570dda03858eeed1b5 = L.circleMarker(
+                [45.4387563, 12.323298],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_502588e2aad08828c7153027f9122cf0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a5118a39f84bd5f836c5ed62a2d76166 = $(`<div id="html_a5118a39f84bd5f836c5ed62a2d76166" style="width: 100.0%; height: 100.0%;">Corte Ca' Dario</div>`)[0];
+                popup_502588e2aad08828c7153027f9122cf0.setContent(html_a5118a39f84bd5f836c5ed62a2d76166);
+            
+        
+
+        circle_marker_86e4fd78146f6b570dda03858eeed1b5.bindPopup(popup_502588e2aad08828c7153027f9122cf0)
+        ;
+
+        
+    
+    
+            circle_marker_86e4fd78146f6b570dda03858eeed1b5.bindTooltip(
+                `<div>
+                     Corte Ca' Dario
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8ad72453cf0d833d685ef111df0a228d = L.circleMarker(
+                [45.4690434, 12.280474499999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_c4b0f9c4020444509671e50584ca607a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2856948a1b4542a619ebf05d53278cbe = $(`<div id="html_2856948a1b4542a619ebf05d53278cbe" style="width: 100.0%; height: 100.0%;">Parco Comunale Veneziano</div>`)[0];
+                popup_c4b0f9c4020444509671e50584ca607a.setContent(html_2856948a1b4542a619ebf05d53278cbe);
+            
+        
+
+        circle_marker_8ad72453cf0d833d685ef111df0a228d.bindPopup(popup_c4b0f9c4020444509671e50584ca607a)
+        ;
+
+        
+    
+    
+            circle_marker_8ad72453cf0d833d685ef111df0a228d.bindTooltip(
+                `<div>
+                     Parco Comunale Veneziano
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4e9a0ead2bd67cba55f87b344317d21c = L.circleMarker(
+                [45.4403578, 12.3059646],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_71ce55bba50d7ef500a07106d44e4eb5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_29664fee71a219088a9512dcd80aa732 = $(`<div id="html_29664fee71a219088a9512dcd80aa732" style="width: 100.0%; height: 100.0%;">Avventure Bellissime</div>`)[0];
+                popup_71ce55bba50d7ef500a07106d44e4eb5.setContent(html_29664fee71a219088a9512dcd80aa732);
+            
+        
+
+        circle_marker_4e9a0ead2bd67cba55f87b344317d21c.bindPopup(popup_71ce55bba50d7ef500a07106d44e4eb5)
+        ;
+
+        
+    
+    
+            circle_marker_4e9a0ead2bd67cba55f87b344317d21c.bindTooltip(
+                `<div>
+                     Avventure Bellissime
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ac7e43c9df907aed4fdb2035783480b2 = L.circleMarker(
+                [45.435874899999995, 12.332935899999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_f30c445d5e40e0bbea131a040d76795b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_12b21ee291d4f64e3a0bce5eaebc3302 = $(`<div id="html_12b21ee291d4f64e3a0bce5eaebc3302" style="width: 100.0%; height: 100.0%;">Palazzo Contarini a San Beneto</div>`)[0];
+                popup_f30c445d5e40e0bbea131a040d76795b.setContent(html_12b21ee291d4f64e3a0bce5eaebc3302);
+            
+        
+
+        circle_marker_ac7e43c9df907aed4fdb2035783480b2.bindPopup(popup_f30c445d5e40e0bbea131a040d76795b)
+        ;
+
+        
+    
+    
+            circle_marker_ac7e43c9df907aed4fdb2035783480b2.bindTooltip(
+                `<div>
+                     Palazzo Contarini a San Beneto
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3ff739396a99e920f760b163bb99d574 = L.circleMarker(
+                [45.4887155, 12.226528799999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_768eb4de38daff69e921b0879a8740a1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4bef035759db4b8f478780de00a5752d = $(`<div id="html_4bef035759db4b8f478780de00a5752d" style="width: 100.0%; height: 100.0%;">Parco Piraghetto</div>`)[0];
+                popup_768eb4de38daff69e921b0879a8740a1.setContent(html_4bef035759db4b8f478780de00a5752d);
+            
+        
+
+        circle_marker_3ff739396a99e920f760b163bb99d574.bindPopup(popup_768eb4de38daff69e921b0879a8740a1)
+        ;
+
+        
+    
+    
+            circle_marker_3ff739396a99e920f760b163bb99d574.bindTooltip(
+                `<div>
+                     Parco Piraghetto
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_49008c0ed98774757f22f421ad71a317 = L.circleMarker(
+                [45.432637, 12.3695744],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_d7015dd8453038f8cc7a54dcba1119f4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7058c737c6205bef1b6100b6279b7e18 = $(`<div id="html_7058c737c6205bef1b6100b6279b7e18" style="width: 100.0%; height: 100.0%;">Venezia Certosa Marina</div>`)[0];
+                popup_d7015dd8453038f8cc7a54dcba1119f4.setContent(html_7058c737c6205bef1b6100b6279b7e18);
+            
+        
+
+        circle_marker_49008c0ed98774757f22f421ad71a317.bindPopup(popup_d7015dd8453038f8cc7a54dcba1119f4)
+        ;
+
+        
+    
+    
+            circle_marker_49008c0ed98774757f22f421ad71a317.bindTooltip(
+                `<div>
+                     Venezia Certosa Marina
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fbaf7b58360a1a7aeae7fdaa0ee50516 = L.circleMarker(
+                [45.440379, 12.315954699999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_d5070289224ae0a920b6db2b5e60b34b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b31b016a76275c0a2ebfde879adec503 = $(`<div id="html_b31b016a76275c0a2ebfde879adec503" style="width: 100.0%; height: 100.0%;">Su e Zo per i ponti</div>`)[0];
+                popup_d5070289224ae0a920b6db2b5e60b34b.setContent(html_b31b016a76275c0a2ebfde879adec503);
+            
+        
+
+        circle_marker_fbaf7b58360a1a7aeae7fdaa0ee50516.bindPopup(popup_d5070289224ae0a920b6db2b5e60b34b)
+        ;
+
+        
+    
+    
+            circle_marker_fbaf7b58360a1a7aeae7fdaa0ee50516.bindTooltip(
+                `<div>
+                     Su e Zo per i ponti
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_71dfb6f586481d40fbe2c9ecdef1efca = L.circleMarker(
+                [45.384744, 12.3483032],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_95d888d146b7cd90b0da733e851bfac6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e3423ea648742e9886c7dfc1e296a86d = $(`<div id="html_e3423ea648742e9886c7dfc1e296a86d" style="width: 100.0%; height: 100.0%;">Parco "Ca' Bianca</div>`)[0];
+                popup_95d888d146b7cd90b0da733e851bfac6.setContent(html_e3423ea648742e9886c7dfc1e296a86d);
+            
+        
+
+        circle_marker_71dfb6f586481d40fbe2c9ecdef1efca.bindPopup(popup_95d888d146b7cd90b0da733e851bfac6)
+        ;
+
+        
+    
+    
+            circle_marker_71dfb6f586481d40fbe2c9ecdef1efca.bindTooltip(
+                `<div>
+                     Parco "Ca' Bianca
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b57bf908526618d7b26159945b60e379 = L.circleMarker(
+                [45.499357499999995, 12.2609032],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_fb97af908d1c27c29fb8c5eeaf9c03b3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ff005a4bc404c3068db0567267d993d3 = $(`<div id="html_ff005a4bc404c3068db0567267d993d3" style="width: 100.0%; height: 100.0%;">Parco Alfredo Albanese</div>`)[0];
+                popup_fb97af908d1c27c29fb8c5eeaf9c03b3.setContent(html_ff005a4bc404c3068db0567267d993d3);
+            
+        
+
+        circle_marker_b57bf908526618d7b26159945b60e379.bindPopup(popup_fb97af908d1c27c29fb8c5eeaf9c03b3)
+        ;
+
+        
+    
+    
+            circle_marker_b57bf908526618d7b26159945b60e379.bindTooltip(
+                `<div>
+                     Parco Alfredo Albanese
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9f71791d3e92481878c815e3f6d627da = L.circleMarker(
+                [45.476176599999995, 12.269667],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_99a803cca046268519e3008aab2084ce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_35dfbf9a5b4fe1804b26bf98210b2ec2 = $(`<div id="html_35dfbf9a5b4fe1804b26bf98210b2ec2" style="width: 100.0%; height: 100.0%;">Venezia In Bici, Ritrovo Parco San Giuliano</div>`)[0];
+                popup_99a803cca046268519e3008aab2084ce.setContent(html_35dfbf9a5b4fe1804b26bf98210b2ec2);
+            
+        
+
+        circle_marker_9f71791d3e92481878c815e3f6d627da.bindPopup(popup_99a803cca046268519e3008aab2084ce)
+        ;
+
+        
+    
+    
+            circle_marker_9f71791d3e92481878c815e3f6d627da.bindTooltip(
+                `<div>
+                     Venezia In Bici, Ritrovo Parco San Giuliano
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_00f70baa4c9fb0527d02a1a69de4d9ca = L.circleMarker(
+                [45.482506099999995, 12.3030537],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_9fec0ecbebf9485e09d26fd28ae5fa4c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f75647c957eb28411dfb0a7b30d7e8f9 = $(`<div id="html_f75647c957eb28411dfb0a7b30d7e8f9" style="width: 100.0%; height: 100.0%;">Passeggiata delle Barene - Campalto</div>`)[0];
+                popup_9fec0ecbebf9485e09d26fd28ae5fa4c.setContent(html_f75647c957eb28411dfb0a7b30d7e8f9);
+            
+        
+
+        circle_marker_00f70baa4c9fb0527d02a1a69de4d9ca.bindPopup(popup_9fec0ecbebf9485e09d26fd28ae5fa4c)
+        ;
+
+        
+    
+    
+            circle_marker_00f70baa4c9fb0527d02a1a69de4d9ca.bindTooltip(
+                `<div>
+                     Passeggiata delle Barene - Campalto
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c686a107d33c3f97501b6751707f2b7a = L.circleMarker(
+                [45.4415038, 12.3354097],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_e9e524eaf4236a2842c3ed6b6cc051fb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_648ff2a2c15983ab5ba10f60e3cccc0f = $(`<div id="html_648ff2a2c15983ab5ba10f60e3cccc0f" style="width: 100.0%; height: 100.0%;">Palazzo Abadessa</div>`)[0];
+                popup_e9e524eaf4236a2842c3ed6b6cc051fb.setContent(html_648ff2a2c15983ab5ba10f60e3cccc0f);
+            
+        
+
+        circle_marker_c686a107d33c3f97501b6751707f2b7a.bindPopup(popup_e9e524eaf4236a2842c3ed6b6cc051fb)
+        ;
+
+        
+    
+    
+            circle_marker_c686a107d33c3f97501b6751707f2b7a.bindTooltip(
+                `<div>
+                     Palazzo Abadessa
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6831c1de4f355d98735dea7afc1f93c1 = L.circleMarker(
+                [45.4188508, 12.2593669],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_e7feb560e85a4304c237a6acf74e9158 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_41e14030d2ff2b37e8932a36d80bd73d = $(`<div id="html_41e14030d2ff2b37e8932a36d80bd73d" style="width: 100.0%; height: 100.0%;">Banchina "Fusina"</div>`)[0];
+                popup_e7feb560e85a4304c237a6acf74e9158.setContent(html_41e14030d2ff2b37e8932a36d80bd73d);
+            
+        
+
+        circle_marker_6831c1de4f355d98735dea7afc1f93c1.bindPopup(popup_e7feb560e85a4304c237a6acf74e9158)
+        ;
+
+        
+    
+    
+            circle_marker_6831c1de4f355d98735dea7afc1f93c1.bindTooltip(
+                `<div>
+                     Banchina "Fusina"
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_89726a42e58f2e0753195df8e209cd16 = L.circleMarker(
+                [45.4840576, 12.244909499999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_60ae4e47e0ebae2852e730e33979becc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd8bb1e9f2dbbcc5f2f485ae436ec3dc = $(`<div id="html_bd8bb1e9f2dbbcc5f2f485ae436ec3dc" style="width: 100.0%; height: 100.0%;">Parco Kolbe</div>`)[0];
+                popup_60ae4e47e0ebae2852e730e33979becc.setContent(html_bd8bb1e9f2dbbcc5f2f485ae436ec3dc);
+            
+        
+
+        circle_marker_89726a42e58f2e0753195df8e209cd16.bindPopup(popup_60ae4e47e0ebae2852e730e33979becc)
+        ;
+
+        
+    
+    
+            circle_marker_89726a42e58f2e0753195df8e209cd16.bindTooltip(
+                `<div>
+                     Parco Kolbe
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_69f8c9caa972b41ae269b5b89b08b6ba = L.circleMarker(
+                [45.4729184, 12.2752117],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_2487c7a6079c709b435674d1b95fb77c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2eb33870c10748f3cb8f49b534507e7b = $(`<div id="html_2eb33870c10748f3cb8f49b534507e7b" style="width: 100.0%; height: 100.0%;">Lago delle garzette</div>`)[0];
+                popup_2487c7a6079c709b435674d1b95fb77c.setContent(html_2eb33870c10748f3cb8f49b534507e7b);
+            
+        
+
+        circle_marker_69f8c9caa972b41ae269b5b89b08b6ba.bindPopup(popup_2487c7a6079c709b435674d1b95fb77c)
+        ;
+
+        
+    
+    
+            circle_marker_69f8c9caa972b41ae269b5b89b08b6ba.bindTooltip(
+                `<div>
+                     Lago delle garzette
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7073815a32f922e3472266d7ce749ca7 = L.circleMarker(
+                [45.4836272, 12.2645456],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_08b642617fde089e344fb1a652ee3056 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f5607ab69e3cf40cbb4a4fe3028a30b5 = $(`<div id="html_f5607ab69e3cf40cbb4a4fe3028a30b5" style="width: 100.0%; height: 100.0%;">Bosco dell'Osellino</div>`)[0];
+                popup_08b642617fde089e344fb1a652ee3056.setContent(html_f5607ab69e3cf40cbb4a4fe3028a30b5);
+            
+        
+
+        circle_marker_7073815a32f922e3472266d7ce749ca7.bindPopup(popup_08b642617fde089e344fb1a652ee3056)
+        ;
+
+        
+    
+    
+            circle_marker_7073815a32f922e3472266d7ce749ca7.bindTooltip(
+                `<div>
+                     Bosco dell'Osellino
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_036a36afd1c140e6db5aba2527bba055 = L.circleMarker(
+                [45.4912279, 12.3219234],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_e0c46b8d937c18eea2e516a608068565 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_32c85691f0a8ab827fb3ac9a42a5f3d3 = $(`<div id="html_32c85691f0a8ab827fb3ac9a42a5f3d3" style="width: 100.0%; height: 100.0%;">Punta Lunga</div>`)[0];
+                popup_e0c46b8d937c18eea2e516a608068565.setContent(html_32c85691f0a8ab827fb3ac9a42a5f3d3);
+            
+        
+
+        circle_marker_036a36afd1c140e6db5aba2527bba055.bindPopup(popup_e0c46b8d937c18eea2e516a608068565)
+        ;
+
+        
+    
+    
+            circle_marker_036a36afd1c140e6db5aba2527bba055.bindTooltip(
+                `<div>
+                     Punta Lunga
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4910b53a4ee637af2f079e9aa5b74bf8 = L.circleMarker(
+                [45.496940699999996, 12.261163999999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_87500815fafcc95e46251945053d170e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_391bdaac1863b554088415b76af4e660 = $(`<div id="html_391bdaac1863b554088415b76af4e660" style="width: 100.0%; height: 100.0%;">Parco Giochi</div>`)[0];
+                popup_87500815fafcc95e46251945053d170e.setContent(html_391bdaac1863b554088415b76af4e660);
+            
+        
+
+        circle_marker_4910b53a4ee637af2f079e9aa5b74bf8.bindPopup(popup_87500815fafcc95e46251945053d170e)
+        ;
+
+        
+    
+    
+            circle_marker_4910b53a4ee637af2f079e9aa5b74bf8.bindTooltip(
+                `<div>
+                     Parco Giochi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_478e2e7e8df4c7eea25a3ddc66b8e6d0 = L.circleMarker(
+                [45.4891697, 12.4125743],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_6bb866ee6a4f602aabb57a34fe411a96 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e40afa336d76ac236f0bb63003af5f75 = $(`<div id="html_e40afa336d76ac236f0bb63003af5f75" style="width: 100.0%; height: 100.0%;">Parco Mazzorbo</div>`)[0];
+                popup_6bb866ee6a4f602aabb57a34fe411a96.setContent(html_e40afa336d76ac236f0bb63003af5f75);
+            
+        
+
+        circle_marker_478e2e7e8df4c7eea25a3ddc66b8e6d0.bindPopup(popup_6bb866ee6a4f602aabb57a34fe411a96)
+        ;
+
+        
+    
+    
+            circle_marker_478e2e7e8df4c7eea25a3ddc66b8e6d0.bindTooltip(
+                `<div>
+                     Parco Mazzorbo
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7aff548b7a226039c3dcfa5a5240a9b0 = L.circleMarker(
+                [45.4347116, 12.445526599999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_9115d6ced105d89da978605fb3bf3e30 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6d8923cf54c69750661eb3706bcc52dc = $(`<div id="html_6d8923cf54c69750661eb3706bcc52dc" style="width: 100.0%; height: 100.0%;">Beach Marina di Venezia</div>`)[0];
+                popup_9115d6ced105d89da978605fb3bf3e30.setContent(html_6d8923cf54c69750661eb3706bcc52dc);
+            
+        
+
+        circle_marker_7aff548b7a226039c3dcfa5a5240a9b0.bindPopup(popup_9115d6ced105d89da978605fb3bf3e30)
+        ;
+
+        
+    
+    
+            circle_marker_7aff548b7a226039c3dcfa5a5240a9b0.bindTooltip(
+                `<div>
+                     Beach Marina di Venezia
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2edae059c3dae296e9a5593ed09ee4f7 = L.circleMarker(
+                [45.4672804, 12.218355599999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_14d5de98a7278cda542d9d85db639210 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d3a8fe480668521d7604651483ec3044 = $(`<div id="html_d3a8fe480668521d7604651483ec3044" style="width: 100.0%; height: 100.0%;">Parco Emmer</div>`)[0];
+                popup_14d5de98a7278cda542d9d85db639210.setContent(html_d3a8fe480668521d7604651483ec3044);
+            
+        
+
+        circle_marker_2edae059c3dae296e9a5593ed09ee4f7.bindPopup(popup_14d5de98a7278cda542d9d85db639210)
+        ;
+
+        
+    
+    
+            circle_marker_2edae059c3dae296e9a5593ed09ee4f7.bindTooltip(
+                `<div>
+                     Parco Emmer
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ec4dc291374e70a6a2ec2248a740b1d7 = L.circleMarker(
+                [45.476199, 12.2051339],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_abadec6cee6af6ce47b876aaa5450ae9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_334bd69b345dec9c88de6a03b8dcddd2 = $(`<div id="html_334bd69b345dec9c88de6a03b8dcddd2" style="width: 100.0%; height: 100.0%;">Parco Catene</div>`)[0];
+                popup_abadec6cee6af6ce47b876aaa5450ae9.setContent(html_334bd69b345dec9c88de6a03b8dcddd2);
+            
+        
+
+        circle_marker_ec4dc291374e70a6a2ec2248a740b1d7.bindPopup(popup_abadec6cee6af6ce47b876aaa5450ae9)
+        ;
+
+        
+    
+    
+            circle_marker_ec4dc291374e70a6a2ec2248a740b1d7.bindTooltip(
+                `<div>
+                     Parco Catene
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cc4f777ccc7b60ad4a0279f3dc2fd419 = L.circleMarker(
+                [45.501131, 12.2698711],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_0ec4ee9d40e33f63cba80e89a3affa29 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7082ee3667838b3674c47be3c14bc03c = $(`<div id="html_7082ee3667838b3674c47be3c14bc03c" style="width: 100.0%; height: 100.0%;">Parco Buozzi</div>`)[0];
+                popup_0ec4ee9d40e33f63cba80e89a3affa29.setContent(html_7082ee3667838b3674c47be3c14bc03c);
+            
+        
+
+        circle_marker_cc4f777ccc7b60ad4a0279f3dc2fd419.bindPopup(popup_0ec4ee9d40e33f63cba80e89a3affa29)
+        ;
+
+        
+    
+    
+            circle_marker_cc4f777ccc7b60ad4a0279f3dc2fd419.bindTooltip(
+                `<div>
+                     Parco Buozzi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a7156f3c5200421689dede21fc5c7d33 = L.circleMarker(
+                [45.3874912, 12.3526323],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_0005f7990f9e455dcf84d18eb1200a5d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b7777661d073bcc3db5e26772167c8c5 = $(`<div id="html_b7777661d073bcc3db5e26772167c8c5" style="width: 100.0%; height: 100.0%;">Parco Pividor</div>`)[0];
+                popup_0005f7990f9e455dcf84d18eb1200a5d.setContent(html_b7777661d073bcc3db5e26772167c8c5);
+            
+        
+
+        circle_marker_a7156f3c5200421689dede21fc5c7d33.bindPopup(popup_0005f7990f9e455dcf84d18eb1200a5d)
+        ;
+
+        
+    
+    
+            circle_marker_a7156f3c5200421689dede21fc5c7d33.bindTooltip(
+                `<div>
+                     Parco Pividor
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f96aa1e479690f1660dce84278692af1 = L.circleMarker(
+                [45.486202, 12.4133032],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_f77929dfab6a7ee8c22acf8fe3bb5000 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_62617ab14caebcb67e46bfd0593a92f3 = $(`<div id="html_62617ab14caebcb67e46bfd0593a92f3" style="width: 100.0%; height: 100.0%;">Parco giochi</div>`)[0];
+                popup_f77929dfab6a7ee8c22acf8fe3bb5000.setContent(html_62617ab14caebcb67e46bfd0593a92f3);
+            
+        
+
+        circle_marker_f96aa1e479690f1660dce84278692af1.bindPopup(popup_f77929dfab6a7ee8c22acf8fe3bb5000)
+        ;
+
+        
+    
+    
+            circle_marker_f96aa1e479690f1660dce84278692af1.bindTooltip(
+                `<div>
+                     Parco giochi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0e845ae1fee0ae2694a403aefe1f55d9 = L.circleMarker(
+                [45.4744117, 12.219894799999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_75798c9775e378d08335f98b1a7a7629 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0fd14004084f7d59348b5fbc4822fd3a = $(`<div id="html_0fd14004084f7d59348b5fbc4822fd3a" style="width: 100.0%; height: 100.0%;">Baden Powell Park</div>`)[0];
+                popup_75798c9775e378d08335f98b1a7a7629.setContent(html_0fd14004084f7d59348b5fbc4822fd3a);
+            
+        
+
+        circle_marker_0e845ae1fee0ae2694a403aefe1f55d9.bindPopup(popup_75798c9775e378d08335f98b1a7a7629)
+        ;
+
+        
+    
+    
+            circle_marker_0e845ae1fee0ae2694a403aefe1f55d9.bindTooltip(
+                `<div>
+                     Baden Powell Park
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6210e088653729f969fe07d266dde8d7 = L.circleMarker(
+                [45.4728563, 12.2233255],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_ee765dfcfa5716162903bf98027ad010 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1ab66df7b81dc96bff195f89c1fc7fd7 = $(`<div id="html_1ab66df7b81dc96bff195f89c1fc7fd7" style="width: 100.0%; height: 100.0%;">Piazzale Concordia</div>`)[0];
+                popup_ee765dfcfa5716162903bf98027ad010.setContent(html_1ab66df7b81dc96bff195f89c1fc7fd7);
+            
+        
+
+        circle_marker_6210e088653729f969fe07d266dde8d7.bindPopup(popup_ee765dfcfa5716162903bf98027ad010)
+        ;
+
+        
+    
+    
+            circle_marker_6210e088653729f969fe07d266dde8d7.bindTooltip(
+                `<div>
+                     Piazzale Concordia
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_615cb6f96be257ea4a7b69e2ca80e7a4 = L.circleMarker(
+                [45.488644199999996, 12.3070425],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_c4e3270c28099b65ed227a622bac5b85 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d6e22974add3da959b12143da83f0453 = $(`<div id="html_d6e22974add3da959b12143da83f0453" style="width: 100.0%; height: 100.0%;">Bosco di Campalto</div>`)[0];
+                popup_c4e3270c28099b65ed227a622bac5b85.setContent(html_d6e22974add3da959b12143da83f0453);
+            
+        
+
+        circle_marker_615cb6f96be257ea4a7b69e2ca80e7a4.bindPopup(popup_c4e3270c28099b65ed227a622bac5b85)
+        ;
+
+        
+    
+    
+            circle_marker_615cb6f96be257ea4a7b69e2ca80e7a4.bindTooltip(
+                `<div>
+                     Bosco di Campalto
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c0e0e870b7f6c3678abdf9eed23523fe = L.circleMarker(
+                [45.508058899999995, 12.257214099999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_23f53f4c4bb705b3fcd9a55354181232 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_38f5e0d8b55308cbb019e906868cab77 = $(`<div id="html_38f5e0d8b55308cbb019e906868cab77" style="width: 100.0%; height: 100.0%;">Parco Eunice Kennedy</div>`)[0];
+                popup_23f53f4c4bb705b3fcd9a55354181232.setContent(html_38f5e0d8b55308cbb019e906868cab77);
+            
+        
+
+        circle_marker_c0e0e870b7f6c3678abdf9eed23523fe.bindPopup(popup_23f53f4c4bb705b3fcd9a55354181232)
+        ;
+
+        
+    
+    
+            circle_marker_c0e0e870b7f6c3678abdf9eed23523fe.bindTooltip(
+                `<div>
+                     Parco Eunice Kennedy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0f65f53b677e7d7437f644a495385957 = L.circleMarker(
+                [45.392455399999996, 12.2545],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_0eb26827e7eafe0264e12acc6677c786);
+        
+    
+        var popup_dcb4651a587b2f9ef688d8d0af8998eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4b6b0811986da34c6c87cfbc21b2dfa2 = $(`<div id="html_4b6b0811986da34c6c87cfbc21b2dfa2" style="width: 100.0%; height: 100.0%;">Isola Maltesi</div>`)[0];
+                popup_dcb4651a587b2f9ef688d8d0af8998eb.setContent(html_4b6b0811986da34c6c87cfbc21b2dfa2);
+            
+        
+
+        circle_marker_0f65f53b677e7d7437f644a495385957.bindPopup(popup_dcb4651a587b2f9ef688d8d0af8998eb)
+        ;
+
+        
+    
+    
+            circle_marker_0f65f53b677e7d7437f644a495385957.bindTooltip(
+                `<div>
+                     Isola Maltesi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>

@@ -1,0 +1,2042 @@
+[
+    {
+        "position":1,
+        "title":"Giardini Papadopoli",
+        "rating":4.4,
+        "reviews":3387.0,
+        "type":"Giardino",
+        "address":"30135 Sestriere Santa Croce, Venezia VE, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 20:30",
+        "place_id":"ChIJRf6ilsexfkcR4Rj0vhtVtxI",
+        "gps":{
+            "latitude":45.4382983,
+            "longitude":12.3206545
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyK0WyQSkbIXfgA-Yov1qTeEpshh-fgqA5hH1MlwAhnwH8AsbbBILHUMDMWecfCNovORP7BOz26N4SFOlftOi0X6TxoPWNX0DKH5rdV9mvrRIEaJmi_Mrep9yXOnupmQ5rficoyqg=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":2,
+        "title":"Giardini della Marinaressa",
+        "rating":4.6,
+        "reviews":1956.0,
+        "type":"Giardino",
+        "address":"Riva dei Sette Martiri, 30122 Venezia VE, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 20:30",
+        "place_id":"ChIJAy5F1S-ufkcReQqjg_LgAwo",
+        "gps":{
+            "latitude":45.4314603,
+            "longitude":12.3525968
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwqkeG_v7QNrJEw3v-JAYV8tCX7uEar8uqbBdef6MQebwNcHRaDwVOXgKc74CeL-x6AvNzPMa3Pmxpkz0O33d4pt2zjmlW47-59xGzeCwY1WauRlPQ0fmJXvm_9uj6gyBIF_Bdz=w189-h92-k-no",
+        "original":null
+    },
+    {
+        "position":3,
+        "title":"Parco di Villa Groggia",
+        "rating":4.5,
+        "reviews":106.0,
+        "type":"Giardino pubblico",
+        "address":"Cannaregio, 30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJPWCbZsGxfkcRo378GYpeAa8",
+        "gps":{
+            "latitude":45.4480358,
+            "longitude":12.3277307
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwReqtM4X0cnGcxZUPSU2ZYweLg_PvoGyv4VoorwGnIElVbSwCjaFppFyH30SdfOf-xuQFstvtFk9ol4XUotVsEen5VrAMzkIr6Gc4Irjb20rIMkp24PSdNlpV4LJXxB8eqvxj9=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":4,
+        "title":"Giardini Napoleonici",
+        "rating":4.4,
+        "reviews":51.0,
+        "type":"Giardino",
+        "address":"Viale Trento, 30122 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJcZdwNwyvfkcRp1Vr837WVNM",
+        "gps":{
+            "latitude":45.430083,
+            "longitude":12.3553239
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSw2NjuMDlM39ala-keSZtJCkyHRJyObGB2AQ267ViTaYdrbQnA8wVnmRK-2wgSOk-Ngkv2g2z6rSpyCzzlmwor4I9B64GZ5ZYgQZthGLkJXTpHj2Utdtq2a-NbOqBWuJvGGaAV4=w163-h92-k-no",
+        "original":null
+    },
+    {
+        "position":5,
+        "title":"Giardini della Biennale",
+        "rating":4.5,
+        "reviews":12251.0,
+        "type":"Giardino",
+        "address":"Calle Giazzo, 30122 Venezia VE, Italia",
+        "open_state":"Chiuso ⋅ Apre ven alle ore 10",
+        "place_id":"ChIJqzZkRzGufkcRiabs3CYIiBk",
+        "gps":{
+            "latitude":45.4287722,
+            "longitude":12.3580806
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzW9MVw0Pv86ldw4kdZxZZn6h-P3BjABRqgv3VxJgJ8a5XEEF5ps5xfZxaLWk0P200GT-W0xR2YbunM_ibwc-iuCklLBdeNaXVdUMghyzV-rx4A-xX6_rUCDV5F5kcktPyxR26V=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":6,
+        "title":"Parco degli Angeli",
+        "rating":4.2,
+        "reviews":44.0,
+        "type":"Parco comunale",
+        "address":"Venezia - Murano, 30141 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJc1zH6u2xfkcRoKOHRHS_IVI",
+        "gps":{
+            "latitude":45.460308,
+            "longitude":12.3492136
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSx13QcOweWYkKxubRO7m87fwtTwCPTdMK0ILNUSv0hHjvA79gmt4AM5kwKtdhcI0QB9spBGVYmOJvyl37KHuf-2LC_o5cuxHp1HzvXdcImmnFEuYYcKjK9HFXXeeXcluCl6rfYR=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":7,
+        "title":"Parco di Palazzo Savorgnan",
+        "rating":3.0,
+        "reviews":1.0,
+        "type":"Parco",
+        "address":"Calle del Vergola, 303, 30121 Venezia VE, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 21",
+        "place_id":"ChIJtd7LYQCxfkcR4NzDrdjXkeo",
+        "gps":{
+            "latitude":45.4435482,
+            "longitude":12.3243223
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxxwb-19eSSb5vJuq1vIDwRFjk1fx6_zWCVFKbmMuevQhDg5X-wX81nTwgfC8qP8oMYKG1i15-t7u7Vzxn9UVOcmyR5LeA-bJgflVeAIEy-fDLF9wm6wQf7N1-Pyd_stl8EI2Uy-wQbyTpU=w115-h92-k-no",
+        "original":null
+    },
+    {
+        "position":8,
+        "title":"Parco Navagero",
+        "rating":4.4,
+        "reviews":66.0,
+        "type":"Parco",
+        "address":"Calle Passerini, 30141 Venezia VE, Italia",
+        "open_state":"Chiuso ⋅ Apre ven alle ore 08",
+        "place_id":"ChIJu-kBVwGufkcRzSrmXr1XDmM",
+        "gps":{
+            "latitude":45.4567653,
+            "longitude":12.3577574
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSx7KEWcw2xB--OmVwnd5L39GgpQddmaL3QLPt_XQUHezZmxzUoB1Pk8pkWZusxhiwhiCW9BXx9TyGgV20ZMD3z5e7lrumgWUbqZPWBKCUUYVLLsSoGxNoUmnSwuVqXzyQLE-uxD=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":9,
+        "title":"Giardini di Ca' Rezzonico",
+        "rating":4.4,
+        "reviews":69.0,
+        "type":"Parco",
+        "address":"Fondamenta Rezzonico, 30123 Venezia VE, Italia",
+        "open_state":"Chiuso ⋅ Apre ven alle ore 10",
+        "place_id":"ChIJC5Nv-c6xfkcRSN1wy2n769c",
+        "gps":{
+            "latitude":45.4335868,
+            "longitude":12.3257559
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyDxunzv4gdfjj-FtAQZQcbbZvOlf41mhqTc10qKtaPqtQlOd-MxURsOIAtVDBRckDAWOgdBN3uyFPxWRZ6bgH5jIO_hjJU1XGXZycAiE0QLuF66HjETGgu1HMrswchAPvDXopG=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":10,
+        "title":"Giardino di Fondamenta de la Pescaria",
+        "rating":4.0,
+        "reviews":5.0,
+        "type":"Giardino pubblico",
+        "address":"Fondamenta de la Pescheria, 30123 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJjZhi6cmxfkcRQTF2RBjLL_4",
+        "gps":{
+            "latitude":45.4324259,
+            "longitude":12.3176801
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwUNMpoUjZkXZ9YY8mFzgvstLE_3NInTXaTteXvMcuxiP1JtTwTxFttimmpRSKOL86SpSnna7xtTPOadX0F4LnpSJ3dtlfMgHiSEF4OgV8Nnsc6N3AOxon6vuPPldslrv_E6vak=w80-h124-k-no",
+        "original":null
+    },
+    {
+        "position":11,
+        "title":"Parco giochi pubblico",
+        "rating":3.9,
+        "reviews":69.0,
+        "type":"Parco",
+        "address":"Lungomare Gabriele D' Annunzio, 30126 Lido VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJzSWJ96uvfkcRo0AU9EXqKeE",
+        "gps":{
+            "latitude":45.4164663,
+            "longitude":12.3772467
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSw6Z2EPk2P3Pe68dJp99mzXhF-Yu0lpXLKzfMlJXhCrgUUupZCoJOrfddJpJRAIkeMOQ9jfMlLesO2-50jJx7ES8vBX5-VWpp6zRgaFJzISXXNeHhHUQJQN4FfyJvL5xOlf7ArM=w144-h92-k-no",
+        "original":null
+    },
+    {
+        "position":12,
+        "title":"Parco delle Rimembranze",
+        "rating":4.8,
+        "reviews":4.0,
+        "type":"Parco comunale",
+        "address":"Viale Vittorio Veneto, 5, 30132 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJQwRPGwCvfkcRbRtSHL0vMcw",
+        "gps":{
+            "latitude":45.4269404,
+            "longitude":12.3591103
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSy1XbI6_-QNpc2-C1Luh6TSj_QemXTIVTeCK1OQyHnGOopI5NN09nBC03ITG0oPE8iIi0m-H8UpfZmENYq3mh6eEI0EGmjex9cy6-d_rKdzBkFlZfp8xWJyRc4qePllkI7TSTQWqoh8Y2Bu=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":13,
+        "title":"Giardino Margherita Ripamonti",
+        "rating":4.4,
+        "reviews":5.0,
+        "type":"Giardino pubblico",
+        "address":"Fondamenta Marco Giustinian, 11, 30141 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJYdBU9DKvfkcRnzq-EtqcOTY",
+        "gps":{
+            "latitude":45.4569151,
+            "longitude":12.3564017
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzRpkwuVKqj-LEbpUz2pblUs9NRk8ERHgtq0--hH97TKZ0WrK--A5gRPVX9uETLFchUDIndc0sNOc4msXGKM2EJyftjj_MCX2lHag2_20msbV1KbKfAUJ-Xbfqd2SzQd35aMJevmQ=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":14,
+        "title":"Giardini Reali",
+        "rating":4.5,
+        "reviews":2379.0,
+        "type":"Giardino pubblico",
+        "address":"P.za San Marco, 30124 Venezia VE, Italia",
+        "open_state":"Chiuso ⋅ Apre ven alle ore 09",
+        "place_id":"ChIJMasuBtexfkcRJCxPSAYJlVY",
+        "gps":{
+            "latitude":45.4329839,
+            "longitude":12.3382915
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxrFM8MHeEPH8Bw8glH9dwLiY6h6uZx_bfNeMU9knDvxmg9-PtkXsAmgzI0vT89JCvCp8ABAyLQ8NwPJPtimiFHox8AvoEc1aVAtYZvb9htnLnESKuJAXmgdSxX1m6irTr0J8M7eQ=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":15,
+        "title":"Campiello delle Erbe",
+        "rating":4.1,
+        "reviews":9.0,
+        "type":"Parco",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJE7NVSMWxfkcR6ySS0V24uE8",
+        "gps":{
+            "latitude":45.43676,
+            "longitude":12.330411
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyDacTmKiHzwFUEdsR2H9_rMnfxsp2Lajkg9rHV7CMr4-MKIotdfHCWKBB9YW7GNsZVCJjDWYaEf4X-HP6ZzS9ncyt_bYdPmbn6kawWF9cwrJ-9s1DMHIE3H7OOGebwm8wtltU=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":16,
+        "title":"Santa Scolastica",
+        "rating":5.0,
+        "reviews":1.0,
+        "type":"Parco",
+        "address":"Corte dei Santi, 30100 Scolastica, VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJgYnCfgCxfkcRZX7_vG7ztBE",
+        "gps":{
+            "latitude":45.4342407,
+            "longitude":12.341187
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyaM2HJT6-4BueHH6T1GixerPW3EcevTe-489VE4fYJIlurCZvdmC6uZEHYnAjL0acPybaRN01hmtffy-xqBarDpHB6JyLmHaKxXwvtO06CduJd70nQBLXpWrsH4veVyQAuHRl8PHChZqw-=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":17,
+        "title":"Royal Garden",
+        "rating":4.6,
+        "reviews":12.0,
+        "type":"Parco",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":"Chiuso ⋅ Apre ven alle ore 09",
+        "place_id":"ChIJWWUC3UixfkcRh1qGMpqX-gM",
+        "gps":{
+            "latitude":45.4329859,
+            "longitude":12.3382939
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzI8aXB_jWUlFDmSS0H8DE8I7zFiVz7sLP-mQvfa9ASjWQ3XAd87-w0n8zATDTozjFOWd67O3DqwbfYhVODKv3e7y7GrItq1HHzsVQCgQ1PT82PkFyfV_ZmYIJGdtz75SaHgd0M1Rnm0ro=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":18,
+        "title":"Campo San Pietro",
+        "rating":4.7,
+        "reviews":121.0,
+        "type":"Giardino",
+        "address":"30122 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJsaKihzmufkcRrk3bQDfBnpE",
+        "gps":{
+            "latitude":45.4347133,
+            "longitude":12.3590844
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxgfk7sTdMkIUHew2LEY5PGeTW1LJsUNEfEv81RyYr-ZCthujc_TB1NgaTv_Y_e06NoIsmiSF4_pUxz95YYSCrkRT-S6ToP7Y8SdHETdDxWffYb3zjxdAktgqBZkLJJWnj6xsy_7A=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":19,
+        "title":"Parchetto di Sacca Fisola",
+        "rating":4.5,
+        "reviews":2.0,
+        "type":"Parco comunale",
+        "address":"Calle del Teatro in Saca, 10, 30133 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJCQ7qZgCxfkcRlbTHDgHEEOA",
+        "gps":{
+            "latitude":45.4274573,
+            "longitude":12.3151257
+        },
+        "link":null,
+        "thumbnail":"https:\/\/streetviewpixels-pa.googleapis.com\/v1\/thumbnail?panoid=ZigD4-GJ-Yr9XBLwkCqc3g&cb_client=search.gws-prod.gps&w=80&h=92&yaw=283.3255&pitch=0&thumbfov=100",
+        "original":null
+    },
+    {
+        "position":20,
+        "title":"Piazza",
+        "rating":null,
+        "reviews":null,
+        "type":"Parco",
+        "address":"Calle Angelo dal Mistro, 30, 30141 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJM3ZgeQCvfkcR6hxOQBT43Uk",
+        "gps":{
+            "latitude":45.4573787,
+            "longitude":12.3537867
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxs5GfEac0K2_lswokYWMuOVWKRA99zOLDWPcZ07Iu0wTosh-K4qqiakO_wBD7wA0KaFqZx9KxhRpQVgm4Cys6h2qdEpqJsyn5zYuLxfnyfwV1YztaIXc60lA0wDCsnMEEpLqJe=w197-h92-k-no",
+        "original":null
+    },
+    {
+        "position":1,
+        "title":"Campo San Pietro",
+        "rating":4.7,
+        "reviews":121.0,
+        "type":"Giardino",
+        "address":"30122 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJsaKihzmufkcRrk3bQDfBnpE",
+        "gps":{
+            "latitude":45.4347133,
+            "longitude":12.3590844
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxgfk7sTdMkIUHew2LEY5PGeTW1LJsUNEfEv81RyYr-ZCthujc_TB1NgaTv_Y_e06NoIsmiSF4_pUxz95YYSCrkRT-S6ToP7Y8SdHETdDxWffYb3zjxdAktgqBZkLJJWnj6xsy_7A=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":2,
+        "title":"Giardino della Stazione",
+        "rating":4.9,
+        "reviews":9.0,
+        "type":"Giardino",
+        "address":"Santa Croce, 500, 30135 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJ6yHgwLixfkcRx9UiMxQnVs0",
+        "gps":{
+            "latitude":45.4407919,
+            "longitude":12.3186528
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxN1xxGST5e4drV98ZVcPEIUyb7HjBY3ZtrEWMpgu19vWUJIXxJXBOq3x5RXGbzmUktaiPvslh7Myk_XIiMfQx_n4gfRDBDNlTRigOXWddAluKZPLx6jnbVfnEmrAN2jLn2RalVLw=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":3,
+        "title":"Parco Giochi",
+        "rating":3.8,
+        "reviews":10.0,
+        "type":"Parco giochi",
+        "address":"Fondamenta Santa Marta, 2131, 30123 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJ3SzbaraxfkcR25TCli0HEYo",
+        "gps":{
+            "latitude":45.4335473,
+            "longitude":12.3155717
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzHF-SpTnUBizomuuHIhuSk-6TX_I6Upg_1hH1g9hqFOTa-WLUsFpu6avYWFv2T945rhtpOmVKA6TttoFqJl9UssG1v--WwDZPxh-S1HTDwfgmKhJJJn16qWWV6-VovDuPXkOLUXQ=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":4,
+        "title":"Parco Venezia",
+        "rating":null,
+        "reviews":null,
+        "type":"Parco",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJ1eqscACxfkcRmThi3I8gFrY",
+        "gps":{
+            "latitude":45.440379,
+            "longitude":12.3159547
+        },
+        "link":null,
+        "thumbnail":"https:\/\/streetviewpixels-pa.googleapis.com\/v1\/thumbnail?panoid=Zpuf4-ao5m9FaihasNdvuw&cb_client=search.gws-prod.gps&w=80&h=92&yaw=340.79065&pitch=0&thumbfov=100",
+        "original":null
+    },
+    {
+        "position":5,
+        "title":"Ex Orto Botanico",
+        "rating":5.0,
+        "reviews":1.0,
+        "type":"Giardino botanico",
+        "address":"Calle de la Cereria, 734, 30121 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJFbKnNxyxfkcR9alcea1aT9Q",
+        "gps":{
+            "latitude":45.4439132,
+            "longitude":12.3186196
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwPcW-SjNl0Wl8w-_cOK1mIQgjBO05EMLjQxfX2-X2LYqFUOPFlqTiW-KaDsfxLdVD0_UsfjZC5qRfQwy24t3qHYshNyHYcdRADf_Mq-1gXrESNua-1-YRoKeYVAnt6DWtvdSkH=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":6,
+        "title":"Piazza",
+        "rating":null,
+        "reviews":null,
+        "type":"Parco",
+        "address":"Calle Angelo dal Mistro, 30, 30141 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJM3ZgeQCvfkcR6hxOQBT43Uk",
+        "gps":{
+            "latitude":45.4573787,
+            "longitude":12.3537867
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxs5GfEac0K2_lswokYWMuOVWKRA99zOLDWPcZ07Iu0wTosh-K4qqiakO_wBD7wA0KaFqZx9KxhRpQVgm4Cys6h2qdEpqJsyn5zYuLxfnyfwV1YztaIXc60lA0wDCsnMEEpLqJe=w197-h92-k-no",
+        "original":null
+    },
+    {
+        "position":7,
+        "title":"Giardino Ordine di Malta",
+        "rating":5.0,
+        "reviews":2.0,
+        "type":"Giardino",
+        "address":"2, 30122 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJ-Z8q-iaufkcRSHPIACQrc5w",
+        "gps":{
+            "latitude":45.43658,
+            "longitude":12.3469901
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzyw1_FnD1wwyp1Nh8gik-LimiRKJc4t9DucSoAzsBIXu53csc1CnMxEgpScDQyD2ckSmTa8OCP1jHxeKarkODebSULDwFYHRWIBYZey1OEAliOPz9i8CJDonLBK43JwQZ7LtzhSw=w138-h92-k-no",
+        "original":null
+    },
+    {
+        "position":8,
+        "title":"Parco di San Giuliano",
+        "rating":4.4,
+        "reviews":8637.0,
+        "type":"Parco comunale",
+        "address":"Via Orlanda, 30173 Venezia VE, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 22",
+        "place_id":"ChIJTVbmp-OzfkcRw56T6yPr2-g",
+        "gps":{
+            "latitude":45.4743271,
+            "longitude":12.2760376
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwfV9wc0MbixSPlxYQb1W89fDZXS2ONoFb6TqqS2rJFI0UxQYgJaWyzvpLZPX9NRzkV7ElBwDZ7GmnVR1rVJlh-p2eNsmoqKaF9-kIA1_wb6DTweYSdqNgWFSYDE4LakOhTZN8H=w145-h92-k-no",
+        "original":null
+    },
+    {
+        "position":9,
+        "title":"RaniSa Tara Palace",
+        "rating":4.3,
+        "reviews":3.0,
+        "type":"Parco",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJqRc9Y1exfkcRngCDA_R66r0",
+        "gps":{
+            "latitude":45.4384937,
+            "longitude":12.3303512
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwuLjHYighblYY9hdjtBzB_KPABWsLXffYpMVqO73AoTMfdCHB1KpflleC9grBF2ne9ywnEja_mH__2gbtlxoZ2OrNVQ8k2l1LJA8c-9BGAGfIOZyP4g2b69AIxViZfEd4G0xw=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":10,
+        "title":"Giardino comunale",
+        "rating":null,
+        "reviews":null,
+        "type":"Parco",
+        "address":"30133 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJAQDAhiuwfkcRb54mp_-fc4c",
+        "gps":{
+            "latitude":45.4232659,
+            "longitude":12.3315849
+        },
+        "link":null,
+        "thumbnail":"https:\/\/streetviewpixels-pa.googleapis.com\/v1\/thumbnail?panoid=BYHsaFBKZkBVktyznQkdUw&cb_client=search.gws-prod.gps&w=80&h=92&yaw=107.13877&pitch=0&thumbfov=100",
+        "original":null
+    },
+    {
+        "position":11,
+        "title":"Giardino di Ca’ Dolfin",
+        "rating":4.5,
+        "reviews":13.0,
+        "type":"Giardino",
+        "address":"Sestiere Dorsoduro, 3825, E, 30123 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJMwEKW3OxfkcRTFvB9oPuro0",
+        "gps":{
+            "latitude":45.4349344,
+            "longitude":12.3258743
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxIneDus317oeAvoTHkI4-QGPawNsfuSz9Uqyd0Fnpax-a4xhjc0T5IAZYaSynquR9ic_gzaG_vBQ-iu6Pr-40LHBwjK0qgt_eBatmzF2uu7NvbnkSiZYM8fhtPiPBNzwpfN-uL=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":12,
+        "title":"Labirinto Borges",
+        "rating":3.8,
+        "reviews":95.0,
+        "type":"Giardino",
+        "address":"30133 Venezia VE, Italia",
+        "open_state":"Chiuso ⋅ Apre ven alle ore 10",
+        "place_id":"ChIJ4fF5wyuufkcRLLQRrmJ8yRQ",
+        "gps":{
+            "latitude":45.4286973,
+            "longitude":12.3441575
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyb9l1BtVtX01bsj7YNhfkLUxGNJRbKKHrlnQH3TVM39bFKDznHvJlPZyX6aXW-xqDP5SnX2qI_cb9vJk1Nmb020GbhmMPE6Ax472ujxxf7QwR8ueCFRPkUzMik_DScWU4Ehkgo=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":13,
+        "title":"Orto degli Scalzi (padri Carmelitani)",
+        "rating":4.6,
+        "reviews":7.0,
+        "type":"Giardino",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJ6-dWWb-xfkcRWmAkx--j85k",
+        "gps":{
+            "latitude":45.4420802,
+            "longitude":12.3208678
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/p\/AF1QipMXBWeCUD1qfC0jCmPdBMD68tqqxTtWGpGAUkmR=w138-h92-k-no",
+        "original":null
+    },
+    {
+        "position":14,
+        "title":"Campiello della malvasia",
+        "rating":4.3,
+        "reviews":4.0,
+        "type":"Parco statale",
+        "address":"Fondamenta Arsenale, 2177, 30122 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJObHzKfOvfkcRgrUZKITIrbw",
+        "gps":{
+            "latitude":45.4328372,
+            "longitude":12.3498835
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxZZ5QiyEFoh3-DKM6DzYu_QIRPDLpHHzHC-wZiValfo99fqgSianrspSxC5N1hWEbfJ7AXZUpdElJ38gJOgOZPdUeZlOgQZobYBve-bbQYq8LP4dLdkrVGx-YEGEH4etS-5_N8=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":15,
+        "title":"Giardino di Palazzo Corner della Ca' Granda",
+        "rating":5.0,
+        "reviews":1.0,
+        "type":"Giardino",
+        "address":"C. del Dose da Ponte, 30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJ1YfeSQCxfkcRnboXGfGShUY",
+        "gps":{
+            "latitude":45.4317236,
+            "longitude":12.3315272
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSz7H1VQepAtiwJgDm9ZBB8fd0lyJvpchDK0-G1DtmC8MBqoxRmBmJr0HPoxiJBFb3eCIg8zkmzPmt7lsnKomqhS6zMXHKIXhxLH6XK6llRONKK7wuMvsGmlm5XYbWCq8xUxMErPwQ=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":16,
+        "title":"Albero de la Cason",
+        "rating":null,
+        "reviews":null,
+        "type":"Giardino pubblico",
+        "address":"Campiello de la Cason, 4510, 30121 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJRbhAcwCxfkcRWBfXUJEfRAY",
+        "gps":{
+            "latitude":45.4405625,
+            "longitude":12.3377286
+        },
+        "link":null,
+        "thumbnail":"https:\/\/streetviewpixels-pa.googleapis.com\/v1\/thumbnail?panoid=xRUjOda42E-khBkJq9RpIg&cb_client=search.gws-prod.gps&w=80&h=92&yaw=131.20587&pitch=0&thumbfov=100",
+        "original":null
+    },
+    {
+        "position":17,
+        "title":"Area verde Baia del Re",
+        "rating":4.9,
+        "reviews":9.0,
+        "type":"Giardino",
+        "address":"Fondamenta Sacca San Girolamo, 30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJkaj3lLKxfkcRGpMJY_KwY8M",
+        "gps":{
+            "latitude":45.4477093,
+            "longitude":12.3208009
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwlGeGGn8BW1kdpz9fmLbeS9rDQjP7rFDygS6JsODeUkFigG9dh9bjS08Aw8HnXLYTINuP1JWtg80uQnCrayCdzL_1sS-3XOQjcP8giOUA1t5FLRkvI5g5o5L_zsgBu27PYMVfiug=w80-h142-k-no",
+        "original":null
+    },
+    {
+        "position":18,
+        "title":"Panchine per rilassarsi",
+        "rating":4.7,
+        "reviews":3.0,
+        "type":"Giardino",
+        "address":"Fondamenta Sacca San Girolamo, 2976, 30121 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJBw6KVgCxfkcRN-LEPmYVz6U",
+        "gps":{
+            "latitude":45.4477396,
+            "longitude":12.3201058
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwLPz2BQ1YHG8XkyGewD7gbWYFhHicXxMPW3bM0vTLGWlI9dkzVrfRiwPjQXmfpEvb2FbltZxHUhjRlniCxTw10zlKXI2VtDWCYY9xPfNq_AqdZ0EouusLXuraBYvcCWrvkUEzsDfhjMcId=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":19,
+        "title":"Campo Stringari",
+        "rating":4.7,
+        "reviews":11.0,
+        "type":"Giardino",
+        "address":"Castello, 30132, VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJu_Zp1jWufkcRwPSRrP6fvZE",
+        "gps":{
+            "latitude":45.4274394,
+            "longitude":12.3614514
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwc_qVdsVRn4XiTK0eQAe-_ZhCmzQmwAlswzynCjxR0sTtYjU7oVhcO562ghStjsUcGbeQfuoVNNO8eVdNraNvzIzptIfp1QnPm1XrYc9QKZ7ihK9oFk7RjH2jRdJCNlqLlGRM=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":20,
+        "title":"Port San Giuliano",
+        "rating":4.1,
+        "reviews":53.0,
+        "type":"Parco",
+        "address":"Cavalcavia S. Giuliano, 26, 30173 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJu93YP16xfkcRdkQTPa9kswQ",
+        "gps":{
+            "latitude":45.4662324,
+            "longitude":12.2805604
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSz4QHXhWY5Av4Bmyj21tV72L75blRtsGAvOFj9kJrPoREfkevqJaEaI_CuyBS6C-EcgQE4EuQ6kJG9ysoGGfBVDraFc8F7K1jcVCOmxosTzCoNh_HhlbM8rgj38hH0RpmRofcXG=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":1,
+        "title":"Fondamenta dei Preti",
+        "rating":5.0,
+        "reviews":1.0,
+        "type":"Area per passeggiate",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJDWpWfQCxfkcRs0RbP0sRwK0",
+        "gps":{
+            "latitude":45.4375028,
+            "longitude":12.3401681
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwGlxhYip7Z3RA47PVSoMUerL648mHK1m9ouGf3R6XjBNWxnTevXpSD8ZRog-TpJAIDLPn0Sfkiel8-ppTrEbpzzTtKXWoNQEfgpPJJvaSFVlmiKK4Pf9PyVxCfU0MdAQNowdpAm8PRA3Cv=w80-h142-k-no",
+        "original":null
+    },
+    {
+        "position":2,
+        "title":"campoTappaRomantico",
+        "rating":null,
+        "reviews":null,
+        "type":"Area per passeggiate",
+        "address":"Campiello Widmann già Biri, 6262a, 30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJHfbCOQCxfkcRRhLmQKDJf44",
+        "gps":{
+            "latitude":45.441351,
+            "longitude":12.3412228
+        },
+        "link":null,
+        "thumbnail":"https:\/\/streetviewpixels-pa.googleapis.com\/v1\/thumbnail?panoid=e4lNQfRBy_hzSSfZCN0WJQ&cb_client=search.gws-prod.gps&w=80&h=92&yaw=221.32509&pitch=0&thumbfov=100",
+        "original":null
+    },
+    {
+        "position":3,
+        "title":"Lungomare Lido San Nicolò",
+        "rating":4.0,
+        "reviews":1.0,
+        "type":"Passeggiata",
+        "address":"Riviera S. Nicolò, 30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJUc02BQCvfkcRZxpOBV9I6ok",
+        "gps":{
+            "latitude":45.4230198,
+            "longitude":12.3767236
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzFWLeNrCrx8FkFpJ0On8bS4Zd6HHeSN78safHZTFb9y2JkCape5nmnNLOMZembjm_lbCT2tU0vQkyPUlcvOEQnPSQ7VxklRcP_-_splf-lRzJ_io8Vu277qputnY-Mctwk-k2ed9OGqSYC=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":4,
+        "title":"Port San Giuliano",
+        "rating":4.1,
+        "reviews":53.0,
+        "type":"Parco",
+        "address":"Cavalcavia S. Giuliano, 26, 30173 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJu93YP16xfkcRdkQTPa9kswQ",
+        "gps":{
+            "latitude":45.4662324,
+            "longitude":12.2805604
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSz4QHXhWY5Av4Bmyj21tV72L75blRtsGAvOFj9kJrPoREfkevqJaEaI_CuyBS6C-EcgQE4EuQ6kJG9ysoGGfBVDraFc8F7K1jcVCOmxosTzCoNh_HhlbM8rgj38hH0RpmRofcXG=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":5,
+        "title":"casa del lugo",
+        "rating":5.0,
+        "reviews":1.0,
+        "type":"Area per passeggiate",
+        "address":"Riva degli Schiavoni, 3560, 30122 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJEU9KBgCvfkcRYKP7LaIyOrU",
+        "gps":{
+            "latitude":45.4337116,
+            "longitude":12.3467086
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzRSj_iLc3Qpw7M-ALbmJnM4XCKqUNiGoCHNjVmcX63BN8iSts82XyB4dXnN_qcjkD53yNok_WN8jh8gF1f6e0fnaxE4eCuQC1E9N0BmJstDc4_LdTCU4EuSgf5VgwlbR6L7o0AjapsLKcN=w163-h92-k-no",
+        "original":null
+    },
+    {
+        "position":6,
+        "title":"Giardini della biblioteca area economica",
+        "rating":null,
+        "reviews":null,
+        "type":"Giardino",
+        "address":"Calle Biscotella Cannaregio, 740a, 30121 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJr_4fYgCxfkcR5ruEV4NPckA",
+        "gps":{
+            "latitude":45.4449084,
+            "longitude":12.3178161
+        },
+        "link":null,
+        "thumbnail":"https:\/\/streetviewpixels-pa.googleapis.com\/v1\/thumbnail?panoid=V36mTLPJQlJylZnycJh5Nw&cb_client=search.gws-prod.gps&w=80&h=92&yaw=1.7173909&pitch=0&thumbfov=100",
+        "original":null
+    },
+    {
+        "position":7,
+        "title":"10 Ponte del Pestrin",
+        "rating":5.0,
+        "reviews":2.0,
+        "type":"Area per passeggiate",
+        "address":"Calle del Pestrin, 30100 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJd2LPSWGxfkcR-1YOBVY48-c",
+        "gps":{
+            "latitude":45.4347541,
+            "longitude":12.3304574
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyhpQPplkF1I1PfJwMyYSVlkPkJHTK-R3OM6eeFCQ95CfdKiDrYreDVMQY8VGqwuE370H745IOeFPykTz8fJZlOy7ccF8eSCWGtlz6WMfEl5TFGePUm6mkQKa-jIom8Fibq0yUr=w137-h92-k-no",
+        "original":null
+    },
+    {
+        "position":8,
+        "title":"No gravity paemrk",
+        "rating":null,
+        "reviews":null,
+        "type":"Parco",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJy8I9pXOxfkcRgn1ow18P6WY",
+        "gps":{
+            "latitude":45.4414662,
+            "longitude":12.3152595
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyUXAhIerQCPiIXu3alzqzdUtF1L_5nDNA_k_4Xvd5qEJVsV_7DsEVNZ3Gn_wfg5IchYqY6NOCj7pHTNU6zcz-gqoTZHRUfukOE6XMzQ99OOiKoD0sr-I_4nev8zyawMZpUVyJXpvylUXTV=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":9,
+        "title":"Piccola e incantevole",
+        "rating":null,
+        "reviews":null,
+        "type":"Area per passeggiate",
+        "address":"Venezia - Murano, 30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJVSqoGwCvfkcREHtL03RGYrs",
+        "gps":{
+            "latitude":45.4582465,
+            "longitude":12.3528687
+        },
+        "link":null,
+        "thumbnail":"https:\/\/streetviewpixels-pa.googleapis.com\/v1\/thumbnail?panoid=J_PhGpaVYhD8mroyJ_PSfA&cb_client=search.gws-prod.gps&w=80&h=92&yaw=295.8969&pitch=0&thumbfov=100",
+        "original":null
+    },
+    {
+        "position":10,
+        "title":"Panchina A.Nulli",
+        "rating":5.0,
+        "reviews":6.0,
+        "type":"Giardino",
+        "address":"Fondamenta S. Biagio, 783, 30133 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJC8-cKQCxfkcROXowD-sZ4rA",
+        "gps":{
+            "latitude":45.4273997,
+            "longitude":12.3227103
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzN8utaLB-siGLKX9bz93lUn5-vRW_GmrY8obXv79qcCA5bjoneJFSsce98Jaff9CZOUiGdru-L7W0ETBQIIHqJcews4Nho7jvamePo1Ya-Vbkc7JCOdQbe2eJps4kscyXr2GEqE0BRidbR=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":11,
+        "title":"Campo santa maria formosa",
+        "rating":null,
+        "reviews":null,
+        "type":"Area per passeggiate",
+        "address":"C. Longa Santa Maria Formosa, 30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJxZNoFwCxfkcRXRhMqri2aDU",
+        "gps":{
+            "latitude":45.4377879,
+            "longitude":12.3419509
+        },
+        "link":null,
+        "thumbnail":null,
+        "original":null
+    },
+    {
+        "position":12,
+        "title":"Riva Longa",
+        "rating":4.0,
+        "reviews":1.0,
+        "type":"Area per passeggiate",
+        "address":"Venezia - Murano, 30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJv-mdIQCvfkcR1B0W2jwX9DA",
+        "gps":{
+            "latitude":45.456128,
+            "longitude":12.3537263
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxGqMm-HC6JFTOkkdtRX-AxDp1p0u0oTZTm-GXBPEMnUYFyuucCZ870ZW4CIcPOMkddNBDWG48-rDk3vymMDLy7S-i_4qETzl3TDWuIbh0bA81zewQ-cQz1OUsruR-QHPfHIu8jTpO1g4aG=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":13,
+        "title":"Tomba di Igor Stravinsky",
+        "rating":4.6,
+        "reviews":202.0,
+        "type":"Cimitero",
+        "address":"San Michele, 30121, 30121 Venezia VE, Italia",
+        "open_state":"Chiuso ⋅ Apre ven alle ore 07:30",
+        "place_id":"ChIJEyi3EB6ufkcRgm4VUnpW1IA",
+        "gps":{
+            "latitude":45.4468178,
+            "longitude":12.3483646
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSz2q12pY4qanRaq1p3Ff1CpBkpWR0fQKuGakJY6UJbhovpY2zbMlbjghJE9W5SOl_wvJVA9mBruMCJpDxOmwUl9nhRxcWVjaxgIPSjgAoHVT9f0oHMMHoKne1ZoXuO-qrAzC0rQ=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":14,
+        "title":"Parco Comunale Veneziano",
+        "rating":4.2,
+        "reviews":10.0,
+        "type":"Parco comunale",
+        "address":"30173 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJOXprzdGzfkcRyCOvKq2rGZg",
+        "gps":{
+            "latitude":45.4690434,
+            "longitude":12.2804745
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSx8nX0mPNQePkCs_6vd9ETtNe1YqZj8It0CVnmpLJfavncDyJ7xJQCBlEWXjSLoH_qAhtHAIJfJ3cglU_NrEUjdLr5RX68q_GfTMDyZHG01wMRCK13-3ehIlxwJXWIdRP-2IXc=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":15,
+        "title":"Parco Alfredo Albanese",
+        "rating":4.0,
+        "reviews":3440.0,
+        "type":"Parco",
+        "address":"Via Gori, 8, 30172 Mestre VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJ0zi_ZWW0fkcRGnRUYR1oIbw",
+        "gps":{
+            "latitude":45.4993575,
+            "longitude":12.2609032
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwBp1Mmcs5vbdxX-aan8YYcuTBoSibhqB43zFfANA4cm2TRK82ru5xi304PVmnMwPiannBgKoARqnbGCVzn8G_9PkCiw9yFn0KuTuQr60Br1SsYVUYZtjO6T9s8lQ11pPezFGXw=w163-h92-k-no",
+        "original":null
+    },
+    {
+        "position":16,
+        "title":"Palazzo Contarini a San Beneto",
+        "rating":null,
+        "reviews":null,
+        "type":"Giardino",
+        "address":"Fondamenta Narisi, 3981A, 30124 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJt70qm9qxfkcRE9etSws0Jos",
+        "gps":{
+            "latitude":45.4358749,
+            "longitude":12.3329359
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSx9rEuhNJZlUdnxanmvoFpuOX4C3Nr56Duw4rktp6UvqOaA77Ob4ZQZ_ijNvHKkY9lUYWwZl1afMH-e3vDUkG42kBxUkmDjoR4cpUNoLPzl8O8Qp-a1-vHuYw_tRcSIvr2v4Tjq=w138-h92-k-no",
+        "original":null
+    },
+    {
+        "position":17,
+        "title":"Corte Ca' Dario",
+        "rating":null,
+        "reviews":null,
+        "type":"Giardino",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJFWWIPgCxfkcRzmVcvD1hWsw",
+        "gps":{
+            "latitude":45.4387563,
+            "longitude":12.323298
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxYawCxqTaPliugCQwmtJzVm9TLIzv3YGly6JInniohyY70gP-5IEjU_-K4No1w9PeVMQSaqHBsIIj2so2VcAuP5BKu6T_JsBi62XIKgrdmbBSFbHCR3SlvaCEhJfkolJtSdJvf=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":18,
+        "title":"Su e Zo per i ponti",
+        "rating":null,
+        "reviews":null,
+        "type":"Area per passeggiate",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJYbk3JgCxfkcRocQpIHXzUpo",
+        "gps":{
+            "latitude":45.440379,
+            "longitude":12.3159547
+        },
+        "link":null,
+        "thumbnail":"https:\/\/streetviewpixels-pa.googleapis.com\/v1\/thumbnail?panoid=Zpuf4-ao5m9FaihasNdvuw&cb_client=search.gws-prod.gps&w=80&h=92&yaw=340.79065&pitch=0&thumbfov=100",
+        "original":null
+    },
+    {
+        "position":19,
+        "title":"[SPNG] wasdmania",
+        "rating":5.0,
+        "reviews":2.0,
+        "type":"Area per passeggiate",
+        "address":"Calle de la Cereria, 734, 30121 Venezia VE, Italia",
+        "open_state":"Chiuso ⋅ Apre ven alle ore 09:01",
+        "place_id":"ChIJLdP7FgCxfkcRjsg9-mOn89Q",
+        "gps":{
+            "latitude":45.4442839,
+            "longitude":12.3178309
+        },
+        "link":null,
+        "thumbnail":"https:\/\/streetviewpixels-pa.googleapis.com\/v1\/thumbnail?panoid=QxoStZPKG8TycN_-FCHrbw&cb_client=search.gws-prod.gps&w=80&h=92&yaw=303.78946&pitch=0&thumbfov=100",
+        "original":null
+    },
+    {
+        "position":20,
+        "title":"Venezia Certosa Marina",
+        "rating":4.2,
+        "reviews":101.0,
+        "type":"Porticciolo turistico",
+        "address":"Isola della Certosa, 30141 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJtXRZbbixfkcRFbepFvK1z3s",
+        "gps":{
+            "latitude":45.432637,
+            "longitude":12.3695744
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwu0TZAufMD_dqQ9ZUYHwsTalz-e2krGwjo5j5TXEXuyv84BnpjHJWsjfq07Ou6p1dJRjaPWhcpFHpAfC0efMAwFQK3ugE1smpGGY0dgEiUn-FpF_dYfLtQnQ0oXDWYWzaYeDCt=w163-h92-k-no",
+        "original":null
+    },
+    {
+        "position":1,
+        "title":"Excelsior Boat Taxi Pick up",
+        "rating":null,
+        "reviews":null,
+        "type":"Parco",
+        "address":"Fermata, S. Marco, 30124 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJSwe8HwCxfkcRKYMrC0Pi7zI",
+        "gps":{
+            "latitude":45.4328664,
+            "longitude":12.3387765
+        },
+        "link":null,
+        "thumbnail":"https:\/\/streetviewpixels-pa.googleapis.com\/v1\/thumbnail?panoid=11SNyjLhjL5tQcM27O2LfA&cb_client=search.gws-prod.gps&w=80&h=92&yaw=167.22403&pitch=0&thumbfov=100",
+        "original":null
+    },
+    {
+        "position":2,
+        "title":"Punta Lunga",
+        "rating":4.4,
+        "reviews":154.0,
+        "type":"Parco selvatico",
+        "address":"Via Bazzera, 30173 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJm_1KSUyyfkcR8bi_-ymHQeo",
+        "gps":{
+            "latitude":45.4912279,
+            "longitude":12.3219234
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwTzLXS6RFjwVI4pUD2InW_CKkMdhTZMT54WIAO-SsJZnVBMv4-DN7OEfhGHoHeIm7IA0RBr8GKNP7n5h8skKIbfJRZbMYiKTYbZZXCTAXj1DcvNzi1UoO7nrtl-U0_-MBWUHml5A=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":3,
+        "title":"Parco \"Ca' Bianca",
+        "rating":4.2,
+        "reviews":121.0,
+        "type":"Parco",
+        "address":"Via Malamocco, 20, 30126 Lido VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJM1upymGlfkcR4sQWvX0aSMA",
+        "gps":{
+            "latitude":45.384744,
+            "longitude":12.3483032
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyMGEWEGY67G_-bK-XRqlBpj1Jycj22V9z-EVHxjlwZc0lN8EzYSJ4bF_n6E9tCrlnPZ5NdNxbGs05XnsnPTR3KcRq8N_PLazJBn2UFajaDOFr7C7XVbIovx3hiGFsGSv-lgkcQ=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":4,
+        "title":"Parco Piraghetto",
+        "rating":4.1,
+        "reviews":1037.0,
+        "type":"Parco",
+        "address":"Via Alfredo Catalani, 9, 30171 Venezia VE, Italia",
+        "open_state":"Chiuso ⋅ Apre ven alle ore 08",
+        "place_id":"ChIJidXFIzG0fkcRlCfDfRv9EzQ",
+        "gps":{
+            "latitude":45.4887155,
+            "longitude":12.2265288
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyGJ65oPq2WGPW5CGf9QNi_Jrof3Ru7PznyagC_9O2J1OwqVNTvSuGCs8hUUkftE0eFuFjj8IO2iD1elRXcC8cbZusuxC1U7lTXNkpGg3TWD84ncJ_uhqbvdMwoBT4RwFWev19W=w163-h92-k-no",
+        "original":null
+    },
+    {
+        "position":5,
+        "title":"Passeggiata delle Barene - Campalto",
+        "rating":4.7,
+        "reviews":32.0,
+        "type":"Area per passeggiate",
+        "address":"30173 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJXbGllwKzfkcRTqBSt2ebVZg",
+        "gps":{
+            "latitude":45.4825061,
+            "longitude":12.3030537
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwcKQELmRAjjzkayJVoxxc3sAbG5gxkZ4hjHnE09EqkU4CjJILy9QjwO9RTzVgR-bfzY9x2SjcDfrB2TSaOvO5BJDuw8kDPA5X7CA3tcuZi606W2SgFsdTLCuFcNF5fCqB1ePlGgQ=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":6,
+        "title":"Bosco dell'Osellino",
+        "rating":3.9,
+        "reviews":379.0,
+        "type":"Parco",
+        "address":"Via Amerigo Vespucci, 223, 30173 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJx48M0Am0fkcRXevTFrdiarQ",
+        "gps":{
+            "latitude":45.4836272,
+            "longitude":12.2645456
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSymD2i_zZEgAvqMKYzhG3L8j5wMsgp5ui5nd-sWabve1sGrJbUkac-01byAGlKIFCi3Q3_z6jWMIgzbc5OhRcxkul_LYIoHbgzJG3RWXcO3xX3Vb9-Tu6W-u1Ystc-LSkBMLn9m=w163-h92-k-no",
+        "original":null
+    },
+    {
+        "position":7,
+        "title":"Parco Allende",
+        "rating":3.9,
+        "reviews":105.0,
+        "type":"Parco",
+        "address":"Via Bissagola, 16, 30173 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJwXQJqxK0fkcRqMWULB9WAyw",
+        "gps":{
+            "latitude":45.4915055,
+            "longitude":12.2555806
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwlgEe--JtW0S3VLQzjQKBuIuOVpqHlYqiHBiXzDFDA8-GcIBnELamLKmjBka5p-YNlpVgvn-CXIYwAGvr8rr7Qb5ytEotpl-PpLxUZysytKlyeYxLgT14HLu7yCfHvbBO85-DVNQ=w163-h92-k-no",
+        "original":null
+    },
+    {
+        "position":8,
+        "title":"Parco Catene",
+        "rating":4.1,
+        "reviews":1702.0,
+        "type":"Parco",
+        "address":"Via dei Tigli, 16, 30175 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJly7cJ3m2fkcR3Y6NQbz1bHY",
+        "gps":{
+            "latitude":45.476199,
+            "longitude":12.2051339
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzHh3zz1B-_N6QwPMyXcBBpFoK2IE_mzgqqn2Ol5o-Pi7yHLIZ9Y5yuiYO7hUWh6ElqPjeg0Q23R6rohE-HAd-WwWYxNQ1SMDUoNCE4UL1DfSqxE_UpgAfJildoV-N-G6M9mqJk=w163-h92-k-no",
+        "original":null
+    },
+    {
+        "position":9,
+        "title":"Parco Emmer",
+        "rating":3.8,
+        "reviews":187.0,
+        "type":"Parco",
+        "address":"Via Pietro Cornaglia, 30175 Venezia VE, Italia",
+        "open_state":"Ora aperto",
+        "place_id":"ChIJR8MUVXWtfkcRUX4yBFO9YtU",
+        "gps":{
+            "latitude":45.4672804,
+            "longitude":12.2183556
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwPnrG0-cGRmvW4C6e_p1rpi2sKv1P1Daz5SAF1dGKrVtkW4hsOxBNrZoxbHFDGj0II2LWCtXPt-2rr3j-yi4P7265vda4VpBxaT263Tax7cvYZo-56XarYXstiLz_JBx54fhS3=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":10,
+        "title":"Parco pubblico",
+        "rating":null,
+        "reviews":null,
+        "type":"Parco",
+        "address":"Via Nicolò dal Cortivo, 121, 30173 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJqWlJNQCzfkcRwKd4v_5Wcec",
+        "gps":{
+            "latitude":45.4874414,
+            "longitude":12.2963455
+        },
+        "link":null,
+        "thumbnail":null,
+        "original":null
+    },
+    {
+        "position":11,
+        "title":"Parco Kolbe",
+        "rating":4.6,
+        "reviews":11.0,
+        "type":"Parco",
+        "address":"Via Padre Massimiliano Kolbe, 30100 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJ08_Fsl-1fkcRESGVLfgPb7M",
+        "gps":{
+            "latitude":45.4840576,
+            "longitude":12.2449095
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxS0OKCEqST2U16yFJnnrJOIcV675JQdMUvfW6VtqfFtiyo_hdGetGWNWz5tj0-GsndnmQ-4521AmxHn-u67dM5HX4rydcB1yjGU4gGl0n6wdVUDey_W37-oKCtf3oHDY74evRP=w163-h92-k-no",
+        "original":null
+    },
+    {
+        "position":12,
+        "title":"Baia del Forte",
+        "rating":4.4,
+        "reviews":1373.0,
+        "type":"Parco",
+        "address":"V. Forte Marghera, 30a, 30173 Venezia VE, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 01",
+        "place_id":"ChIJkSzHrf-zfkcRioU3nKHPDMM",
+        "gps":{
+            "latitude":45.4735474,
+            "longitude":12.2633192
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyoVJ5QbsxSAHSgR-kyOkMiocpGPkzC8hiLhptgRpzivZjkwH-tUZwdisZCEEZ8Od7bY9CR_83ADArJ72cPL_Kr7t9FDLr9XmkAazcA-fmfcNLszTH5cwJdpZmiPrdZFKJfuTJThw=w194-h92-k-no",
+        "original":null
+    },
+    {
+        "position":13,
+        "title":"Parco Laghetti Martellago",
+        "rating":4.5,
+        "reviews":2341.0,
+        "type":"Parco",
+        "address":"Via Ca' Bembo, 30030 Maerne,Martellago VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJ87-lkZPKfkcR0psceiaLqwQ",
+        "gps":{
+            "latitude":45.5334826,
+            "longitude":12.1672696
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyiZbjecCFRTek2iHQXUuVwlfPfrfbOzezg7K5wJwDWtL3y1oPi3L8Bg5e9zmZs8QMHEYbqnf18tQ9Q_2yFUimOWeaZp0RjL1sa4kxw73BBRbxlJv8y3Z1o6ctii549_p3Rb-8=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":14,
+        "title":"Bosco di Campalto",
+        "rating":3.8,
+        "reviews":63.0,
+        "type":"Area per passeggiate",
+        "address":"Via Cimitero Campalto, 30173 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJ3Q84ALezfkcRsoBCxRWklYU",
+        "gps":{
+            "latitude":45.4886442,
+            "longitude":12.3070425
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzklZvHLW1rGYIVqylAPs506z8NZhz7kCIpJ7_35G_bXqpRVbtveYA-ntQxqybHn7FD-GbNOCioZqjAyTJgAe9MldE4_32E3G3DRk_y4TqDVb9DHSDp7D3tclHI2aQYpyroiouFTg=w163-h92-k-no",
+        "original":null
+    },
+    {
+        "position":15,
+        "title":"Area Cani San Giuliano",
+        "rating":3.4,
+        "reviews":57.0,
+        "type":"Parco per cani",
+        "address":"Percorso Parco S. Giuliano, 30173 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJzWdOWeSzfkcRJmRXtltxu5E",
+        "gps":{
+            "latitude":45.4764408,
+            "longitude":12.2774714
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyhERfOWOtyMOs06kEFXLcOu9YVABtLnBRkIlybmVoMzDazcayN4NON_MdVfxEZILsW9Vj9BNKgExP1gBl5Zp66i65J7xnWGiJdacjAfR7gPOdOCwQYkXq9VaB1BETAmC_E_gVH=w163-h92-k-no",
+        "original":null
+    },
+    {
+        "position":16,
+        "title":"Parco Giochi",
+        "rating":4.5,
+        "reviews":136.0,
+        "type":"Parco comunale",
+        "address":"V. Tevere, 70, 30173 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJP7C1Szu1fkcRLvwwPwPBCAw",
+        "gps":{
+            "latitude":45.4969407,
+            "longitude":12.261164
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSy0kcP9k-igWl9gpzTQqb9wC_IhwiydOl7G1EnrLfQW3hKyBSNy0SeRD3_r2tcT4zz6V9hAECFSSVTxWJNABYjp8B7H75i5TB1NWlkocwutteWWkrK8uRZddEL6znTjfD2DsB_u=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":17,
+        "title":"Parco di Villa Querini \"Andrea Zanzotto\"",
+        "rating":3.8,
+        "reviews":355.0,
+        "type":"Parco",
+        "address":"Via Circonvallazione, 30171 Venezia VE, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 20:30",
+        "place_id":"ChIJwei4gUe0fkcRia7vKzzSq6Y",
+        "gps":{
+            "latitude":45.4940187,
+            "longitude":12.2350783
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzsf3qmF6KPixbvpqTblfV86ErInYZox9DNbzmDHdo1bacgPaeT1vIDRHXIASh-PZg2uzHHgXBITgQxNw-OEysmVvRQJ66pOIK8E0gEWsGHLjCbc21wv_quu1lAYTTwb5ly4RdrAQ=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":18,
+        "title":"Parco giochi UGUALELAND",
+        "rating":5.0,
+        "reviews":1.0,
+        "type":"Parco",
+        "address":"V. Forte Marghera, 30, 30173 Mestre, Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJKz8cx-GzfkcRH5XfMSLRRws",
+        "gps":{
+            "latitude":45.4762552,
+            "longitude":12.2626214
+        },
+        "link":null,
+        "thumbnail":"https:\/\/streetviewpixels-pa.googleapis.com\/v1\/thumbnail?panoid=t7bHVw8dK8PwA7oGeDNXLg&cb_client=search.gws-prod.gps&w=80&h=92&yaw=148.93034&pitch=0&thumbfov=100",
+        "original":null
+    },
+    {
+        "position":19,
+        "title":"Parco Mazzorbo",
+        "rating":4.7,
+        "reviews":22.0,
+        "type":"Parco comunale",
+        "address":"Fondamenta di Santa Caterina, 2, 30142 Venezia VE, Italia",
+        "open_state":"Chiuso ⋅ Apre ven alle ore 08",
+        "place_id":"ChIJ712-gfqtfkcRxwdZ3FxxRUU",
+        "gps":{
+            "latitude":45.4891697,
+            "longitude":12.4125743
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxL3eTA1axpxUka9JUdc8tovhcax9Hbjj7AEupngIZ5yW4kXnYOCovd6_VFL7GTJiO4TN5GqD2-vfweGWbUL2tvANzrm2r73m_t7Un3yZlyY49rENbVr6bftXG9M4n5Zu50bGo=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":20,
+        "title":"Parco Eunice Kennedy",
+        "rating":4.2,
+        "reviews":149.0,
+        "type":"Parco comunale",
+        "address":"Viale don Luigi Sturzo, 30174 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJSzFE2GO0fkcRMOEkn8Jxzug",
+        "gps":{
+            "latitude":45.5080589,
+            "longitude":12.2572141
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSx8ijg1Ld4HBv7OY7IR3pjupc0TQQlxszH0tEb2EFBY2yybz0qAs8GT9XTQ2ES2_Vdgy-GwS4vY45qsuI_pBLb5sgRjFcvAsMEXztjHbx1yaxhKKhbiyS6tDV4WO3fZAvC16_3iIg=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":1,
+        "title":"Parco Monviso",
+        "rating":4.0,
+        "reviews":164.0,
+        "type":"Parco",
+        "address":"Via Monte Cervino, 59, 30173 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJ2bpfe3-0fkcRapNpFajmEoM",
+        "gps":{
+            "latitude":45.5058429,
+            "longitude":12.274064
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzg2vHz4gMNRVSH5i9oc6MuIGuNHF1q1SV47WHETZ0wwJXyLfxxto-D09rOgfJc4sWXInqcXFdkt8k_n0l0p0O-fJxieBZC-8_KTLQoQ5yQOQZYrbWAgOLNbHybGFupEDediWaw=w103-h92-k-no",
+        "original":null
+    },
+    {
+        "position":2,
+        "title":"Venezia In Bici, Ritrovo Parco San Giuliano",
+        "rating":5.0,
+        "reviews":1.0,
+        "type":"Parco",
+        "address":"F7G9+FV, 30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJb6cDWTuzfkcRWJTP7gbJN8M",
+        "gps":{
+            "latitude":45.4761766,
+            "longitude":12.269667
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzeb-foqosxDSciggR_SMd667RGf74OOWdYJv8z9sGJTw0-64HkSOgqR9JkJq_fR5n9Zsg7rbBYN3Iyt_Kb_aUbl9peD5rIAZlBX1H3FD2unejNFnVtu-4gOVeC2KaYPZKjkVRdaG9-S94=w80-h142-k-no",
+        "original":null
+    },
+    {
+        "position":3,
+        "title":"Fonte d'acqua nel parco",
+        "rating":5.0,
+        "reviews":1.0,
+        "type":"Parco",
+        "address":"Fondamenta di Santa Caterina, 2, 30142 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJ-8DGPQCtfkcRicszqx4TX7Q",
+        "gps":{
+            "latitude":45.4892097,
+            "longitude":12.412628
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyCPvJPEe7sogK5MXRsh9J83d78I_iGKjmUBKSkiivcf98p6EUvSgArJ-Q4YBs8rkGtNguXmKFReerpU-CPXO0oCzYwxa_QMp1pOI-RQKHgNJU9Ytq4mgBimmGx0Slgr1IqzwQmjPRCsrvL=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":4,
+        "title":"Parco Nuove Gemme",
+        "rating":4.2,
+        "reviews":1055.0,
+        "type":"Parco",
+        "address":"Via Rossignago, 30038 Spinea VE, Italia",
+        "open_state":"Chiude tra poco ⋅ 20 ⋅ Apre ven alle ore 07:30",
+        "place_id":"ChIJT6-XdwnKfkcRyPDvUkjp648",
+        "gps":{
+            "latitude":45.4943052,
+            "longitude":12.1651536
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzmIAVJJLc0ox8LvtEUt5aFpV1O1uXDw7_3I_Lc1Pik4V30X-h5x664IpkFThb-shkd3tPEK303zF7tDK09iitAyJvZAMI2XsBF5ZP-ehJrTMCnEfsZLcNXadaAAEzynB9beFCz7Q=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":5,
+        "title":"Parco giochi",
+        "rating":3.9,
+        "reviews":20.0,
+        "type":"Parco",
+        "address":"Str. di Corte Comare, 82, 30142 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJScvvh0OtfkcR7oppuYDTE24",
+        "gps":{
+            "latitude":45.486202,
+            "longitude":12.4133032
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwtMMEUBIX84I_kKB6C2hV7S1larGfMQVjbTDWc1dgCL6AKxDR3HvRQhwMLeeEqXkP2IufGm_Igp55KJH8SmCo3XZ4a11QafTrZo2YpZ8SUGtBeYJXbYY705cdWsOmmtbdiGrF09A=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":6,
+        "title":"Parco Pividor",
+        "rating":3.9,
+        "reviews":7.0,
+        "type":"Parco comunale",
+        "address":"Via Alberoni, 30126 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJXwyvFFSvfkcRDaAcVySQePA",
+        "gps":{
+            "latitude":45.3874912,
+            "longitude":12.3526323
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSx2bEmsW33kmhJmxU6KRPr2AleMHP3Mk5r2zXN0rc5LQfhJ0LqWbdX4tS3ZtWRkWsxTjOZmNLRyWDQRO2ZChWZdyrSOBqWhBbulPxkcHIg9JDhYOWJlyna2OCZkOcfcJ7UfVULb=w80-h92-k-no-pi-0-ya20-ro-0-fo100",
+        "original":null
+    },
+    {
+        "position":7,
+        "title":"Parco Baden Powell",
+        "rating":4.2,
+        "reviews":19.0,
+        "type":"Parco",
+        "address":"Via C. Beccaria, 29-35, 30175 Venezia VE, Italia",
+        "open_state":"Ora aperto",
+        "place_id":"ChIJ2zvGUYK2fkcRvSP4sLa0H2U",
+        "gps":{
+            "latitude":45.4744117,
+            "longitude":12.2198948
+        },
+        "link":null,
+        "thumbnail":"https:\/\/streetviewpixels-pa.googleapis.com\/v1\/thumbnail?panoid=eFcJKlEDyYzBs3jx5oujYA&cb_client=search.gws-prod.gps&w=80&h=92&yaw=80.81328&pitch=0&thumbfov=100",
+        "original":null
+    },
+    {
+        "position":8,
+        "title":"Parco Buozzi",
+        "rating":4.6,
+        "reviews":5.0,
+        "type":"Parco comunale",
+        "address":"Via Buozzi, 30173 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJm0PXtzW1fkcRHJ9q3xlXylg",
+        "gps":{
+            "latitude":45.501131,
+            "longitude":12.2698711
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyRXiXbHSCgc2ZCpGy4miQ4oGPThjfNiL9_CHzOxLaoNSq2fFBL7gxztwgZUntbW4Y_l_Cq68IEK7iXnGdRJgVI0cL6XQUgkAU3SCWPdVLci9EWXxq6XWVXSU4hSw21D7GQP-w=w163-h92-k-no",
+        "original":null
+    },
+    {
+        "position":9,
+        "title":"Parco poste",
+        "rating":4.7,
+        "reviews":3.0,
+        "type":"Parco",
+        "address":"Via Sebastiano Lissone, 10, 30173 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJE6jfDRa1fkcR5QcfzqeWZe8",
+        "gps":{
+            "latitude":45.4946927,
+            "longitude":12.2651863
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyJIzHnOdtBCI2FAltqMrcBo4r09vOG2eH-x7pAsisyMzhqoqX_wEfGqZ-Vq8LvTE2ixChnKhmz5M7ZWF5NeMwi_cA54kT7qatOyNPMcgxPSAkVq79sJNjLTr1EyUNIsvrScgpF=w80-h177-k-no",
+        "original":null
+    },
+    {
+        "position":10,
+        "title":"Parco archeologico di Altino",
+        "rating":4.4,
+        "reviews":609.0,
+        "type":"Parco",
+        "address":"Via S. Eliodoro, 56, 30020 Quarto d'Altino VE, Italia",
+        "open_state":"Chiuso ⋅ Apre ven alle ore 08",
+        "place_id":"ChIJX89MXqJSeUcRcv9SjJJNlds",
+        "gps":{
+            "latitude":45.5414367,
+            "longitude":12.3980195
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyFgimhegnrY95X-heXX-nEKDh0peBvI6EimBuL3aIcigIiz4-6czPHr03gWEv6kKiD8hJWrtjz5FlMn_EvcNOH7n0yZ8cTBAcTTb5oJ-nQsl0MNOTtPaNA5gwJSe3dA0-nNcc=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":11,
+        "title":"Parco Calisthenics \"Bepi Turcato\"",
+        "rating":5.0,
+        "reviews":7.0,
+        "type":"Parco",
+        "address":"Via Simone Occhi, 30100 Lido VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJ92khhDilfkcRTabmuSF0EXY",
+        "gps":{
+            "latitude":45.3843634,
+            "longitude":12.3482355
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxb149GCjz-DG8uq7TxYc86Pq5tf3UXVieiGd6MczZBsjJjSK-BT_9CqpIVYbOnM_oJ74FOn1YA6m90_cmjXkWheNRCRRnrbECJmLRn7B9wK_eHR1oyGevxnf4E99AL04SZars=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":12,
+        "title":"Parco Sant'Ilario",
+        "rating":4.2,
+        "reviews":52.0,
+        "type":"Parco",
+        "address":"Via Sant'Ilario, 30034 Mira VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJwaEJBAe3fkcRJofRPtOy_vc",
+        "gps":{
+            "latitude":45.4338966,
+            "longitude":12.1964783
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzbNwbHtkvjpaJUtySVDAREY9IWDV4b7oidDnKEWcDjoOxixI9x86IByy1hJSf2nKKfPRz6t6eyYY23JFYx-Gz0rxUha-1TqVs1kNFWseorMUYJGb0v734xrGRzbRAxWwBATgE8=w80-h142-k-no",
+        "original":null
+    },
+    {
+        "position":13,
+        "title":"Parco giochi via Guido Carrer",
+        "rating":3.8,
+        "reviews":12.0,
+        "type":"Parco",
+        "address":"Via Guido Carrer, 30173 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJfX3-ivWzfkcRH9amadNmhN0",
+        "gps":{
+            "latitude":45.487011,
+            "longitude":12.2664481
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxjZKLbBvEZuscdC8f8WeNpyE9gUetL4xmA4FQ47WKsadwdPRJiWpMgPx0TiTH5eaw4HaW8mJXNkX9fAA27nLWc9CqZ89LcEP3OkdgBvzABURREzFksxpmigdt9j136j16YugI-0FNl--Dk=w80-h173-k-no",
+        "original":null
+    },
+    {
+        "position":14,
+        "title":"Parco di Villa Ceresa",
+        "rating":4.3,
+        "reviews":11.0,
+        "type":"Parco",
+        "address":"Via Pasquale Stanislao Mancini, 5, 30171 Chirignago-Zelarino VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJHfpUji20fkcRddOoAEuM_Jw",
+        "gps":{
+            "latitude":45.4854639,
+            "longitude":12.2201684
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxRWbUDDNPNcJwOcHdsYeXLX2xbqM6eRUK3KBkrgzz12KalOw-SYEKZumeazwEU3LqS1huwuZiNfwnif2E-g7POSFpNaPqv5j384l2SGsCCA_Fd352qYt3YzaNYDWenls1cbR0=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":15,
+        "title":"Parco Gianni Rodari",
+        "rating":4.1,
+        "reviews":283.0,
+        "type":"Parco",
+        "address":"Via Miranese, 400, 30173 Venezia VE, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 20:30",
+        "place_id":"ChIJl2lFXdy1fkcRS7k936tDDBg",
+        "gps":{
+            "latitude":45.4857385,
+            "longitude":12.1960869
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzddiSaKEdIcZjLAd5UV2MEKn3Ugreu3qUjvnD2KgfIoFIBQ5hnrAdnhCQZzu7RQB9LY1kfWkrPGHzAuIyRrInT4z5IY5s0WQyij3P-xl1GRaLmOHDxvPOp84Cexjyv15V6mqi2=w163-h92-k-no",
+        "original":null
+    },
+    {
+        "position":16,
+        "title":"Piazza Divisione Acqui",
+        "rating":4.0,
+        "reviews":74.0,
+        "type":"Parco",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":"Ora aperto",
+        "place_id":"ChIJ2_UDcV21fkcRF6aPbGAQKHg",
+        "gps":{
+            "latitude":45.4991126,
+            "longitude":12.2583259
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwwxrLr5r2ZJOSmkORx7UEy-BfzLzZZpgYoYTZzgD3O4eTAKjLS4PxdNXhnZLxmWrM5Y2Dv_UvPwouMuWNgEq5vVuNw_yTRnsqhxQgAQKzb6_NPs8LdRbLzJDOrYGgmHaXIvgSVng=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":17,
+        "title":"Parco Lord Gilwell Baden Powell",
+        "rating":4.0,
+        "reviews":126.0,
+        "type":"Parco",
+        "address":"38,, Via di Ca' Savio, 36, 30013 Ca' Savio VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJD4fwQf2rfkcRJLgh_iMab1g",
+        "gps":{
+            "latitude":45.4510836,
+            "longitude":12.4597648
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwcw2L8NHuiwqKVPeDsymN34wIJUTis90reH1vRQ38Jo0uc_OE94Hpwe_agsuRFdnSp-txXd8LKwUTBoVrdbvjU27J-5DB8wwv4YCf5ToUm9IGQs3j4__Pizyk8vaV7lDsAMRZ1wA=w163-h92-k-no",
+        "original":null
+    },
+    {
+        "position":18,
+        "title":"Parco personal",
+        "rating":5.0,
+        "reviews":3.0,
+        "type":"Parco",
+        "address":"Via Giovanni Rucellai, 30100 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJm6a9lCa1fkcR1cLzX_NFQA0",
+        "gps":{
+            "latitude":45.4960685,
+            "longitude":12.2666045
+        },
+        "link":null,
+        "thumbnail":"https:\/\/streetviewpixels-pa.googleapis.com\/v1\/thumbnail?panoid=9z0MnhLgu1kM-Xn9Vp15bg&cb_client=search.gws-prod.gps&w=80&h=92&yaw=61.930634&pitch=0&thumbfov=100",
+        "original":null
+    },
+    {
+        "position":19,
+        "title":"Parco di Sant'Ignazio",
+        "rating":null,
+        "reviews":null,
+        "type":"Parco comunale",
+        "address":"Piazza Gamba, 2, 30126 Lido VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJwT0S1vuvfkcRhJ64xrZX9ec",
+        "gps":{
+            "latitude":45.391814,
+            "longitude":12.3527973
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwTiOrStMhsKTz95jHyU-fz1nv-B8SrpdIVEvayGVHVitANPyyhILDpwNYTkB2Gnl3k9a-_WcJFrPPf52-1q8LnJLK7roPVr91x8ccQkZNMPzvA66LdeeQLFi9iujlfo41SKcT2J8NdhRb8=w80-h126-k-no",
+        "original":null
+    },
+    {
+        "position":20,
+        "title":"Parco di via Caviglia",
+        "rating":5.0,
+        "reviews":1.0,
+        "type":"Parco",
+        "address":"Via Enrico Caviglia, 30173 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJUQ9-xSW1fkcRQ4z4nByJRaw",
+        "gps":{
+            "latitude":45.4918213,
+            "longitude":12.2571899
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSycimaM5WkuoDr_AfJZ0d7Ww9MzBkpc2oMaZvK4E1y-9IDe6Vwrs5okqhlSNdFN8WPLWx1f2D4B9LnIPr1FlLwpXvSyOQeLEZrT288ZmtsVLZBpxGIfz2UPlvjO8W_UBOF_rw0SiCOtnUku=w80-h142-k-no",
+        "original":null
+    },
+    {
+        "position":1,
+        "title":"Parco Spino",
+        "rating":null,
+        "reviews":null,
+        "type":"Parco",
+        "address":"Lido,30126, VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJWZVBsS-lfkcR4AwnRClU_as",
+        "gps":{
+            "latitude":45.384135,
+            "longitude":12.3503614
+        },
+        "link":null,
+        "thumbnail":"https:\/\/streetviewpixels-pa.googleapis.com\/v1\/thumbnail?panoid=zg_F0f3liWAc3rlgkVtJSA&cb_client=search.gws-prod.gps&w=80&h=92&yaw=25.18979&pitch=0&thumbfov=100",
+        "original":null
+    },
+    {
+        "position":2,
+        "title":"Parco Ivana Cagnin",
+        "rating":4.2,
+        "reviews":535.0,
+        "type":"Parco",
+        "address":"Via Porara, 30035 Mirano VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJ10-vnPHLfkcRPSkgpIfYu_s",
+        "gps":{
+            "latitude":45.4741771,
+            "longitude":12.1119792
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyZhFeeZjLmC5K4GK0_qsiRWgW-XOsUphT_VB79h9s4ipbZ8DZ0xeGwLCGXjJ_3txrUuJIJyrG-_82fyFg16Xbf-WPi-n70Rq7uHgkOaKJ_m9345kzhcWWbU8ewTRtff58vaKU6_Q=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":3,
+        "title":"Villa Franchin",
+        "rating":4.2,
+        "reviews":362.0,
+        "type":"Parco",
+        "address":"Viale Giuseppe Garibaldi, 155, 30174 Venezia VE, Italia",
+        "open_state":"Ora aperto",
+        "place_id":"ChIJp0NqnWe0fkcRfulusez6QyE",
+        "gps":{
+            "latitude":45.5044337,
+            "longitude":12.2492695
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyzR8HYgc0lLnijcsn6qYfEeoTNhAnaJAtMXmlBSAJ-FsGKh4zfBq-GVg_zPdDt1VjAjd3W29tw6hWeyKHlS-QgY40Sb4vfVHGrlRUA8DgJKTngTMKHGCF3jdmn9SEdZrZR0nh7UA=w163-h92-k-no",
+        "original":null
+    },
+    {
+        "position":4,
+        "title":"Parco Arcobaleno",
+        "rating":4.2,
+        "reviews":467.0,
+        "type":"Parco",
+        "address":"Via dello Scoutismo, 31021 Mogliano Veneto TV, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJhfJayydLeUcRNwyJr9t8vnk",
+        "gps":{
+            "latitude":45.5601113,
+            "longitude":12.2513912
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/p\/AF1QipMgMc5aJynmk179Cv1N7i8-rRGP9JaWTIOB4VvD=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":5,
+        "title":"Parco Tirca",
+        "rating":5.0,
+        "reviews":3.0,
+        "type":"Parco",
+        "address":"Via Della Rinascita, 52a, 30175 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJV6EBm_e3fkcRU19eyDBDkMI",
+        "gps":{
+            "latitude":45.4646687,
+            "longitude":12.2210116
+        },
+        "link":null,
+        "thumbnail":null,
+        "original":null
+    },
+    {
+        "position":6,
+        "title":"Villa Tivan",
+        "rating":4.2,
+        "reviews":82.0,
+        "type":"Parco",
+        "address":"Via Terraglio, 48, 30174 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJdde3pFC0fkcRMYZ70ZAA_vg",
+        "gps":{
+            "latitude":45.5071679,
+            "longitude":12.2371468
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSw-eD7oa3wvTiEMGKqYaHXLcp0hqV587RYlQ462DljFXv56NNAvi63ydPHfU0r3kbc5znLtV7C-HM-SDrLU6FW3kCDdvhqmYbGs5OjfKEcqqqkJQQchPjatx0kcOleGGNQZl8nl=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":7,
+        "title":"Parco all'aperto",
+        "rating":4.2,
+        "reviews":9.0,
+        "type":"Parco comunale",
+        "address":"Via Antonio da Mestre, 1, 30171 Venezia VE, Italia",
+        "open_state":"Chiude tra poco ⋅ 20 ⋅ Apre ven alle ore 08",
+        "place_id":"ChIJUZtK6wm1fkcRgiRobVGzX5s",
+        "gps":{
+            "latitude":45.4941715,
+            "longitude":12.2371592
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzdt69wJIGmDpWzjyENBIJlkRoGD0q75gPJYKVQV3rYeSTMUG1nR-23wN_UA-jWqgqb2D91BVNAM0ad0mJp3ye-xcK2KPrpapf1rMhvAnSyaCZzluf86Qf7M_EOteJukfgYr9Vg=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":8,
+        "title":"Parco Mutilati del Lavoro",
+        "rating":3.6,
+        "reviews":16.0,
+        "type":"Parco comunale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":"Chiuso ⋅ Apre ven alle ore 08",
+        "place_id":"ChIJVzirDYi1fkcR0tl44VFaS2U",
+        "gps":{
+            "latitude":45.4862606,
+            "longitude":12.2414185
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzfAJaHiNiCpzUdfokVMd-bOiZj7PiJZ8s_9Ebww9SEFFFogSgBLBi0GZ9G7nuODWjinLskTnY7JrXsCBloFp3iY1Qxm973bBEw999rUhBGVtCCoHhg30ffkdfAi3tEB8R-1TmM=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":9,
+        "title":"Parco via monte rosa",
+        "rating":4.0,
+        "reviews":1.0,
+        "type":"Parco",
+        "address":"Via Monte Celo, 22, 30173 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJ120ljZGzfkcRPLKq1ilJoqo",
+        "gps":{
+            "latitude":45.5058309,
+            "longitude":12.2899974
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxcfi65ACVyxZtaT-VqEn1OnvXbDgi-uUi2cfUv8QS1nadKlvUBSk6hp2RrkNmGlHLH3jzjNWDoorKXt05jA_k_YygR06jpdkMKgXyXh7x8VjqnvjDpgDW7BMqhJbJmhmaaI3H-IA=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":10,
+        "title":"Parco pubblico altobello",
+        "rating":1.0,
+        "reviews":1.0,
+        "type":"Parco",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJky4ZbgC1fkcRMyZ-TvrWTu4",
+        "gps":{
+            "latitude":45.4872369,
+            "longitude":12.2477928
+        },
+        "link":null,
+        "thumbnail":"https:\/\/streetviewpixels-pa.googleapis.com\/v1\/thumbnail?panoid=4Omyix97jO6nz6xFqJLQZA&cb_client=search.gws-prod.gps&w=80&h=92&yaw=266.8091&pitch=0&thumbfov=100",
+        "original":null
+    },
+    {
+        "position":11,
+        "title":"Parco i more mor",
+        "rating":null,
+        "reviews":null,
+        "type":"Parco",
+        "address":"Via Gobbi, 30173 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJNXEW_KqzfkcRVV5aRwgX9ss",
+        "gps":{
+            "latitude":45.496919,
+            "longitude":12.2863841
+        },
+        "link":null,
+        "thumbnail":"https:\/\/streetviewpixels-pa.googleapis.com\/v1\/thumbnail?panoid=cbjRhSi-U89cb8dPUYT0dg&cb_client=search.gws-prod.gps&w=80&h=92&yaw=114.82045&pitch=0&thumbfov=100",
+        "original":null
+    },
+    {
+        "position":12,
+        "title":"Parco delle Scimmie",
+        "rating":5.0,
+        "reviews":1.0,
+        "type":"Parco",
+        "address":"30175 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJ575zUgC3fkcRthC38gn3Lu0",
+        "gps":{
+            "latitude":45.4727694,
+            "longitude":12.2233334
+        },
+        "link":null,
+        "thumbnail":"https:\/\/streetviewpixels-pa.googleapis.com\/v1\/thumbnail?panoid=sOMfUeFB6xGeYbu-LkrcYA&cb_client=search.gws-prod.gps&w=80&h=92&yaw=33.287113&pitch=0&thumbfov=100",
+        "original":null
+    },
+    {
+        "position":13,
+        "title":"Parco giochi",
+        "rating":null,
+        "reviews":null,
+        "type":"Parco",
+        "address":"Via del Forte Vecchio, 30013 Cavallino-Treporti VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJcQrMOgCvfkcRrI27J7hu5XM",
+        "gps":{
+            "latitude":45.4523088,
+            "longitude":12.4375108
+        },
+        "link":null,
+        "thumbnail":null,
+        "original":null
+    },
+    {
+        "position":14,
+        "title":"Parco S. Antonio",
+        "rating":3.6,
+        "reviews":30.0,
+        "type":"Parco comunale",
+        "address":"Marghera, 30100 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJxeFJqYu1fkcRFQHlIgxntFw",
+        "gps":{
+            "latitude":45.4768139,
+            "longitude":12.2252437
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyX-J-Ft6NpMmjiczDm8t0zJtnzi4OajsCW8kJWI6pHnpl2jlQrGolLv1Qwmih4zsRSPsXQvpQu1k8vEpL3D_ydVprQZ2wNF-jcRn8gXG-sTtWsYepUO7OpDuoNje-3Oc7bu44S=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":15,
+        "title":"Parco Vecchio",
+        "rating":4.4,
+        "reviews":17.0,
+        "type":"Parco",
+        "address":"Via Sant'Erasmo, 11, 30175 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJiUM2EH61fkcRMRtapmkX6cc",
+        "gps":{
+            "latitude":45.4798873,
+            "longitude":12.2122307
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSx3V-usgCaW14LPWmYQVX3I04Aq0mrYo3XmDaNgBXgjzmOFr-iAi8-f1ZKQCSzxs5ZeT6HQ_qsqlm0NwmYJzX2W2dJAq4z6f6IGs-OdstpkzwJ03wSQq_1TQ8zbOBboS-32G16T_w=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":16,
+        "title":"Parco Naturallegra",
+        "rating":3.7,
+        "reviews":131.0,
+        "type":"Parco",
+        "address":"Via Sandro Pertini, 30034 Mira VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJcY7ZPNi3fkcRpuXN2L7wdA8",
+        "gps":{
+            "latitude":45.4344886,
+            "longitude":12.1473562
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxEkMCJg55lXmrz5KevjjmLWPNYF4Y-P6MgufYUL1PwTR6KltaWYxRY-G9fFUqOVSakkBAVDDoTvX-GNQ_6icYyNS6RHvRTHCsvokrzgBFfmRVgUICPTZoh7BPcgxnhnJKxvXvNcQ=w163-h92-k-no",
+        "original":null
+    },
+    {
+        "position":17,
+        "title":"Parco del Sole - ingresso",
+        "rating":4.4,
+        "reviews":84.0,
+        "type":"Parco",
+        "address":"Via Sabbioni, 2, 31021 Mogliano Veneto TV, Italia",
+        "open_state":"Ora aperto",
+        "place_id":"ChIJ5_cckIRLeUcRgotxzsHbbTI",
+        "gps":{
+            "latitude":45.5669784,
+            "longitude":12.2307379
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyEnufA9bZWXTnViRH1joOZzVwEA6PwQwqxjjF7wO6SoJFMPLl00PQLBCBwoLNe2ieLoCm0z8wibNbS7jP5-VSO-CX13BGTcwhSqvL2G9zvBUQrZHKmpM5OgTdXM5mjVleNTq9xEQ=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":18,
+        "title":"Parco",
+        "rating":2.0,
+        "reviews":1.0,
+        "type":"Parco",
+        "address":"30174 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJP9PIyjO1fkcRMHuGub8yVAM",
+        "gps":{
+            "latitude":45.4892844,
+            "longitude":12.2146303
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSy53B2jUu2Bv1VB4vq4vtodkWRJhI_xv9QGMkOBem6cju_ujHRMjrKf2EHFFGq5MqOsrjrVMBt0BT1vu_H2pC4ZwPmi73MIzCmoEalTxtsskQxzchzHdtkSnqXLIqzQ4_tPoJYX=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":19,
+        "title":"Parco Giulia Cecchettin",
+        "rating":4.6,
+        "reviews":18.0,
+        "type":"Parco",
+        "address":"Via Oriago, 19, 30174 Chirignago-Zelarino VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJu146egC1fkcRyRLldnVJK_c",
+        "gps":{
+            "latitude":45.4821817,
+            "longitude":12.1837178
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSztof1yHfVeO61oy1PubcFUnCij-niW5ggzucoIji9xxCPJZzHCgPU6UNzKIUUX7klb1d3OxtWp1NmbZLZGyspiML0s0OxHSjFxwlQrxOKGug01IutrkzlbIZhl1w50PafSdJuc=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":20,
+        "title":"Parco Naturalistico di Cavallino Treporti - Pineta di Ca' Savio",
+        "rating":3.0,
+        "reviews":2.0,
+        "type":"Riserva naturale",
+        "address":"Via di Ca' Savio, 30013 Ca' Savio VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJW8D99YCpfkcRQ5FDsaxNkJo",
+        "gps":{
+            "latitude":45.4458187,
+            "longitude":12.4600845
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwI2C49w1BsSD-kMiahtb1Y2wrHsxn4aC3x0JlbsqZi6vRJHg2KAuJO47lhXHetyXDfd3yBFqKx__7iIoHgJA5l0pWtuW1pOfR7zbxMaA3z3olLDKrPqqMp1UqfAM1YHZluFsArNA=w122-h92-k-no",
+        "original":null
+    }
+]

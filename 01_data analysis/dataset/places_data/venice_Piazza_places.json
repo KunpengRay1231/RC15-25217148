@@ -1,0 +1,2042 @@
+[
+    {
+        "position":1,
+        "title":"La Piazza",
+        "rating":4.7,
+        "reviews":20649.0,
+        "type":"Ristorante italiano",
+        "address":"S. Marco, 615, 30124 Venezia VE, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 00",
+        "place_id":"ChIJ7Xgj8duxfkcRPg0h9g1v5DI",
+        "gps":{
+            "latitude":45.4357572,
+            "longitude":12.3388307
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/p\/AF1QipOWFSUliR6u3RcKYLydeqhStszguHISimYXruO1=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":2,
+        "title":"Piazza San Marco",
+        "rating":4.7,
+        "reviews":190347.0,
+        "type":"Piazza",
+        "address":"P.za San Marco, 30100 Venezia VE, Italia",
+        "open_state":"Ora aperto",
+        "place_id":"ChIJiYRBbtexfkcRG_b_RJa70AI",
+        "gps":{
+            "latitude":45.4341668,
+            "longitude":12.3384717
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwkaBZv_xLDvNcccFrg8B-ljNG5RXocfgqOoSkE-aLMnmdsBOymN6pj-XdVwGIzgSKUtG4Ekj8kWgFnMDvct6AxSdOIvBMUa4OzhkAjkL-lXRAg2Dp2JeL0NFoIs88wuIgUJve9=w137-h92-k-no",
+        "original":null
+    },
+    {
+        "position":3,
+        "title":"Piazza San Marco",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJHSeBetexfkcROf6uiJf_agM",
+        "gps":{
+            "latitude":45.4341668,
+            "longitude":12.3384713
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzuJFkC0LxfhhCKZXno_tkIHKCayDuGp3TtJ_a5pKnV9l9LaDZPP4Ovq8qg04Cm9-TcLwC9deEtosTDmkOgW1mUTPP_gDWuKaxd8j9bQa7ivfydCPKBBHAtuWs6ALkz1iO5iPo3=w365-h92-k-no",
+        "original":null
+    },
+    {
+        "position":4,
+        "title":"La Piazza",
+        "rating":4.9,
+        "reviews":8.0,
+        "type":null,
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJTQyz9duxfkcR4knq20l8D4Q",
+        "gps":{
+            "latitude":45.4396041,
+            "longitude":12.3371526
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzEG5HgJQC3oCay0A0GpwQwVo2k21sD6C6TvbWyoUFDab4iYdWjDsNsCCh6kgbzH6IdT2cQOcBYw5I-aouzrYYAk0QqPEuTPASz9nG4pavjfVBPkUIVTwNt6dJkdbyQTZjhn72G=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":5,
+        "title":"Piazzale Roma",
+        "rating":4.2,
+        "reviews":168.0,
+        "type":"Fermata del tram",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJ102ICrixfkcRDByOh9jGJTM",
+        "gps":{
+            "latitude":45.4378796,
+            "longitude":12.3190004
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwRe3p-I0xDMfNpsYIA_VBD0CEmwTiU0QBvq9IigfWmoRFEzTwFzRMVqCQj_kzV5i5sxpkd_VNKy0MAavlDGW_WV2A0W58xkj9xTzkLqTHSJKIuHGjQK08g96vfbZ1vlkMBOoFv=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":6,
+        "title":"La Piazza Zone",
+        "rating":4.8,
+        "reviews":314.0,
+        "type":"Ristorante italiano",
+        "address":"P.za San Marco, 215, 30124 Venezia VE, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 00",
+        "place_id":"ChIJW6jNfNyxfkcRc5yN7FBWkmk",
+        "gps":{
+            "latitude":45.4350889,
+            "longitude":12.3386223
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/p\/AF1QipOmsYB6EY_QVp9DFfoaeWRi95kF5k1MW_xp64Ii=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":7,
+        "title":"Piazzetta dei Leoncini",
+        "rating":4.6,
+        "reviews":37.0,
+        "type":"Piazza",
+        "address":"Calle de la Canonica, 30124 Venezia VE, Italia",
+        "open_state":"Ora aperto",
+        "place_id":"ChIJqaVKPQmxfkcRWM5WDsbBfu0",
+        "gps":{
+            "latitude":45.4347697,
+            "longitude":12.3392903
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSy6cU_yLGcv6MWQzyVuvp4fcvRKa2yQ6Bw2TcbyVOYBTNsqRByitsKc2BjEpk7Ux1DiM0KM4IoFWJLu3fNwgg6C1Svx5vvRRcraAAfIErAv82uxU8yp7NRLYhwZmV2s1SBsHJRy=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":8,
+        "title":"Bar Ristorante Piazza Ducale",
+        "rating":3.9,
+        "reviews":197.0,
+        "type":"Ristorante",
+        "address":"Piscina S. Moise, 115, 30124 Venezia VE, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 23",
+        "place_id":"ChIJZZP54uOxfkcRQw04hDjo678",
+        "gps":{
+            "latitude":45.4342563,
+            "longitude":12.3379168
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSx_i651WxSz0JDHOOplTnhwINIPxLc-juao3fUeFsWwbHtH86FxuQMNqXuXKqlBEkrLy7cK5lR7YU-5cPHMbkapQf2dd6FcIMTzpziGgA4XoVAK3gm_Z6EDwfqsbCtDb0x2oSOg5Vli9pgc=w307-h92-k-no",
+        "original":null
+    },
+    {
+        "position":9,
+        "title":"Piazzale Roma",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJRxCkisexfkcR9f5NwayGdZA",
+        "gps":{
+            "latitude":45.4378574,
+            "longitude":12.318648
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxQx0b9M63hSi2PfYlvsJ__WalxsHc_vwfRzWmUYUTjeGaa8M8y5x8HREnKo_cKEsx1CSEvK6wfd_ZZNkxS1JV1Hv5vZQyKKO8TsN2H17jTlEcoX9ZRz2K3uPzdcwdy2RJ7-wBe=w80-h92-k-no-pi-25.431522-ya107.14205-ro-14.021925-fo100",
+        "original":null
+    },
+    {
+        "position":10,
+        "title":"Campo San Zaccaria",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJ2fJt-yeufkcRuTw-J4dautU",
+        "gps":{
+            "latitude":45.4346858,
+            "longitude":12.3431562
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzKeb0SzNO0MP74ykz-9DxRDdZa5xSmUE9fym3qFlq0ugE8TrLv6h8hAaIrPLyTQm5Fs3a1SgecimW0MR2XXgvSfQa8XSbVWKQ6hzNoToh9b5qk5kXzgTEtZG_d0aZl-X0bYyn9TA=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":11,
+        "title":"Campo San Maurizio",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJcQrVsdGxfkcRbEaDwQbncCY",
+        "gps":{
+            "latitude":45.4328249,
+            "longitude":12.3315108
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxxIgcOuG3iFbtN_RBIPVltTboWJ7XSjoDBXUDabne33AFQiZsKgFGIkhZLFlRfkzyUJKYvTmbk5YIHDMRYJA2CKO43SIcOSuM8PamVcERlRq2SXg6XPBj9Nqrep49wcVB-HnDR=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":12,
+        "title":"Piazzetta San Marco",
+        "rating":4.9,
+        "reviews":102.0,
+        "type":"Punto di riferimento storico",
+        "address":"P.zt San Marco, 30100 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJxVDkegCxfkcRbhz_Ket00-A",
+        "gps":{
+            "latitude":45.4337762,
+            "longitude":12.3396404
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyBrEpwm07nomMTlgPi2DxDQABtk4yhikk2vvSR5H0QV8bJ3NberB5h7LkSS_TuZuBW8nDpCFkYT34dYYrn90pgeXAyvDGkgWXZ3ygrR_cHWTd6ieSPvt_SD3HDocgQdt5OWqiNXWKpIw=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":13,
+        "title":"Piazzetta dei Leoncini",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJwcbYKtixfkcR2lrD770OL0o",
+        "gps":{
+            "latitude":45.4348965,
+            "longitude":12.3395248
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwF8hfQYkqVfCqG9iNT5uisfDRMe5CdGrdlsYzh5YvAwzhbPyYIFLrIng6rLf-2V2JOejMNvQ1Wy6etAnvodJLfK9vV36ifYfnK2PGJAYeLaFsi7Z2ksv2PYkaDXUAeTbOB6mSn=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":14,
+        "title":"Campo Beccarie",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJn8X3QtuxfkcRTBpwlUabdHA",
+        "gps":{
+            "latitude":45.4394074,
+            "longitude":12.3335916
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxA5QIrQkn0UnyfqnZs6QEECw8MtvFsj6vU24mn07Oi62bEMXne13E8ESIn8fK-ANt8RYHn7NIf3X4LfBKfhNO4eoBRg-05GwFerd7mncBSUFjrn_0NMEi9Z6goN7DwHrves3w=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":15,
+        "title":"Campo Santi Giovanni e Paolo",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJa4XC1NixfkcRYotemy1n_cA",
+        "gps":{
+            "latitude":45.4392207,
+            "longitude":12.3412719
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSws5T6vfkZR4LMp2hoQTtjskzEmUOkHGjRuMMcMUZphZ6bcdxk13XQjXHcgRaURCI-r7G-f1D2gXiGWTlHaiaEZGRbZhBupgqjq12pZ95-1If4v0j6mwfhwq5r5n6tOGTZeK9V1fg=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":16,
+        "title":"Campo della Pescaria",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJTVV_ZNuxfkcR3nQJjesbgCk",
+        "gps":{
+            "latitude":45.4397845,
+            "longitude":12.3344094
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxOrZNYjz_5W36T6ftw7Bt7etF9XnCIF5rMa0QfDdcMqEa9TQLPhd2QzyOyRQAa3ME_nBJiiX4yf-GqvL9gzTAOIWEAZpNqGSLje_HrTAvhuvvY3meS_frprEceU47LkFtQ3rUb=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":17,
+        "title":"Campo San Donato",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJF6ueQgGufkcRglsQhlSiLqA",
+        "gps":{
+            "latitude":45.4571783,
+            "longitude":12.3572646
+        },
+        "link":null,
+        "thumbnail":null,
+        "original":null
+    },
+    {
+        "position":18,
+        "title":"Campo Santa Margherita",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJp9221MixfkcRGMePlwovhNE",
+        "gps":{
+            "latitude":45.4342819,
+            "longitude":12.3236391
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwxN-YmsNv1pWVhLxa2YMWGQ7vRjeoQmtw2qa_LKXevC7XEhDCZCY0THZpTfxmI4-XWNi5aerrBgykVTzCnG1qswTx-RWa8cYbhLXpKZcKCWlwmQeSHdMIl_ciqoFuX23erjUnCCA=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":19,
+        "title":"Campo San Giacomo di Rialto",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJUQq-oduxfkcRjhj2OhySjGk",
+        "gps":{
+            "latitude":45.438646,
+            "longitude":12.3352655
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxlsowknsOkJG7VbIuglA5Uy_PsEj-FfKOKKHxPHtPIVcr2dBICONJoX2Q1aSQGJ38dseXO9Futf7CYej9vAhznCv-srFebL30myn4McbrMooGtPhnjcHU0r9PZWsA7uls18TIf5w=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":20,
+        "title":"Campo Erberia",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJ6ckDmduxfkcRxPhhF6luqDc",
+        "gps":{
+            "latitude":45.4388904,
+            "longitude":12.33559
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzFWcZhHwUXBHYA8FYpIPhdhS0zxHeVxBOJ_hXzCFOtHWZX625d5CGOWQOJOObYtJAIPqygLqASqsKFEfASuEg7L4_MVkoxaEreRd5kW7VW0O-SoJ5HG_pVaPJG4P_9Tj3Vi2v1=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":1,
+        "title":"Campo Santa Margherita",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJp9221MixfkcRGMePlwovhNE",
+        "gps":{
+            "latitude":45.4342819,
+            "longitude":12.3236391
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwxN-YmsNv1pWVhLxa2YMWGQ7vRjeoQmtw2qa_LKXevC7XEhDCZCY0THZpTfxmI4-XWNi5aerrBgykVTzCnG1qswTx-RWa8cYbhLXpKZcKCWlwmQeSHdMIl_ciqoFuX23erjUnCCA=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":2,
+        "title":"Campo della Pescaria",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJTVV_ZNuxfkcR3nQJjesbgCk",
+        "gps":{
+            "latitude":45.4397845,
+            "longitude":12.3344094
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxOrZNYjz_5W36T6ftw7Bt7etF9XnCIF5rMa0QfDdcMqEa9TQLPhd2QzyOyRQAa3ME_nBJiiX4yf-GqvL9gzTAOIWEAZpNqGSLje_HrTAvhuvvY3meS_frprEceU47LkFtQ3rUb=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":3,
+        "title":"Piazza",
+        "rating":null,
+        "reviews":null,
+        "type":"Parco",
+        "address":"Calle Angelo dal Mistro, 30, 30141 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJM3ZgeQCvfkcR6hxOQBT43Uk",
+        "gps":{
+            "latitude":45.4573787,
+            "longitude":12.3537867
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwFVsktLw4ePtRfIAD24Lse0gwD-t3vhHLnZISq0wMSfLvhXStp1A0jfHeemG27wu3Pwspqt8dm3xtlDBZ0rkNjclfRYxZPumk8GvqHcxubMQVyisBkCGrHplusuWKggkm8LCx3=w197-h92-k-no",
+        "original":null
+    },
+    {
+        "position":4,
+        "title":"Campo Santi Giovanni e Paolo",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJa4XC1NixfkcRYotemy1n_cA",
+        "gps":{
+            "latitude":45.4392207,
+            "longitude":12.3412719
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSws5T6vfkZR4LMp2hoQTtjskzEmUOkHGjRuMMcMUZphZ6bcdxk13XQjXHcgRaURCI-r7G-f1D2gXiGWTlHaiaEZGRbZhBupgqjq12pZ95-1If4v0j6mwfhwq5r5n6tOGTZeK9V1fg=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":5,
+        "title":"Campo San Giacomo di Rialto",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJUQq-oduxfkcRjhj2OhySjGk",
+        "gps":{
+            "latitude":45.438646,
+            "longitude":12.3352655
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxlsowknsOkJG7VbIuglA5Uy_PsEj-FfKOKKHxPHtPIVcr2dBICONJoX2Q1aSQGJ38dseXO9Futf7CYej9vAhznCv-srFebL30myn4McbrMooGtPhnjcHU0r9PZWsA7uls18TIf5w=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":6,
+        "title":"Procuratie Nuove",
+        "rating":4.9,
+        "reviews":8.0,
+        "type":"Punto di riferimento storico",
+        "address":"P.za San Marco, 7, 30124 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJ2w5Da2GxfkcRSAige_aAxHk",
+        "gps":{
+            "latitude":45.4333998,
+            "longitude":12.3382322
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyw3L_TE7l8jsPZPQ9-RzGQ9g1k4zambWX4hVWGMXcXYw-RFOlnv1TsmKo5We3zWC45tuM7iBnhdlyNZ55wa7kwvFaSWCdkhceFHnRLL98yElLZ8PRKVjFKM3TB0M7hVYdmEZNa1Q=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":7,
+        "title":"Corte dei Pali già Testori",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJ50NnxtyxfkcRsyMD0kJU1HU",
+        "gps":{
+            "latitude":45.441488,
+            "longitude":12.334018
+        },
+        "link":null,
+        "thumbnail":null,
+        "original":null
+    },
+    {
+        "position":8,
+        "title":"Campo Manin",
+        "rating":4.4,
+        "reviews":701.0,
+        "type":"Attrazione turistica",
+        "address":"Via L. Manin, 30100 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJVVWVd9qxfkcRFk0P16s5Bqs",
+        "gps":{
+            "latitude":45.4353443,
+            "longitude":12.3342334
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyGLLzoTVkNFvB9GDC0Tj4SBaQ6bCsgVdLgmfQy3SJt3kUbWxw-PNu9q8X_ElD80NzKlBXwCa217oZwd9RXepMkWvM099rbIDSOLlQK0FD5Lh6cThJk2ZhKBLNPElM6EL6QSNMpbQ=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":9,
+        "title":"Campiello del Remer",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJgbAUe8GxfkcRzioQ0WnDuSg",
+        "gps":{
+            "latitude":45.4427479,
+            "longitude":12.3269282
+        },
+        "link":null,
+        "thumbnail":null,
+        "original":null
+    },
+    {
+        "position":10,
+        "title":"Piazza Lorenzo & Margherita",
+        "rating":5.0,
+        "reviews":1.0,
+        "type":"Pizzeria",
+        "address":"Via Lepanto, 4, 30126 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJW39sAwCvfkcRWZp0BlDm4GE",
+        "gps":{
+            "latitude":45.4159954,
+            "longitude":12.3705376
+        },
+        "link":null,
+        "thumbnail":"https:\/\/streetviewpixels-pa.googleapis.com\/v1\/thumbnail?panoid=wwHswgMGE3Jcp7gocqYzFQ&cb_client=search.gws-prod.gps&w=80&h=92&yaw=32.7525&pitch=0&thumbfov=100",
+        "original":null
+    },
+    {
+        "position":11,
+        "title":"Campo Erberia",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJ6ckDmduxfkcRxPhhF6luqDc",
+        "gps":{
+            "latitude":45.4388904,
+            "longitude":12.33559
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzFWcZhHwUXBHYA8FYpIPhdhS0zxHeVxBOJ_hXzCFOtHWZX625d5CGOWQOJOObYtJAIPqygLqASqsKFEfASuEg7L4_MVkoxaEreRd5kW7VW0O-SoJ5HG_pVaPJG4P_9Tj3Vi2v1=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":12,
+        "title":"Campo Sant'Alvise",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJJaMtLuqxfkcR7OtvTHtJDew",
+        "gps":{
+            "latitude":45.4473377,
+            "longitude":12.3288137
+        },
+        "link":null,
+        "thumbnail":null,
+        "original":null
+    },
+    {
+        "position":13,
+        "title":"Campo San Geremia",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJ85yUBMGxfkcRQCbu-SRQYyk",
+        "gps":{
+            "latitude":45.4429494,
+            "longitude":12.3249128
+        },
+        "link":null,
+        "thumbnail":null,
+        "original":null
+    },
+    {
+        "position":14,
+        "title":"286 Piazza San Marco",
+        "rating":5.0,
+        "reviews":3.0,
+        "type":"Hotel",
+        "address":"Calle Larga S. Marco, 286, 30124 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJdVefqXCxfkcR_EjXQ9N7SP4",
+        "gps":{
+            "latitude":45.4350793,
+            "longitude":12.3390091
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/p\/AF1QipOhRS-t3kkZhmbvpzEr6T5huBG57hrLwhVhm5U0=w137-h92-k-no",
+        "original":null
+    },
+    {
+        "position":15,
+        "title":"Sotoportego del Cavalletto",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJYQ0EWtexfkcRAqa7BAjL66E",
+        "gps":{
+            "latitude":45.4346421,
+            "longitude":12.3367699
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwZrSpllriSz80FJaYByIfTZYnfDvEXzDuZ6m1PIpxxn9El6NHOqQOBLqoIaCKf0iBpwnGd9Z3x_wS9SgcGxNN_VY7LPR-avygiNfU9W4Zcae1UAT07_9BxRxNGZsze_X6bFi0=w163-h92-k-no",
+        "original":null
+    },
+    {
+        "position":16,
+        "title":"Colonna di San Todaro",
+        "rating":4.8,
+        "reviews":164.0,
+        "type":"Punto di riferimento storico",
+        "address":"P.za San Marco, 30124 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJvQec0eixfkcRoU1yYGcYsTY",
+        "gps":{
+            "latitude":45.4332857,
+            "longitude":12.3396589
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxuv2pSKpjPpk58W-HTOIqORYRMmdRllE89G14VLOAIc_sw4Grcbh_U6BCVB0A_wRSjvgoUEoEHk9B2e_cYQLe0NVzci5lye2CzlJ4kgvWcH7WqFs-U8p_8EDvcJEIpoHjvdF6RAg=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":17,
+        "title":"Campo Cesare Battisti già della Bella Vienna",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJC8IBd9uxfkcR27ANgmeGFHg",
+        "gps":{
+            "latitude":45.4391951,
+            "longitude":12.335022
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwJ3m5z1ZrbmOTMDR9qd5Uv_88oPXrpO3ts7X8Bw6f3DqFg7uyGnctLFUI2rF3ppU5S1wOAw4jIkzmYtGJvuHNHaqcQobANeVrZPWaxWf4ELv0_MZ2ALmHEZZoWVX7n1IcBpdfOsA=w138-h92-k-no",
+        "original":null
+    },
+    {
+        "position":18,
+        "title":"Campo San Lorenzo",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJz6OabSeufkcRtdtYfAWtNOI",
+        "gps":{
+            "latitude":45.437169,
+            "longitude":12.345017
+        },
+        "link":null,
+        "thumbnail":null,
+        "original":null
+    },
+    {
+        "position":19,
+        "title":"Colonna di San Marco",
+        "rating":4.8,
+        "reviews":411.0,
+        "type":"Punto di riferimento storico",
+        "address":"P.zt San Marco, 30100 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJ56VPqLWxfkcRaklOR5K79ck",
+        "gps":{
+            "latitude":45.4333543,
+            "longitude":12.3399146
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwvT_Iyx6HcSk7UUEe8kRm3hXNMMYBs4jhkVSUroYA4dibsh221tMIF3V1IJFd_6PgW3gTSJe5BHhGT9GS3yxSVxzzD8Ah4uBRdHAj_W9YmMT00nA7vU3ljO6V-w3-ZgMeXW_w=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":20,
+        "title":"Campiello Scoazzera",
+        "rating":5.0,
+        "reviews":1.0,
+        "type":"Punto di riferimento storico",
+        "address":"2843, 30125 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJkYF9f8WxfkcRJh1FYCB9N9s",
+        "gps":{
+            "latitude":45.4361835,
+            "longitude":12.3276623
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxIRY-m9YBgQM5jmwNYyFggpW6-PGQWD84FbTs9BxbBCmjThKC3Gdqh7WwMgMZ011VV1T_J4L7_FG9ZKi9CkjaRtuJxbJWYlNz5478CImW926-7ybvXtPtNJjxCUKSPKE03NDuL=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":1,
+        "title":"Istituzione Fondazione Bevilacqua la Masa - Galleria di Piazza San Marco",
+        "rating":4.1,
+        "reviews":40.0,
+        "type":"Galleria d'arte",
+        "address":"P.za San Marco, 71\/C, 30124 Venezia VE, Italia",
+        "open_state":"Chiuso ⋅ Apre mer alle ore 10:30",
+        "place_id":"ChIJy3SJqCeufkcRtQQIu-vAusI",
+        "gps":{
+            "latitude":45.4334106,
+            "longitude":12.3373451
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSz53YKQ2MpVGs1s1WQoxehdiR8Yqk2Ih2n6_VLPzRfd04NlCOkRTewMX1UMLZ81WY5mNJ9kqX8y5sxt8OKcBmyzsCO0DI8L-gKtzZbL_TCDIo9M1AAqBmPK9_ynu00Aiizb34WkKg=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":2,
+        "title":"Campo Santa Maria Formosa",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJCzHo-9ixfkcReeC3aL3ELRM",
+        "gps":{
+            "latitude":45.4373082,
+            "longitude":12.3410154
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzNgQE5Jl3simEHtZOYEzkNN-hMYKAhUFEfLXPgeLkJPWZupPtXJ1Bxp3DVwTpElaIEPSP_0dKI-KpH9r3nLDzdcL8a2gpZP_yNft-jPEUYWgd3ZY6R_lNUv39JSjPJ0aH8axM=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":3,
+        "title":"Porta della Carta",
+        "rating":4.7,
+        "reviews":334.0,
+        "type":"Attrazione turistica",
+        "address":"P.za San Marco, 1, 30124 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJY8vTmtexfkcRLBIbtGmblos",
+        "gps":{
+            "latitude":45.4342465,
+            "longitude":12.3398201
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSx9VAfmA6jjBbUphTNRtxJMydzNsIStWeyBmg13KcjfkJ_Bi9KeyubK1YgEMESHkTOihomP-hWhdy_kUUuSqNCpSCuvEDIaX9ot5PiHvtkTzra6HW7DMF7HMDJWM6AYT878pqHf=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":4,
+        "title":"Campo San Zan Degola",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJTb6H78OxfkcRPSNp3Wy3X8Q",
+        "gps":{
+            "latitude":45.4414873,
+            "longitude":12.3277069
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwvBnqBs4gEsHE6yvZgBLKF14Z5Jxdi3NGBf5NA5Xqb23RRRTX5Zqdi68LI2UsW8utP0qL3FwCc-roUmmaDL7bbrhu1DU-rJ852w4_dlAFDmWPHxLa-bBgMlCZyy_3wp1R8CSDupw=w164-h92-k-no",
+        "original":null
+    },
+    {
+        "position":5,
+        "title":"Campo Santo Stefano",
+        "rating":4.4,
+        "reviews":2720.0,
+        "type":"Attrazione turistica",
+        "address":"30124 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJkdPdzNGxfkcR6jGx-foE_UE",
+        "gps":{
+            "latitude":45.4333292,
+            "longitude":12.3305391
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzvBD2n6jUk2bOOHCP-Oey35TwAg5spl40Ip7mft207ZgG-tXR-GTRGKYuwbVyfrS0yY3kZ_MFjl1HzdlYT0C9_2FKdb2dubE8Y9mS8kayX23R4-0mmK3buKVshJ3E6O4zgz-pQCEs0b_Rq=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":6,
+        "title":"Campo Santo Stefano",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJKazOzdGxfkcRzWKh_mJnN60",
+        "gps":{
+            "latitude":45.4330884,
+            "longitude":12.3304657
+        },
+        "link":null,
+        "thumbnail":null,
+        "original":null
+    },
+    {
+        "position":7,
+        "title":"Campo San Marcuola",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJK8lBycOxfkcRnmc_YH_CqXM",
+        "gps":{
+            "latitude":45.4426885,
+            "longitude":12.3286673
+        },
+        "link":null,
+        "thumbnail":null,
+        "original":null
+    },
+    {
+        "position":8,
+        "title":"Palazzo della Zecca",
+        "rating":5.0,
+        "reviews":2.0,
+        "type":"Punto di riferimento storico",
+        "address":"P.za San Marco, 7, 30124 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJL05godexfkcRXZN4yxStYJA",
+        "gps":{
+            "latitude":45.4331878,
+            "longitude":12.339229
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzwJbIeI7hLsxANI58bACm6yE-IYIwATHIwh17HV1DiH2lZTitbZZ4stOD_T7gHWBmEqq2fiLBhnIBsEa_naglkHUkCuIvWDuqAHKL4bGx0tNm_TdpaSsn4jn2J7ZpXyO-pu8u8TEBJFdOM=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":9,
+        "title":"Corte Malipiero",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJOUnShcaxfkcRWutZMKHz4k4",
+        "gps":{
+            "latitude":45.4389825,
+            "longitude":12.3251857
+        },
+        "link":null,
+        "thumbnail":null,
+        "original":null
+    },
+    {
+        "position":10,
+        "title":"Campiello Mosca",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJqfb1rsixfkcRMuy5YDWiZ8U",
+        "gps":{
+            "latitude":45.4359853,
+            "longitude":12.3239612
+        },
+        "link":null,
+        "thumbnail":null,
+        "original":null
+    },
+    {
+        "position":11,
+        "title":"Campo San Barnaba",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJI6Jl6c6xfkcRFNik58kRvhk",
+        "gps":{
+            "latitude":45.4330526,
+            "longitude":12.3249872
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyg5oSxlkQjCxpbbHbECyz2BaqH2yM91ddKmLGV6HOYI8OAuVUqYyEaUr4aR7FtqDgToo6mNhS5L52uwz86_Kaw5o6oNGmrVRh_b2Ma17kVRYyHdBkqtEU1k__BuGqCxffIHw3AbA=w152-h92-k-no",
+        "original":null
+    },
+    {
+        "position":12,
+        "title":"Palazzo Soranzo",
+        "rating":4.6,
+        "reviews":48.0,
+        "type":"Attrazione turistica",
+        "address":"S. Polo, 2170, 30124 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJpwcaStixfkcRuZ-9z9F_CF8",
+        "gps":{
+            "latitude":45.4378091,
+            "longitude":12.3303416
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxqH57zgKqPKOAwsWjUrgHp4qmas4H9iIxAHeErWvUhpXbndNfA0pH2RlMjO1ioDXCJbFdKlJ3GQO42eLJlq5HL4sQYVciRbLZm_lVn5yBtDMXQFn-xknkxH5XMghkOeguNRAYh=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":13,
+        "title":"Campo San Beneto",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJ-VYHdtCxfkcRpQ1lTNFCNvo",
+        "gps":{
+            "latitude":45.4354751,
+            "longitude":12.3323555
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSw7tOUqyg9_xmD9eytK3S0XYY1sBBPoHL7HXjGFGwjzeZCvlzvpWF9haVTGBs8SNbwMgLSduikBLpB0DdJcVXyP7Urn0yYJYF3FDfF8eAtrdsvy0qVgmpxon7PMlzosPVHp_Q8l=w80-h92-k-no-pi-25.77861-ya11.894936-ro-0-fo100",
+        "original":null
+    },
+    {
+        "position":14,
+        "title":"Campo Manin",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJ85IaeNqxfkcRaizXB4f-muE",
+        "gps":{
+            "latitude":45.4353498,
+            "longitude":12.3343556
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzEpECJdwZBwL2tEXnReNfZGQiukHjdv4Vjg54GyJiNGHu3799jNznujteaeClQiNxyc9TQBQN-Nsh-6aBR0xcfT32eqOIsPHPfriIC2Ul_Uwupf2uYr8HsqFvMQVfH9QiRVzsM=w109-h92-k-no",
+        "original":null
+    },
+    {
+        "position":15,
+        "title":"Centro Commerciale La Piazza",
+        "rating":3.4,
+        "reviews":1157.0,
+        "type":"Centro commerciale",
+        "address":"Via Triestina, 52, 30173 Venezia VE, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 21",
+        "place_id":"ChIJVTKh0ZyzfkcRYRytzPNRY5o",
+        "gps":{
+            "latitude":45.505041,
+            "longitude":12.2865266
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzmm604HLzZN4KwPdEJfXjlhNe6Zx8rzguSBUJJCpR1cmv8xtc0UdNBGdXOK7O_APWvB6tg_cSXkLu8fhKFocejadCNCyVFpi8m30viDiWQk8kTB0o0YB9D4ddt0SlAUw0NGnb8=w163-h92-k-no",
+        "original":null
+    },
+    {
+        "position":16,
+        "title":"Campo San Pantalon",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJs2uGS8-xfkcRDXx3-MYEXhs",
+        "gps":{
+            "latitude":45.4354219,
+            "longitude":12.3244758
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzBOpK0jCc4YKBnnxLJtvgUglJTlhWjpEQbVnEk44nookqeaVaiCxfV6ovgs9sBUnVDDrD3XpXJn-wVu3Q8OLvOgzRtlHwhxrlnhhq8dQsTeaLV4QmNBWMBAW0DPD7xxHmmUL_j=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":17,
+        "title":"Campo de Pozzi",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJ68n-hyaufkcRvQiAYG1gcvU",
+        "gps":{
+            "latitude":45.436144,
+            "longitude":12.3485952
+        },
+        "link":null,
+        "thumbnail":null,
+        "original":null
+    },
+    {
+        "position":18,
+        "title":"Campo Santa Fosca",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJ_yL55sKxfkcR8CXx0sbuHfs",
+        "gps":{
+            "latitude":45.4431086,
+            "longitude":12.3319943
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzEPQnN8G-JK3UZEX3BJEr8UgdzDh1RuD9t4RgIfv75NRL5kuoNqPdJPLyI1yeKFTkDyomEEZA90SWc4ZLBNPBikp4-_K5gCap2zIlQyKzWrOpXru9mIn7cAKWK5N1Aqk8gelvQ=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":19,
+        "title":"Campo di Sant'Agnese",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJFT06dtKxfkcRMLmMV3kHhgk",
+        "gps":{
+            "latitude":45.4296484,
+            "longitude":12.3278016
+        },
+        "link":null,
+        "thumbnail":null,
+        "original":null
+    },
+    {
+        "position":20,
+        "title":"Piazza Erminio Ferretto",
+        "rating":4.3,
+        "reviews":7777.0,
+        "type":"Punto di riferimento storico",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJjTZAYkC0fkcRTZwiKyRz05M",
+        "gps":{
+            "latitude":45.4941769,
+            "longitude":12.2417032
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSylrKdLyoIhs02EPyv5WK3fG5AROMpuKxrXq_-xlMHqrrKwS3ljLoqNs4xOm4f4cbdUJcG2juGxZsbwY_CIVznIbo7AWQznwnnMlQiohPUcVMVSlTGaASOe785gIwbBUS10qZ9a=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":1,
+        "title":"Campo Santo Stefano",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJ39ALXQKufkcRoeix-r7m5fs",
+        "gps":{
+            "latitude":45.4552423,
+            "longitude":12.3531251
+        },
+        "link":null,
+        "thumbnail":null,
+        "original":null
+    },
+    {
+        "position":2,
+        "title":"Campo Nazario Sauro",
+        "rating":4.3,
+        "reviews":10.0,
+        "type":"Punto di riferimento storico",
+        "address":"Santa Croce, 1073, 30135 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJpWVS48OxfkcRBy-BnDz3s04",
+        "gps":{
+            "latitude":45.440076,
+            "longitude":12.3257257
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSx4mTJ6Z7PT0RuSBxK0nPE7I_GhDNitu3HdOY36tIeOb7SVimg3Xe5oQi5zRePYg4jlakfeH6ZSbxi48CC8rK1VJ_jFvHyT7aCM3Pwz5y93cuJhEFwyrS3mT0BbrlLuU6IjOtdATw=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":3,
+        "title":"Corte Santa Scolastica",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJna-z9texfkcRmgzejjdHwzg",
+        "gps":{
+            "latitude":45.4342407,
+            "longitude":12.341187
+        },
+        "link":null,
+        "thumbnail":null,
+        "original":null
+    },
+    {
+        "position":4,
+        "title":"Piazza Erminio Ferretto",
+        "rating":4.3,
+        "reviews":7777.0,
+        "type":"Punto di riferimento storico",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJjTZAYkC0fkcRTZwiKyRz05M",
+        "gps":{
+            "latitude":45.4941769,
+            "longitude":12.2417032
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSylrKdLyoIhs02EPyv5WK3fG5AROMpuKxrXq_-xlMHqrrKwS3ljLoqNs4xOm4f4cbdUJcG2juGxZsbwY_CIVznIbo7AWQznwnnMlQiohPUcVMVSlTGaASOe785gIwbBUS10qZ9a=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":5,
+        "title":"Campo Santa Marina",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJ4V9dQNmxfkcRRsZrpEBo4es",
+        "gps":{
+            "latitude":45.4384156,
+            "longitude":12.3394204
+        },
+        "link":null,
+        "thumbnail":null,
+        "original":null
+    },
+    {
+        "position":6,
+        "title":"Venezia Unica IAT Piazza San Marco",
+        "rating":2.5,
+        "reviews":215.0,
+        "type":"Centro informazioni turistiche",
+        "address":"P.za San Marco, 71B, 30100 Venezia VE, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 19",
+        "place_id":"ChIJ7bPwFtexfkcRif_D53ERy_0",
+        "gps":{
+            "latitude":45.4334333,
+            "longitude":12.337275
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwR2_O8GCLvtwBUSYsUEwX7Z-oX3qYONboPTyFoed_g5LZK0NGyPqjCjJ-wgaaADFl2C07SWZOKuEpuO53IxU6VXheYrxZo2VBB-LyQkZrNZm7a-9J_trrb5SGPlZtLlT9jcAgvNg=w141-h92-k-no",
+        "original":null
+    },
+    {
+        "position":7,
+        "title":"Negozio Olivetti",
+        "rating":4.4,
+        "reviews":434.0,
+        "type":"Punto di riferimento storico",
+        "address":"P.za San Marco, 101, 30124 Venezia VE, Italia",
+        "open_state":"Chiuso ⋅ Apre mar alle ore 10",
+        "place_id":"ChIJ5R1tQtexfkcR8uQ3f51Qr-s",
+        "gps":{
+            "latitude":45.4341613,
+            "longitude":12.3375454
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSz7-oqXacRuCREAtKc-wXoFCF5g2xMMY2fQfKJQCOj4-qhzGxpI8GDJalQMDciNxpkc0t9Eq1yRDkqF99XsBPYx7CSYAuTLSgW1aADMoh6hPu9OIp5McjJJjUAzOZa1XyFktJigpQ=w163-h92-k-no",
+        "original":null
+    },
+    {
+        "position":8,
+        "title":"Campo dei Tolentini",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJ10a6yMexfkcRTijfPiJt4Bs",
+        "gps":{
+            "latitude":45.4376298,
+            "longitude":12.3213969
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyBqUP168ZVOg91E1aSRemZrM4jNPEJA3PwV0wdu-RTTKteqXgPYz2qPAPiUGUGImrq7W91c93WXnzr9kDpFWKSLf3HUl3655aONzV3zkQcU3qFloU3X97b5UoQHZuYvRx8qszr=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":9,
+        "title":"Campo San Cassiano",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJN7w7ssSxfkcR-HLc7x8Qw-E",
+        "gps":{
+            "latitude":45.4396093,
+            "longitude":12.3319149
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxw-FQrKf71DZAks7YNgB8voYiSdLHqNiFRr5E_Zr18nZ0cAAtVfo4_gIA8Y3rHteS-tQdKdyx7RAPbABfU6yqVns_4ElOrPh3dyu-m-Y7xd5b835F9zY5Wg9jN5c407cz_fA8G=w163-h92-k-no",
+        "original":null
+    },
+    {
+        "position":10,
+        "title":"Procuratie Vecchie",
+        "rating":4.6,
+        "reviews":167.0,
+        "type":"Punto di riferimento storico",
+        "address":"P.za San Marco, 105, 30124 Venezia VE, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 18",
+        "place_id":"ChIJsxAVZ8exfkcRJ3DfQhrykzQ",
+        "gps":{
+            "latitude":45.4342973,
+            "longitude":12.3378386
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/p\/AF1QipPGTI5Ngt2ynPr2x9uwnAgX9XbpMuHxgdodLlZK=w181-h92-k-no",
+        "original":null
+    },
+    {
+        "position":11,
+        "title":"Campo di Ghetto Nuovo",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJizZw3sGxfkcRvnZphv5s4kM",
+        "gps":{
+            "latitude":45.4454132,
+            "longitude":12.3269568
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwhhVw388aBMnPpzh4AWZgKLfnWCkrBmW-zTQVQZrN0mEDqqlYX6rKYrYBUHn8rEAVrlNza5lynbnYFDSjPGSN-OODuV3V_9CBTPfNHUVl7k8NP8876mR9mYuBLz19sccufJm3i=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":12,
+        "title":"Fondazione Musei Civici di Venezia",
+        "rating":4.3,
+        "reviews":69.0,
+        "type":"Fondazione",
+        "address":"P.za San Marco, 52, 30124 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJNz8_Z8WxfkcRNSfblNwyzgo",
+        "gps":{
+            "latitude":45.4337383,
+            "longitude":12.3385228
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwFOTYc7RgG3l8-Rvn9ANXpbtMQDb9id1zY74EbjB4r8W2ftZ_K5P7OdLv9SYplBfume3i6BsGp3OasCRJ5AdRgKyn8_PGI1xIcH4tsuTQQHbyF9eWLm9DuNV-cncwTMh0uVvea=w138-h92-k-no",
+        "original":null
+    },
+    {
+        "position":13,
+        "title":"Campo San Stin",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJmWsgyMWxfkcRr5uk0pWx1zg",
+        "gps":{
+            "latitude":45.4379975,
+            "longitude":12.3268584
+        },
+        "link":null,
+        "thumbnail":null,
+        "original":null
+    },
+    {
+        "position":14,
+        "title":"Relais il Doge Piazza San Marco",
+        "rating":3.4,
+        "reviews":12.0,
+        "type":"Hotel",
+        "address":"Calle S. Basso, 312, 30124 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJPbhoSraxfkcRQWlN-8Q542g",
+        "gps":{
+            "latitude":45.4349777,
+            "longitude":12.3392943
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/p\/AF1QipP3fId1CKzRBOq2NnKs3H3afJRxqF8CfBUimUpW=w137-h92-k-no",
+        "original":null
+    },
+    {
+        "position":15,
+        "title":"Galleria Ravagnan",
+        "rating":4.2,
+        "reviews":38.0,
+        "type":"Punto di riferimento storico",
+        "address":"P.za San Marco, 50\/A, 30124 Venezia VE, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 18",
+        "place_id":"ChIJK6iBP9exfkcRyLl-BY55Ln8",
+        "gps":{
+            "latitude":45.4337765,
+            "longitude":12.3387417
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSww0io_sW4nKVin5UjuBkOgdClyyHltSuQ5bErWlEjaH4wePjBu1yhTQQ6GfWJ3jnV1vVv-YjIY2pWWo0xoWYnmGZK5FTlDHupAtJDC9Ee4Ps7yGs6mB3KiKiUOiH4C9uvN7-p7Wg=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":16,
+        "title":"Campo San Polo",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJY9rOIsWxfkcRXxVRe3AaXrY",
+        "gps":{
+            "latitude":45.4376241,
+            "longitude":12.3299347
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSypOMo60HHDPPmGndsQsHFD4kHHYIvKfsdezCIfB91ossaNjATHfY-yAdv7F8EUuevqlaf8XhgySEoAA7w3wDE-DzC24hTnAKcx4X9fjeWLe4nla7tNqXyDEQz5hvTxE4G0OMn6Fg=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":17,
+        "title":"Campo de la Celestia",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJCVySpSaufkcRyPWffN3treE",
+        "gps":{
+            "latitude":45.4377216,
+            "longitude":12.3495153
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyWOv-1WTeM2jqG_0E08UJGYo2L8EkjeAMDxC8wlYQ7TlI-9C8M27hsmhSrae_hMEk3U6nSKDt_4UEuphukZO3ydZ3uI7hWNnCThpMtCGsWhgOfNy4C4rV7rz8qJmtlSCfGgOE=w163-h92-k-no",
+        "original":null
+    },
+    {
+        "position":18,
+        "title":"Monumento Storico a Carlo Goldoni",
+        "rating":4.5,
+        "reviews":138.0,
+        "type":"Attrazione turistica",
+        "address":"Campo S. Bortolomio, 30124 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJsdYh0NuxfkcRzlZIdMCa1tc",
+        "gps":{
+            "latitude":45.4377312,
+            "longitude":12.3368509
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwA6Unpmt1Mz8oHau8QF1qeFVnxueVnYPYwsVU6HBZ7VqOwaPEdhapOXI9XTHouTSxOKJ-Uhkt3uyLMkViZTgS_1Brk4gJSZFUrbN4HP8wEt1ZMl6MXsrRUI0_nSq0cLjAVAA-i6A=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":19,
+        "title":"Bounce Luggage Storage - Piazza San Marco",
+        "rating":5.0,
+        "reviews":6.0,
+        "type":"Deposito bagagli",
+        "address":"S. Marco, 791A, 30124 Venezia VE, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 18",
+        "place_id":"ChIJ2ahCP-GxfkcRe9PkNK67yqg",
+        "gps":{
+            "latitude":45.4352768,
+            "longitude":12.3382646
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/p\/AF1QipNFUtmiKrx9iXGi6q3B_4SqOqYywUPkTPiX7Lpw=w92-h92-k-no",
+        "original":null
+    },
+    {
+        "position":20,
+        "title":"Campo San Leonardo",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJNWZ8nMGxfkcROfIyxDZp1zg",
+        "gps":{
+            "latitude":45.443531,
+            "longitude":12.3267627
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSymDmJ4pF7dWhTSEAHfdGZoZWLFmnZiyPajwhUKrQY1OnrGHp4wlRQLyWGsT_nYwNnsHEOmwl0g8AOSGlsk24Q90PP9ijOfjZSGneD7fVEzdUwlORV17KyLVdbW5GYm9E0gBh1Buw=w136-h92-k-no",
+        "original":null
+    },
+    {
+        "position":1,
+        "title":"Campo Sant'Anzolo",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJOcj5QtCxfkcRajUZ3z94N7g",
+        "gps":{
+            "latitude":45.4342493,
+            "longitude":12.3321337
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSy_2QqkVhS-xevP7PEAGQefMZbPN_CzLQzfdI7h7Hj39GuGJwioiM14GYU86rzpm_pHXlu5XjRlNplmUtGJp8MGT_PpESkisP_A6b7oHqa7_Fx0IZkxSHCcvImnFxggIIBksZiikVJtJkLk=w163-h92-k-no",
+        "original":null
+    },
+    {
+        "position":2,
+        "title":"Bounce Luggage Storage - Piazza San Marco",
+        "rating":5.0,
+        "reviews":6.0,
+        "type":"Deposito bagagli",
+        "address":"S. Marco, 791A, 30124 Venezia VE, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 18",
+        "place_id":"ChIJ2ahCP-GxfkcRe9PkNK67yqg",
+        "gps":{
+            "latitude":45.4352768,
+            "longitude":12.3382646
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/p\/AF1QipNFUtmiKrx9iXGi6q3B_4SqOqYywUPkTPiX7Lpw=w92-h92-k-no",
+        "original":null
+    },
+    {
+        "position":3,
+        "title":"Campo dei Frari",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJ6TUZicWxfkcRvbJQ_K7s7kc",
+        "gps":{
+            "latitude":45.4363189,
+            "longitude":12.3267278
+        },
+        "link":null,
+        "thumbnail":null,
+        "original":null
+    },
+    {
+        "position":4,
+        "title":"Palazzo Ducale",
+        "rating":4.7,
+        "reviews":36329.0,
+        "type":"Attrazione turistica",
+        "address":"P.za San Marco, 1, 30124 Venezia VE, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 18",
+        "place_id":"ChIJiYRBbtexfkcR0XTK3ATSCbg",
+        "gps":{
+            "latitude":45.4337035,
+            "longitude":12.3403894
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwH_waw5deFp2GadRTPDetinksYJKHfh2FqWJqDmmWBrOVOau3PSenApicLp4aAJTmfvWBMDSEbVFROKn_NOwjWQxLLEC8vVhnyAiw7Q7_Ji84IBypp0XDlImS7V4UabRYTGW6Y=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":5,
+        "title":"Piazza Santa Maria del Carmine",
+        "rating":4.5,
+        "reviews":63.0,
+        "type":"Punto di riferimento storico",
+        "address":"30013 Cavallino-Treporti VE, Italia",
+        "open_state":"Ora aperto",
+        "place_id":"ChIJ522Lk4mrfkcRzz5LgLF8GtA",
+        "gps":{
+            "latitude":45.4708131,
+            "longitude":12.4719035
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzPrjE9TTpTuMl_xJ1NGQWqAbx9uf6SwXu5i7HNA8yi_aAGTRqQlbf5lDCX5Po5K3MEURyQnVxYRAMvu07N6er4aEa_oGt-ZyCrnM8FgrXS-CFm310sFbPtPGKYjTw6XeSrbZg48A=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":6,
+        "title":"Piazza Piero Emilio Emmer",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJ9_Jx94-2fkcRtUmxJVa9fKs",
+        "gps":{
+            "latitude":45.466742,
+            "longitude":12.2193895
+        },
+        "link":null,
+        "thumbnail":null,
+        "original":null
+    },
+    {
+        "position":7,
+        "title":"Venchi Cioccolato e Gelato, Venezia Piazza San Marco",
+        "rating":4.8,
+        "reviews":6118.0,
+        "type":"Cioccolateria",
+        "address":"Calle dei Fabbri, 989, 30124 Venezia VE, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 22",
+        "place_id":"ChIJnf6w_tmxfkcRpU_-ceoYkfc",
+        "gps":{
+            "latitude":45.4352176,
+            "longitude":12.3368772
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwlTgRpf6gzTwI58HWX-sIn0jOf6RIkf-zj80G4KBky9DXq02SpkewkR6UB5igdM11axhDWEL-z-SwZh38xy_E3mNEdmxZ8QSmp-iI9uSUPDIAleBNnlpWwF84ZoRgll4C2dqhgtQ=w163-h92-k-no",
+        "original":null
+    },
+    {
+        "position":8,
+        "title":"residenza dietro piazza San Marco",
+        "rating":null,
+        "reviews":null,
+        "type":"Hotel",
+        "address":"Rugagiuffa, 4736, 30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJWVS3SQCxfkcRxDf6A96C5Vc",
+        "gps":{
+            "latitude":45.4361274,
+            "longitude":12.3424859
+        },
+        "link":null,
+        "thumbnail":"https:\/\/streetviewpixels-pa.googleapis.com\/v1\/thumbnail?panoid=uQOPtjSw73oFQx-CnkVdVw&cb_client=search.gws-prod.gps&w=80&h=92&yaw=140.09686&pitch=0&thumbfov=100",
+        "original":null
+    },
+    {
+        "position":9,
+        "title":"Piazza mia, venice, Kosher cooking class",
+        "rating":null,
+        "reviews":null,
+        "type":"Corso di cucina",
+        "address":"Cannaregio, 1150, 30121 Venezia VE, Italia",
+        "open_state":"Apre tra poco ⋅ 16",
+        "place_id":"ChIJy9oBBt-xfkcR60xXBMuzM44",
+        "gps":{
+            "latitude":45.4447749,
+            "longitude":12.3256178
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/p\/AF1QipMUY4veWkUWeQRDC_SqJ5acwn7UqRjO2aN_1FEd=w138-h92-k-no",
+        "original":null
+    },
+    {
+        "position":10,
+        "title":"Ponte della Paglia",
+        "rating":4.7,
+        "reviews":759.0,
+        "type":"Ponte",
+        "address":"30124 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJxUM16dexfkcR_CV7BPwzJYw",
+        "gps":{
+            "latitude":45.4336381,
+            "longitude":12.3410121
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxtgDvGyAjNVEjqBX5MtBnUedIqXmJ0sWPLG7Iufzx2ZGoLmK4rQbACzz7kuoxl0B3gnD5b02hWno2FBVsH2muON7m57dJBfa-V2o46M42bUvOfqXgO2hu9F-gQBVdJwpIguBAQDQ=w138-h92-k-no",
+        "original":null
+    },
+    {
+        "position":11,
+        "title":"Campo San Lio",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJDQcKetmxfkcRvr2my3u3_sA",
+        "gps":{
+            "latitude":45.4375857,
+            "longitude":12.3383077
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSy1Hbi4GxgPFVOAupnDsICujWzLOP45666EuQN14DaD_ihB-tvKebTRVcOgbeNcH56bJ8NaV6ptNBke_igHlq5s7KYUwiNWbVZnFpAlckgg0tFDlB7Q8WJSDsIPoT1K-FVZcXU=w163-h92-k-no",
+        "original":null
+    },
+    {
+        "position":12,
+        "title":"Piazza Divisione Acqui",
+        "rating":null,
+        "reviews":null,
+        "type":"Punto di riferimento storico",
+        "address":"Parco Albanese, 30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJh2x-MgC1fkcRmS494opNMyw",
+        "gps":{
+            "latitude":45.4995837,
+            "longitude":12.2661815
+        },
+        "link":null,
+        "thumbnail":"https:\/\/streetviewpixels-pa.googleapis.com\/v1\/thumbnail?panoid=mI6ffJGtaGTCyfhdi8ivyw&cb_client=search.gws-prod.gps&w=80&h=92&yaw=124.38903&pitch=0&thumbfov=100",
+        "original":null
+    },
+    {
+        "position":13,
+        "title":"Campo San Trovaso",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJs1Dwzs2xfkcROG2g_qVqJH4",
+        "gps":{
+            "latitude":45.430662,
+            "longitude":12.32577
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSx3dl5no1_1AWz0NcreiasQi5Y-Vv6IdzcRFoYkdtpdVaY8Pz9ob5PUvJxG2GmENmTm6zL-MZnggcvQyjNSL6f_9h2WvNbEfX1cqwLtB4pk5LCXuck0SvCJlYxXAv6j64dvvbZJ=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":14,
+        "title":"Piazza Angelo Pastrello",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJ39ylvoOzfkcRGC_Heb128Ks",
+        "gps":{
+            "latitude":45.5045914,
+            "longitude":12.2818761
+        },
+        "link":null,
+        "thumbnail":null,
+        "original":null
+    },
+    {
+        "position":15,
+        "title":"Campanile di San Marco",
+        "rating":4.7,
+        "reviews":8697.0,
+        "type":"Attrazione turistica",
+        "address":"P.za San Marco, 30124 Venezia VE, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 20:45",
+        "place_id":"ChIJt92SstCxfkcR9D1UnQrkRq4",
+        "gps":{
+            "latitude":45.4340359,
+            "longitude":12.3390331
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwPh8UQWVrAqk1n73pQ1fZH74StXKqDqezurktUwvn-ZzyK-7RDj-GsO58rReuylQ0HZHthHKE_-Rny8-NPto7QgzVtLYPHwX40c021DJVEIXcq3O42EHoybtnUDMry9ahoDPXy7A=w138-h92-k-no",
+        "original":null
+    },
+    {
+        "position":16,
+        "title":"Torre dell'Orologio",
+        "rating":4.7,
+        "reviews":1878.0,
+        "type":"Attrazione turistica",
+        "address":"P.za San Marco, 30124 Venezia VE, Italia",
+        "open_state":"Chiude tra poco ⋅ 16 ⋅ Apre mar alle ore 11",
+        "place_id":"ChIJLbrmd9exfkcR4YVP0azgB4g",
+        "gps":{
+            "latitude":45.4347587,
+            "longitude":12.3389668
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwVprXsGo0iA7e0JA6me2F9RQmRkYA39rhw2_VfX6vaYlAOHFNbErTzf7vEMR5_wQiVaQ2Iy-SHpHn934miAbtv3pQ4yVYBUBJFP1IvLGFqRRVRCsPs1V5t62jT3u8E2bJ52Jlw=w138-h92-k-no",
+        "original":null
+    },
+    {
+        "position":17,
+        "title":"Monumento ai Tetrarchi",
+        "rating":4.7,
+        "reviews":208.0,
+        "type":"Attrazione turistica",
+        "address":"P.za San Marco, 30124 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJmbjXhNexfkcRdQd9zM9rpZ8",
+        "gps":{
+            "latitude":45.4342558,
+            "longitude":12.3397052
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwfaL1ygjXK_Ct0AUUSd5tMnCYjPF5qKEQsdzOM7fX-d0-QStukZmVPgtivS4QbqZFEy5wbnbrh2KXbXNi3ZBxaVeQUsSxGbKsVLOGLz6GtYzWsmXlCCsseWW-nHj_VGYo5WjA=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":18,
+        "title":"Piazza Santissima Trinità",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30013 Ca' Savio VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJg21N6fWrfkcRcaTG8RoYDMY",
+        "gps":{
+            "latitude":45.4658455,
+            "longitude":12.4567079
+        },
+        "link":null,
+        "thumbnail":null,
+        "original":null
+    },
+    {
+        "position":19,
+        "title":"Faro San Giorgio Maggiore",
+        "rating":4.6,
+        "reviews":50.0,
+        "type":"Attrazione turistica",
+        "address":"30133 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJ26PwhSmufkcRtjkpQFLjG5k",
+        "gps":{
+            "latitude":45.4301808,
+            "longitude":12.3431976
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyLVZEpQrWpI6z-7grQgtyPSFrdrvLh-6HJyMn-2N6zU-b3NetrN2IzjfjTegH11H9DBDDR3AIE5zY9uLT0eRJbdNqaVmgp6HyC2lg112r2K6aTwdKvwoExPXwnjlDEtO9Znl4o=w134-h92-k-no",
+        "original":null
+    },
+    {
+        "position":20,
+        "title":"Ghetto Ebraico",
+        "rating":4.5,
+        "reviews":6641.0,
+        "type":"Attrazione turistica",
+        "address":"Campo del Ghetto Nuovo, C. del Magazzen, 2882, 30121 Venezia VE, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 18",
+        "place_id":"ChIJ556-s8GxfkcRCOq3zrZae7U",
+        "gps":{
+            "latitude":45.4453337,
+            "longitude":12.3263657
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSymMPC8SUOX-hSFqL7yLi-9DYHOB9SnjvHkig581sM5liHKYUuFFDXB__m6FoHivffNn82tujNKUqYO5gCMklbURCYcChiPpPq_kGZ90XmPNAOeZPEIsC4tol7afVMFjlEliIhW=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":1,
+        "title":"Faro San Giorgio Maggiore",
+        "rating":4.6,
+        "reviews":50.0,
+        "type":"Attrazione turistica",
+        "address":"30133 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJ26PwhSmufkcRtjkpQFLjG5k",
+        "gps":{
+            "latitude":45.4301808,
+            "longitude":12.3431976
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyLVZEpQrWpI6z-7grQgtyPSFrdrvLh-6HJyMn-2N6zU-b3NetrN2IzjfjTegH11H9DBDDR3AIE5zY9uLT0eRJbdNqaVmgp6HyC2lg112r2K6aTwdKvwoExPXwnjlDEtO9Znl4o=w134-h92-k-no",
+        "original":null
+    },
+    {
+        "position":2,
+        "title":"Campo Santi Giovanni e Paolo",
+        "rating":4.7,
+        "reviews":717.0,
+        "type":"Attrazione turistica",
+        "address":"Campo Santi Giovanni e Paolo, 30122, VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJQVGVKtmxfkcRUi192OwsePU",
+        "gps":{
+            "latitude":45.4392207,
+            "longitude":12.3412719
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwYQoK4r_qD_RHRJlE2lgHD2WUFNH9vQ1m66_qZbxn6oRiPinWRsmU_v_IzXjiA36trZXY8uocflq-9TNQif80JkGlklmEjp6wHma9V8nEBCJpJtQxHB4FFMr0h_6NKWNvkbpQc=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":3,
+        "title":"Piazza Erminio Ferretto",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJU_bdiUC0fkcR94mTGSti4n0",
+        "gps":{
+            "latitude":45.4938473,
+            "longitude":12.241482
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwafFzpeDgd0AqX6MeieiJm4a5YEdY-9N2JBZs6klQZbqkCZIvMybA-Y9IlwPofj94w2LZ62YVkKoA7e6HZ4xkI8IXBuBsn9AiBBBl9rAtOnxxn-Sv05QEVYbE84cUG__IBV4Y=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":4,
+        "title":"Venezia laguna",
+        "rating":4.7,
+        "reviews":7.0,
+        "type":"Attrazione turistica",
+        "address":"P.za San Marco, 30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJXQZqTfqxfkcRnJQ94SBwXhM",
+        "gps":{
+            "latitude":45.4342798,
+            "longitude":12.338111
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSz5DFNmD10-Kz9ARDCEJpXNJwT1-0EXcqi0M5Vgw20yBS6lXnjVYg84s9ZvNDZjQPV6kuiOKuVcIC0juwVRkK_y8SZnuS_fliM7DBd7kNTe2i02f4eSflcwMgGFFwUkL4zhGMoKCQ=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":5,
+        "title":"Piazza delle Erbe",
+        "rating":5.0,
+        "reviews":1.0,
+        "type":"Punto di riferimento storico",
+        "address":"30126 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJzauXK4mlfkcRsZU1dzNMPDU",
+        "gps":{
+            "latitude":45.3724071,
+            "longitude":12.339921
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSycCuCCjBhJiL1J7k1DYsabtCQTOL5GT166YRLKEyvIIxo9VVFtmKf0E8WyIdFrs4A_CS9g23ZV74pG2zQtlySH5OEBTpNpeSVOob7fDO_73igPVo8M6JCZE8UH5HeOojJpL4cGGg=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":6,
+        "title":"Piazza del Municipio",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJ_RAD-Se0fkcRSmFtOqD2FD4",
+        "gps":{
+            "latitude":45.4760416,
+            "longitude":12.2249185
+        },
+        "link":null,
+        "thumbnail":null,
+        "original":null
+    },
+    {
+        "position":7,
+        "title":"PIAZZA MERCATO",
+        "rating":4.3,
+        "reviews":57.0,
+        "type":"Piazza",
+        "address":"Piazza Mercato, 9, 30020 Marcon VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJK2nyqbpNeUcRyPXge3D7Zgk",
+        "gps":{
+            "latitude":45.5554705,
+            "longitude":12.3038728
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxFoQww9nGppTph680cUm4VEqaiQqtNhLDj0CwAMhUQNL7sHni0U0yfTPj6iQ_80e41cm06vbXPuuhIUhjnIDccugnIcl8xHy8h_8hAf7u90EgAUPFj6Bl9ajDltZb_Pj4DHnOX=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":8,
+        "title":"Piazza D. Munaretto",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30174 Chirignago-Zelarino VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJZbTGxqC1fkcRvED5uzjT2T0",
+        "gps":{
+            "latitude":45.5144371,
+            "longitude":12.2089719
+        },
+        "link":null,
+        "thumbnail":null,
+        "original":null
+    },
+    {
+        "position":9,
+        "title":"Piazza Barche",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30100 Venezia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJ9cHICkC0fkcRyo6cecFsreI",
+        "gps":{
+            "latitude":45.492891,
+            "longitude":12.2420338
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxxShdfV2e9JY-3AbUwHcHIeJfX9a1RYBu_s-yajUDt9BLyjB6yyL1IlF7AHA7JF9qNFTDcHpzQMt8-WJ3_3ndLJ8UiowAjNeOP-ej21iMAn2Ytut2fRhenmHBnk2QgmzAZLDD_eQ=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":10,
+        "title":"Monumento a Vittorio Emanuele II",
+        "rating":4.6,
+        "reviews":851.0,
+        "type":"Attrazione turistica",
+        "address":"Riva degli Schiavoni, 30100 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJmZtcDCiufkcRmViS3EgLd3Q",
+        "gps":{
+            "latitude":45.4338948,
+            "longitude":12.3433492
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSxJTKk4eJtq8RLPGcBKtA7O_4_aA3977IgbiLfU-4yv910UkZvv2pv0QGcuxMvchvKV72tnZV8OEX-rvOxkud1VSTBcfbrKkfqFRkDO3yvDdGC10RnpkxNMlnOy4zIA9SRvYByZ2g=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":11,
+        "title":"Basilica di San Marco",
+        "rating":4.7,
+        "reviews":26933.0,
+        "type":"Attrazione turistica",
+        "address":"P.za San Marco, 328, 30100 Venezia VE, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 17:15",
+        "place_id":"ChIJv2xSZNexfkcRBaKsgyfVEgo",
+        "gps":{
+            "latitude":45.4345606,
+            "longitude":12.3397124
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzI3yLTEBMkGrLmRSjqJyNHRwQ105ET1VGi-3VQRgwFJ3g9gMKbG75SUpJcoSB0hX18GV2TgukHcRTpzf9bsYx6gplBciJyvx8_NIr_6Ah3E67aV7HoUFUSQoS7FN9KgGyojZQ=w80-h106-k-no",
+        "original":null
+    },
+    {
+        "position":12,
+        "title":"Piazza Giovanni Paolo II",
+        "rating":3.8,
+        "reviews":12.0,
+        "type":"Piazza",
+        "address":"Via Moglianese Gardigiano, 30037 Peseggia VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJh7i0clc1eUcRxVp5Qo3VEc8",
+        "gps":{
+            "latitude":45.5639158,
+            "longitude":12.1966649
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyfSdcXewpvRPD3SKCpL4om6V9tHdwlIOUQjhRiN23jx_nTP3Mzg9rFrqYAF33D_xvippaEBY4jv4dIdQajbHnFhzXHwdJU0_5GL8bubGSTU3P-0110ZM49fQ6xLhU2nQnExzj9=w163-h92-k-no",
+        "original":null
+    },
+    {
+        "position":13,
+        "title":"Piazza Guglielmo Marconi",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"30038 Spinea VE, Italia",
+        "open_state":null,
+        "place_id":"ChIJ4yWokQfKfkcRhWUGw1JZdOY",
+        "gps":{
+            "latitude":45.4899858,
+            "longitude":12.1676387
+        },
+        "link":null,
+        "thumbnail":null,
+        "original":null
+    },
+    {
+        "position":14,
+        "title":"Ai Do Leoni",
+        "rating":4.7,
+        "reviews":825.0,
+        "type":"Bar",
+        "address":"P.za San Marco, 355, 30124 Venezia VE, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 17",
+        "place_id":"ChIJpYzOT02xfkcRIYRIeY-to3A",
+        "gps":{
+            "latitude":45.435025,
+            "longitude":12.3396187
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwDkFs8ufVIF53PAzap2FZgTDr2WNqC0YeUY84d4KAH0n2uWfbNx0Fb_qbYtUr4do9mW01tZQ35UeZg4UWdDpWoZyyMKOAvClSE0xu7510aDmdrYxPMSJ-R7rLks9dQCQkLGDg=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":15,
+        "title":"Giardini Reali",
+        "rating":4.5,
+        "reviews":2380.0,
+        "type":"Giardino pubblico",
+        "address":"P.za San Marco, 30124 Venezia VE, Italia",
+        "open_state":"Chiuso ⋅ Apre mer alle ore 09",
+        "place_id":"ChIJMasuBtexfkcRJCxPSAYJlVY",
+        "gps":{
+            "latitude":45.4329839,
+            "longitude":12.3382915
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSyktFhymkwJ0nTqv5OE5qokm-4MI15qRBDCwF0aNZS33nxjMBaBvJdBbD9f2jZnXTVRxr6ju-lEZE4wfRQT6DMAHTTyF4lo8GYQI4I1j0mfd-KO6jGSAmNUXhp9DBRNjnrMFxhb=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":16,
+        "title":"Bar Chiaranda",
+        "rating":4.3,
+        "reviews":61.0,
+        "type":"Bar",
+        "address":"S. Marco, 1165, 30124 Venezia VE, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 20",
+        "place_id":"ChIJN1MpUNexfkcRtkEFM64oJGA",
+        "gps":{
+            "latitude":45.4344576,
+            "longitude":12.336446
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSz8FuM2VGW_YsSifHkyZWUFg93cJbj5RrkB8FB4P3LgQvtec8bX7vBpF6YpYk7ZxfTY50dPLakncQIvCzTQIUvBdQ5RZVX_8w1SE87LkSSDvtV64_OotQs7riRuy75j2tomVrA=w84-h92-k-no",
+        "original":null
+    },
+    {
+        "position":17,
+        "title":"Piazza Giuseppe Berto",
+        "rating":null,
+        "reviews":null,
+        "type":"Piazza principale",
+        "address":"31021 Mogliano Veneto TV, Italia",
+        "open_state":null,
+        "place_id":"ChIJOfcZOiu1fkcRcfnJaMAmwOc",
+        "gps":{
+            "latitude":45.5501884,
+            "longitude":12.2397858
+        },
+        "link":null,
+        "thumbnail":null,
+        "original":null
+    },
+    {
+        "position":18,
+        "title":"Campo San Stin",
+        "rating":4.5,
+        "reviews":287.0,
+        "type":"Attrazione turistica",
+        "address":"Calle de Ca' Donà, 2503, 30125 Venezia VE, Italia",
+        "open_state":"Aperto 24 ore su 24",
+        "place_id":"ChIJ-Y0oyMWxfkcR7QIwLAEhQoc",
+        "gps":{
+            "latitude":45.4379975,
+            "longitude":12.3268917
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSykpCBbm1fCd3-oLSe0W2rvW0PxPQn0aNYE_PnNnX-AHOyaG6OHxiuQRiUcn0sqC-NI_lam1TGc2x26e5Mhmoo8y7myi1GAQKHTv7radIrYqram8xXweTD0R6Ky5qx1W2V9IL5YoQ=w122-h92-k-no",
+        "original":null
+    },
+    {
+        "position":19,
+        "title":"Museo di San Marco",
+        "rating":4.7,
+        "reviews":1537.0,
+        "type":"Attrazione turistica",
+        "address":"P.za San Marco, 328, 30124 Venezia VE, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 17:15",
+        "place_id":"ChIJ-0cUcNexfkcRHnYrFFMKTTo",
+        "gps":{
+            "latitude":45.4344493,
+            "longitude":12.3393815
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSwP-mUrO3scdAohAS4r3cxyOGvFCvpdcQAUonx8Ql9R4E6mk4x8ke0dkkJyquU0LNQnj1HNd9qBD7g2gQ-Fd0j45Jji7_VNYQqy8cxc8o8vFEKMiM0DbRNgt7RbX6NEVhZH2qWGIA=w189-h92-k-no",
+        "original":null
+    },
+    {
+        "position":20,
+        "title":"Museo Correr",
+        "rating":4.3,
+        "reviews":2702.0,
+        "type":"Attrazione turistica",
+        "address":"P.za San Marco, 52, 30124 Venezia VE, Italia",
+        "open_state":"Aperto ⋅ Chiude alle ore 17",
+        "place_id":"ChIJ1a1MDdexfkcR2H65Jv-LxhI",
+        "gps":{
+            "latitude":45.4337924,
+            "longitude":12.3372059
+        },
+        "link":null,
+        "thumbnail":"https:\/\/lh3.googleusercontent.com\/gps-cs-s\/AG0ilSzMjDbqz1IcHJrLY7i62gzmD69a1kmFiJPl3L9h3ozgvtGulwHp01KXWPl3pkjICt7qAAjtp9ayIQhAAwzVc3SS6y5RCTo1rujXYC0WkwnJH2uJJjrsRNSevL3nCg3esoMlDRm6=w122-h92-k-no",
+        "original":null
+    }
+]

@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_26ade208fba7146060328ca2fc25c606 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@main/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_26ade208fba7146060328ca2fc25c606" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_26ade208fba7146060328ca2fc25c606 = L.map(
+                "map_26ade208fba7146060328ca2fc25c606",
+                {
+                    center: [45.438, 12.33],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6e309a36d59071802b103e782a0f7bf2 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_6e309a36d59071802b103e782a0f7bf2.addTo(map_26ade208fba7146060328ca2fc25c606);
+        
+    
+            var heat_map_5d7e92c4269ee07b125140522c09f65a = L.heatLayer(
+                [[45.4341668, 12.3384717, 190347.0], [45.4396041, 12.3371526, 8.0], [45.4347697, 12.3392903, 37.0], [45.4337762, 12.339640399999999, 102.0], [45.4333998, 12.3382322, 8.0], [45.4353443, 12.334233399999999, 701.0], [45.4332857, 12.3396589, 164.0], [45.4333543, 12.3399146, 411.0], [45.4361835, 12.3276623, 1.0], [45.4342465, 12.339820099999999, 334.0], [45.433329199999996, 12.3305391, 2720.0], [45.4331878, 12.339229, 2.0], [45.437809099999996, 12.330341599999999, 48.0], [45.4941769, 12.2417032, 7777.0], [45.440076, 12.3257257, 10.0], [45.4334333, 12.337275, 215.0], [45.4341613, 12.3375454, 434.0], [45.4342973, 12.3378386, 167.0], [45.433738299999995, 12.3385228, 69.0], [45.4337765, 12.3387417, 38.0], [45.437731199999995, 12.3368509, 138.0], [45.4337035, 12.3403894, 36329.0], [45.4708131, 12.4719035, 63.0], [45.433638099999996, 12.341012099999999, 759.0], [45.4340359, 12.3390331, 8697.0], [45.434758699999996, 12.3389668, 1878.0], [45.434255799999995, 12.3397052, 208.0], [45.430180799999995, 12.3431976, 50.0], [45.4453337, 12.3263657, 6641.0], [45.4392207, 12.341271899999999, 717.0], [45.4342798, 12.338111, 7.0], [45.3724071, 12.339920999999999, 1.0], [45.5554705, 12.303872799999999, 57.0], [45.4338948, 12.343349199999999, 851.0], [45.4345606, 12.3397124, 26933.0], [45.5639158, 12.1966649, 12.0], [45.432983899999996, 12.338291499999999, 2380.0], [45.437997499999994, 12.3268917, 287.0], [45.4344493, 12.3393815, 1537.0], [45.433792399999994, 12.337205899999999, 2702.0], [45.4342081, 12.3320584, 1061.0], [45.4377268, 12.3368342, 91.0], [45.4327322, 12.331586, 363.0], [45.4347062, 12.346704599999999, 972.0], [45.4343162, 12.3235342, 145.0], [45.443217399999995, 12.331171699999999, 20.0], [45.4347133, 12.359084399999999, 121.0], [45.4369227, 12.3362181, 81.0], [45.4358054, 12.335267, 82.0], [45.4401362, 12.327803099999999, 74.0], [45.439864799999995, 12.339057299999999, 96.0], [45.4330627, 12.3358212, 19.0], [45.4374397, 12.333099299999999, 42.0], [45.4274394, 12.3614514, 11.0], [45.438797699999995, 12.328402899999999, 64.0], [45.4416703, 12.333289599999999, 18.0], [45.4279327, 12.3131313, 14.0], [45.427009299999995, 12.359679199999999, 10.0], [45.4350984, 12.3415187, 16.0], [45.4373626, 12.3409909, 82.0], [45.4454752, 12.332033299999999, 35.0], [45.434671099999996, 12.336752899999999, 46.0], [45.4481982, 12.3293476, 6.0], [45.436317599999995, 12.3472754, 8.0], [45.43951, 12.3285377, 65.0], [45.4376241, 12.329934699999999, 83.0], [45.4391411, 12.335053799999999, 33.0], [45.4482557, 12.3296206, 8.0], [45.461267199999995, 12.3538088, 9.0], [45.4360676, 12.339155799999999, 404.0], [45.4609716, 12.3542121, 27.0], [45.4473351, 12.328818, 20.0], [45.431459, 12.3282081, 34.0], [45.4413567, 12.3278961, 10.0], [45.4402948, 12.336602099999999, 5.0], [45.4461678, 12.3324423, 35.0], [45.4371509, 12.3447164, 2.0], [45.423977699999995, 12.3391655, 3.0], [45.4402976, 12.3366648, 1369.0], [45.437072, 12.345155199999999, 1.0], [45.4369862, 12.337787899999999, 13.0], [45.443400399999994, 12.3386265, 5.0], [45.429418, 12.3280754, 7.0], [45.4445325, 12.3202233, 2.0], [45.443601099999995, 12.3268389, 7.0], [45.448329099999995, 12.3251654, 18.0], [45.416325799999996, 12.3785334, 2.0], [45.4335738, 12.318664499999999, 6.0], [45.425732499999995, 12.361655599999999, 2.0], [45.4348119, 12.3595127, 5.0], [45.4260819, 12.360729899999999, 3.0], [45.4484126, 12.328215799999999, 34.0], [45.4311514, 12.320822999999999, 3.0], [45.444700999999995, 12.3203564, 3.0], [45.434939799999995, 12.3426609, 4.0], [45.427780399999996, 12.3640025, 1747.0], [45.4328249, 12.3315108, 42.0], [45.4396907, 12.3304686, 2.0], [45.4306675, 12.3335335, 4.0], [45.4806551, 12.286819, 106.0], [45.4287722, 12.3580806, 12260.0], [45.4382983, 12.3206545, 3387.0], [45.4314603, 12.352596799999999, 1960.0], [45.430082999999996, 12.3553239, 51.0], [45.4335868, 12.325755899999999, 69.0], [45.434934399999996, 12.325874299999999, 13.0], [45.4480358, 12.3277307, 106.0], [45.4324259, 12.317680099999999, 5.0], [45.456915099999996, 12.3564017, 5.0], [45.4317236, 12.3315272, 1.0], [45.4407919, 12.318652799999999, 9.0], [45.437709999999996, 12.3302, 10.0], [45.4420802, 12.3208678, 7.0], [45.428697299999996, 12.3441575, 95.0], [45.43658, 12.3469901, 2.0], [45.4385488, 12.331452599999999, 2.0], [45.440847399999996, 12.315515099999999, 1.0], [45.4439132, 12.3186196, 1.0], [45.4477093, 12.3208009, 9.0], [45.430831999999995, 12.3552936, 279.0], [45.432593999999995, 12.354896499999999, 11.0], [45.4477396, 12.3201058, 3.0], [45.439688499999995, 12.3241888, 135.0], [45.444786099999995, 12.325282099999999, 7.0], [45.406793199999996, 12.368824499999999, 40.0], [45.427399699999995, 12.322710299999999, 6.0], [45.432621999999995, 12.337862999999999, 820.0], [45.496560699999996, 12.242268099999999, 48.0], [45.446317, 12.3354149, 46.0], [45.4939281, 12.245714999999999, 2.0], [45.4822567, 12.225594599999999, 54.0], [45.4244875, 12.332519099999999, 20.0], [45.500299999999996, 12.2353238, 11.0], [45.4973342, 12.4168554, 1.0], [45.4415038, 12.3354097, 292.0], [45.426575, 12.164095999999999, 4.0], [45.4988017, 12.2621196, 6.0], [45.4370238, 12.201842599999999, 2.0], [45.5373805, 12.2883877, 4.0], [45.442263, 12.421529399999999, 20.0], [45.442256, 12.32073, 48.0], [45.500076299999996, 12.261591099999999, 1.0], [45.668077499999995, 12.250408, 4.0], [45.4297806, 12.3277042, 206.0], [45.4426801, 12.329788299999999, 2551.0], [45.3163507, 12.3143327, 2.0], [45.5626396, 12.193700999999999, 7.0], [45.4180214, 12.0802386, 12.0], [45.4161267, 12.0790574, 2.0], [45.386644, 12.047834799999999, 1.0], [45.6283016, 12.565306399999999, 1.0], [45.430144399999996, 12.3587343, 5.0], [45.560935, 12.1857686, 2.0], [45.5198537, 12.0557003, 3.0], [45.5266568, 12.1077748, 1.0], [45.503996699999995, 12.231245, 739.0], [45.4371222, 12.157468099999999, 1.0], [45.460308, 12.349213599999999, 44.0], [45.443548199999995, 12.324322299999999, 1.0], [45.4567653, 12.357757399999999, 66.0], [45.416466299999996, 12.377246699999999, 69.0], [45.4269404, 12.3591103, 4.0], [45.43676, 12.330411, 9.0], [45.4342407, 12.341187, 1.0], [45.4329859, 12.3382939, 12.0], [45.4274573, 12.3151257, 2.0], [45.4335473, 12.3155717, 10.0], [45.4743271, 12.276037599999999, 8637.0], [45.438493699999995, 12.330351199999999, 3.0], [45.432837199999994, 12.349883499999999, 4.0], [45.466232399999996, 12.280560399999999, 53.0], [45.4375028, 12.3401681, 1.0], [45.4230198, 12.3767236, 1.0], [45.433711599999995, 12.3467086, 1.0], [45.4347541, 12.3304574, 2.0], [45.456128, 12.3537263, 1.0], [45.4468178, 12.3483646, 202.0], [45.4690434, 12.280474499999999, 10.0], [45.499357499999995, 12.2609032, 3440.0], [45.444283899999995, 12.317830899999999, 2.0], [45.432637, 12.3695744, 101.0], [45.4912279, 12.3219234, 154.0], [45.384744, 12.3483032, 121.0], [45.4887155, 12.226528799999999, 1037.0], [45.482506099999995, 12.3030537, 32.0], [45.4836272, 12.2645456, 379.0], [45.491505499999995, 12.2555806, 105.0], [45.476199, 12.2051339, 1702.0], [45.4672804, 12.218355599999999, 187.0], [45.4840576, 12.244909499999999, 11.0], [45.4735474, 12.2633192, 1373.0], [45.5334826, 12.1672696, 2341.0], [45.488644199999996, 12.3070425, 63.0], [45.4764408, 12.2774714, 57.0], [45.496940699999996, 12.261163999999999, 136.0], [45.4940187, 12.2350783, 355.0], [45.4762552, 12.262621399999999, 1.0], [45.4891697, 12.4125743, 22.0], [45.508058899999995, 12.257214099999999, 149.0], [45.5058429, 12.274064, 164.0], [45.476176599999995, 12.269667, 1.0], [45.489209699999996, 12.412628, 1.0], [45.4943052, 12.1651536, 1055.0], [45.486202, 12.4133032, 20.0], [45.3874912, 12.3526323, 7.0], [45.4744117, 12.219894799999999, 19.0], [45.501131, 12.2698711, 5.0], [45.494692699999995, 12.2651863, 3.0], [45.5414367, 12.3980195, 609.0], [45.3843634, 12.3482355, 7.0], [45.4338966, 12.196478299999999, 52.0], [45.487010999999995, 12.2664481, 12.0], [45.4854639, 12.220168399999999, 11.0], [45.4857385, 12.1960869, 283.0], [45.4991126, 12.258325899999999, 74.0], [45.4510836, 12.4597648, 126.0], [45.4960685, 12.2666045, 3.0], [45.4918213, 12.2571899, 1.0], [45.4741771, 12.111979199999999, 535.0], [45.5044337, 12.249269499999999, 362.0], [45.560111299999996, 12.251391199999999, 467.0], [45.4646687, 12.221011599999999, 3.0], [45.5071679, 12.2371468, 82.0], [45.4941715, 12.237159199999999, 9.0], [45.4862606, 12.2414185, 16.0], [45.5058309, 12.289997399999999, 1.0], [45.4872369, 12.2477928, 1.0], [45.4727694, 12.2233334, 1.0], [45.476813899999996, 12.2252437, 30.0], [45.4798873, 12.2122307, 17.0], [45.434488599999995, 12.147356199999999, 131.0], [45.566978399999996, 12.2307379, 84.0], [45.489284399999995, 12.2146303, 1.0], [45.4821817, 12.1837178, 18.0], [45.4458187, 12.460084499999999, 2.0]],
+                {
+  "minOpacity": 0.3,
+  "maxZoom": 18,
+  "radius": 30,
+  "blur": 15,
+  "gradient": {
+  0.4: "blue",
+  0.6: "lime",
+  0.8: "yellow",
+  1.0: "red",
+},
+}
+            );
+        
+    
+            heat_map_5d7e92c4269ee07b125140522c09f65a.addTo(map_26ade208fba7146060328ca2fc25c606);
+        
+    
+            var circle_marker_96a036328fe69df75b227f7c114ba0af = L.circleMarker(
+                [45.4341668, 12.3384717],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_26ade208fba7146060328ca2fc25c606);
+        
+    
+        var popup_a0e6be6e78326138d5d649ffdd405a4b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f4585f04ec891d199a25732a3e8aa656 = $(`<div id="html_f4585f04ec891d199a25732a3e8aa656" style="width: 100.0%; height: 100.0%;"><b>Piazza San Marco</b><br>Reviews: 190347</div>`)[0];
+                popup_a0e6be6e78326138d5d649ffdd405a4b.setContent(html_f4585f04ec891d199a25732a3e8aa656);
+            
+        
+
+        circle_marker_96a036328fe69df75b227f7c114ba0af.bindPopup(popup_a0e6be6e78326138d5d649ffdd405a4b)
+        ;
+
+        
+    
+    
+            var circle_marker_225445f04adaded51b5df3186c703cb4 = L.circleMarker(
+                [45.433329199999996, 12.3305391],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_26ade208fba7146060328ca2fc25c606);
+        
+    
+        var popup_f1fc1424b2ce2668ea149da38ff3e6b6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dd44fad5a9fd3f3071e8e7251845c8c3 = $(`<div id="html_dd44fad5a9fd3f3071e8e7251845c8c3" style="width: 100.0%; height: 100.0%;"><b>Campo Santo Stefano</b><br>Reviews: 2720</div>`)[0];
+                popup_f1fc1424b2ce2668ea149da38ff3e6b6.setContent(html_dd44fad5a9fd3f3071e8e7251845c8c3);
+            
+        
+
+        circle_marker_225445f04adaded51b5df3186c703cb4.bindPopup(popup_f1fc1424b2ce2668ea149da38ff3e6b6)
+        ;
+
+        
+    
+    
+            var circle_marker_9003cab2a424b089bbfe2811a2f426fb = L.circleMarker(
+                [45.4941769, 12.2417032],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_26ade208fba7146060328ca2fc25c606);
+        
+    
+        var popup_94ec74967bb76f1a1efec4f3df85dd89 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f3b9e1065157e3d11954b21bc584b784 = $(`<div id="html_f3b9e1065157e3d11954b21bc584b784" style="width: 100.0%; height: 100.0%;"><b>Piazza Erminio Ferretto</b><br>Reviews: 7777</div>`)[0];
+                popup_94ec74967bb76f1a1efec4f3df85dd89.setContent(html_f3b9e1065157e3d11954b21bc584b784);
+            
+        
+
+        circle_marker_9003cab2a424b089bbfe2811a2f426fb.bindPopup(popup_94ec74967bb76f1a1efec4f3df85dd89)
+        ;
+
+        
+    
+    
+            var circle_marker_7729ebc49e231e19ea6a8c3f73e2e5db = L.circleMarker(
+                [45.4337035, 12.3403894],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_26ade208fba7146060328ca2fc25c606);
+        
+    
+        var popup_e29adf06f377a848489a4a23f83084a5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_489b388553315eb2e14c88f3de377d6e = $(`<div id="html_489b388553315eb2e14c88f3de377d6e" style="width: 100.0%; height: 100.0%;"><b>Palazzo Ducale</b><br>Reviews: 36329</div>`)[0];
+                popup_e29adf06f377a848489a4a23f83084a5.setContent(html_489b388553315eb2e14c88f3de377d6e);
+            
+        
+
+        circle_marker_7729ebc49e231e19ea6a8c3f73e2e5db.bindPopup(popup_e29adf06f377a848489a4a23f83084a5)
+        ;
+
+        
+    
+    
+            var circle_marker_85f00431680981b911efb61aed878a00 = L.circleMarker(
+                [45.4340359, 12.3390331],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_26ade208fba7146060328ca2fc25c606);
+        
+    
+        var popup_314548480d270cb35fc05d412e713e67 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fdcf4d02f2cff03b06a0a27eb4489713 = $(`<div id="html_fdcf4d02f2cff03b06a0a27eb4489713" style="width: 100.0%; height: 100.0%;"><b>Campanile di San Marco</b><br>Reviews: 8697</div>`)[0];
+                popup_314548480d270cb35fc05d412e713e67.setContent(html_fdcf4d02f2cff03b06a0a27eb4489713);
+            
+        
+
+        circle_marker_85f00431680981b911efb61aed878a00.bindPopup(popup_314548480d270cb35fc05d412e713e67)
+        ;
+
+        
+    
+    
+            var circle_marker_669b8f64ef2775ae0fb27468e877e973 = L.circleMarker(
+                [45.434758699999996, 12.3389668],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_26ade208fba7146060328ca2fc25c606);
+        
+    
+        var popup_e13837ff179b90aa39fcbdd349a0a252 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cb8ca4263d1d5f33962bba97da302328 = $(`<div id="html_cb8ca4263d1d5f33962bba97da302328" style="width: 100.0%; height: 100.0%;"><b>Torre dell'Orologio</b><br>Reviews: 1878</div>`)[0];
+                popup_e13837ff179b90aa39fcbdd349a0a252.setContent(html_cb8ca4263d1d5f33962bba97da302328);
+            
+        
+
+        circle_marker_669b8f64ef2775ae0fb27468e877e973.bindPopup(popup_e13837ff179b90aa39fcbdd349a0a252)
+        ;
+
+        
+    
+    
+            var circle_marker_efafcab877b4adecc4b2ba474eaecf12 = L.circleMarker(
+                [45.4453337, 12.3263657],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_26ade208fba7146060328ca2fc25c606);
+        
+    
+        var popup_b0a51e099756ae3fd3a205e39418baf1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_116f2228d41da2515b40a501aa6dd65a = $(`<div id="html_116f2228d41da2515b40a501aa6dd65a" style="width: 100.0%; height: 100.0%;"><b>Ghetto Ebraico</b><br>Reviews: 6641</div>`)[0];
+                popup_b0a51e099756ae3fd3a205e39418baf1.setContent(html_116f2228d41da2515b40a501aa6dd65a);
+            
+        
+
+        circle_marker_efafcab877b4adecc4b2ba474eaecf12.bindPopup(popup_b0a51e099756ae3fd3a205e39418baf1)
+        ;
+
+        
+    
+    
+            var circle_marker_827061aeb4f2bc714b902c52b376018b = L.circleMarker(
+                [45.4345606, 12.3397124],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_26ade208fba7146060328ca2fc25c606);
+        
+    
+        var popup_0a61cdc760e85c547016b267d46bd5b4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_19a02e85df4acf67b3361fa66d774ca1 = $(`<div id="html_19a02e85df4acf67b3361fa66d774ca1" style="width: 100.0%; height: 100.0%;"><b>Basilica di San Marco</b><br>Reviews: 26933</div>`)[0];
+                popup_0a61cdc760e85c547016b267d46bd5b4.setContent(html_19a02e85df4acf67b3361fa66d774ca1);
+            
+        
+
+        circle_marker_827061aeb4f2bc714b902c52b376018b.bindPopup(popup_0a61cdc760e85c547016b267d46bd5b4)
+        ;
+
+        
+    
+    
+            var circle_marker_106887dc71e7e087b268e1213c58dc72 = L.circleMarker(
+                [45.432983899999996, 12.338291499999999],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_26ade208fba7146060328ca2fc25c606);
+        
+    
+        var popup_81e4262317eb79e850e6ca7f2d00cbcb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca6985c53570db786795a8ae03319d5b = $(`<div id="html_ca6985c53570db786795a8ae03319d5b" style="width: 100.0%; height: 100.0%;"><b>Giardini Reali</b><br>Reviews: 2380</div>`)[0];
+                popup_81e4262317eb79e850e6ca7f2d00cbcb.setContent(html_ca6985c53570db786795a8ae03319d5b);
+            
+        
+
+        circle_marker_106887dc71e7e087b268e1213c58dc72.bindPopup(popup_81e4262317eb79e850e6ca7f2d00cbcb)
+        ;
+
+        
+    
+    
+            var circle_marker_903c654464a592e487d424314fa45ca2 = L.circleMarker(
+                [45.4344493, 12.3393815],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_26ade208fba7146060328ca2fc25c606);
+        
+    
+        var popup_250f77fc100a727ef79f340539d6c8be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a6782990a7b8a17f4519576a266e6c4 = $(`<div id="html_7a6782990a7b8a17f4519576a266e6c4" style="width: 100.0%; height: 100.0%;"><b>Museo di San Marco</b><br>Reviews: 1537</div>`)[0];
+                popup_250f77fc100a727ef79f340539d6c8be.setContent(html_7a6782990a7b8a17f4519576a266e6c4);
+            
+        
+
+        circle_marker_903c654464a592e487d424314fa45ca2.bindPopup(popup_250f77fc100a727ef79f340539d6c8be)
+        ;
+
+        
+    
+    
+            var circle_marker_26d563f2e3732bd70196a1bb4fff92ed = L.circleMarker(
+                [45.433792399999994, 12.337205899999999],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_26ade208fba7146060328ca2fc25c606);
+        
+    
+        var popup_033ec95d23f98e387f4d9372ca43eb51 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca2bf7d3ee701b6ae84e4ca6ea82f287 = $(`<div id="html_ca2bf7d3ee701b6ae84e4ca6ea82f287" style="width: 100.0%; height: 100.0%;"><b>Museo Correr</b><br>Reviews: 2702</div>`)[0];
+                popup_033ec95d23f98e387f4d9372ca43eb51.setContent(html_ca2bf7d3ee701b6ae84e4ca6ea82f287);
+            
+        
+
+        circle_marker_26d563f2e3732bd70196a1bb4fff92ed.bindPopup(popup_033ec95d23f98e387f4d9372ca43eb51)
+        ;
+
+        
+    
+    
+            var circle_marker_fb6f94437f2b5f7a1a16fef6bf8221de = L.circleMarker(
+                [45.4342081, 12.3320584],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_26ade208fba7146060328ca2fc25c606);
+        
+    
+        var popup_08532db27e7c225e223d2949e519d0d0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7f472d9420c341eb549d55502f213b66 = $(`<div id="html_7f472d9420c341eb549d55502f213b66" style="width: 100.0%; height: 100.0%;"><b>Campo Sant'Angelo</b><br>Reviews: 1061</div>`)[0];
+                popup_08532db27e7c225e223d2949e519d0d0.setContent(html_7f472d9420c341eb549d55502f213b66);
+            
+        
+
+        circle_marker_fb6f94437f2b5f7a1a16fef6bf8221de.bindPopup(popup_08532db27e7c225e223d2949e519d0d0)
+        ;
+
+        
+    
+    
+            var circle_marker_1b2431ee89dcfb87c71f7358db5f2c1c = L.circleMarker(
+                [45.4402976, 12.3366648],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_26ade208fba7146060328ca2fc25c606);
+        
+    
+        var popup_d730b16cdfb2641a0fe47a0b62d32927 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8d38a433ccba8478c0cd5c26d973d3d8 = $(`<div id="html_8d38a433ccba8478c0cd5c26d973d3d8" style="width: 100.0%; height: 100.0%;"><b>Vera da Pozzo Campo Santi Apostoli</b><br>Reviews: 1369</div>`)[0];
+                popup_d730b16cdfb2641a0fe47a0b62d32927.setContent(html_8d38a433ccba8478c0cd5c26d973d3d8);
+            
+        
+
+        circle_marker_1b2431ee89dcfb87c71f7358db5f2c1c.bindPopup(popup_d730b16cdfb2641a0fe47a0b62d32927)
+        ;
+
+        
+    
+    
+            var circle_marker_bd7cfacab02106ce79230e3ae6bda5e0 = L.circleMarker(
+                [45.427780399999996, 12.3640025],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_26ade208fba7146060328ca2fc25c606);
+        
+    
+        var popup_0d4e6fa5fb66e139af16eef9b98e35c7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6a04bcb0891705e4409e0919fce7cf1f = $(`<div id="html_6a04bcb0891705e4409e0919fce7cf1f" style="width: 100.0%; height: 100.0%;"><b>Stadio Pier Luigi Penzo</b><br>Reviews: 1747</div>`)[0];
+                popup_0d4e6fa5fb66e139af16eef9b98e35c7.setContent(html_6a04bcb0891705e4409e0919fce7cf1f);
+            
+        
+
+        circle_marker_bd7cfacab02106ce79230e3ae6bda5e0.bindPopup(popup_0d4e6fa5fb66e139af16eef9b98e35c7)
+        ;
+
+        
+    
+    
+            var circle_marker_8c541b52030fbbdfb14086ce94abe9f7 = L.circleMarker(
+                [45.4287722, 12.3580806],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_26ade208fba7146060328ca2fc25c606);
+        
+    
+        var popup_5a43665a8c53a50530a9b08fd367cfb0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_125d2b0516877a7e57f02eda1ed0186a = $(`<div id="html_125d2b0516877a7e57f02eda1ed0186a" style="width: 100.0%; height: 100.0%;"><b>Giardini della Biennale</b><br>Reviews: 12260</div>`)[0];
+                popup_5a43665a8c53a50530a9b08fd367cfb0.setContent(html_125d2b0516877a7e57f02eda1ed0186a);
+            
+        
+
+        circle_marker_8c541b52030fbbdfb14086ce94abe9f7.bindPopup(popup_5a43665a8c53a50530a9b08fd367cfb0)
+        ;
+
+        
+    
+    
+            var circle_marker_59bc4bdf9b248012c52e7e960ac5e230 = L.circleMarker(
+                [45.4382983, 12.3206545],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_26ade208fba7146060328ca2fc25c606);
+        
+    
+        var popup_196753736855696c7371b5663fbf795a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5de6f9af8a48083ce8965696ef9a3cff = $(`<div id="html_5de6f9af8a48083ce8965696ef9a3cff" style="width: 100.0%; height: 100.0%;"><b>Giardini Papadopoli</b><br>Reviews: 3387</div>`)[0];
+                popup_196753736855696c7371b5663fbf795a.setContent(html_5de6f9af8a48083ce8965696ef9a3cff);
+            
+        
+
+        circle_marker_59bc4bdf9b248012c52e7e960ac5e230.bindPopup(popup_196753736855696c7371b5663fbf795a)
+        ;
+
+        
+    
+    
+            var circle_marker_bfedc21377bb274dc2e7e95c88c0b542 = L.circleMarker(
+                [45.4314603, 12.352596799999999],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_26ade208fba7146060328ca2fc25c606);
+        
+    
+        var popup_9b1060c88f9fbea1159320ff24a3999e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a8ad9383bc0d8cdf3e796d3c5f4ed811 = $(`<div id="html_a8ad9383bc0d8cdf3e796d3c5f4ed811" style="width: 100.0%; height: 100.0%;"><b>Giardini della Marinaressa</b><br>Reviews: 1960</div>`)[0];
+                popup_9b1060c88f9fbea1159320ff24a3999e.setContent(html_a8ad9383bc0d8cdf3e796d3c5f4ed811);
+            
+        
+
+        circle_marker_bfedc21377bb274dc2e7e95c88c0b542.bindPopup(popup_9b1060c88f9fbea1159320ff24a3999e)
+        ;
+
+        
+    
+    
+            var circle_marker_4d7b71ecd2e064459954f34dee148972 = L.circleMarker(
+                [45.4426801, 12.329788299999999],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_26ade208fba7146060328ca2fc25c606);
+        
+    
+        var popup_10cf51115a07acab486b44e0e5707b2d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5118f7647d9cbe59d2f0453d2d22cb39 = $(`<div id="html_5118f7647d9cbe59d2f0453d2d22cb39" style="width: 100.0%; height: 100.0%;"><b>Casinò di Venezia</b><br>Reviews: 2551</div>`)[0];
+                popup_10cf51115a07acab486b44e0e5707b2d.setContent(html_5118f7647d9cbe59d2f0453d2d22cb39);
+            
+        
+
+        circle_marker_4d7b71ecd2e064459954f34dee148972.bindPopup(popup_10cf51115a07acab486b44e0e5707b2d)
+        ;
+
+        
+    
+    
+            var circle_marker_4da449dfade37c562c2995098d685814 = L.circleMarker(
+                [45.4743271, 12.276037599999999],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_26ade208fba7146060328ca2fc25c606);
+        
+    
+        var popup_45229ddf5d07b6b5bd4b9097f573ec88 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_da6adc98c7d3d1de09f65663591b8376 = $(`<div id="html_da6adc98c7d3d1de09f65663591b8376" style="width: 100.0%; height: 100.0%;"><b>Parco di San Giuliano</b><br>Reviews: 8637</div>`)[0];
+                popup_45229ddf5d07b6b5bd4b9097f573ec88.setContent(html_da6adc98c7d3d1de09f65663591b8376);
+            
+        
+
+        circle_marker_4da449dfade37c562c2995098d685814.bindPopup(popup_45229ddf5d07b6b5bd4b9097f573ec88)
+        ;
+
+        
+    
+    
+            var circle_marker_9c5a4d9dc2450efa13f03c82b3aea49f = L.circleMarker(
+                [45.499357499999995, 12.2609032],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_26ade208fba7146060328ca2fc25c606);
+        
+    
+        var popup_cb0ba1cfe1d3ca19078254161f68d33d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fa682899f0bdea7b19604ff96afb4125 = $(`<div id="html_fa682899f0bdea7b19604ff96afb4125" style="width: 100.0%; height: 100.0%;"><b>Parco Alfredo Albanese</b><br>Reviews: 3440</div>`)[0];
+                popup_cb0ba1cfe1d3ca19078254161f68d33d.setContent(html_fa682899f0bdea7b19604ff96afb4125);
+            
+        
+
+        circle_marker_9c5a4d9dc2450efa13f03c82b3aea49f.bindPopup(popup_cb0ba1cfe1d3ca19078254161f68d33d)
+        ;
+
+        
+    
+    
+            var circle_marker_984a5a245be5f6fb6310a5ee38a6779c = L.circleMarker(
+                [45.4887155, 12.226528799999999],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_26ade208fba7146060328ca2fc25c606);
+        
+    
+        var popup_fc7bea5d829849462fae25dce5bf5661 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_480938a0d28b735d020c17b2c2895229 = $(`<div id="html_480938a0d28b735d020c17b2c2895229" style="width: 100.0%; height: 100.0%;"><b>Parco Piraghetto</b><br>Reviews: 1037</div>`)[0];
+                popup_fc7bea5d829849462fae25dce5bf5661.setContent(html_480938a0d28b735d020c17b2c2895229);
+            
+        
+
+        circle_marker_984a5a245be5f6fb6310a5ee38a6779c.bindPopup(popup_fc7bea5d829849462fae25dce5bf5661)
+        ;
+
+        
+    
+    
+            var circle_marker_815c5f4508193f9dfeff0f29a4fab04c = L.circleMarker(
+                [45.476199, 12.2051339],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_26ade208fba7146060328ca2fc25c606);
+        
+    
+        var popup_f3a5104d7411fa67ff5b326800689c1a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_611dde652e536dff78335dd47f00eccd = $(`<div id="html_611dde652e536dff78335dd47f00eccd" style="width: 100.0%; height: 100.0%;"><b>Parco Catene</b><br>Reviews: 1702</div>`)[0];
+                popup_f3a5104d7411fa67ff5b326800689c1a.setContent(html_611dde652e536dff78335dd47f00eccd);
+            
+        
+
+        circle_marker_815c5f4508193f9dfeff0f29a4fab04c.bindPopup(popup_f3a5104d7411fa67ff5b326800689c1a)
+        ;
+
+        
+    
+    
+            var circle_marker_f1dc769635eabc2af5e6d24d5160c179 = L.circleMarker(
+                [45.4735474, 12.2633192],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_26ade208fba7146060328ca2fc25c606);
+        
+    
+        var popup_ee00aa21f468a7898e5cfe15a7628c2f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7f78d710874639ba74296cfcab6825d0 = $(`<div id="html_7f78d710874639ba74296cfcab6825d0" style="width: 100.0%; height: 100.0%;"><b>Baia del Forte</b><br>Reviews: 1373</div>`)[0];
+                popup_ee00aa21f468a7898e5cfe15a7628c2f.setContent(html_7f78d710874639ba74296cfcab6825d0);
+            
+        
+
+        circle_marker_f1dc769635eabc2af5e6d24d5160c179.bindPopup(popup_ee00aa21f468a7898e5cfe15a7628c2f)
+        ;
+
+        
+    
+    
+            var circle_marker_8ac70ca2b10ce6c1b2df9b4a17d49367 = L.circleMarker(
+                [45.5334826, 12.1672696],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_26ade208fba7146060328ca2fc25c606);
+        
+    
+        var popup_1ede2efab87c20d76af4d8295913d2fb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab729e9b0ca9fd1b36a57802ba90e119 = $(`<div id="html_ab729e9b0ca9fd1b36a57802ba90e119" style="width: 100.0%; height: 100.0%;"><b>Parco Laghetti Martellago</b><br>Reviews: 2341</div>`)[0];
+                popup_1ede2efab87c20d76af4d8295913d2fb.setContent(html_ab729e9b0ca9fd1b36a57802ba90e119);
+            
+        
+
+        circle_marker_8ac70ca2b10ce6c1b2df9b4a17d49367.bindPopup(popup_1ede2efab87c20d76af4d8295913d2fb)
+        ;
+
+        
+    
+    
+            var circle_marker_500c853d1b067179a2dd79ac656772c1 = L.circleMarker(
+                [45.4943052, 12.1651536],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_26ade208fba7146060328ca2fc25c606);
+        
+    
+        var popup_1c230f1778b5a6d1a539578dce2d1f73 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_364c8719faac3a336908675e36e61866 = $(`<div id="html_364c8719faac3a336908675e36e61866" style="width: 100.0%; height: 100.0%;"><b>Parco Nuove Gemme</b><br>Reviews: 1055</div>`)[0];
+                popup_1c230f1778b5a6d1a539578dce2d1f73.setContent(html_364c8719faac3a336908675e36e61866);
+            
+        
+
+        circle_marker_500c853d1b067179a2dd79ac656772c1.bindPopup(popup_1c230f1778b5a6d1a539578dce2d1f73)
+        ;
+
+        
+    
+</script>
+</html>

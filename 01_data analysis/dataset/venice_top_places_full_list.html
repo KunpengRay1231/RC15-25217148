@@ -1,0 +1,1593 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fa8b4e08247544b63ee283ae950918cc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@main/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>
+    
+    
+    <div style="
+        position: absolute; 
+        top: 10px; right: 10px; 
+        width: 280px; 
+        height: auto; 
+        background-color: rgba(20, 20, 20, 0.85); 
+        color: white; 
+        padding: 15px; 
+        border-radius: 8px; 
+        border: 1px solid #555; 
+        font-family: Arial, sans-serif; 
+        z-index: 9999;
+        font-size: 12px;">
+        
+        <h4 style="margin-top:0; border-bottom: 2px solid #FFD700; padding-bottom: 8px; margin-bottom: 10px;">
+            🔥 Most Popular Places
+            <br><span style="font-size:10px; font-weight:normal; color:#aaa;">(>1000 Reviews)</span>
+        </h4>
+        <div style="display: flex; flex-direction: column; gap: 4px;">
+    
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #444; padding-bottom: 2px;">
+            <span style="flex-grow: 1;">
+                <strong style="color: #FFD700; margin-right: 5px;">1.</strong>Piazza San Marco
+            </span>
+            <span style="color: #ccc; font-size: 10px; white-space: nowrap;">190,347</span>
+        </div>
+        
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #444; padding-bottom: 2px;">
+            <span style="flex-grow: 1;">
+                <strong style="color: #FFD700; margin-right: 5px;">2.</strong>Palazzo Ducale
+            </span>
+            <span style="color: #ccc; font-size: 10px; white-space: nowrap;">36,329</span>
+        </div>
+        
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #444; padding-bottom: 2px;">
+            <span style="flex-grow: 1;">
+                <strong style="color: #FFD700; margin-right: 5px;">3.</strong>Basilica di San Marco
+            </span>
+            <span style="color: #ccc; font-size: 10px; white-space: nowrap;">26,933</span>
+        </div>
+        
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #444; padding-bottom: 2px;">
+            <span style="flex-grow: 1;">
+                <strong style="color: #FFD700; margin-right: 5px;">4.</strong>Giardini della Biennale
+            </span>
+            <span style="color: #ccc; font-size: 10px; white-space: nowrap;">12,260</span>
+        </div>
+        
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #444; padding-bottom: 2px;">
+            <span style="flex-grow: 1;">
+                <strong style="color: #FFD700; margin-right: 5px;">5.</strong>Campanile di San Marco
+            </span>
+            <span style="color: #ccc; font-size: 10px; white-space: nowrap;">8,697</span>
+        </div>
+        
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #444; padding-bottom: 2px;">
+            <span style="flex-grow: 1;">
+                <strong style="color: #FFD700; margin-right: 5px;">6.</strong>Parco di San Giuliano
+            </span>
+            <span style="color: #ccc; font-size: 10px; white-space: nowrap;">8,637</span>
+        </div>
+        
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #444; padding-bottom: 2px;">
+            <span style="flex-grow: 1;">
+                <strong style="color: #FFD700; margin-right: 5px;">7.</strong>Piazza Erminio Ferretto
+            </span>
+            <span style="color: #ccc; font-size: 10px; white-space: nowrap;">7,777</span>
+        </div>
+        
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #444; padding-bottom: 2px;">
+            <span style="flex-grow: 1;">
+                <strong style="color: #FFD700; margin-right: 5px;">8.</strong>Ghetto Ebraico
+            </span>
+            <span style="color: #ccc; font-size: 10px; white-space: nowrap;">6,641</span>
+        </div>
+        
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #444; padding-bottom: 2px;">
+            <span style="flex-grow: 1;">
+                <strong style="color: #FFD700; margin-right: 5px;">9.</strong>Parco Alfredo Albanese
+            </span>
+            <span style="color: #ccc; font-size: 10px; white-space: nowrap;">3,440</span>
+        </div>
+        
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #444; padding-bottom: 2px;">
+            <span style="flex-grow: 1;">
+                <strong style="color: #FFD700; margin-right: 5px;">10.</strong>Giardini Papadopoli
+            </span>
+            <span style="color: #ccc; font-size: 10px; white-space: nowrap;">3,387</span>
+        </div>
+        
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #444; padding-bottom: 2px;">
+            <span style="flex-grow: 1;">
+                <strong style="color: #FFD700; margin-right: 5px;">11.</strong>Campo Santo Stefano
+            </span>
+            <span style="color: #ccc; font-size: 10px; white-space: nowrap;">2,720</span>
+        </div>
+        
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #444; padding-bottom: 2px;">
+            <span style="flex-grow: 1;">
+                <strong style="color: #FFD700; margin-right: 5px;">12.</strong>Museo Correr
+            </span>
+            <span style="color: #ccc; font-size: 10px; white-space: nowrap;">2,702</span>
+        </div>
+        
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #444; padding-bottom: 2px;">
+            <span style="flex-grow: 1;">
+                <strong style="color: #FFD700; margin-right: 5px;">13.</strong>Casinò di Venezia
+            </span>
+            <span style="color: #ccc; font-size: 10px; white-space: nowrap;">2,551</span>
+        </div>
+        
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #444; padding-bottom: 2px;">
+            <span style="flex-grow: 1;">
+                <strong style="color: #FFD700; margin-right: 5px;">14.</strong>Giardini Reali
+            </span>
+            <span style="color: #ccc; font-size: 10px; white-space: nowrap;">2,380</span>
+        </div>
+        
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #444; padding-bottom: 2px;">
+            <span style="flex-grow: 1;">
+                <strong style="color: #FFD700; margin-right: 5px;">15.</strong>Parco Laghetti Martellago
+            </span>
+            <span style="color: #ccc; font-size: 10px; white-space: nowrap;">2,341</span>
+        </div>
+        
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #444; padding-bottom: 2px;">
+            <span style="flex-grow: 1;">
+                <strong style="color: #FFD700; margin-right: 5px;">16.</strong>Giardini della Marinaressa
+            </span>
+            <span style="color: #ccc; font-size: 10px; white-space: nowrap;">1,960</span>
+        </div>
+        
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #444; padding-bottom: 2px;">
+            <span style="flex-grow: 1;">
+                <strong style="color: #FFD700; margin-right: 5px;">17.</strong>Torre dell'Orologio
+            </span>
+            <span style="color: #ccc; font-size: 10px; white-space: nowrap;">1,878</span>
+        </div>
+        
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #444; padding-bottom: 2px;">
+            <span style="flex-grow: 1;">
+                <strong style="color: #FFD700; margin-right: 5px;">18.</strong>Stadio Pier Luigi Penzo
+            </span>
+            <span style="color: #ccc; font-size: 10px; white-space: nowrap;">1,747</span>
+        </div>
+        
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #444; padding-bottom: 2px;">
+            <span style="flex-grow: 1;">
+                <strong style="color: #FFD700; margin-right: 5px;">19.</strong>Parco Catene
+            </span>
+            <span style="color: #ccc; font-size: 10px; white-space: nowrap;">1,702</span>
+        </div>
+        
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #444; padding-bottom: 2px;">
+            <span style="flex-grow: 1;">
+                <strong style="color: #FFD700; margin-right: 5px;">20.</strong>Museo di San Marco
+            </span>
+            <span style="color: #ccc; font-size: 10px; white-space: nowrap;">1,537</span>
+        </div>
+        
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #444; padding-bottom: 2px;">
+            <span style="flex-grow: 1;">
+                <strong style="color: #FFD700; margin-right: 5px;">21.</strong>Baia del Forte
+            </span>
+            <span style="color: #ccc; font-size: 10px; white-space: nowrap;">1,373</span>
+        </div>
+        
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #444; padding-bottom: 2px;">
+            <span style="flex-grow: 1;">
+                <strong style="color: #FFD700; margin-right: 5px;">22.</strong>Vera da Pozzo Campo Santi Apostoli
+            </span>
+            <span style="color: #ccc; font-size: 10px; white-space: nowrap;">1,369</span>
+        </div>
+        
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #444; padding-bottom: 2px;">
+            <span style="flex-grow: 1;">
+                <strong style="color: #FFD700; margin-right: 5px;">23.</strong>Campo Sant'Angelo
+            </span>
+            <span style="color: #ccc; font-size: 10px; white-space: nowrap;">1,061</span>
+        </div>
+        
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #444; padding-bottom: 2px;">
+            <span style="flex-grow: 1;">
+                <strong style="color: #FFD700; margin-right: 5px;">24.</strong>Parco Nuove Gemme
+            </span>
+            <span style="color: #ccc; font-size: 10px; white-space: nowrap;">1,055</span>
+        </div>
+        
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #444; padding-bottom: 2px;">
+            <span style="flex-grow: 1;">
+                <strong style="color: #FFD700; margin-right: 5px;">25.</strong>Parco Piraghetto
+            </span>
+            <span style="color: #ccc; font-size: 10px; white-space: nowrap;">1,037</span>
+        </div>
+        </div></div>
+    
+            <div class="folium-map" id="map_fa8b4e08247544b63ee283ae950918cc" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_fa8b4e08247544b63ee283ae950918cc = L.map(
+                "map_fa8b4e08247544b63ee283ae950918cc",
+                {
+                    center: [45.438, 12.33],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3b64b965abf60c030cd00b136fd6904a = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_3b64b965abf60c030cd00b136fd6904a.addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+            var heat_map_fbc7909205a9e4652270c6bcef38e648 = L.heatLayer(
+                [[45.4341668, 12.3384717, 190347.0], [45.4396041, 12.3371526, 8.0], [45.4347697, 12.3392903, 37.0], [45.4337762, 12.339640399999999, 102.0], [45.4333998, 12.3382322, 8.0], [45.4353443, 12.334233399999999, 701.0], [45.4332857, 12.3396589, 164.0], [45.4333543, 12.3399146, 411.0], [45.4361835, 12.3276623, 1.0], [45.4342465, 12.339820099999999, 334.0], [45.433329199999996, 12.3305391, 2720.0], [45.4331878, 12.339229, 2.0], [45.437809099999996, 12.330341599999999, 48.0], [45.4941769, 12.2417032, 7777.0], [45.440076, 12.3257257, 10.0], [45.4334333, 12.337275, 215.0], [45.4341613, 12.3375454, 434.0], [45.4342973, 12.3378386, 167.0], [45.433738299999995, 12.3385228, 69.0], [45.4337765, 12.3387417, 38.0], [45.437731199999995, 12.3368509, 138.0], [45.4337035, 12.3403894, 36329.0], [45.4708131, 12.4719035, 63.0], [45.433638099999996, 12.341012099999999, 759.0], [45.4340359, 12.3390331, 8697.0], [45.434758699999996, 12.3389668, 1878.0], [45.434255799999995, 12.3397052, 208.0], [45.430180799999995, 12.3431976, 50.0], [45.4453337, 12.3263657, 6641.0], [45.4392207, 12.341271899999999, 717.0], [45.4342798, 12.338111, 7.0], [45.3724071, 12.339920999999999, 1.0], [45.5554705, 12.303872799999999, 57.0], [45.4338948, 12.343349199999999, 851.0], [45.4345606, 12.3397124, 26933.0], [45.5639158, 12.1966649, 12.0], [45.432983899999996, 12.338291499999999, 2380.0], [45.437997499999994, 12.3268917, 287.0], [45.4344493, 12.3393815, 1537.0], [45.433792399999994, 12.337205899999999, 2702.0], [45.4342081, 12.3320584, 1061.0], [45.4377268, 12.3368342, 91.0], [45.4327322, 12.331586, 363.0], [45.4347062, 12.346704599999999, 972.0], [45.4343162, 12.3235342, 145.0], [45.443217399999995, 12.331171699999999, 20.0], [45.4347133, 12.359084399999999, 121.0], [45.4369227, 12.3362181, 81.0], [45.4358054, 12.335267, 82.0], [45.4401362, 12.327803099999999, 74.0], [45.439864799999995, 12.339057299999999, 96.0], [45.4330627, 12.3358212, 19.0], [45.4374397, 12.333099299999999, 42.0], [45.4274394, 12.3614514, 11.0], [45.438797699999995, 12.328402899999999, 64.0], [45.4416703, 12.333289599999999, 18.0], [45.4279327, 12.3131313, 14.0], [45.427009299999995, 12.359679199999999, 10.0], [45.4350984, 12.3415187, 16.0], [45.4373626, 12.3409909, 82.0], [45.4454752, 12.332033299999999, 35.0], [45.434671099999996, 12.336752899999999, 46.0], [45.4481982, 12.3293476, 6.0], [45.436317599999995, 12.3472754, 8.0], [45.43951, 12.3285377, 65.0], [45.4376241, 12.329934699999999, 83.0], [45.4391411, 12.335053799999999, 33.0], [45.4482557, 12.3296206, 8.0], [45.461267199999995, 12.3538088, 9.0], [45.4360676, 12.339155799999999, 404.0], [45.4609716, 12.3542121, 27.0], [45.4473351, 12.328818, 20.0], [45.431459, 12.3282081, 34.0], [45.4413567, 12.3278961, 10.0], [45.4402948, 12.336602099999999, 5.0], [45.4461678, 12.3324423, 35.0], [45.4371509, 12.3447164, 2.0], [45.423977699999995, 12.3391655, 3.0], [45.4402976, 12.3366648, 1369.0], [45.437072, 12.345155199999999, 1.0], [45.4369862, 12.337787899999999, 13.0], [45.443400399999994, 12.3386265, 5.0], [45.429418, 12.3280754, 7.0], [45.4445325, 12.3202233, 2.0], [45.443601099999995, 12.3268389, 7.0], [45.448329099999995, 12.3251654, 18.0], [45.416325799999996, 12.3785334, 2.0], [45.4335738, 12.318664499999999, 6.0], [45.425732499999995, 12.361655599999999, 2.0], [45.4348119, 12.3595127, 5.0], [45.4260819, 12.360729899999999, 3.0], [45.4484126, 12.328215799999999, 34.0], [45.4311514, 12.320822999999999, 3.0], [45.444700999999995, 12.3203564, 3.0], [45.434939799999995, 12.3426609, 4.0], [45.427780399999996, 12.3640025, 1747.0], [45.4328249, 12.3315108, 42.0], [45.4396907, 12.3304686, 2.0], [45.4306675, 12.3335335, 4.0], [45.4806551, 12.286819, 106.0], [45.4287722, 12.3580806, 12260.0], [45.4382983, 12.3206545, 3387.0], [45.4314603, 12.352596799999999, 1960.0], [45.430082999999996, 12.3553239, 51.0], [45.4335868, 12.325755899999999, 69.0], [45.434934399999996, 12.325874299999999, 13.0], [45.4480358, 12.3277307, 106.0], [45.4324259, 12.317680099999999, 5.0], [45.456915099999996, 12.3564017, 5.0], [45.4317236, 12.3315272, 1.0], [45.4407919, 12.318652799999999, 9.0], [45.437709999999996, 12.3302, 10.0], [45.4420802, 12.3208678, 7.0], [45.428697299999996, 12.3441575, 95.0], [45.43658, 12.3469901, 2.0], [45.4385488, 12.331452599999999, 2.0], [45.440847399999996, 12.315515099999999, 1.0], [45.4439132, 12.3186196, 1.0], [45.4477093, 12.3208009, 9.0], [45.430831999999995, 12.3552936, 279.0], [45.432593999999995, 12.354896499999999, 11.0], [45.4477396, 12.3201058, 3.0], [45.439688499999995, 12.3241888, 135.0], [45.444786099999995, 12.325282099999999, 7.0], [45.406793199999996, 12.368824499999999, 40.0], [45.427399699999995, 12.322710299999999, 6.0], [45.432621999999995, 12.337862999999999, 820.0], [45.496560699999996, 12.242268099999999, 48.0], [45.446317, 12.3354149, 46.0], [45.4939281, 12.245714999999999, 2.0], [45.4822567, 12.225594599999999, 54.0], [45.4244875, 12.332519099999999, 20.0], [45.500299999999996, 12.2353238, 11.0], [45.4973342, 12.4168554, 1.0], [45.4415038, 12.3354097, 292.0], [45.426575, 12.164095999999999, 4.0], [45.4988017, 12.2621196, 6.0], [45.4370238, 12.201842599999999, 2.0], [45.5373805, 12.2883877, 4.0], [45.442263, 12.421529399999999, 20.0], [45.442256, 12.32073, 48.0], [45.500076299999996, 12.261591099999999, 1.0], [45.668077499999995, 12.250408, 4.0], [45.4297806, 12.3277042, 206.0], [45.4426801, 12.329788299999999, 2551.0], [45.3163507, 12.3143327, 2.0], [45.5626396, 12.193700999999999, 7.0], [45.4180214, 12.0802386, 12.0], [45.4161267, 12.0790574, 2.0], [45.386644, 12.047834799999999, 1.0], [45.6283016, 12.565306399999999, 1.0], [45.430144399999996, 12.3587343, 5.0], [45.560935, 12.1857686, 2.0], [45.5198537, 12.0557003, 3.0], [45.5266568, 12.1077748, 1.0], [45.503996699999995, 12.231245, 739.0], [45.4371222, 12.157468099999999, 1.0], [45.460308, 12.349213599999999, 44.0], [45.443548199999995, 12.324322299999999, 1.0], [45.4567653, 12.357757399999999, 66.0], [45.416466299999996, 12.377246699999999, 69.0], [45.4269404, 12.3591103, 4.0], [45.43676, 12.330411, 9.0], [45.4342407, 12.341187, 1.0], [45.4329859, 12.3382939, 12.0], [45.4274573, 12.3151257, 2.0], [45.4335473, 12.3155717, 10.0], [45.4743271, 12.276037599999999, 8637.0], [45.438493699999995, 12.330351199999999, 3.0], [45.432837199999994, 12.349883499999999, 4.0], [45.466232399999996, 12.280560399999999, 53.0], [45.4375028, 12.3401681, 1.0], [45.4230198, 12.3767236, 1.0], [45.433711599999995, 12.3467086, 1.0], [45.4347541, 12.3304574, 2.0], [45.456128, 12.3537263, 1.0], [45.4468178, 12.3483646, 202.0], [45.4690434, 12.280474499999999, 10.0], [45.499357499999995, 12.2609032, 3440.0], [45.444283899999995, 12.317830899999999, 2.0], [45.432637, 12.3695744, 101.0], [45.4912279, 12.3219234, 154.0], [45.384744, 12.3483032, 121.0], [45.4887155, 12.226528799999999, 1037.0], [45.482506099999995, 12.3030537, 32.0], [45.4836272, 12.2645456, 379.0], [45.491505499999995, 12.2555806, 105.0], [45.476199, 12.2051339, 1702.0], [45.4672804, 12.218355599999999, 187.0], [45.4840576, 12.244909499999999, 11.0], [45.4735474, 12.2633192, 1373.0], [45.5334826, 12.1672696, 2341.0], [45.488644199999996, 12.3070425, 63.0], [45.4764408, 12.2774714, 57.0], [45.496940699999996, 12.261163999999999, 136.0], [45.4940187, 12.2350783, 355.0], [45.4762552, 12.262621399999999, 1.0], [45.4891697, 12.4125743, 22.0], [45.508058899999995, 12.257214099999999, 149.0], [45.5058429, 12.274064, 164.0], [45.476176599999995, 12.269667, 1.0], [45.489209699999996, 12.412628, 1.0], [45.4943052, 12.1651536, 1055.0], [45.486202, 12.4133032, 20.0], [45.3874912, 12.3526323, 7.0], [45.4744117, 12.219894799999999, 19.0], [45.501131, 12.2698711, 5.0], [45.494692699999995, 12.2651863, 3.0], [45.5414367, 12.3980195, 609.0], [45.3843634, 12.3482355, 7.0], [45.4338966, 12.196478299999999, 52.0], [45.487010999999995, 12.2664481, 12.0], [45.4854639, 12.220168399999999, 11.0], [45.4857385, 12.1960869, 283.0], [45.4991126, 12.258325899999999, 74.0], [45.4510836, 12.4597648, 126.0], [45.4960685, 12.2666045, 3.0], [45.4918213, 12.2571899, 1.0], [45.4741771, 12.111979199999999, 535.0], [45.5044337, 12.249269499999999, 362.0], [45.560111299999996, 12.251391199999999, 467.0], [45.4646687, 12.221011599999999, 3.0], [45.5071679, 12.2371468, 82.0], [45.4941715, 12.237159199999999, 9.0], [45.4862606, 12.2414185, 16.0], [45.5058309, 12.289997399999999, 1.0], [45.4872369, 12.2477928, 1.0], [45.4727694, 12.2233334, 1.0], [45.476813899999996, 12.2252437, 30.0], [45.4798873, 12.2122307, 17.0], [45.434488599999995, 12.147356199999999, 131.0], [45.566978399999996, 12.2307379, 84.0], [45.489284399999995, 12.2146303, 1.0], [45.4821817, 12.1837178, 18.0], [45.4458187, 12.460084499999999, 2.0]],
+                {
+  "minOpacity": 0.4,
+  "maxZoom": 18,
+  "radius": 25,
+  "blur": 15,
+  "gradient": {
+  0.4: "blue",
+  0.6: "lime",
+  0.8: "yellow",
+  1.0: "red",
+},
+}
+            );
+        
+    
+            heat_map_fbc7909205a9e4652270c6bcef38e648.addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+            var circle_marker_dea384d1bc24cc4b765840c310f1e4fb = L.circleMarker(
+                [45.4341668, 12.3384717],
+                {"bubblingMouseEvents": true, "color": "#FFD700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1.5}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+        var popup_13fb5773f075fa42d69193cd0d92b5ad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3b7d39939ddf5bfc68f4fc8879bf1615 = $(`<div id="html_3b7d39939ddf5bfc68f4fc8879bf1615" style="width: 100.0%; height: 100.0%;"><b>#1 Piazza San Marco</b><br>Reviews: 190,347</div>`)[0];
+                popup_13fb5773f075fa42d69193cd0d92b5ad.setContent(html_3b7d39939ddf5bfc68f4fc8879bf1615);
+            
+        
+
+        circle_marker_dea384d1bc24cc4b765840c310f1e4fb.bindPopup(popup_13fb5773f075fa42d69193cd0d92b5ad)
+        ;
+
+        
+    
+    
+            circle_marker_dea384d1bc24cc4b765840c310f1e4fb.bindTooltip(
+                `<div>
+                     #1 Piazza San Marco
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8ecdb2dfc0b781551cf2634466e9e087 = L.marker(
+                [45.4341668, 12.3384717],
+                {
+}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+            var div_icon_9c129f54587b156ffedc4d7643f7f61d = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 9pt; color: #FFD700; font-weight: bold; text-align: center; line-height: 16px;\"\u003e1\u003c/div\u003e",
+  "iconSize": [16, 16],
+  "iconAnchor": [8, 8],
+  "className": "empty",
+});
+        
+    
+                marker_8ecdb2dfc0b781551cf2634466e9e087.setIcon(div_icon_9c129f54587b156ffedc4d7643f7f61d);
+            
+    
+            var circle_marker_8d3f8e6498a361161d4e85e3090d9aeb = L.circleMarker(
+                [45.4337035, 12.3403894],
+                {"bubblingMouseEvents": true, "color": "#FFD700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1.5}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+        var popup_dbd7786d05a65c938f08452125731323 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4ce4e8beb0ad4e1fb1dc5a7a284e50f4 = $(`<div id="html_4ce4e8beb0ad4e1fb1dc5a7a284e50f4" style="width: 100.0%; height: 100.0%;"><b>#2 Palazzo Ducale</b><br>Reviews: 36,329</div>`)[0];
+                popup_dbd7786d05a65c938f08452125731323.setContent(html_4ce4e8beb0ad4e1fb1dc5a7a284e50f4);
+            
+        
+
+        circle_marker_8d3f8e6498a361161d4e85e3090d9aeb.bindPopup(popup_dbd7786d05a65c938f08452125731323)
+        ;
+
+        
+    
+    
+            circle_marker_8d3f8e6498a361161d4e85e3090d9aeb.bindTooltip(
+                `<div>
+                     #2 Palazzo Ducale
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_cb1142cf9d0bce5dbb99670e8202743b = L.marker(
+                [45.4337035, 12.3403894],
+                {
+}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+            var div_icon_6c76d3cf73c0004cdbc46e125a67bbb0 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 9pt; color: #FFD700; font-weight: bold; text-align: center; line-height: 16px;\"\u003e2\u003c/div\u003e",
+  "iconSize": [16, 16],
+  "iconAnchor": [8, 8],
+  "className": "empty",
+});
+        
+    
+                marker_cb1142cf9d0bce5dbb99670e8202743b.setIcon(div_icon_6c76d3cf73c0004cdbc46e125a67bbb0);
+            
+    
+            var circle_marker_e5aff55ee461b26afea0de267b182001 = L.circleMarker(
+                [45.4345606, 12.3397124],
+                {"bubblingMouseEvents": true, "color": "#FFD700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1.5}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+        var popup_6e52c66ab517ca6c8e4d1a5395ffacdd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e1468d63fb95518d335fcbbf18e5282b = $(`<div id="html_e1468d63fb95518d335fcbbf18e5282b" style="width: 100.0%; height: 100.0%;"><b>#3 Basilica di San Marco</b><br>Reviews: 26,933</div>`)[0];
+                popup_6e52c66ab517ca6c8e4d1a5395ffacdd.setContent(html_e1468d63fb95518d335fcbbf18e5282b);
+            
+        
+
+        circle_marker_e5aff55ee461b26afea0de267b182001.bindPopup(popup_6e52c66ab517ca6c8e4d1a5395ffacdd)
+        ;
+
+        
+    
+    
+            circle_marker_e5aff55ee461b26afea0de267b182001.bindTooltip(
+                `<div>
+                     #3 Basilica di San Marco
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2d650394fe3edfde10b62195e0da12f2 = L.marker(
+                [45.4345606, 12.3397124],
+                {
+}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+            var div_icon_d0d7f7efa889add5fa126c80eebd29b4 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 9pt; color: #FFD700; font-weight: bold; text-align: center; line-height: 16px;\"\u003e3\u003c/div\u003e",
+  "iconSize": [16, 16],
+  "iconAnchor": [8, 8],
+  "className": "empty",
+});
+        
+    
+                marker_2d650394fe3edfde10b62195e0da12f2.setIcon(div_icon_d0d7f7efa889add5fa126c80eebd29b4);
+            
+    
+            var circle_marker_ee8aa344940c7c8e2a3966149509faa9 = L.circleMarker(
+                [45.4287722, 12.3580806],
+                {"bubblingMouseEvents": true, "color": "#FFD700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1.5}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+        var popup_fe9757d112d6847f48ea3195b4a4b32b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4df780ec0ddb2c7bdc9252e3b2c244ab = $(`<div id="html_4df780ec0ddb2c7bdc9252e3b2c244ab" style="width: 100.0%; height: 100.0%;"><b>#4 Giardini della Biennale</b><br>Reviews: 12,260</div>`)[0];
+                popup_fe9757d112d6847f48ea3195b4a4b32b.setContent(html_4df780ec0ddb2c7bdc9252e3b2c244ab);
+            
+        
+
+        circle_marker_ee8aa344940c7c8e2a3966149509faa9.bindPopup(popup_fe9757d112d6847f48ea3195b4a4b32b)
+        ;
+
+        
+    
+    
+            circle_marker_ee8aa344940c7c8e2a3966149509faa9.bindTooltip(
+                `<div>
+                     #4 Giardini della Biennale
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_05559f3a8b773f5082f52836a587dc7f = L.marker(
+                [45.4287722, 12.3580806],
+                {
+}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+            var div_icon_943e990753f9eb3ecc83b035b5bc7d0d = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 9pt; color: #FFD700; font-weight: bold; text-align: center; line-height: 16px;\"\u003e4\u003c/div\u003e",
+  "iconSize": [16, 16],
+  "iconAnchor": [8, 8],
+  "className": "empty",
+});
+        
+    
+                marker_05559f3a8b773f5082f52836a587dc7f.setIcon(div_icon_943e990753f9eb3ecc83b035b5bc7d0d);
+            
+    
+            var circle_marker_6c8eee9da284a944f01967981c6924ad = L.circleMarker(
+                [45.4340359, 12.3390331],
+                {"bubblingMouseEvents": true, "color": "#FFD700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1.5}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+        var popup_6299de33d1bae17e127633c86d27001d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ed330332c70af212b768ce286d065b61 = $(`<div id="html_ed330332c70af212b768ce286d065b61" style="width: 100.0%; height: 100.0%;"><b>#5 Campanile di San Marco</b><br>Reviews: 8,697</div>`)[0];
+                popup_6299de33d1bae17e127633c86d27001d.setContent(html_ed330332c70af212b768ce286d065b61);
+            
+        
+
+        circle_marker_6c8eee9da284a944f01967981c6924ad.bindPopup(popup_6299de33d1bae17e127633c86d27001d)
+        ;
+
+        
+    
+    
+            circle_marker_6c8eee9da284a944f01967981c6924ad.bindTooltip(
+                `<div>
+                     #5 Campanile di San Marco
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c16e849a41c763b66fbbba4e3a2ea3e9 = L.marker(
+                [45.4340359, 12.3390331],
+                {
+}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+            var div_icon_c59e780ca04131dfcc0d59d9e0768113 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 9pt; color: #FFD700; font-weight: bold; text-align: center; line-height: 16px;\"\u003e5\u003c/div\u003e",
+  "iconSize": [16, 16],
+  "iconAnchor": [8, 8],
+  "className": "empty",
+});
+        
+    
+                marker_c16e849a41c763b66fbbba4e3a2ea3e9.setIcon(div_icon_c59e780ca04131dfcc0d59d9e0768113);
+            
+    
+            var circle_marker_ceee6d06b11f67edd227ebc61dea1031 = L.circleMarker(
+                [45.4743271, 12.276037599999999],
+                {"bubblingMouseEvents": true, "color": "#FFD700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1.5}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+        var popup_cda83588871e8796b4e981f66175bd31 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c0f8fed3eb71a9f6fe1a90e708db69fe = $(`<div id="html_c0f8fed3eb71a9f6fe1a90e708db69fe" style="width: 100.0%; height: 100.0%;"><b>#6 Parco di San Giuliano</b><br>Reviews: 8,637</div>`)[0];
+                popup_cda83588871e8796b4e981f66175bd31.setContent(html_c0f8fed3eb71a9f6fe1a90e708db69fe);
+            
+        
+
+        circle_marker_ceee6d06b11f67edd227ebc61dea1031.bindPopup(popup_cda83588871e8796b4e981f66175bd31)
+        ;
+
+        
+    
+    
+            circle_marker_ceee6d06b11f67edd227ebc61dea1031.bindTooltip(
+                `<div>
+                     #6 Parco di San Giuliano
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_67316b2f102952100a7cde97ae017eee = L.marker(
+                [45.4743271, 12.276037599999999],
+                {
+}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+            var div_icon_c621d8c2a10ee881df99acb404f5d431 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 9pt; color: #FFD700; font-weight: bold; text-align: center; line-height: 16px;\"\u003e6\u003c/div\u003e",
+  "iconSize": [16, 16],
+  "iconAnchor": [8, 8],
+  "className": "empty",
+});
+        
+    
+                marker_67316b2f102952100a7cde97ae017eee.setIcon(div_icon_c621d8c2a10ee881df99acb404f5d431);
+            
+    
+            var circle_marker_a9eb95a8eb3e33ca91696e8f3c544c3d = L.circleMarker(
+                [45.4941769, 12.2417032],
+                {"bubblingMouseEvents": true, "color": "#FFD700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1.5}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+        var popup_91a55c2b38b169f38479c91bee00acbf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dbf20b4cdb8f9c89538cc37094711609 = $(`<div id="html_dbf20b4cdb8f9c89538cc37094711609" style="width: 100.0%; height: 100.0%;"><b>#7 Piazza Erminio Ferretto</b><br>Reviews: 7,777</div>`)[0];
+                popup_91a55c2b38b169f38479c91bee00acbf.setContent(html_dbf20b4cdb8f9c89538cc37094711609);
+            
+        
+
+        circle_marker_a9eb95a8eb3e33ca91696e8f3c544c3d.bindPopup(popup_91a55c2b38b169f38479c91bee00acbf)
+        ;
+
+        
+    
+    
+            circle_marker_a9eb95a8eb3e33ca91696e8f3c544c3d.bindTooltip(
+                `<div>
+                     #7 Piazza Erminio Ferretto
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bc4db6e3de6210db5a62845cee7556ed = L.marker(
+                [45.4941769, 12.2417032],
+                {
+}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+            var div_icon_3d798b2e993d4ff052281bc96e1d5b60 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 9pt; color: #FFD700; font-weight: bold; text-align: center; line-height: 16px;\"\u003e7\u003c/div\u003e",
+  "iconSize": [16, 16],
+  "iconAnchor": [8, 8],
+  "className": "empty",
+});
+        
+    
+                marker_bc4db6e3de6210db5a62845cee7556ed.setIcon(div_icon_3d798b2e993d4ff052281bc96e1d5b60);
+            
+    
+            var circle_marker_15c94234d5a05aee1ff97ac2843110b9 = L.circleMarker(
+                [45.4453337, 12.3263657],
+                {"bubblingMouseEvents": true, "color": "#FFD700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1.5}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+        var popup_4c6f51646800b2deeae2067fda38d64e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_29e90bdc09c5a7969a4cef9bc33e3ef8 = $(`<div id="html_29e90bdc09c5a7969a4cef9bc33e3ef8" style="width: 100.0%; height: 100.0%;"><b>#8 Ghetto Ebraico</b><br>Reviews: 6,641</div>`)[0];
+                popup_4c6f51646800b2deeae2067fda38d64e.setContent(html_29e90bdc09c5a7969a4cef9bc33e3ef8);
+            
+        
+
+        circle_marker_15c94234d5a05aee1ff97ac2843110b9.bindPopup(popup_4c6f51646800b2deeae2067fda38d64e)
+        ;
+
+        
+    
+    
+            circle_marker_15c94234d5a05aee1ff97ac2843110b9.bindTooltip(
+                `<div>
+                     #8 Ghetto Ebraico
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_82b9bd106a671f068acf7b4bdafa412d = L.marker(
+                [45.4453337, 12.3263657],
+                {
+}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+            var div_icon_14cb697658ececc35828d534e5f24ad9 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 9pt; color: #FFD700; font-weight: bold; text-align: center; line-height: 16px;\"\u003e8\u003c/div\u003e",
+  "iconSize": [16, 16],
+  "iconAnchor": [8, 8],
+  "className": "empty",
+});
+        
+    
+                marker_82b9bd106a671f068acf7b4bdafa412d.setIcon(div_icon_14cb697658ececc35828d534e5f24ad9);
+            
+    
+            var circle_marker_5e9bfdff4b5b3ad239c0984a410689e6 = L.circleMarker(
+                [45.499357499999995, 12.2609032],
+                {"bubblingMouseEvents": true, "color": "#FFD700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1.5}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+        var popup_e78c040e99a931089ede22e962658fa9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2d32221bc1e59c1b2f06600a4851755b = $(`<div id="html_2d32221bc1e59c1b2f06600a4851755b" style="width: 100.0%; height: 100.0%;"><b>#9 Parco Alfredo Albanese</b><br>Reviews: 3,440</div>`)[0];
+                popup_e78c040e99a931089ede22e962658fa9.setContent(html_2d32221bc1e59c1b2f06600a4851755b);
+            
+        
+
+        circle_marker_5e9bfdff4b5b3ad239c0984a410689e6.bindPopup(popup_e78c040e99a931089ede22e962658fa9)
+        ;
+
+        
+    
+    
+            circle_marker_5e9bfdff4b5b3ad239c0984a410689e6.bindTooltip(
+                `<div>
+                     #9 Parco Alfredo Albanese
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_874d440d8d901dcca173565765c20fa1 = L.marker(
+                [45.499357499999995, 12.2609032],
+                {
+}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+            var div_icon_438ebe9bf14b577554f0fa82d814c384 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 9pt; color: #FFD700; font-weight: bold; text-align: center; line-height: 16px;\"\u003e9\u003c/div\u003e",
+  "iconSize": [16, 16],
+  "iconAnchor": [8, 8],
+  "className": "empty",
+});
+        
+    
+                marker_874d440d8d901dcca173565765c20fa1.setIcon(div_icon_438ebe9bf14b577554f0fa82d814c384);
+            
+    
+            var circle_marker_ec3b2eb8247e5c9685c27dcbe34c2739 = L.circleMarker(
+                [45.4382983, 12.3206545],
+                {"bubblingMouseEvents": true, "color": "#FFD700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1.5}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+        var popup_97026e44409186e199de75974de23b7f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_35fbde673e9881b531fe0e2a5fefc944 = $(`<div id="html_35fbde673e9881b531fe0e2a5fefc944" style="width: 100.0%; height: 100.0%;"><b>#10 Giardini Papadopoli</b><br>Reviews: 3,387</div>`)[0];
+                popup_97026e44409186e199de75974de23b7f.setContent(html_35fbde673e9881b531fe0e2a5fefc944);
+            
+        
+
+        circle_marker_ec3b2eb8247e5c9685c27dcbe34c2739.bindPopup(popup_97026e44409186e199de75974de23b7f)
+        ;
+
+        
+    
+    
+            circle_marker_ec3b2eb8247e5c9685c27dcbe34c2739.bindTooltip(
+                `<div>
+                     #10 Giardini Papadopoli
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6c5ec135e7d765ee542684aa44a9652c = L.marker(
+                [45.4382983, 12.3206545],
+                {
+}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+            var div_icon_100e6d461429ecf6a5f058bea2cb1cb4 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 9pt; color: #FFD700; font-weight: bold; text-align: center; line-height: 16px;\"\u003e10\u003c/div\u003e",
+  "iconSize": [16, 16],
+  "iconAnchor": [8, 8],
+  "className": "empty",
+});
+        
+    
+                marker_6c5ec135e7d765ee542684aa44a9652c.setIcon(div_icon_100e6d461429ecf6a5f058bea2cb1cb4);
+            
+    
+            var circle_marker_5305e830b253ae52c2462c23fb9f1300 = L.circleMarker(
+                [45.433329199999996, 12.3305391],
+                {"bubblingMouseEvents": true, "color": "#FFD700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1.5}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+        var popup_f0fe2ef1cb789d5bf0e52fd3e2be075a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cecb147ed744fbadf2a5db2eea0b2a6a = $(`<div id="html_cecb147ed744fbadf2a5db2eea0b2a6a" style="width: 100.0%; height: 100.0%;"><b>#11 Campo Santo Stefano</b><br>Reviews: 2,720</div>`)[0];
+                popup_f0fe2ef1cb789d5bf0e52fd3e2be075a.setContent(html_cecb147ed744fbadf2a5db2eea0b2a6a);
+            
+        
+
+        circle_marker_5305e830b253ae52c2462c23fb9f1300.bindPopup(popup_f0fe2ef1cb789d5bf0e52fd3e2be075a)
+        ;
+
+        
+    
+    
+            circle_marker_5305e830b253ae52c2462c23fb9f1300.bindTooltip(
+                `<div>
+                     #11 Campo Santo Stefano
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0585e54a751172a0335398bbe2646a38 = L.marker(
+                [45.433329199999996, 12.3305391],
+                {
+}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+            var div_icon_351c155b35762809250ba241bf372013 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 9pt; color: #FFD700; font-weight: bold; text-align: center; line-height: 16px;\"\u003e11\u003c/div\u003e",
+  "iconSize": [16, 16],
+  "iconAnchor": [8, 8],
+  "className": "empty",
+});
+        
+    
+                marker_0585e54a751172a0335398bbe2646a38.setIcon(div_icon_351c155b35762809250ba241bf372013);
+            
+    
+            var circle_marker_f9acc9a558c9e1f265f7051ef80d8e8d = L.circleMarker(
+                [45.433792399999994, 12.337205899999999],
+                {"bubblingMouseEvents": true, "color": "#FFD700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1.5}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+        var popup_ba5f567d0b87388e6d4f6edb3455e846 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_583d9b187a90f328bab86867e17b9045 = $(`<div id="html_583d9b187a90f328bab86867e17b9045" style="width: 100.0%; height: 100.0%;"><b>#12 Museo Correr</b><br>Reviews: 2,702</div>`)[0];
+                popup_ba5f567d0b87388e6d4f6edb3455e846.setContent(html_583d9b187a90f328bab86867e17b9045);
+            
+        
+
+        circle_marker_f9acc9a558c9e1f265f7051ef80d8e8d.bindPopup(popup_ba5f567d0b87388e6d4f6edb3455e846)
+        ;
+
+        
+    
+    
+            circle_marker_f9acc9a558c9e1f265f7051ef80d8e8d.bindTooltip(
+                `<div>
+                     #12 Museo Correr
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_efc44344e2a7009853408b3c502e753a = L.marker(
+                [45.433792399999994, 12.337205899999999],
+                {
+}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+            var div_icon_39ea0310aa984f92a46a81d2d39d1567 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 9pt; color: #FFD700; font-weight: bold; text-align: center; line-height: 16px;\"\u003e12\u003c/div\u003e",
+  "iconSize": [16, 16],
+  "iconAnchor": [8, 8],
+  "className": "empty",
+});
+        
+    
+                marker_efc44344e2a7009853408b3c502e753a.setIcon(div_icon_39ea0310aa984f92a46a81d2d39d1567);
+            
+    
+            var circle_marker_3d5d63b965913237cfac1a4dd037ce40 = L.circleMarker(
+                [45.4426801, 12.329788299999999],
+                {"bubblingMouseEvents": true, "color": "#FFD700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1.5}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+        var popup_78c03afb09dfddd175d7c8c367bda6e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_85b771ca6b7c8282caaacb7ac15c5cad = $(`<div id="html_85b771ca6b7c8282caaacb7ac15c5cad" style="width: 100.0%; height: 100.0%;"><b>#13 Casinò di Venezia</b><br>Reviews: 2,551</div>`)[0];
+                popup_78c03afb09dfddd175d7c8c367bda6e7.setContent(html_85b771ca6b7c8282caaacb7ac15c5cad);
+            
+        
+
+        circle_marker_3d5d63b965913237cfac1a4dd037ce40.bindPopup(popup_78c03afb09dfddd175d7c8c367bda6e7)
+        ;
+
+        
+    
+    
+            circle_marker_3d5d63b965913237cfac1a4dd037ce40.bindTooltip(
+                `<div>
+                     #13 Casinò di Venezia
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b8333021a282a0509eef7bb0873defc7 = L.marker(
+                [45.4426801, 12.329788299999999],
+                {
+}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+            var div_icon_2d1504646cf1834eeaf790f2348f9058 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 9pt; color: #FFD700; font-weight: bold; text-align: center; line-height: 16px;\"\u003e13\u003c/div\u003e",
+  "iconSize": [16, 16],
+  "iconAnchor": [8, 8],
+  "className": "empty",
+});
+        
+    
+                marker_b8333021a282a0509eef7bb0873defc7.setIcon(div_icon_2d1504646cf1834eeaf790f2348f9058);
+            
+    
+            var circle_marker_18cef0022f9764864352634067105c91 = L.circleMarker(
+                [45.432983899999996, 12.338291499999999],
+                {"bubblingMouseEvents": true, "color": "#FFD700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1.5}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+        var popup_ef3fe49522c15364d4aede64a05b18fd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ff2bfcd76d5c5a4f19e78d7214f7156e = $(`<div id="html_ff2bfcd76d5c5a4f19e78d7214f7156e" style="width: 100.0%; height: 100.0%;"><b>#14 Giardini Reali</b><br>Reviews: 2,380</div>`)[0];
+                popup_ef3fe49522c15364d4aede64a05b18fd.setContent(html_ff2bfcd76d5c5a4f19e78d7214f7156e);
+            
+        
+
+        circle_marker_18cef0022f9764864352634067105c91.bindPopup(popup_ef3fe49522c15364d4aede64a05b18fd)
+        ;
+
+        
+    
+    
+            circle_marker_18cef0022f9764864352634067105c91.bindTooltip(
+                `<div>
+                     #14 Giardini Reali
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1859ae62c6ee9f60f41646d12cab36eb = L.marker(
+                [45.432983899999996, 12.338291499999999],
+                {
+}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+            var div_icon_89b076b89ad2119bb3494da274e47d36 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 9pt; color: #FFD700; font-weight: bold; text-align: center; line-height: 16px;\"\u003e14\u003c/div\u003e",
+  "iconSize": [16, 16],
+  "iconAnchor": [8, 8],
+  "className": "empty",
+});
+        
+    
+                marker_1859ae62c6ee9f60f41646d12cab36eb.setIcon(div_icon_89b076b89ad2119bb3494da274e47d36);
+            
+    
+            var circle_marker_6d1c6cdc4d478e177bc39607a0d33e9c = L.circleMarker(
+                [45.5334826, 12.1672696],
+                {"bubblingMouseEvents": true, "color": "#FFD700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1.5}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+        var popup_2f48ba2a97b5f11d28a1ff5b743c1c56 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7ecf538ee0734e950159e441c3d17fc6 = $(`<div id="html_7ecf538ee0734e950159e441c3d17fc6" style="width: 100.0%; height: 100.0%;"><b>#15 Parco Laghetti Martellago</b><br>Reviews: 2,341</div>`)[0];
+                popup_2f48ba2a97b5f11d28a1ff5b743c1c56.setContent(html_7ecf538ee0734e950159e441c3d17fc6);
+            
+        
+
+        circle_marker_6d1c6cdc4d478e177bc39607a0d33e9c.bindPopup(popup_2f48ba2a97b5f11d28a1ff5b743c1c56)
+        ;
+
+        
+    
+    
+            circle_marker_6d1c6cdc4d478e177bc39607a0d33e9c.bindTooltip(
+                `<div>
+                     #15 Parco Laghetti Martellago
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d279996fcc577eb484667910c7e4c2e0 = L.marker(
+                [45.5334826, 12.1672696],
+                {
+}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+            var div_icon_7c6a386c1c0e9f4afaea49d46b049a42 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 9pt; color: #FFD700; font-weight: bold; text-align: center; line-height: 16px;\"\u003e15\u003c/div\u003e",
+  "iconSize": [16, 16],
+  "iconAnchor": [8, 8],
+  "className": "empty",
+});
+        
+    
+                marker_d279996fcc577eb484667910c7e4c2e0.setIcon(div_icon_7c6a386c1c0e9f4afaea49d46b049a42);
+            
+    
+            var circle_marker_6b3970ac9ebf8529f59ae8a46295d7db = L.circleMarker(
+                [45.4314603, 12.352596799999999],
+                {"bubblingMouseEvents": true, "color": "#FFD700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1.5}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+        var popup_026eeb4f3d1606f50e5e78b390a3d011 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2660566b6725c3ed6ff98707f97078ff = $(`<div id="html_2660566b6725c3ed6ff98707f97078ff" style="width: 100.0%; height: 100.0%;"><b>#16 Giardini della Marinaressa</b><br>Reviews: 1,960</div>`)[0];
+                popup_026eeb4f3d1606f50e5e78b390a3d011.setContent(html_2660566b6725c3ed6ff98707f97078ff);
+            
+        
+
+        circle_marker_6b3970ac9ebf8529f59ae8a46295d7db.bindPopup(popup_026eeb4f3d1606f50e5e78b390a3d011)
+        ;
+
+        
+    
+    
+            circle_marker_6b3970ac9ebf8529f59ae8a46295d7db.bindTooltip(
+                `<div>
+                     #16 Giardini della Marinaressa
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_01a909a7516a47b14f204005b021fe46 = L.marker(
+                [45.4314603, 12.352596799999999],
+                {
+}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+            var div_icon_ee68ab1e0aa7f74f1cb0ebdf5ae55c67 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 9pt; color: #FFD700; font-weight: bold; text-align: center; line-height: 16px;\"\u003e16\u003c/div\u003e",
+  "iconSize": [16, 16],
+  "iconAnchor": [8, 8],
+  "className": "empty",
+});
+        
+    
+                marker_01a909a7516a47b14f204005b021fe46.setIcon(div_icon_ee68ab1e0aa7f74f1cb0ebdf5ae55c67);
+            
+    
+            var circle_marker_f5239e7e91cc114a178bbabe0dbc7b98 = L.circleMarker(
+                [45.434758699999996, 12.3389668],
+                {"bubblingMouseEvents": true, "color": "#FFD700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1.5}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+        var popup_f3d3043149070c33d32fd572f557530c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b3380711bb028f5ed408e7c284188176 = $(`<div id="html_b3380711bb028f5ed408e7c284188176" style="width: 100.0%; height: 100.0%;"><b>#17 Torre dell'Orologio</b><br>Reviews: 1,878</div>`)[0];
+                popup_f3d3043149070c33d32fd572f557530c.setContent(html_b3380711bb028f5ed408e7c284188176);
+            
+        
+
+        circle_marker_f5239e7e91cc114a178bbabe0dbc7b98.bindPopup(popup_f3d3043149070c33d32fd572f557530c)
+        ;
+
+        
+    
+    
+            circle_marker_f5239e7e91cc114a178bbabe0dbc7b98.bindTooltip(
+                `<div>
+                     #17 Torre dell'Orologio
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_97ceecb7b3cb2138b5c00ef8ed80d60e = L.marker(
+                [45.434758699999996, 12.3389668],
+                {
+}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+            var div_icon_519f78d450d603d7541fd4348b97726b = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 9pt; color: #FFD700; font-weight: bold; text-align: center; line-height: 16px;\"\u003e17\u003c/div\u003e",
+  "iconSize": [16, 16],
+  "iconAnchor": [8, 8],
+  "className": "empty",
+});
+        
+    
+                marker_97ceecb7b3cb2138b5c00ef8ed80d60e.setIcon(div_icon_519f78d450d603d7541fd4348b97726b);
+            
+    
+            var circle_marker_83dea5b9beb2cf2e592dc6327d1b101a = L.circleMarker(
+                [45.427780399999996, 12.3640025],
+                {"bubblingMouseEvents": true, "color": "#FFD700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1.5}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+        var popup_e60de6a7df96618efef6f49ec8911c94 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d3dadcddfe4374bfb8c064b48aa86879 = $(`<div id="html_d3dadcddfe4374bfb8c064b48aa86879" style="width: 100.0%; height: 100.0%;"><b>#18 Stadio Pier Luigi Penzo</b><br>Reviews: 1,747</div>`)[0];
+                popup_e60de6a7df96618efef6f49ec8911c94.setContent(html_d3dadcddfe4374bfb8c064b48aa86879);
+            
+        
+
+        circle_marker_83dea5b9beb2cf2e592dc6327d1b101a.bindPopup(popup_e60de6a7df96618efef6f49ec8911c94)
+        ;
+
+        
+    
+    
+            circle_marker_83dea5b9beb2cf2e592dc6327d1b101a.bindTooltip(
+                `<div>
+                     #18 Stadio Pier Luigi Penzo
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b5c33589aeabe999fe9d84ced35395ea = L.marker(
+                [45.427780399999996, 12.3640025],
+                {
+}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+            var div_icon_55f4c8676de7734b3297e168d0dccf89 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 9pt; color: #FFD700; font-weight: bold; text-align: center; line-height: 16px;\"\u003e18\u003c/div\u003e",
+  "iconSize": [16, 16],
+  "iconAnchor": [8, 8],
+  "className": "empty",
+});
+        
+    
+                marker_b5c33589aeabe999fe9d84ced35395ea.setIcon(div_icon_55f4c8676de7734b3297e168d0dccf89);
+            
+    
+            var circle_marker_42c213a8c09b3d621364df529d850b20 = L.circleMarker(
+                [45.476199, 12.2051339],
+                {"bubblingMouseEvents": true, "color": "#FFD700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1.5}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+        var popup_8a0f5b8b9f9099adb7115b3f6c49407a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c635fc19a5a71550d9d1a2f9c8906ad = $(`<div id="html_6c635fc19a5a71550d9d1a2f9c8906ad" style="width: 100.0%; height: 100.0%;"><b>#19 Parco Catene</b><br>Reviews: 1,702</div>`)[0];
+                popup_8a0f5b8b9f9099adb7115b3f6c49407a.setContent(html_6c635fc19a5a71550d9d1a2f9c8906ad);
+            
+        
+
+        circle_marker_42c213a8c09b3d621364df529d850b20.bindPopup(popup_8a0f5b8b9f9099adb7115b3f6c49407a)
+        ;
+
+        
+    
+    
+            circle_marker_42c213a8c09b3d621364df529d850b20.bindTooltip(
+                `<div>
+                     #19 Parco Catene
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_20b0833d802764cf93190270b99c6f01 = L.marker(
+                [45.476199, 12.2051339],
+                {
+}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+            var div_icon_f6fdf06dfce2f0d75bdd76c28f6ba912 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 9pt; color: #FFD700; font-weight: bold; text-align: center; line-height: 16px;\"\u003e19\u003c/div\u003e",
+  "iconSize": [16, 16],
+  "iconAnchor": [8, 8],
+  "className": "empty",
+});
+        
+    
+                marker_20b0833d802764cf93190270b99c6f01.setIcon(div_icon_f6fdf06dfce2f0d75bdd76c28f6ba912);
+            
+    
+            var circle_marker_3f46891451e6ddf0c1e8de5bde30c8a3 = L.circleMarker(
+                [45.4344493, 12.3393815],
+                {"bubblingMouseEvents": true, "color": "#FFD700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1.5}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+        var popup_6e387faae577836bd6af0a6b91aee291 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f6f902ae98816145ea6387be300a18eb = $(`<div id="html_f6f902ae98816145ea6387be300a18eb" style="width: 100.0%; height: 100.0%;"><b>#20 Museo di San Marco</b><br>Reviews: 1,537</div>`)[0];
+                popup_6e387faae577836bd6af0a6b91aee291.setContent(html_f6f902ae98816145ea6387be300a18eb);
+            
+        
+
+        circle_marker_3f46891451e6ddf0c1e8de5bde30c8a3.bindPopup(popup_6e387faae577836bd6af0a6b91aee291)
+        ;
+
+        
+    
+    
+            circle_marker_3f46891451e6ddf0c1e8de5bde30c8a3.bindTooltip(
+                `<div>
+                     #20 Museo di San Marco
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a6dd99890946112fa6ebdec3c4e9f208 = L.marker(
+                [45.4344493, 12.3393815],
+                {
+}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+            var div_icon_7713fea0f18373db066d481812ebf197 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 9pt; color: #FFD700; font-weight: bold; text-align: center; line-height: 16px;\"\u003e20\u003c/div\u003e",
+  "iconSize": [16, 16],
+  "iconAnchor": [8, 8],
+  "className": "empty",
+});
+        
+    
+                marker_a6dd99890946112fa6ebdec3c4e9f208.setIcon(div_icon_7713fea0f18373db066d481812ebf197);
+            
+    
+            var circle_marker_e4eab9bf54565355f147d16b74641c36 = L.circleMarker(
+                [45.4735474, 12.2633192],
+                {"bubblingMouseEvents": true, "color": "#FFD700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1.5}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+        var popup_a474b782024b214b4c445bfedd4beb3d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a45706f72cdb65a6c386ddc1eea58ad5 = $(`<div id="html_a45706f72cdb65a6c386ddc1eea58ad5" style="width: 100.0%; height: 100.0%;"><b>#21 Baia del Forte</b><br>Reviews: 1,373</div>`)[0];
+                popup_a474b782024b214b4c445bfedd4beb3d.setContent(html_a45706f72cdb65a6c386ddc1eea58ad5);
+            
+        
+
+        circle_marker_e4eab9bf54565355f147d16b74641c36.bindPopup(popup_a474b782024b214b4c445bfedd4beb3d)
+        ;
+
+        
+    
+    
+            circle_marker_e4eab9bf54565355f147d16b74641c36.bindTooltip(
+                `<div>
+                     #21 Baia del Forte
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2a005aba3e487e33cf2e84d9ac70a41f = L.marker(
+                [45.4735474, 12.2633192],
+                {
+}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+            var div_icon_8c17983edb55cc0050f360697104731d = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 9pt; color: #FFD700; font-weight: bold; text-align: center; line-height: 16px;\"\u003e21\u003c/div\u003e",
+  "iconSize": [16, 16],
+  "iconAnchor": [8, 8],
+  "className": "empty",
+});
+        
+    
+                marker_2a005aba3e487e33cf2e84d9ac70a41f.setIcon(div_icon_8c17983edb55cc0050f360697104731d);
+            
+    
+            var circle_marker_d5915cd8538672f2e4c9a32a9693091d = L.circleMarker(
+                [45.4402976, 12.3366648],
+                {"bubblingMouseEvents": true, "color": "#FFD700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1.5}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+        var popup_7f914d2b162783e0de3b0a91002f99bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4fd05f7b07536c16a62c2f9631fb8cca = $(`<div id="html_4fd05f7b07536c16a62c2f9631fb8cca" style="width: 100.0%; height: 100.0%;"><b>#22 Vera da Pozzo Campo Santi Apostoli</b><br>Reviews: 1,369</div>`)[0];
+                popup_7f914d2b162783e0de3b0a91002f99bc.setContent(html_4fd05f7b07536c16a62c2f9631fb8cca);
+            
+        
+
+        circle_marker_d5915cd8538672f2e4c9a32a9693091d.bindPopup(popup_7f914d2b162783e0de3b0a91002f99bc)
+        ;
+
+        
+    
+    
+            circle_marker_d5915cd8538672f2e4c9a32a9693091d.bindTooltip(
+                `<div>
+                     #22 Vera da Pozzo Campo Santi Apostoli
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_27871fc85c7c66c736d6d0f302c721f4 = L.marker(
+                [45.4402976, 12.3366648],
+                {
+}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+            var div_icon_8280a1d6a116bf163cc833322118e2a8 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 9pt; color: #FFD700; font-weight: bold; text-align: center; line-height: 16px;\"\u003e22\u003c/div\u003e",
+  "iconSize": [16, 16],
+  "iconAnchor": [8, 8],
+  "className": "empty",
+});
+        
+    
+                marker_27871fc85c7c66c736d6d0f302c721f4.setIcon(div_icon_8280a1d6a116bf163cc833322118e2a8);
+            
+    
+            var circle_marker_c68f1c0034e06966f22dd9f1258c4add = L.circleMarker(
+                [45.4342081, 12.3320584],
+                {"bubblingMouseEvents": true, "color": "#FFD700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1.5}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+        var popup_f49a1d6af2836cca40b08f62e96a0b01 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d8ead292aca050a68098ae6bc643ab8f = $(`<div id="html_d8ead292aca050a68098ae6bc643ab8f" style="width: 100.0%; height: 100.0%;"><b>#23 Campo Sant'Angelo</b><br>Reviews: 1,061</div>`)[0];
+                popup_f49a1d6af2836cca40b08f62e96a0b01.setContent(html_d8ead292aca050a68098ae6bc643ab8f);
+            
+        
+
+        circle_marker_c68f1c0034e06966f22dd9f1258c4add.bindPopup(popup_f49a1d6af2836cca40b08f62e96a0b01)
+        ;
+
+        
+    
+    
+            circle_marker_c68f1c0034e06966f22dd9f1258c4add.bindTooltip(
+                `<div>
+                     #23 Campo Sant'Angelo
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_27e90783558b93cb0fa58bb4faae7fdb = L.marker(
+                [45.4342081, 12.3320584],
+                {
+}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+            var div_icon_8d9b9b3fc2c93acdd478d9a4be8c254e = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 9pt; color: #FFD700; font-weight: bold; text-align: center; line-height: 16px;\"\u003e23\u003c/div\u003e",
+  "iconSize": [16, 16],
+  "iconAnchor": [8, 8],
+  "className": "empty",
+});
+        
+    
+                marker_27e90783558b93cb0fa58bb4faae7fdb.setIcon(div_icon_8d9b9b3fc2c93acdd478d9a4be8c254e);
+            
+    
+            var circle_marker_f2e1488f3d9ce384654f6a806c0fee78 = L.circleMarker(
+                [45.4943052, 12.1651536],
+                {"bubblingMouseEvents": true, "color": "#FFD700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1.5}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+        var popup_2312a7b4e63f0a836fa681d3d0fd0926 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2198ad613aa92cbbdae66e52256161fc = $(`<div id="html_2198ad613aa92cbbdae66e52256161fc" style="width: 100.0%; height: 100.0%;"><b>#24 Parco Nuove Gemme</b><br>Reviews: 1,055</div>`)[0];
+                popup_2312a7b4e63f0a836fa681d3d0fd0926.setContent(html_2198ad613aa92cbbdae66e52256161fc);
+            
+        
+
+        circle_marker_f2e1488f3d9ce384654f6a806c0fee78.bindPopup(popup_2312a7b4e63f0a836fa681d3d0fd0926)
+        ;
+
+        
+    
+    
+            circle_marker_f2e1488f3d9ce384654f6a806c0fee78.bindTooltip(
+                `<div>
+                     #24 Parco Nuove Gemme
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_dbfe9913c93faa85702c6d03a585a643 = L.marker(
+                [45.4943052, 12.1651536],
+                {
+}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+            var div_icon_d016f4534aab430d7814204a34bd8037 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 9pt; color: #FFD700; font-weight: bold; text-align: center; line-height: 16px;\"\u003e24\u003c/div\u003e",
+  "iconSize": [16, 16],
+  "iconAnchor": [8, 8],
+  "className": "empty",
+});
+        
+    
+                marker_dbfe9913c93faa85702c6d03a585a643.setIcon(div_icon_d016f4534aab430d7814204a34bd8037);
+            
+    
+            var circle_marker_6a8a62e72447b3bae3d7879ff385fe7f = L.circleMarker(
+                [45.4887155, 12.226528799999999],
+                {"bubblingMouseEvents": true, "color": "#FFD700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1.5}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+        var popup_c74b170f937a0cb2284f5ad0a9d1c82f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_99163f3e7db36eddfe9f65bdddfdc3bd = $(`<div id="html_99163f3e7db36eddfe9f65bdddfdc3bd" style="width: 100.0%; height: 100.0%;"><b>#25 Parco Piraghetto</b><br>Reviews: 1,037</div>`)[0];
+                popup_c74b170f937a0cb2284f5ad0a9d1c82f.setContent(html_99163f3e7db36eddfe9f65bdddfdc3bd);
+            
+        
+
+        circle_marker_6a8a62e72447b3bae3d7879ff385fe7f.bindPopup(popup_c74b170f937a0cb2284f5ad0a9d1c82f)
+        ;
+
+        
+    
+    
+            circle_marker_6a8a62e72447b3bae3d7879ff385fe7f.bindTooltip(
+                `<div>
+                     #25 Parco Piraghetto
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_581a362de0507711a37303035c8a99f5 = L.marker(
+                [45.4887155, 12.226528799999999],
+                {
+}
+            ).addTo(map_fa8b4e08247544b63ee283ae950918cc);
+        
+    
+            var div_icon_9e025ef946410f9483ea9d07bba58c67 = L.divIcon({
+  "html": "\u003cdiv style=\"font-size: 9pt; color: #FFD700; font-weight: bold; text-align: center; line-height: 16px;\"\u003e25\u003c/div\u003e",
+  "iconSize": [16, 16],
+  "iconAnchor": [8, 8],
+  "className": "empty",
+});
+        
+    
+                marker_581a362de0507711a37303035c8a99f5.setIcon(div_icon_9e025ef946410f9483ea9d07bba58c67);
+            
+</script>
+</html>
